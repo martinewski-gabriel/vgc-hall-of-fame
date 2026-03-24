@@ -670,9 +670,17 @@ nav {
         <div class="chart-card-title">Generation spread</div>
         <div class="chart-wrap" style="height:220px;"><canvas id="genChart"></canvas></div>
       </div>
+      <div class="chart-card">
+        <div class="chart-card-title">Category spread</div>
+        <div class="chart-wrap" style="height:220px;"><canvas id="catChart"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-card-title">Generation contribution</div>
+        <div class="chart-wrap" style="height:220px;"><canvas id="genconChart"></canvas></div>
+      </div>
     </div>
   </div>
-
+  
   <!-- COUNTRIES -->
   <div id="countries" class="section">
     <div class="section-title">Champions <span>by Country</span></div>
@@ -931,7 +939,7 @@ document.getElementById('domGrid').innerHTML = sortedTiers.map(([count, pokes]) 
 }
 
 // stats charts
-let typeChartInst, genChartInst;
+let typeChartInst, genChartInst, genconChart, catChart;
 function buildCharts() {
   const allPokes = CHAMPS.flatMap(c=>c.team);
 
@@ -976,6 +984,98 @@ function buildCharts() {
       }
     }
   });
+
+// cumulative champions per gen
+let running = 0;
+
+const cumulativeData = sortedGens.map(x => {
+  running += x[1];   // x[1] = count for that gen
+  return running;
+});
+
+if (genconChart) genconChart.destroy();
+
+genconChart = new Chart(document.getElementById('genconChart'), {
+  type: 'line',
+  data: {
+    labels: sortedGens.map(g => 'Gen ' + g[0]),
+    datasets: [{
+      data: cumulativeData,
+      borderColor: '#a78bfa',
+      backgroundColor: '#a78bfa33',
+      fill: true,
+      tension: 0.3,
+      pointRadius: 3
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend:{display:false},
+      tooltip: {
+        callbacks: {
+          label: ctx => {
+            const cumulative = ctx.raw;
+            const delta = sortedGens[ctx.dataIndex][1];
+            return [` Cumulative: ${cumulative}`, ` Gen ${sortedGens[ctx.dataIndex][0]}: ${delta}`];
+          }
+        }
+      }
+    },
+    scales: {
+      x: {
+        ticks:{color:'#555d72'},
+        grid:{display:false},
+        border:{color:'transparent'}
+      },
+      y: {
+        ticks:{stepSize:1,color:'#555d72'},
+        grid:{color:'#ffffff08'},
+        border:{color:'transparent'}
+      }
+    }
+  }
+});
+
+// category distribution
+const categoryCounts = {};
+
+allPokes.forEach(p => {
+  const cat = p.category || 'Other';
+  categoryCounts[cat] = (categoryCounts[cat] || 0) + 1;
+});
+
+const catEntries = Object.entries(categoryCounts);
+
+if (catChart) catChart.destroy();
+
+catChart = new Chart(document.getElementById('catChart'), {
+  type: 'doughnut',
+  data: {
+    labels: catEntries.map(x=>x[0]),
+    datasets: [{
+      data: catEntries.map(x=>x[1]),
+      backgroundColor: [
+        '#f87171', // Legendary
+        '#fbbf24', // Mythical
+        '#34d399', // Ultra Beast
+        '#60a5fa', // Paradox
+        '#9ca3af'  // Regular
+      ]
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: {
+        position: 'bottom',
+        labels: { color:'#555d72', font:{size:11} }
+      }
+    }
+  }
+});
 }
 
 // countries

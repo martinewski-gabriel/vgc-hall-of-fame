@@ -10,6 +10,7 @@
         "t1": "Fighting",
         "t2": "Dragon",
         "gen": 9,
+        "category": "Legendary",
         "slug": "koraidon",
         "base_slug": "koraidon",
         "image": "https://img.pokemondb.net/sprites/home/normal/koraidon.png"
@@ -20,6 +21,7 @@
         "t1": "Psychic",
         "t2": "Ghost",
         "gen": 7,
+        "category": "Legendary",
         "slug": "lunala",
         "base_slug": "lunala",
         "image": "https://img.pokemondb.net/sprites/home/normal/lunala.png"
@@ -30,6 +32,7 @@
         "t1": "Ghost",
         "t2": "Fairy",
         "gen": 9,
+        "category": "Paradox Pokemon",
         "slug": "flutter-mane",
         "base_slug": "flutter-mane",
         "image": "https://img.pokemondb.net/sprites/home/normal/flutter-mane.png"
@@ -40,6 +43,7 @@
         "t1": "Dark",
         "t2": "Fire",
         "gen": 9,
+        "category": "Legendary",
         "slug": "chi-yu",
         "base_slug": "chi-yu",
         "image": "https://img.pokemondb.net/sprites/home/normal/chi-yu.png"
@@ -50,6 +54,7 @@
         "t1": "Ground",
         "t2": "Normal",
         "gen": 8,
+        "category": "Ordinary",
         "slug": "ursaluna",
         "base_slug": "ursaluna",
         "image": "https://img.pokemondb.net/sprites/home/normal/ursaluna.png"
@@ -60,6 +65,7 @@
         "t1": "Grass",
         "t2": "Dark",
         "gen": 9,
+        "category": "Paradox Pokemon",
         "slug": "brute-bonnet",
         "base_slug": "brute-bonnet",
         "image": "https://img.pokemondb.net/sprites/home/normal/brute-bonnet.png"
@@ -77,6 +83,7 @@
         "t1": "Electric",
         "t2": "Dragon",
         "gen": 9,
+        "category": "Legendary",
         "slug": "miraidon",
         "base_slug": "miraidon",
         "image": "https://img.pokemondb.net/sprites/home/normal/miraidon.png"
@@ -87,6 +94,7 @@
         "t1": "Grass",
         "t2": "Fire",
         "gen": 9,
+        "category": "Legendary",
         "slug": "ogerpon-f",
         "base_slug": "ogerpon",
         "image": "https://img.pokemondb.net/sprites/home/normal/ogerpon-hearthflame.png"
@@ -97,6 +105,7 @@
         "t1": "Fighting",
         "t2": "Water",
         "gen": 8,
+        "category": "Legendary",
         "slug": "urshifu-w",
         "base_slug": "urshifu",
         "image": "https://img.pokemondb.net/sprites/home/normal/urshifu-rapid-strike.png"
@@ -107,6 +116,7 @@
         "t1": "Fighting",
         "t2": "Electric",
         "gen": 9,
+        "category": "Paradox Pokemon",
         "slug": "iron-hands",
         "base_slug": "iron-hands",
         "image": "https://img.pokemondb.net/sprites/home/normal/iron-hands.png"
@@ -117,6 +127,7 @@
         "t1": "Grass",
         "t2": "Fairy",
         "gen": 5,
+        "category": "Ordinary",
         "slug": "whimsicott",
         "base_slug": "whimsicott",
         "image": "https://img.pokemondb.net/sprites/home/normal/whimsicott.png"
@@ -127,6 +138,7 @@
         "t1": "Normal",
         "t2": "Psychic",
         "gen": 9,
+        "category": "Ordinary",
         "slug": "farigiraf",
         "base_slug": "farigiraf",
         "image": "https://img.pokemondb.net/sprites/home/normal/farigiraf.png"
@@ -144,6 +156,7 @@
         "t1": "Ground",
         "t2": "Flying",
         "gen": 5,
+        "category": "Legendary",
         "slug": "landorus-t",
         "base_slug": "landorus",
         "image": "https://img.pokemondb.net/sprites/home/normal/landorus-therian.png"
@@ -154,6 +167,7 @@
         "t1": "Fighting",
         "t2": "Water",
         "gen": 8,
+        "category": "Legendary",
         "slug": "urshifu-w",
         "base_slug": "urshifu",
         "image": "https://img.pokemondb.net/sprites/home/normal/urshifu-rapid-strike.png"
@@ -164,6 +178,7 @@
         "t1": "Ghost",
         "t2": "Fairy",
         "gen": 9,
+        "category": "Paradox Pokemon",
         "slug": "flutter-mane",
         "base_slug": "flutter-mane",
         "image": "https://img.pokemondb.net/sprites/home/normal/flutter-mane.png"
@@ -174,6 +189,7 @@
         "t1": "Dark",
         "t2": "Ice",
         "gen": 9,
+        "category": "Legendary",
         "slug": "chien-pao",
         "base_slug": "chien-pao",
         "image": "https://img.pokemondb.net/sprites/home/normal/chien-pao.png"
@@ -184,6 +200,7 @@
         "t1": "Grass",
         "t2": "Poison",
         "gen": 5,
+        "category": "Ordinary",
         "slug": "amoonguss",
         "base_slug": "amoonguss",
         "image": "https://img.pokemondb.net/sprites/home/normal/amoonguss.png"
@@ -194,6 +211,7 @@
         "t1": "Fighting",
         "t2": "Electric",
         "gen": 9,
+        "category": "Paradox Pokemon",
         "slug": "iron-hands",
         "base_slug": "iron-hands",
         "image": "https://img.pokemondb.net/sprites/home/normal/iron-hands.png"
@@ -211,6 +229,7 @@
         "t1": "Water",
         "t2": "Ground",
         "gen": 4,
+        "category": "Ordinary",
         "slug": "gastrodon",
         "base_slug": "gastrodon",
         "image": "https://img.pokemondb.net/sprites/home/normal/gastrodon.png"
@@ -221,6 +240,7 @@
         "t1": "Psychic",
         "t2": "Ghost",
         "gen": 8,
+        "category": "Legendary",
         "slug": "calyrex-s",
         "base_slug": "calyrex",
         "image": "https://img.pokemondb.net/sprites/home/normal/calyrex-shadow-rider.png"
@@ -231,6 +251,7 @@
         "t1": "Grass",
         "t2": "",
         "gen": 8,
+        "category": "Ordinary",
         "slug": "rillaboom",
         "base_slug": "rillaboom",
         "image": "https://img.pokemondb.net/sprites/home/normal/rillaboom.png"
@@ -241,6 +262,7 @@
         "t1": "Fire",
         "t2": "Dark",
         "gen": 7,
+        "category": "Ordinary",
         "slug": "incineroar",
         "base_slug": "incineroar",
         "image": "https://img.pokemondb.net/sprites/home/normal/incineroar.png"
@@ -251,17 +273,19 @@
         "t1": "Electric",
         "t2": "Flying",
         "gen": 5,
+        "category": "Legendary",
         "slug": "thundurus-i",
         "base_slug": "thundurus",
         "image": "https://img.pokemondb.net/sprites/home/normal/thundurus-incarnate.png"
       },
       {
-        "name": "Zacian-CS",
+        "name": "Zacian-Crowned",
         "base": "Zacian",
         "t1": "Fairy",
         "t2": "Steel",
         "gen": 8,
-        "slug": "zacian-cs",
+        "category": "Legendary",
+        "slug": "zacian-crowned",
         "base_slug": "zacian",
         "image": "https://img.pokemondb.net/sprites/home/normal/zacian-crowned.png"
       }
@@ -278,6 +302,7 @@
         "t1": "Psychic",
         "t2": "Ghost",
         "gen": 7,
+        "category": "Legendary",
         "slug": "lunala",
         "base_slug": "lunala",
         "image": "https://img.pokemondb.net/sprites/home/normal/lunala.png"
@@ -288,6 +313,7 @@
         "t1": "Ground",
         "t2": "Fire",
         "gen": 6,
+        "category": "Legendary",
         "slug": "groudon-primal",
         "base_slug": "groudon",
         "image": "https://img.pokemondb.net/sprites/home/normal/groudon-primal.png"
@@ -298,6 +324,7 @@
         "t1": "Fire",
         "t2": "Dark",
         "gen": 7,
+        "category": "Ordinary",
         "slug": "incineroar",
         "base_slug": "incineroar",
         "image": "https://img.pokemondb.net/sprites/home/normal/incineroar.png"
@@ -308,6 +335,7 @@
         "t1": "Dragon",
         "t2": "Flying",
         "gen": 6,
+        "category": "Ordinary",
         "slug": "salamence-mega",
         "base_slug": "salamence",
         "image": "https://img.pokemondb.net/sprites/home/normal/salamence-mega.png"
@@ -318,6 +346,7 @@
         "t1": "Water",
         "t2": "Fairy",
         "gen": 7,
+        "category": "Legendary",
         "slug": "tapu-fini",
         "base_slug": "tapu-fini",
         "image": "https://img.pokemondb.net/sprites/home/normal/tapu-fini.png"
@@ -328,6 +357,7 @@
         "t1": "Rock",
         "t2": "Steel",
         "gen": 7,
+        "category": "Ultra Beast",
         "slug": "stakataka",
         "base_slug": "stakataka",
         "image": "https://img.pokemondb.net/sprites/home/normal/stakataka.png"
@@ -345,6 +375,7 @@
         "t1": "Electric",
         "t2": "Fairy",
         "gen": 7,
+        "category": "Legendary",
         "slug": "tapu-koko",
         "base_slug": "tapu-koko",
         "image": "https://img.pokemondb.net/sprites/home/normal/tapu-koko.png"
@@ -355,6 +386,7 @@
         "t1": "Dragon",
         "t2": "Flying",
         "gen": 6,
+        "category": "Ordinary",
         "slug": "salamence-mega",
         "base_slug": "salamence",
         "image": "https://img.pokemondb.net/sprites/home/normal/salamence-mega.png"
@@ -365,6 +397,7 @@
         "t1": "Normal",
         "t2": "",
         "gen": 1,
+        "category": "Ordinary",
         "slug": "snorlax",
         "base_slug": "snorlax",
         "image": "https://img.pokemondb.net/sprites/home/normal/snorlax.png"
@@ -375,6 +408,7 @@
         "t1": "Fire",
         "t2": "Dark",
         "gen": 7,
+        "category": "Ordinary",
         "slug": "incineroar",
         "base_slug": "incineroar",
         "image": "https://img.pokemondb.net/sprites/home/normal/incineroar.png"
@@ -385,6 +419,7 @@
         "t1": "Water",
         "t2": "Ground",
         "gen": 4,
+        "category": "Ordinary",
         "slug": "gastrodon",
         "base_slug": "gastrodon",
         "image": "https://img.pokemondb.net/sprites/home/normal/gastrodon.png"
@@ -395,6 +430,7 @@
         "t1": "Grass",
         "t2": "Steel",
         "gen": 7,
+        "category": "Ultra Beast",
         "slug": "kartana",
         "base_slug": "kartana",
         "image": "https://img.pokemondb.net/sprites/home/normal/kartana.png"
@@ -412,6 +448,7 @@
         "t1": "Ground",
         "t2": "Dark",
         "gen": 5,
+        "category": "Ordinary",
         "slug": "krookodile",
         "base_slug": "krookodile",
         "image": "https://img.pokemondb.net/sprites/home/normal/krookodile.png"
@@ -422,6 +459,7 @@
         "t1": "Grass",
         "t2": "Fairy",
         "gen": 5,
+        "category": "Ordinary",
         "slug": "whimsicott",
         "base_slug": "whimsicott",
         "image": "https://img.pokemondb.net/sprites/home/normal/whimsicott.png"
@@ -432,6 +470,7 @@
         "t1": "Water",
         "t2": "Fairy",
         "gen": 7,
+        "category": "Legendary",
         "slug": "tapu-fini",
         "base_slug": "tapu-fini",
         "image": "https://img.pokemondb.net/sprites/home/normal/tapu-fini.png"
@@ -442,8 +481,9 @@
         "t1": "Fire",
         "t2": "Ghost",
         "gen": 1,
+        "category": "Ordinary",
         "slug": "marowak-a",
-        "base_slug": "marowak-alolan",
+        "base_slug": "alolan-marowak",
         "image": "https://img.pokemondb.net/sprites/home/normal/marowak-alolan.png"
       },
       {
@@ -452,6 +492,7 @@
         "t1": "Steel",
         "t2": "Flying",
         "gen": 7,
+        "category": "Legendary",
         "slug": "celesteela",
         "base_slug": "celesteela",
         "image": "https://img.pokemondb.net/sprites/home/normal/celesteela.png"
@@ -462,6 +503,7 @@
         "t1": "Electric",
         "t2": "Fairy",
         "gen": 7,
+        "category": "Legendary",
         "slug": "tapu-koko",
         "base_slug": "tapu-koko",
         "image": "https://img.pokemondb.net/sprites/home/normal/tapu-koko.png"
@@ -479,6 +521,7 @@
         "t1": "Water",
         "t2": "",
         "gen": 6,
+        "category": "Legendary",
         "slug": "kyogre-primal",
         "base_slug": "kyogre",
         "image": "https://img.pokemondb.net/sprites/home/normal/kyogre-primal.png"
@@ -489,6 +532,7 @@
         "t1": "Fighting",
         "t2": "",
         "gen": 2,
+        "category": "Ordinary",
         "slug": "hitmontop",
         "base_slug": "hitmontop",
         "image": "https://img.pokemondb.net/sprites/home/normal/hitmontop.png"
@@ -499,6 +543,7 @@
         "t1": "Ghost",
         "t2": "Poison",
         "gen": 6,
+        "category": "Ordinary",
         "slug": "gengar-mega",
         "base_slug": "gengar",
         "image": "https://img.pokemondb.net/sprites/home/normal/gengar-mega.png"
@@ -509,6 +554,7 @@
         "t1": "Electric",
         "t2": "",
         "gen": 1,
+        "category": "Ordinary",
         "slug": "raichu",
         "base_slug": "raichu",
         "image": "https://img.pokemondb.net/sprites/home/normal/raichu.png"
@@ -519,6 +565,7 @@
         "t1": "Steel",
         "t2": "Psychic",
         "gen": 4,
+        "category": "Ordinary",
         "slug": "bronzong",
         "base_slug": "bronzong",
         "image": "https://img.pokemondb.net/sprites/home/normal/bronzong.png"
@@ -529,6 +576,7 @@
         "t1": "Dragon",
         "t2": "Flying",
         "gen": 6,
+        "category": "Legendary",
         "slug": "rayquaza-mega",
         "base_slug": "rayquaza",
         "image": "https://img.pokemondb.net/sprites/home/normal/rayquaza-mega.png"
@@ -546,6 +594,7 @@
         "t1": "Normal",
         "t2": "",
         "gen": 1,
+        "category": "Ordinary",
         "slug": "kangaskhan-mega",
         "base_slug": "kangaskhan",
         "image": "https://img.pokemondb.net/sprites/home/normal/kangaskhan-mega.png"
@@ -556,6 +605,7 @@
         "t1": "Fire",
         "t2": "Steel",
         "gen": 4,
+        "category": "Legendary",
         "slug": "heatran",
         "base_slug": "heatran",
         "image": "https://img.pokemondb.net/sprites/home/normal/heatran.png"
@@ -566,6 +616,7 @@
         "t1": "Electric",
         "t2": "Flying",
         "gen": 5,
+        "category": "Legendary",
         "slug": "thundurus-i",
         "base_slug": "thundurus",
         "image": "https://img.pokemondb.net/sprites/home/normal/thundurus-incarnate.png"
@@ -576,6 +627,7 @@
         "t1": "Ground",
         "t2": "Flying",
         "gen": 5,
+        "category": "Legendary",
         "slug": "landorus-t",
         "base_slug": "landorus",
         "image": "https://img.pokemondb.net/sprites/home/normal/landorus-therian.png"
@@ -586,6 +638,7 @@
         "t1": "Psychic",
         "t2": "",
         "gen": 4,
+        "category": "Legendary",
         "slug": "cresselia",
         "base_slug": "cresselia",
         "image": "https://img.pokemondb.net/sprites/home/normal/cresselia.png"
@@ -596,6 +649,7 @@
         "t1": "Grass",
         "t2": "Poison",
         "gen": 5,
+        "category": "Ordinary",
         "slug": "amoonguss",
         "base_slug": "amoonguss",
         "image": "https://img.pokemondb.net/sprites/home/normal/amoonguss.png"
@@ -613,6 +667,7 @@
         "t1": "Electric",
         "t2": "",
         "gen": 4,
+        "category": "Ordinary",
         "slug": "pachirisu",
         "base_slug": "pachirisu",
         "image": "https://img.pokemondb.net/sprites/home/normal/pachirisu.png"
@@ -623,6 +678,7 @@
         "t1": "Psychic",
         "t2": "",
         "gen": 5,
+        "category": "Ordinary",
         "slug": "gothitelle",
         "base_slug": "gothitelle",
         "image": "https://img.pokemondb.net/sprites/home/normal/gothitelle.png"
@@ -633,6 +689,7 @@
         "t1": "Psychic",
         "t2": "Fairy",
         "gen": 3,
+        "category": "Ordinary",
         "slug": "gardevoir",
         "base_slug": "gardevoir",
         "image": "https://img.pokemondb.net/sprites/home/normal/gardevoir.png"
@@ -643,6 +700,7 @@
         "t1": "Water",
         "t2": "Dark",
         "gen": 6,
+        "category": "Ordinary",
         "slug": "gyarados-mega",
         "base_slug": "gyarados",
         "image": "https://img.pokemondb.net/sprites/home/normal/gyarados-mega.png"
@@ -653,6 +711,7 @@
         "t1": "Fire",
         "t2": "Flying",
         "gen": 6,
+        "category": "Ordinary",
         "slug": "talonflame",
         "base_slug": "talonflame",
         "image": "https://img.pokemondb.net/sprites/home/normal/talonflame.png"
@@ -663,6 +722,7 @@
         "t1": "Dragon",
         "t2": "Ground",
         "gen": 4,
+        "category": "Ordinary",
         "slug": "garchomp",
         "base_slug": "garchomp",
         "image": "https://img.pokemondb.net/sprites/home/normal/garchomp.png"
@@ -680,6 +740,7 @@
         "t1": "Ice",
         "t2": "Ground",
         "gen": 4,
+        "category": "Ordinary",
         "slug": "mamoswine",
         "base_slug": "mamoswine",
         "image": "https://img.pokemondb.net/sprites/home/normal/mamoswine.png"
@@ -690,6 +751,7 @@
         "t1": "Flying",
         "t2": "",
         "gen": 5,
+        "category": "Legendary",
         "slug": "tornadus-i",
         "base_slug": "tornadus",
         "image": "https://img.pokemondb.net/sprites/home/normal/tornadus-incarnate.png"
@@ -700,6 +762,7 @@
         "t1": "Dragon",
         "t2": "Psychic",
         "gen": 3,
+        "category": "Legendary",
         "slug": "latios",
         "base_slug": "latios",
         "image": "https://img.pokemondb.net/sprites/home/normal/latios.png"
@@ -710,6 +773,7 @@
         "t1": "Grass",
         "t2": "Poison",
         "gen": 5,
+        "category": "Ordinary",
         "slug": "amoonguss",
         "base_slug": "amoonguss",
         "image": "https://img.pokemondb.net/sprites/home/normal/amoonguss.png"
@@ -720,6 +784,7 @@
         "t1": "Fire",
         "t2": "Steel",
         "gen": 4,
+        "category": "Legendary",
         "slug": "heatran",
         "base_slug": "heatran",
         "image": "https://img.pokemondb.net/sprites/home/normal/heatran.png"
@@ -730,6 +795,7 @@
         "t1": "Fighting",
         "t2": "",
         "gen": 5,
+        "category": "Ordinary",
         "slug": "conkeldurr",
         "base_slug": "conkeldurr",
         "image": "https://img.pokemondb.net/sprites/home/normal/conkeldurr.png"
@@ -747,6 +813,7 @@
         "t1": "Rock",
         "t2": "Dark",
         "gen": 2,
+        "category": "Ordinary",
         "slug": "tyranitar",
         "base_slug": "tyranitar",
         "image": "https://img.pokemondb.net/sprites/home/normal/tyranitar.png"
@@ -757,6 +824,7 @@
         "t1": "Dragon",
         "t2": "Ground",
         "gen": 4,
+        "category": "Ordinary",
         "slug": "garchomp",
         "base_slug": "garchomp",
         "image": "https://img.pokemondb.net/sprites/home/normal/garchomp.png"
@@ -767,6 +835,7 @@
         "t1": "Psychic",
         "t2": "",
         "gen": 4,
+        "category": "Legendary",
         "slug": "cresselia",
         "base_slug": "cresselia",
         "image": "https://img.pokemondb.net/sprites/home/normal/cresselia.png"
@@ -777,6 +846,7 @@
         "t1": "Dark",
         "t2": "Dragon",
         "gen": 5,
+        "category": "Ordinary",
         "slug": "hydreigon",
         "base_slug": "hydreigon",
         "image": "https://img.pokemondb.net/sprites/home/normal/hydreigon.png"
@@ -787,6 +857,7 @@
         "t1": "Electric",
         "t2": "Water",
         "gen": 4,
+        "category": "Ordinary",
         "slug": "rotom-w",
         "base_slug": "rotom",
         "image": "https://img.pokemondb.net/sprites/home/normal/rotom-wash.png"
@@ -797,6 +868,7 @@
         "t1": "Steel",
         "t2": "Psychic",
         "gen": 3,
+        "category": "Ordinary",
         "slug": "metagross",
         "base_slug": "metagross",
         "image": "https://img.pokemondb.net/sprites/home/normal/metagross.png"
@@ -814,6 +886,7 @@
         "t1": "Bug",
         "t2": "Steel",
         "gen": 5,
+        "category": "Ordinary",
         "slug": "escavalier",
         "base_slug": "escavalier",
         "image": "https://img.pokemondb.net/sprites/home/normal/escavalier.png"
@@ -824,6 +897,7 @@
         "t1": "Fighting",
         "t2": "",
         "gen": 5,
+        "category": "Ordinary",
         "slug": "conkeldurr",
         "base_slug": "conkeldurr",
         "image": "https://img.pokemondb.net/sprites/home/normal/conkeldurr.png"
@@ -834,6 +908,7 @@
         "t1": "Rock",
         "t2": "Fighting",
         "gen": 5,
+        "category": "Legendary",
         "slug": "terrakion",
         "base_slug": "terrakion",
         "image": "https://img.pokemondb.net/sprites/home/normal/terrakion.png"
@@ -844,6 +919,7 @@
         "t1": "Psychic",
         "t2": "",
         "gen": 5,
+        "category": "Ordinary",
         "slug": "gothitelle",
         "base_slug": "gothitelle",
         "image": "https://img.pokemondb.net/sprites/home/normal/gothitelle.png"
@@ -854,6 +930,7 @@
         "t1": "Electric",
         "t2": "Flying",
         "gen": 5,
+        "category": "Legendary",
         "slug": "thundurus-i",
         "base_slug": "thundurus",
         "image": "https://img.pokemondb.net/sprites/home/normal/thundurus-incarnate.png"
@@ -864,6 +941,7 @@
         "t1": "Dark",
         "t2": "Dragon",
         "gen": 5,
+        "category": "Ordinary",
         "slug": "hydreigon",
         "base_slug": "hydreigon",
         "image": "https://img.pokemondb.net/sprites/home/normal/hydreigon.png"
@@ -881,6 +959,7 @@
         "t1": "Fighting",
         "t2": "",
         "gen": 3,
+        "category": "Ordinary",
         "slug": "hariyama",
         "base_slug": "hariyama",
         "image": "https://img.pokemondb.net/sprites/home/normal/hariyama.png"
@@ -891,6 +970,7 @@
         "t1": "Psychic",
         "t2": "",
         "gen": 4,
+        "category": "Legendary",
         "slug": "cresselia",
         "base_slug": "cresselia",
         "image": "https://img.pokemondb.net/sprites/home/normal/cresselia.png"
@@ -901,6 +981,7 @@
         "t1": "Steel",
         "t2": "Dragon",
         "gen": 4,
+        "category": "Legendary",
         "slug": "dialga",
         "base_slug": "dialga",
         "image": "https://img.pokemondb.net/sprites/home/normal/dialga.png"
@@ -911,6 +992,7 @@
         "t1": "Water",
         "t2": "",
         "gen": 3,
+        "category": "Legendary",
         "slug": "kyogre",
         "base_slug": "kyogre",
         "image": "https://img.pokemondb.net/sprites/home/normal/kyogre.png"
@@ -921,6 +1003,7 @@
         "t1": "Ground",
         "t2": "",
         "gen": 3,
+        "category": "Legendary",
         "slug": "groudon",
         "base_slug": "groudon",
         "image": "https://img.pokemondb.net/sprites/home/normal/groudon.png"
@@ -931,6 +1014,7 @@
         "t1": "Water",
         "t2": "Grass",
         "gen": 3,
+        "category": "Ordinary",
         "slug": "ludicolo",
         "base_slug": "ludicolo",
         "image": "https://img.pokemondb.net/sprites/home/normal/ludicolo.png"
@@ -948,6 +1032,7 @@
         "t1": "Water",
         "t2": "Grass",
         "gen": 3,
+        "category": "Ordinary",
         "slug": "ludicolo",
         "base_slug": "ludicolo",
         "image": "https://img.pokemondb.net/sprites/home/normal/ludicolo.png"
@@ -958,6 +1043,7 @@
         "t1": "Poison",
         "t2": "Fighting",
         "gen": 4,
+        "category": "Ordinary",
         "slug": "toxicroak",
         "base_slug": "toxicroak",
         "image": "https://img.pokemondb.net/sprites/home/normal/toxicroak.png"
@@ -968,6 +1054,7 @@
         "t1": "Steel",
         "t2": "Psychic",
         "gen": 3,
+        "category": "Ordinary",
         "slug": "metagross",
         "base_slug": "metagross",
         "image": "https://img.pokemondb.net/sprites/home/normal/metagross.png"
@@ -978,6 +1065,7 @@
         "t1": "Normal",
         "t2": "",
         "gen": 1,
+        "category": "Ordinary",
         "slug": "snorlax",
         "base_slug": "snorlax",
         "image": "https://img.pokemondb.net/sprites/home/normal/snorlax.png"
@@ -988,6 +1076,7 @@
         "t1": "Dragon",
         "t2": "Flying",
         "gen": 3,
+        "category": "Ordinary",
         "slug": "salamence",
         "base_slug": "salamence",
         "image": "https://img.pokemondb.net/sprites/home/normal/salamence.png"
@@ -998,6 +1087,7 @@
         "t1": "Water",
         "t2": "Steel",
         "gen": 4,
+        "category": "Ordinary",
         "slug": "empoleon",
         "base_slug": "empoleon",
         "image": "https://img.pokemondb.net/sprites/home/normal/empoleon.png"
@@ -1015,6 +1105,7 @@
         "t1": "Normal",
         "t2": "",
         "gen": 2,
+        "category": "Ordinary",
         "slug": "smeargle",
         "base_slug": "smeargle",
         "image": "https://img.pokemondb.net/sprites/home/normal/smeargle.png"
@@ -1025,6 +1116,7 @@
         "t1": "Steel",
         "t2": "Psychic",
         "gen": 4,
+        "category": "Ordinary",
         "slug": "bronzong",
         "base_slug": "bronzong",
         "image": "https://img.pokemondb.net/sprites/home/normal/bronzong.png"
@@ -1035,6 +1127,7 @@
         "t1": "Normal",
         "t2": "",
         "gen": 1,
+        "category": "Ordinary",
         "slug": "snorlax",
         "base_slug": "snorlax",
         "image": "https://img.pokemondb.net/sprites/home/normal/snorlax.png"
@@ -1045,6 +1138,7 @@
         "t1": "Steel",
         "t2": "Psychic",
         "gen": 3,
+        "category": "Ordinary",
         "slug": "metagross",
         "base_slug": "metagross",
         "image": "https://img.pokemondb.net/sprites/home/normal/metagross.png"
