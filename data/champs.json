@@ -400,8 +400,8 @@
       {
         "name": "Marowak-A",
         "base": "Alolan Marowak",
-        "t1": "Ground",
-        "t2": "",
+        "t1": "Fire",
+        "t2": "Ghost",
         "gen": 1,
         "slug": "marowak-a",
         "image": "https://img.pokemondb.net/sprites/home/normal/marowak-alolan.png"
