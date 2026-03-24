@@ -1,586 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>VGC Hall of Fame</title>
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
-<style>
-:root {
-  --gold: #c9a84c;
-  --gold-light: #f0d080;
-  --gold-dim: #c9a84c33;
-  --silver: #9ba3af;
-  --bronze: #b87333;
-  --bg: #0d0f14;
-  --bg-2: #13161e;
-  --bg-3: #1a1e28;
-  --bg-4: #222738;
-  --border: #ffffff0f;
-  --border-soft: #ffffff18;
-  --text: #f0f2f7;
-  --text-2: #8a92a8;
-  --text-3: #555d72;
-  --radius: 14px;
-  --radius-sm: 8px;
-
-  --c-normal:#A8A77A;--c-fire:#EE8130;--c-water:#6390F0;--c-electric:#F7D02C;
-  --c-grass:#7AC74C;--c-ice:#96D9D6;--c-fighting:#C22E28;--c-poison:#A33EA1;
-  --c-ground:#E2BF65;--c-psychic:#F95587;--c-flying:#A98FF3;--c-bug:#A6B91A;
-  --c-rock:#B6A136;--c-ghost:#735797;--c-dragon:#6F35FC;--c-dark:#705746;
-  --c-steel:#B7B7CE;--c-fairy:#D685AD;
-}
-
-* { box-sizing: border-box; margin: 0; padding: 0; }
-
-body {
-  font-family: 'Outfit', sans-serif;
-  background: var(--bg);
-  color: var(--text);
-  min-height: 100vh;
-}
-
-/* ── HERO ── */
-.hero {
-  position: relative;
-  padding: 48px 28px 36px;
-  overflow: visible;
-  border-bottom: 0.5px solid var(--border-soft);
-}
-.hero::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background:
-    radial-gradient(ellipse 60% 80% at 80% 50%, #c9a84c0d 0%, transparent 70%),
-    radial-gradient(ellipse 40% 60% at 10% 80%, #6390F00a 0%, transparent 60%);
-  pointer-events: none;
-}
-.hero-label {
-  font-size: 10px;
-  font-weight: 600;
-  letter-spacing: 0.18em;
-  color: var(--gold);
-  text-transform: uppercase;
-  margin-bottom: 10px;
-}
-.hero-title {
-  font-family: 'Cinzel', serif;
-  font-size: clamp(24px, 5vw, 40px);
-  font-weight: 700;
-  line-height: 1.1;
-  color: var(--text);
-  letter-spacing: 0.02em;
-}
-.hero-title span { color: var(--gold); }
-.hero-sub {
-  font-size: 13px;
-  color: var(--text-2);
-  margin-top: 8px;
-  font-weight: 300;
-}
-.hero-stats {
-  display: flex;
-  gap: 28px;
-  margin-top: 24px;
-  flex-wrap: wrap;
-}
-.hero-stat { display: flex; flex-direction: column; gap: 2px; }
-.hero-stat-val {
-  font-family: 'Cinzel', serif;
-  font-size: 22px;
-  font-weight: 600;
-  color: var(--gold-light);
-  line-height: 1;
-}
-.hero-stat-label { font-size: 11px; color: var(--text-3); letter-spacing: 0.05em; }
-
-/* ── NAV ── */
-nav {
-  display: flex;
-  gap: 4px;
-  padding: 14px 20px;
-  border-bottom: 0.5px solid var(--border);
-  background: var(--bg-2);
-  position: sticky;
-  top: 0;
-  z-index: 50;
-}
-.nav-btn {
-  background: none;
-  border: 0.5px solid transparent;
-  border-radius: 20px;
-  padding: 6px 16px;
-  font-size: 12px;
-  font-weight: 500;
-  font-family: 'Outfit', sans-serif;
-  cursor: pointer;
-  color: var(--text-2);
-  transition: all 0.15s;
-  letter-spacing: 0.03em;
-}
-.nav-btn.active {
-  background: var(--gold-dim);
-  border-color: var(--gold);
-  color: var(--gold-light);
-}
-.nav-btn:hover:not(.active) { color: var(--text); border-color: var(--border-soft); }
-
-/* ── LAYOUT ── */
-.app { padding: 0; }
-.section { display: none; padding: 20px; }
-.section.active { display: block; }
-
-/* ── FILTERS ── */
-.filters {
-  display: flex;
-  gap: 8px;
-  flex-wrap: wrap;
-  margin-bottom: 20px;
-  align-items: center;
-}
-.filters input, .filters select {
-  font-family: 'Outfit', sans-serif;
-  font-size: 13px;
-  height: 34px;
-  padding: 0 12px;
-  border-radius: 20px;
-  border: 0.5px solid var(--border-soft);
-  background: var(--bg-3);
-  color: var(--text);
-  outline: none;
-  transition: border-color 0.15s;
-}
-.filters input { flex: 1; min-width: 160px; max-width: 240px; }
-.filters input::placeholder { color: var(--text-3); }
-.filters input:focus, .filters select:focus { border-color: var(--gold); }
-.filters select option { background: var(--bg-3); }
-
-/* ── CHAMPION CARDS ── */
-.champ-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 14px;
-}
-
-.champ-card {
-  background: var(--bg-2);
-  border: 0.5px solid var(--border);
-  border-radius: var(--radius);
-  overflow: visible;
-  cursor: pointer;
-  transition: border-color 0.18s, transform 0.15s, box-shadow 0.18s;
-  position: relative;
-}
-.champ-card::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: radial-gradient(ellipse 80% 60% at 50% 0%, var(--card-accent, #c9a84c12), transparent 70%);
-  opacity: 0;
-  transition: opacity 0.2s;
-  pointer-events: none;
-}
-.champ-card:hover {
-  border-color: var(--gold);
-  transform: translateY(-3px);
-  box-shadow: 0 8px 32px #0008, 0 0 0 0.5px var(--gold-dim);
-}
-.champ-card:hover::before { opacity: 1; }
-
-.card-top {
-  padding: 13px 14px 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-.year-badge {
-  font-family: 'Cinzel', serif;
-  font-size: 11px;
-  font-weight: 600;
-  color: var(--gold);
-  background: var(--gold-dim);
-  border: 0.5px solid var(--gold);
-  border-radius: 10px;
-  padding: 2px 9px;
-  letter-spacing: 0.04em;
-}
-.card-badges { display: flex; gap: 5px; align-items: center; }
-.flag { font-size: 18px; line-height: 1; }
-.multi-badge {
-  font-size: 10px;
-  font-weight: 600;
-  background: var(--gold);
-  color: var(--bg);
-  border-radius: 8px;
-  padding: 1px 6px;
-  letter-spacing: 0.02em;
-}
-
-.player-name {
-  font-family: 'Cinzel', serif;
-  font-size: 13px;
-  font-weight: 600;
-  color: var(--text);
-  padding: 0 14px 3px;
-  line-height: 1.3;
-}
-.player-country {
-  font-size: 11px;
-  color: var(--text-3);
-  padding: 0 14px 11px;
-  font-weight: 400;
-}
-
-.team-sprites {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 6px;
-  background: var(--bg-3);
-  padding: 10px;
-}
-
-.sprite-wrap {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  aspect-ratio: 1;
-}
-.sprite-wrap img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  image-rendering: pixelated;
-  filter: drop-shadow(0 2px 4px #0006);
-}
-.champ-card:hover .sprite-wrap img { transform: scale(1.08); }
-
-.card-footer {
-  padding: 9px 14px;
-  display: flex;
-  gap: 4px;
-  flex-wrap: wrap;
-  align-items: center;
-}
-.type-pip {
-  display: inline-block;
-  height: 6px;
-  border-radius: 3px;
-  flex: 1;
-  min-width: 14px;
-  max-width: 28px;
-  opacity: 0.85;
-}
-
-/* ── MODAL ── */
-.modal-overlay {
-  position: fixed;
-  inset: 0;
-  background: #000a;
-  display: none;
-  align-items: flex-start;
-  justify-content: center;
-  z-index: 200;
-  padding: 20px;
-  overflow-y: auto;
-  backdrop-filter: blur(4px);
-}
-.modal-overlay.open { display: flex; }
-.modal {
-  background: var(--bg-2);
-  border: 0.5px solid var(--border-soft);
-  border-radius: var(--radius);
-  width: 100%;
-  max-width: 580px;
-  overflow: visible;
-  margin: auto;
-  box-shadow: 0 24px 80px #000d;
-  animation: modalIn 0.2s ease;
-}
-@keyframes modalIn {
-  from { opacity: 0; transform: translateY(12px) scale(0.98); }
-  to   { opacity: 1; transform: translateY(0) scale(1); }
-}
-.modal-head {
-  padding: 20px 22px 16px;
-  border-bottom: 0.5px solid var(--border);
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  background: linear-gradient(135deg, var(--bg-3), var(--bg-2));
-}
-.modal-title {
-  font-family: 'Cinzel', serif;
-  font-size: 18px;
-  font-weight: 700;
-  color: var(--text);
-}
-.modal-sub { font-size: 12px; color: var(--text-2); margin-top: 4px; }
-.close-btn {
-  background: var(--bg-4);
-  border: 0.5px solid var(--border);
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  cursor: pointer;
-  font-size: 14px;
-  color: var(--text-2);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.15s;
-  flex-shrink: 0;
-}
-.close-btn:hover { background: var(--bg-4); color: var(--text); border-color: var(--border-soft); }
-
-.modal-body { padding: 20px 22px; }
-
-.team-large {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-  margin-bottom: 20px;
-}
-.poke-tile {
-  background: var(--bg-3);
-  border: 0.5px solid var(--border);
-  border-radius: var(--radius-sm);
-  padding: 12px 8px 10px;
-  text-align: center;
-  transition: border-color 0.15s;
-  position: relative;
-  overflow: visible;
-}
-.poke-tile::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: radial-gradient(ellipse 80% 60% at 50% 0%, var(--tile-color, #ffffff08), transparent 70%);
-  pointer-events: none;
-}
-.poke-tile:hover { border-color: var(--border-soft); }
-.poke-tile img {
-  width: 80px;
-  height: 80px;
-  image-rendering: pixelated;
-  filter: drop-shadow(0 4px 8px #0008);
-  position: relative;
-}
-.poke-name {
-  font-size: 11px;
-  color: var(--text-2);
-  margin-top: 6px;
-  display: block;
-  font-weight: 500;
-  position: relative;
-}
-.type-badges {
-  display: flex;
-  gap: 3px;
-  justify-content: center;
-  margin-top: 5px;
-  flex-wrap: wrap;
-  position: relative;
-}
-.type-badge {
-  font-size: 9px;
-  font-weight: 600;
-  padding: 2px 6px;
-  border-radius: 8px;
-  color: #fff;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-}
-
-.modal-section-title {
-  font-size: 11px;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--text-3);
-  margin-bottom: 10px;
-}
-.type-coverage {
-  display: flex;
-  gap: 5px;
-  flex-wrap: wrap;
-  margin-bottom: 16px;
-}
-
-.tooltip {
-  position: relative;
-  cursor: help;
-  font-size: 12px;
-  color: var(--text-2);
-}
-
-.tooltip-text {
-  visibility: hidden;
-  opacity: 0;
-  transition: opacity 0.2s;
-
-  position: absolute;
-  bottom: 130%;
-  left: 50%;
-  transform: translateX(-50%);
-
-  background: var(--bg-2);
-  color: var(--text-1);
-  border: 1px solid var(--border);
-  padding: 8px 10px;
-  border-radius: 6px;
-
-  width: 220px;
-  font-size: 11px;
-  line-height: 1.4;
-
-  pointer-events: none;
-  z-index: 999;
-}
-
-.tooltip:hover .tooltip-text {
-  visibility: visible;
-  opacity: 1;
-}
-
-/* ── STATS SECTION ── */
-.chart-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
-@media (max-width: 540px) { .chart-grid { grid-template-columns: 1fr; } }
-
-.chart-card {
-  background: var(--bg-2);
-  border: 0.5px solid var(--border);
-  border-radius: var(--radius);
-  padding: 16px 18px;
-}
-.chart-card-title {
-  font-size: 12px;
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--text-3);
-  margin-bottom: 14px;
-}
-.chart-wrap { position: relative; width: 100%; }
-
-/* ── CHAMPION POKEMON ── */
-/* whole board spacing */
-#domGrid {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-
-/* each tier row */
-.tier-row-board {
-  display: grid;
-  grid-template-columns: 140px 1fr;
-  align-items: stretch;
-}
-
-/* left label (colored like your image) */
-.tier-label {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: 'Cinzel', serif;
-  font-size: 13px;
-  font-weight: 600;
-  color: #111;
-  padding: 10px;
-}
-
-/* right side (pokemon container) */
-.tier-content {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  padding: 10px;
-  background: var(--bg-2);
-}
-
-/* each pokemon */
-.tier-mon {
-  width: 64px;
-  height: 64px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.tier-mon img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  image-rendering: pixelated;
-}
-
-/* ── COUNTRY SECTION ── */
-.country-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-  gap: 10px;
-  margin-top: 16px;
-}
-.country-card {
-  background: var(--bg-2);
-  border: 0.5px solid var(--border);
-  border-radius: var(--radius-sm);
-  padding: 14px 16px;
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-.country-flag { font-size: 28px; line-height: 1; }
-.country-info { flex: 1; }
-.country-name { font-size: 13px; font-weight: 500; color: var(--text); }
-.country-wins {
-  font-family: 'Cinzel', serif;
-  font-size: 11px;
-  color: var(--text-3);
-  margin-top: 2px;
-}
-.country-wins span { color: var(--gold); font-weight: 600; }
-
-/* ── COMPARE ── */
-.compare-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 14px; }
-@media (max-width: 480px) { .compare-grid { grid-template-columns: 1fr; } }
-.compare-card {
-  background: var(--bg-2);
-  border: 0.5px solid var(--border);
-  border-radius: var(--radius);
-  padding: 16px;
-}
-.compare-sprites { display: flex; gap: 4px; flex-wrap: wrap; margin: 10px 0 10px; }
-.compare-sprites img { width: 44px; height: 44px; image-rendering: pixelated; filter: drop-shadow(0 1px 3px #0006); }
-.shared-row {
-  background: var(--bg-3);
-  border: 0.5px solid var(--border);
-  border-radius: var(--radius-sm);
-  padding: 12px 16px;
-}
-.shared-row-title { font-size: 12px; font-weight: 500; color: var(--text-2); margin-bottom: 8px; }
-.shared-pokes { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
-.shared-poke { display: flex; align-items: center; gap: 5px; font-size: 12px; color: var(--text-2); }
-.shared-poke img { width: 30px; height: 30px; image-rendering: pixelated; }
-
-/* ── SECTION TITLE ── */
-.section-title {
-  font-family: 'Cinzel', serif;
-  font-size: 14px;
-  font-weight: 600;
-  color: var(--text);
-  margin-bottom: 16px;
-  letter-spacing: 0.03em;
-}
-.section-title span { color: var(--gold); }
-
-/* ── UTIL ── */
-.mt { margin-top: 16px; }
-.empty { color: var(--text-3); font-size: 13px; padding: 24px 0; }
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VGC Hall of Fame</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
 </head>
 <body>
 <div class="app" id="appRoot">
@@ -612,11 +39,11 @@ nav {
 
   <!-- NAV -->
   <nav>
-    <button class="nav-btn active" onclick="showSection('hof',this)">Hall of Fame</button>
-    <button class="nav-btn" onclick="showSection('poke',this)">Pokémon</button>
-    <button class="nav-btn" onclick="showSection('stats',this)">Stats & Charts</button>
-    <button class="nav-btn" onclick="showSection('countries',this)">By Country</button>
-    <button class="nav-btn" onclick="showSection('compare',this)">Compare</button>
+    <button class="nav-btn active" onclick="showSection('hof', this)">Hall of Fame</button>
+    <button class="nav-btn" onclick="showSection('poke', this)">Pokémon</button>
+    <button class="nav-btn" onclick="showSection('stats', this)">Stats & Charts</button>
+    <button class="nav-btn" onclick="showSection('countries', this)">By Country</button>
+    <button class="nav-btn" onclick="showSection('compare', this)">Compare</button>
   </nav>
 
   <!-- HOF -->
@@ -630,58 +57,52 @@ nav {
     <div class="champ-grid" id="champGrid"></div>
   </div>
 
-  <!-- CHAMPION POKEMON -->
-<div id="poke" class="section">
-
-  <div class="section-title">
-    Most Victorious Pokémon <span>· All Time</span>
-  </div>
-
-  <div style="margin:10px 0;">
-    <label style="display:flex;align-items:center;gap:6px;">
-      <input type="checkbox" id="megaToggle" onchange="buildpoke()" />
-      Correct for Forms
-
-      <span class="tooltip">
-        ⓘ
-        <span class="tooltip-text">
-          Groups alternate forms (Megas, Primals, etc.) under their base Pokémon.
-          Example: Mega Gengar → Gengar and Primal Kyogre → Kyogre
+  <!-- POKÉMON TIER BOARD -->
+  <div id="poke" class="section">
+    <div class="section-title">Most Victorious Pokémon <span>· All Time</span></div>
+    <div style="margin: 10px 0;">
+      <label style="display:flex; align-items:center; gap:6px;">
+        <input type="checkbox" id="megaToggle" onchange="buildpoke()" />
+        Correct for Forms
+        <span class="tooltip">
+          ⓘ
+          <span class="tooltip-text">
+            Groups alternate forms (Megas, Primals, etc.) under their base Pokémon.
+            Example: Mega Gengar → Gengar and Primal Kyogre → Kyogre
+          </span>
         </span>
-      </span>
-    </label>
-  </div>
-
-  <div class="dom-grid" id="domGrid"></div>
+      </label>
+    </div>
+    <div id="domGrid"></div>
     <div class="chart-card mt">
       <div class="chart-card-title">Usage count — top Pokémon across all World Championships</div>
-      <div class="chart-wrap" style="height:320px;"><canvas id="domChart"></canvas></div>
+      <div class="chart-wrap" style="height: 320px;"><canvas id="domChart"></canvas></div>
     </div>
   </div>
 
-  <!-- STATS -->
+  <!-- STATS & CHARTS -->
   <div id="stats" class="section">
     <div class="chart-grid">
       <div class="chart-card">
         <div class="chart-card-title">Type distribution</div>
-        <div class="chart-wrap" style="height:220px;"><canvas id="typeChart"></canvas></div>
+        <div class="chart-wrap" style="height: 220px;"><canvas id="typeChart"></canvas></div>
       </div>
       <div class="chart-card">
         <div class="chart-card-title">Generation spread</div>
-        <div class="chart-wrap" style="height:220px;"><canvas id="genChart"></canvas></div>
+        <div class="chart-wrap" style="height: 220px;"><canvas id="genChart"></canvas></div>
       </div>
       <div class="chart-card">
         <div class="chart-card-title">Category spread</div>
-        <div class="chart-wrap" style="height:220px;"><canvas id="catChart"></canvas></div>
+        <div class="chart-wrap" style="height: 220px;"><canvas id="catChart"></canvas></div>
       </div>
       <div class="chart-card">
         <div class="chart-card-title">Generation contribution</div>
-        <div class="chart-wrap" style="height:220px;"><canvas id="genconChart"></canvas></div>
+        <div class="chart-wrap" style="height: 220px;"><canvas id="genconChart"></canvas></div>
       </div>
     </div>
   </div>
-  
-  <!-- COUNTRIES -->
+
+  <!-- BY COUNTRY -->
   <div id="countries" class="section">
     <div class="section-title">Champions <span>by Country</span></div>
     <div id="countryGrid" class="country-grid"></div>
@@ -689,11 +110,11 @@ nav {
 
   <!-- COMPARE -->
   <div id="compare" class="section">
-    <div class="filters" style="margin-bottom:16px;">
-      <span style="font-size:12px;color:var(--text-3);white-space:nowrap;">Champion A</span>
-      <select id="cmpA" onchange="renderCompare()" style="flex:1;max-width:220px;"></select>
-      <span style="font-size:12px;color:var(--text-3);white-space:nowrap;">Champion B</span>
-      <select id="cmpB" onchange="renderCompare()" style="flex:1;max-width:220px;"></select>
+    <div class="filters" style="margin-bottom: 16px;">
+      <span style="font-size:12px; color:var(--text-3); white-space:nowrap;">Champion A</span>
+      <select id="cmpA" onchange="renderCompare()" style="flex:1; max-width:220px;"></select>
+      <span style="font-size:12px; color:var(--text-3); white-space:nowrap;">Champion B</span>
+      <select id="cmpB" onchange="renderCompare()" style="flex:1; max-width:220px;"></select>
     </div>
     <div id="compareOut"></div>
   </div>
@@ -711,471 +132,479 @@ nav {
       <div class="modal-body" id="mBody"></div>
     </div>
   </div>
+
 </div>
 
 <script>
+// ── CONSTANTS ────────────────────────────────────────────────────────────────
+
 const TYPE_COLORS = {
-  Normal:'#A8A77A',Fire:'#EE8130',Water:'#6390F0',Electric:'#F7D02C',
-  Grass:'#7AC74C',Ice:'#96D9D6',Fighting:'#C22E28',Poison:'#A33EA1',
-  Ground:'#E2BF65',Psychic:'#F95587',Flying:'#A98FF3',Bug:'#A6B91A',
-  Rock:'#B6A136',Ghost:'#735797',Dragon:'#6F35FC',Dark:'#705746',
-  Steel:'#B7B7CE',Fairy:'#D685AD'
+  Normal: '#A8A77A', Fire: '#EE8130',    Water: '#6390F0',  Electric: '#F7D02C',
+  Grass:  '#7AC74C', Ice: '#96D9D6',     Fighting: '#C22E28', Poison: '#A33EA1',
+  Ground: '#E2BF65', Psychic: '#F95587', Flying: '#A98FF3', Bug: '#A6B91A',
+  Rock:   '#B6A136', Ghost: '#735797',   Dragon: '#6F35FC', Dark: '#705746',
+  Steel:  '#B7B7CE', Fairy: '#D685AD',
 };
 
 const FLAGS = {
-  'USA':'🇺🇸','Japan':'🇯🇵','Italy':'🇮🇹','Portugal':'🇵🇹','UK':'🇬🇧',
-  'South Korea':'🇰🇷','Canada':'🇨🇦','Australia':'🇦🇺','Germany':'🇩🇪',
-  'France':'🇫🇷','Spain':'🇪🇸','Brazil':'🇧🇷','Netherlands':'🇳🇱',
-  'Sweden':'🇸🇪','Norway':'🇳🇴','Finland':'🇫🇮','Poland':'🇵🇱',
-  "Ecuador": "🇪🇨"
+  'USA': '🇺🇸', 'Japan': '🇯🇵', 'Italy': '🇮🇹', 'Portugal': '🇵🇹', 'UK': '🇬🇧',
+  'South Korea': '🇰🇷', 'Canada': '🇨🇦', 'Australia': '🇦🇺', 'Germany': '🇩🇪',
+  'France': '🇫🇷', 'Spain': '🇪🇸', 'Brazil': '🇧🇷', 'Netherlands': '🇳🇱',
+  'Sweden': '🇸🇪', 'Norway': '🇳🇴', 'Finland': '🇫🇮', 'Poland': '🇵🇱',
+  'Ecuador': '🇪🇨',
 };
 
+// ── STATE ─────────────────────────────────────────────────────────────────────
+
 let CHAMPS = [];
+let titleCounts = {}; // populated in init() after data loads
+
+// ── DATA LOADING ──────────────────────────────────────────────────────────────
 
 async function loadData() {
   const res = await fetch('data/champs.json');
   CHAMPS = await res.json();
-
-  init(); // we’ll define this
+  init();
 }
 
-// count titles per player
-const titleCounts = {};
-CHAMPS.forEach(c => { titleCounts[c.player] = (titleCounts[c.player]||0)+1; });
+// ── HELPERS ───────────────────────────────────────────────────────────────────
 
 function spriteUrl(pokemon) {
-  return pokemon.image || 
+  return pokemon.image ||
     `https://img.pokemondb.net/sprites/home/normal/${pokemon.slug}.png`;
 }
-function flag(country) { return FLAGS[country] || '🌍'; }
 
-// hero stats
-function buildHero() {
-  const countries = new Set(CHAMPS.map(c=>c.country));
-  const species = new Set(CHAMPS.flatMap(c=>c.team.map(p=>p.name)));
-  const years = CHAMPS.map(c=>c.year);
-  document.getElementById('heroChamps').textContent = CHAMPS.length;
-  document.getElementById('heroCountries').textContent = countries.size;
-  document.getElementById('heroYears').textContent = Math.min(...years) + '–' + Math.max(...years);
-  document.getElementById('heroSpecies').textContent = species.size;
+function flag(country) {
+  return FLAGS[country] || '🌍';
 }
 
-// nav
+// ── HERO ──────────────────────────────────────────────────────────────────────
+
+function buildHero() {
+  const countries = new Set(CHAMPS.map(c => c.country));
+  const species   = new Set(CHAMPS.flatMap(c => c.team.map(p => p.name)));
+  const years     = CHAMPS.map(c => c.year);
+  document.getElementById('heroChamps').textContent    = CHAMPS.length;
+  document.getElementById('heroCountries').textContent = countries.size;
+  document.getElementById('heroYears').textContent     = Math.min(...years) + '–' + Math.max(...years);
+  document.getElementById('heroSpecies').textContent   = species.size;
+}
+
+// ── NAVIGATION ────────────────────────────────────────────────────────────────
+
 function showSection(id, btn) {
   document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
   document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
   document.getElementById(id).classList.add('active');
   btn.classList.add('active');
-  if (id === 'stats') buildCharts();
-  if (id === 'compare') buildCompareSelects();
+  if (id === 'stats')     buildCharts();
+  if (id === 'compare')   buildCompareSelects();
   if (id === 'countries') buildCountries();
-  if (id === 'poke') buildpoke();
+  if (id === 'poke')      buildpoke();
 }
 
-// filters
+// ── HALL OF FAME ──────────────────────────────────────────────────────────────
+
 function getFiltered() {
-  const q = document.getElementById('searchInput').value.toLowerCase();
+  const q  = document.getElementById('searchInput').value.toLowerCase();
   const yr = document.getElementById('yearFilter').value;
   const ty = document.getElementById('typeFilter').value;
   const ct = document.getElementById('countryFilter').value;
 
   return CHAMPS.filter(c => {
-    const matchQ = !q ||
-      c.player.toLowerCase().includes(q) ||
-      c.team.some(p => p.name.toLowerCase().includes(q));
-
+    const matchQ = !q  || c.player.toLowerCase().includes(q) || c.team.some(p => p.name.toLowerCase().includes(q));
     const matchY = !yr || String(c.year) === yr;
-
     const matchT = !ty || c.team.some(p => p.t1 === ty || p.t2 === ty);
-
     const matchC = !ct || c.country === ct;
-
     return matchQ && matchY && matchT && matchC;
   });
 }
 
 function renderCards() {
-  const grid = document.getElementById('champGrid');
+  const grid     = document.getElementById('champGrid');
   const filtered = getFiltered();
+
   if (!filtered.length) {
     grid.innerHTML = '<p class="empty">No champions match your filters.</p>';
     return;
   }
+
   grid.innerHTML = filtered.map((c, i) => {
-    const titles = titleCounts[c.player];
-    const types = [...new Set(c.team.flatMap(p=>[p.t1,p.t2].filter(Boolean)))];
+    const titles = titleCounts[c.player] || 1;
+    const types  = [...new Set(c.team.flatMap(p => [p.t1, p.t2].filter(Boolean)))];
     return `
-    <div class="champ-card" onclick="openModal(${i})">
-      <div class="card-top">
-        <span class="year-badge">${c.year}</span>
-        <div class="card-badges">
-          ${titles > 1 ? `<span class="multi-badge">×${titles}</span>` : ''}
-          <span class="flag" title="${c.country}">${flag(c.country)}</span>
+      <div class="champ-card" onclick="openModal(${i})">
+        <div class="card-top">
+          <span class="year-badge">${c.year}</span>
+          <div class="card-badges">
+            ${titles > 1 ? `<span class="multi-badge">×${titles}</span>` : ''}
+            <span class="flag" title="${c.country}">${flag(c.country)}</span>
+          </div>
         </div>
-      </div>
-      <div class="player-name">${c.player}</div>
-      <div class="player-country">${c.country}</div>
-      <div class="team-sprites">
-        ${c.team.map(p=>`
-          <div class="sprite-wrap">
-            <img src="${spriteUrl(p)}" alt="${p.name}" title="${p.name}"
-              onerror="this.src='https://img.pokemondb.net/sprites/sword-shield/icon/${p.sprite}.png'" />
-          </div>`).join('')}
-      </div>
-      <div class="card-footer">
-        ${types.map(t=>`<span class="type-pip" style="background:${TYPE_COLORS[t]||'#888'}" title="${t}"></span>`).join('')}
-      </div>
-    </div>`;
+        <div class="player-name">${c.player}</div>
+        <div class="player-country">${c.country}</div>
+        <div class="team-sprites">
+          ${c.team.map(p => `
+            <div class="sprite-wrap">
+              <img src="${spriteUrl(p)}" alt="${p.name}" title="${p.name}"
+                onerror="this.src='https://img.pokemondb.net/sprites/sword-shield/icon/${p.slug}.png'" />
+            </div>`).join('')}
+        </div>
+        <div class="card-footer">
+          ${types.map(t => `<span class="type-pip" style="background:${TYPE_COLORS[t] || '#888'}" title="${t}"></span>`).join('')}
+        </div>
+      </div>`;
   }).join('');
 }
 
-function openModal(index) {
-  const c = getFiltered()[index];
-  document.getElementById('mTitle').textContent = c.player;
-  document.getElementById('mSub').textContent = `${c.year} ${c.region} Champion · ${flag(c.country)} ${c.country}`;
+// ── MODAL ─────────────────────────────────────────────────────────────────────
 
-  const types = [...new Set(c.team.flatMap(p=>[p.t1,p.t2].filter(Boolean)))];
+function openModal(index) {
+  const c     = getFiltered()[index];
+  const types = [...new Set(c.team.flatMap(p => [p.t1, p.t2].filter(Boolean)))];
+
+  document.getElementById('mTitle').textContent = c.player;
+  document.getElementById('mSub').textContent   = `${c.year} ${c.region} Champion · ${flag(c.country)} ${c.country}`;
 
   document.getElementById('mBody').innerHTML = `
     <div class="modal-section-title" style="margin-bottom:12px;">Championship Team</div>
     <div class="team-large">
-      ${c.team.map(p=>{
+      ${c.team.map(p => {
         const col = TYPE_COLORS[p.t1] || '#888';
         return `
-        <div class="poke-tile" style="--tile-color:${col}22">
-          <img src="${spriteUrl(p)}" alt="${p.name}"
-            onerror="this.src=''" />
-          <span class="poke-name">${p.name}</span>
-          <div class="type-badges">
-            <span class="type-badge" style="background:${TYPE_COLORS[p.t1]||'#888'}">${p.t1}</span>
-            ${p.t2 ? `<span class="type-badge" style="background:${TYPE_COLORS[p.t2]||'#888'}">${p.t2}</span>` : ''}
-          </div>
-        </div>`;
+          <div class="poke-tile" style="--tile-color:${col}22">
+            <img src="${spriteUrl(p)}" alt="${p.name}" onerror="this.src=''" />
+            <span class="poke-name">${p.name}</span>
+            <div class="type-badges">
+              <span class="type-badge" style="background:${TYPE_COLORS[p.t1] || '#888'}">${p.t1}</span>
+              ${p.t2 ? `<span class="type-badge" style="background:${TYPE_COLORS[p.t2] || '#888'}">${p.t2}</span>` : ''}
+            </div>
+          </div>`;
       }).join('')}
     </div>
     <div class="modal-section-title">Type Coverage</div>
     <div class="type-coverage">
-      ${types.map(t=>`<span class="type-badge" style="background:${TYPE_COLORS[t]||'#888'}">${t}</span>`).join('')}
+      ${types.map(t => `<span class="type-badge" style="background:${TYPE_COLORS[t] || '#888'}">${t}</span>`).join('')}
     </div>
     <div class="modal-section-title" style="margin-top:4px;">Generations Used</div>
-    <div style="font-size:13px;color:var(--text-2);margin-top:4px;">
-      ${[...new Set(c.team.map(p=>p.gen))].sort((a,b)=>a-b).map(g=>`Gen ${g}`).join(' · ')}
+    <div style="font-size:13px; color:var(--text-2); margin-top:4px;">
+      ${[...new Set(c.team.map(p => p.gen))].sort((a, b) => a - b).map(g => `Gen ${g}`).join(' · ')}
     </div>
   `;
+
   document.getElementById('modalOverlay').classList.add('open');
-  document.body.style.overflow = 'visible';
+  document.body.style.overflow = 'hidden';
 }
-function closeModalBg(e) { if (e.target===document.getElementById('modalOverlay')) closeModal(); }
+
+function closeModalBg(e) {
+  if (e.target === document.getElementById('modalOverlay')) closeModal();
+}
+
 function closeModal() {
   document.getElementById('modalOverlay').classList.remove('open');
   document.body.style.overflow = '';
 }
 
-// Champion pokemon
+// ── POKÉMON TIER BOARD ────────────────────────────────────────────────────────
+
 let domChartInst;
+
 function buildpoke() {
   const tierColors = {
-  3: '#e57373',   // red
-  2: '#f0b36f',   // orange
-  1: '#e6d37a'    // yellow
-};
+    3: '#e57373',
+    2: '#f0b36f',
+    1: '#e6d37a',
+  };
 
-const counts = {};
-const useBase = document.getElementById('megaToggle')?.checked;
+  const useBase = document.getElementById('megaToggle')?.checked;
 
-CHAMPS.forEach(c => {c.team.forEach(p => {const key = useBase ? p.base : p.name;if (!counts[key]) {counts[key] = {count: 0,image: useBase? `https://img.pokemondb.net/sprites/home/normal/${p.base_slug}.png` : p.image,t1: p.t1};}counts[key].count++;});});
-  const tiers = {};
-  Object.entries(counts).forEach(([name, info]) => {const count = info.count;if (!tiers[count]) tiers[count] = [];tiers[count].push({name,image: info.image,t1: info.t1});});
-const sortedTiers = Object.entries(tiers).sort((a, b) => b[0] - a[0]);
-
-  // tierlist
-document.getElementById('domGrid').innerHTML = sortedTiers.map(([count, pokes]) => `
-  <div class="tier-row-board">
-
-    <div class="tier-label" style="background:${tierColors[count] || '#ccc'}">
-      ${count} Title${count > 1 ? 's' : ''}
-    </div>
-
-    <div class="tier-content">
-      ${pokes.map(p => `
-        <div class="tier-mon">
-          <img src="${spriteUrl(p)}" alt="${p.name}" />
-        </div>
-      `).join('')}
-    </div>
-
-  </div>
-`).join('');
-
-
-  // bar chart
-  const top16 = sorted.slice(0,16);
-  if (domChartInst) domChartInst.destroy();
-  domChartInst = new Chart(document.getElementById('domChart'), {
-    type: 'bar',
-    data: {
-      labels: top16.map(x=>x[0]),
-      datasets: [{
-        data: top16.map(x=>x[1].count),
-        backgroundColor: top16.map(([,info])=>TYPE_COLORS[info.t1]||'#6390F0')+'cc',
-        backgroundColor: top16.map(([,info])=>(TYPE_COLORS[info.t1]||'#6390F0')+'cc'),
-        borderWidth: 0,
-        borderRadius: 4,
-      }]
-    },
-    options: {
-      indexAxis: 'y',
-      responsive: true,
-      maintainAspectRatio: false,
-      plugins: { legend: { display: false }, tooltip: {
-        callbacks: { label: ctx => ` Used in ${ctx.raw} championship team${ctx.raw!==1?'s':''}` }
-      }},
-      scales: {
-        x: { ticks: { stepSize:1, color: '#555d72' }, grid: { color:'#ffffff08' }, border:{color:'transparent'} },
-        y: { grid: { display:false }, ticks: { color:'#8a92a8', font:{ size:12 } }, border:{color:'transparent'} }
+  // Count appearances, grouping by base form if toggle is on
+  const counts = {};
+  CHAMPS.forEach(c => {
+    c.team.forEach(p => {
+      const key = useBase ? p.base : p.name;
+      if (!counts[key]) {
+        counts[key] = {
+          count: 0,
+          image: useBase
+            ? `https://img.pokemondb.net/sprites/home/normal/${p.base_slug}.png`
+            : p.image,
+          t1: p.t1,
+        };
       }
-    }
+      counts[key].count++;
+    });
   });
+
+  // Group into tiers by appearance count
+  const tiers = {};
+  Object.entries(counts).forEach(([name, info]) => {
+    const count = info.count;
+    if (!tiers[count]) tiers[count] = [];
+    tiers[count].push({ name, image: info.image, t1: info.t1 });
+  });
+
+  const sortedTiers = Object.entries(tiers).sort((a, b) => b[0] - a[0]);
+
+  // Flat sorted list used by the bar chart
+  const sorted = Object.entries(counts).sort((a, b) => b[1].count - a[1].count);
+
+  // Render tier board
+  document.getElementById('domGrid').innerHTML = sortedTiers.map(([count, pokes]) => `
+    <div class="tier-row-board">
+      <div class="tier-label" style="background:${tierColors[count] || '#ccc'}">
+        ${count} Title${count > 1 ? 's' : ''}
+      </div>
+      <div class="tier-content">
+        ${pokes.map(p => `
+          <div class="tier-mon">
+            <img src="${p.image}" alt="${p.name}" title="${p.name}" />
+          </div>`).join('')}
+      </div>
+    </div>`).join('');
+
+
 }
 
-// stats charts
-let typeChartInst, genChartInst, genconChart, catChart;
-function buildCharts() {
-  const allPokes = CHAMPS.flatMap(c=>c.team);
+// ── STATS & CHARTS ────────────────────────────────────────────────────────────
 
+let typeChartInst, genChartInst, genconChart, catChart;
+
+function buildCharts() {
+  const allPokes = CHAMPS.flatMap(c => c.team);
+
+  // Type distribution
   const typeCounts = {};
-  allPokes.forEach(p=>[p.t1,p.t2].filter(Boolean).forEach(t=>{ typeCounts[t]=(typeCounts[t]||0)+1; }));
-  const sortedTypes = Object.entries(typeCounts).sort((a,b)=>b[1]-a[1]);
+  allPokes.forEach(p => [p.t1, p.t2].filter(Boolean).forEach(t => {
+    typeCounts[t] = (typeCounts[t] || 0) + 1;
+  }));
+  const sortedTypes = Object.entries(typeCounts).sort((a, b) => b[1] - a[1]);
 
   if (typeChartInst) typeChartInst.destroy();
   typeChartInst = new Chart(document.getElementById('typeChart'), {
     type: 'bar',
     data: {
-      labels: sortedTypes.map(x=>x[0]),
-      datasets: [{ data: sortedTypes.map(x=>x[1]), backgroundColor: sortedTypes.map(x=>(TYPE_COLORS[x[0]]||'#888')+'cc'), borderWidth:0, borderRadius:3 }]
+      labels: sortedTypes.map(x => x[0]),
+      datasets: [{
+        data: sortedTypes.map(x => x[1]),
+        backgroundColor: sortedTypes.map(x => (TYPE_COLORS[x[0]] || '#888') + 'cc'),
+        borderWidth: 0,
+        borderRadius: 3,
+      }],
     },
     options: {
       responsive: true, maintainAspectRatio: false,
-      plugins: { legend:{display:false} },
+      plugins: { legend: { display: false } },
       scales: {
-        x: { ticks:{font:{size:10},autoSkip:false,maxRotation:50,color:'#555d72'}, grid:{display:false}, border:{color:'transparent'} },
-        y: { ticks:{stepSize:1,color:'#555d72'}, grid:{color:'#ffffff08'}, border:{color:'transparent'} }
-      }
-    }
+        x: { ticks: { font: { size: 10 }, autoSkip: false, maxRotation: 50, color: '#555d72' }, grid: { display: false }, border: { color: 'transparent' } },
+        y: { ticks: { stepSize: 1, color: '#555d72' }, grid: { color: '#ffffff08' }, border: { color: 'transparent' } },
+      },
+    },
   });
 
+  // Generation spread
   const genCounts = {};
-  allPokes.forEach(p=>{ genCounts[p.gen]=(genCounts[p.gen]||0)+1; });
-  const sortedGens = Object.entries(genCounts).sort((a,b)=>+a[0]-+b[0]);
+  allPokes.forEach(p => { genCounts[p.gen] = (genCounts[p.gen] || 0) + 1; });
+  const sortedGens = Object.entries(genCounts).sort((a, b) => +a[0] - +b[0]);
 
   if (genChartInst) genChartInst.destroy();
   genChartInst = new Chart(document.getElementById('genChart'), {
     type: 'bar',
     data: {
-      labels: sortedGens.map(x=>'Gen '+x[0]),
-      datasets: [{ data: sortedGens.map(x=>x[1]), backgroundColor:'#6390F0cc', borderWidth:0, borderRadius:3 }]
+      labels: sortedGens.map(x => 'Gen ' + x[0]),
+      datasets: [{
+        data: sortedGens.map(x => x[1]),
+        backgroundColor: '#6390F0cc',
+        borderWidth: 0,
+        borderRadius: 3,
+      }],
     },
     options: {
       responsive: true, maintainAspectRatio: false,
-      plugins: { legend:{display:false} },
+      plugins: { legend: { display: false } },
       scales: {
-        x: { grid:{display:false}, ticks:{color:'#555d72'}, border:{color:'transparent'} },
-        y: { ticks:{stepSize:1,color:'#555d72'}, grid:{color:'#ffffff08'}, border:{color:'transparent'} }
-      }
-    }
+        x: { grid: { display: false }, ticks: { color: '#555d72' }, border: { color: 'transparent' } },
+        y: { ticks: { stepSize: 1, color: '#555d72' }, grid: { color: '#ffffff08' }, border: { color: 'transparent' } },
+      },
+    },
   });
 
-// cumulative champions per gen
-let running = 0;
+  // Generation contribution (cumulative line)
+  let running = 0;
+  const cumulativeData = sortedGens.map(x => {
+    running += x[1];
+    return running;
+  });
 
-const cumulativeData = sortedGens.map(x => {
-  running += x[1];   // x[1] = count for that gen
-  return running;
-});
-
-if (genconChart) genconChart.destroy();
-
-genconChart = new Chart(document.getElementById('genconChart'), {
-  type: 'line',
-  data: {
-    labels: sortedGens.map(g => 'Gen ' + g[0]),
-    datasets: [{
-      data: cumulativeData,
-      borderColor: '#a78bfa',
-      backgroundColor: '#a78bfa33',
-      fill: true,
-      tension: 0.3,
-      pointRadius: 3
-    }]
-  },
-  options: {
-    responsive: true,
-    maintainAspectRatio: false,
-    plugins: {
-      legend:{display:false},
-      tooltip: {
-        callbacks: {
-          label: ctx => {
-            const cumulative = ctx.raw;
-            const delta = sortedGens[ctx.dataIndex][1];
-            return [` Cumulative: ${cumulative}`, ` Gen ${sortedGens[ctx.dataIndex][0]}: ${delta}`];
-          }
-        }
-      }
+  if (genconChart) genconChart.destroy();
+  genconChart = new Chart(document.getElementById('genconChart'), {
+    type: 'line',
+    data: {
+      labels: sortedGens.map(g => 'Gen ' + g[0]),
+      datasets: [{
+        data: cumulativeData,
+        borderColor: '#a78bfa',
+        backgroundColor: '#a78bfa33',
+        fill: true,
+        tension: 0.3,
+        pointRadius: 3,
+      }],
     },
-    scales: {
-      x: {
-        ticks:{color:'#555d72'},
-        grid:{display:false},
-        border:{color:'transparent'}
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            label: ctx => {
+              const cumulative = ctx.raw;
+              const delta      = sortedGens[ctx.dataIndex][1];
+              return [` Cumulative: ${cumulative}`, ` Gen ${sortedGens[ctx.dataIndex][0]} added: ${delta}`];
+            },
+          },
+        },
       },
-      y: {
-        ticks:{stepSize:1,color:'#555d72'},
-        grid:{color:'#ffffff08'},
-        border:{color:'transparent'}
-      }
-    }
-  }
-});
+      scales: {
+        x: { ticks: { color: '#555d72' }, grid: { display: false }, border: { color: 'transparent' } },
+        y: { ticks: { stepSize: 1, color: '#555d72' }, grid: { color: '#ffffff08' }, border: { color: 'transparent' } },
+      },
+    },
+  });
 
-// category distribution
-const categoryCounts = {};
+  // Category spread (doughnut)
+  const categoryCounts = {};
+  allPokes.forEach(p => {
+    const cat = p.category || 'Other';
+    categoryCounts[cat] = (categoryCounts[cat] || 0) + 1;
+  });
+  const catEntries = Object.entries(categoryCounts);
 
-allPokes.forEach(p => {
-  const cat = p.category || 'Other';
-  categoryCounts[cat] = (categoryCounts[cat] || 0) + 1;
-});
-
-const catEntries = Object.entries(categoryCounts);
-
-if (catChart) catChart.destroy();
-
-catChart = new Chart(document.getElementById('catChart'), {
-  type: 'doughnut',
-  data: {
-    labels: catEntries.map(x=>x[0]),
-    datasets: [{
-      data: catEntries.map(x=>x[1]),
-      backgroundColor: [
-        '#f87171', // Legendary
-        '#fbbf24', // Mythical
-        '#34d399', // Ultra Beast
-        '#60a5fa', // Paradox
-        '#9ca3af'  // Regular
-      ]
-    }]
-  },
-  options: {
-    responsive: true,
-    maintainAspectRatio: false,
-    plugins: {
-      legend: {
-        position: 'bottom',
-        labels: { color:'#555d72', font:{size:11} }
-      }
-    }
-  }
-});
+  if (catChart) catChart.destroy();
+  catChart = new Chart(document.getElementById('catChart'), {
+    type: 'doughnut',
+    data: {
+      labels: catEntries.map(x => x[0]),
+      datasets: [{
+        data: catEntries.map(x => x[1]),
+        backgroundColor: ['#f87171', '#fbbf24', '#34d399', '#60a5fa', '#9ca3af'],
+      }],
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: {
+        legend: { position: 'bottom', labels: { color: '#555d72', font: { size: 11 } } },
+      },
+    },
+  });
 }
 
-// countries
+// ── BY COUNTRY ────────────────────────────────────────────────────────────────
+
 function buildCountries() {
   const data = {};
-  CHAMPS.forEach(c=>{
-    if(!data[c.country]) data[c.country]={count:0,flag:flag(c.country),players:[]};
+  CHAMPS.forEach(c => {
+    if (!data[c.country]) data[c.country] = { count: 0, flag: flag(c.country), players: [] };
     data[c.country].count++;
-    if(!data[c.country].players.includes(c.player)) data[c.country].players.push(c.player);
+    if (!data[c.country].players.includes(c.player)) data[c.country].players.push(c.player);
   });
-  const sorted = Object.entries(data).sort((a,b)=>b[1].count-a[1].count);
-  document.getElementById('countryGrid').innerHTML = sorted.map(([country,info])=>`
+
+  const sorted = Object.entries(data).sort((a, b) => b[1].count - a[1].count);
+  document.getElementById('countryGrid').innerHTML = sorted.map(([country, info]) => `
     <div class="country-card">
       <div class="country-flag">${info.flag}</div>
       <div class="country-info">
         <div class="country-name">${country}</div>
-        <div class="country-wins"><span>${info.count}</span> World Title${info.count!==1?'s':''}</div>
+        <div class="country-wins"><span>${info.count}</span> World Title${info.count !== 1 ? 's' : ''}</div>
       </div>
-    </div>
-  `).join('');
+    </div>`).join('');
 }
 
-// compare
+// ── COMPARE ───────────────────────────────────────────────────────────────────
+
 function buildCompareSelects() {
-  ['cmpA','cmpB'].forEach((id,i)=>{
+  ['cmpA', 'cmpB'].forEach((id, i) => {
     const sel = document.getElementById(id);
-    if(sel.options.length>1) return;
-    CHAMPS.forEach((c,idx)=>{
-      const o=document.createElement('option');
-      o.value=c.id; o.textContent=`${c.year} – ${c.player}`;
-      if(idx===i) o.selected=true;
+    if (sel.options.length > 1) return;
+    CHAMPS.forEach((c, idx) => {
+      const o = document.createElement('option');
+      o.value       = c.id;
+      o.textContent = `${c.year} – ${c.player}`;
+      if (idx === i) o.selected = true;
       sel.appendChild(o);
     });
   });
   renderCompare();
 }
+
 function renderCompare() {
-  const a = CHAMPS.find(x=>x.id===+document.getElementById('cmpA').value);
-  const b = CHAMPS.find(x=>x.id===+document.getElementById('cmpB').value);
-  if(!a||!b) return;
-  const shared = a.team.filter(p=>b.team.some(q=>q.name===p.name));
+  const a = CHAMPS.find(x => x.id === +document.getElementById('cmpA').value);
+  const b = CHAMPS.find(x => x.id === +document.getElementById('cmpB').value);
+  if (!a || !b) return;
+
+  const shared = a.team.filter(p => b.team.some(q => q.name === p.name));
 
   document.getElementById('compareOut').innerHTML = `
     <div class="compare-grid">
-      ${[a,b].map(c=>`
+      ${[a, b].map(c => `
         <div class="compare-card">
-          <div style="font-family:'Cinzel',serif;font-size:14px;font-weight:600;">${flag(c.country)} ${c.player}</div>
-          <div style="font-size:11px;color:var(--text-3);margin-top:3px;margin-bottom:10px;">${c.year} World Champion · ${c.country}</div>
+          <div style="font-family:'Cinzel',serif; font-size:14px; font-weight:600;">${flag(c.country)} ${c.player}</div>
+          <div style="font-size:11px; color:var(--text-3); margin-top:3px; margin-bottom:10px;">${c.year} World Champion · ${c.country}</div>
           <div class="compare-sprites">
-            ${c.team.map(p=>`<img src="${spriteUrl(p)}" title="${p.name}" onerror="this.src=''" />`).join('')}
+            ${c.team.map(p => `<img src="${spriteUrl(p)}" title="${p.name}" onerror="this.src=''" />`).join('')}
           </div>
-          <div style="font-size:11px;color:var(--text-3);margin-bottom:5px;">Types</div>
-          <div style="display:flex;gap:3px;flex-wrap:wrap;margin-bottom:8px;">
-            ${[...new Set(c.team.flatMap(p=>[p.t1,p.t2].filter(Boolean)))].map(t=>`<span class="type-badge" style="background:${TYPE_COLORS[t]||'#888'}">${t}</span>`).join('')}
+          <div style="font-size:11px; color:var(--text-3); margin-bottom:5px;">Types</div>
+          <div style="display:flex; gap:3px; flex-wrap:wrap; margin-bottom:8px;">
+            ${[...new Set(c.team.flatMap(p => [p.t1, p.t2].filter(Boolean)))].map(t => `<span class="type-badge" style="background:${TYPE_COLORS[t] || '#888'}">${t}</span>`).join('')}
           </div>
-          <div style="font-size:11px;color:var(--text-3);margin-bottom:3px;">Generations</div>
-          <div style="font-size:12px;color:var(--text-2);">${[...new Set(c.team.map(p=>p.gen))].sort().map(g=>'Gen '+g).join(', ')}</div>
-        </div>
-      `).join('')}
+          <div style="font-size:11px; color:var(--text-3); margin-bottom:3px;">Generations</div>
+          <div style="font-size:12px; color:var(--text-2);">${[...new Set(c.team.map(p => p.gen))].sort().map(g => 'Gen ' + g).join(', ')}</div>
+        </div>`).join('')}
     </div>
     <div class="shared-row">
       <div class="shared-row-title">Shared Pokémon (${shared.length})</div>
       ${shared.length
-        ? `<div class="shared-pokes">${shared.map(p=>`<span class="shared-poke"><img src="${spriteUrl(p)}" onerror="this.src=''" />${p.name}</span>`).join('')}</div>`
-        : `<span style="color:var(--text-3);font-size:13px;">No Pokémon in common</span>`}
+        ? `<div class="shared-pokes">${shared.map(p => `<span class="shared-poke"><img src="${spriteUrl(p)}" onerror="this.src=''" />${p.name}</span>`).join('')}</div>`
+        : `<span style="color:var(--text-3); font-size:13px;">No Pokémon in common</span>`}
     </div>
   `;
 }
 
-// init
+// ── INIT ──────────────────────────────────────────────────────────────────────
+
 function init() {
+  // Build title counts now that CHAMPS is loaded
+  CHAMPS.forEach(c => {
+    titleCounts[c.player] = (titleCounts[c.player] || 0) + 1;
+  });
+
   buildHero();
 
-  const years = [...new Set(CHAMPS.map(c=>c.year))].sort((a,b)=>b-a);
-  const ysel = document.getElementById('yearFilter');
-  years.forEach(y=>{
-    const o=document.createElement('option');
-    o.value=y;
-    o.textContent=y;
+  // Populate year filter
+  const years = [...new Set(CHAMPS.map(c => c.year))].sort((a, b) => b - a);
+  const ysel  = document.getElementById('yearFilter');
+  years.forEach(y => {
+    const o = document.createElement('option');
+    o.value = y; o.textContent = y;
     ysel.appendChild(o);
   });
 
-  const types = [...new Set(CHAMPS.flatMap(c=>c.team.flatMap(p=>[p.t1,p.t2].filter(Boolean))))].sort();
-  const tsel = document.getElementById('typeFilter');
-  types.forEach(t=>{
-    const o=document.createElement('option');
-    o.value=t;
-    o.textContent=t;
+  // Populate type filter
+  const types = [...new Set(CHAMPS.flatMap(c => c.team.flatMap(p => [p.t1, p.t2].filter(Boolean))))].sort();
+  const tsel  = document.getElementById('typeFilter');
+  types.forEach(t => {
+    const o = document.createElement('option');
+    o.value = t; o.textContent = t;
     tsel.appendChild(o);
   });
 
+  // Populate country filter
   const countries = [...new Set(CHAMPS.map(c => c.country))].sort();
-  const csel = document.getElementById('countryFilter');
-
-    countries.forEach(c => {
-      const o = document.createElement('option');
-      o.value = c;
-      o.textContent = c;
-      csel.appendChild(o);
-});
+  const csel      = document.getElementById('countryFilter');
+  countries.forEach(c => {
+    const o = document.createElement('option');
+    o.value = c; o.textContent = c;
+    csel.appendChild(o);
+  });
 
   renderCards();
 }
