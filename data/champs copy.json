@@ -11,6 +11,7 @@
         "t2": "Dragon",
         "gen": 9,
         "slug": "koraidon",
+        "base_slug": "koraidon",
         "image": "https://img.pokemondb.net/sprites/home/normal/koraidon.png"
       },
       {
@@ -20,6 +21,7 @@
         "t2": "Ghost",
         "gen": 7,
         "slug": "lunala",
+        "base_slug": "lunala",
         "image": "https://img.pokemondb.net/sprites/home/normal/lunala.png"
       },
       {
@@ -29,6 +31,7 @@
         "t2": "Fairy",
         "gen": 9,
         "slug": "flutter-mane",
+        "base_slug": "flutter-mane",
         "image": "https://img.pokemondb.net/sprites/home/normal/flutter-mane.png"
       },
       {
@@ -38,6 +41,7 @@
         "t2": "Fire",
         "gen": 9,
         "slug": "chi-yu",
+        "base_slug": "chi-yu",
         "image": "https://img.pokemondb.net/sprites/home/normal/chi-yu.png"
       },
       {
@@ -47,6 +51,7 @@
         "t2": "Normal",
         "gen": 8,
         "slug": "ursaluna",
+        "base_slug": "ursaluna",
         "image": "https://img.pokemondb.net/sprites/home/normal/ursaluna.png"
       },
       {
@@ -56,6 +61,7 @@
         "t2": "Dark",
         "gen": 9,
         "slug": "brute-bonnet",
+        "base_slug": "brute-bonnet",
         "image": "https://img.pokemondb.net/sprites/home/normal/brute-bonnet.png"
       }
     ]
@@ -72,6 +78,7 @@
         "t2": "Dragon",
         "gen": 9,
         "slug": "miraidon",
+        "base_slug": "miraidon",
         "image": "https://img.pokemondb.net/sprites/home/normal/miraidon.png"
       },
       {
@@ -81,6 +88,7 @@
         "t2": "Fire",
         "gen": 9,
         "slug": "ogerpon-f",
+        "base_slug": "ogerpon",
         "image": "https://img.pokemondb.net/sprites/home/normal/ogerpon-hearthflame.png"
       },
       {
@@ -90,6 +98,7 @@
         "t2": "Water",
         "gen": 8,
         "slug": "urshifu-w",
+        "base_slug": "urshifu",
         "image": "https://img.pokemondb.net/sprites/home/normal/urshifu-rapid-strike.png"
       },
       {
@@ -99,6 +108,7 @@
         "t2": "Electric",
         "gen": 9,
         "slug": "iron-hands",
+        "base_slug": "iron-hands",
         "image": "https://img.pokemondb.net/sprites/home/normal/iron-hands.png"
       },
       {
@@ -108,6 +118,7 @@
         "t2": "Fairy",
         "gen": 5,
         "slug": "whimsicott",
+        "base_slug": "whimsicott",
         "image": "https://img.pokemondb.net/sprites/home/normal/whimsicott.png"
       },
       {
@@ -117,6 +128,7 @@
         "t2": "Psychic",
         "gen": 9,
         "slug": "farigiraf",
+        "base_slug": "farigiraf",
         "image": "https://img.pokemondb.net/sprites/home/normal/farigiraf.png"
       }
     ]
@@ -133,6 +145,7 @@
         "t2": "Flying",
         "gen": 5,
         "slug": "landorus-t",
+        "base_slug": "landorus",
         "image": "https://img.pokemondb.net/sprites/home/normal/landorus-therian.png"
       },
       {
@@ -142,6 +155,7 @@
         "t2": "Water",
         "gen": 8,
         "slug": "urshifu-w",
+        "base_slug": "urshifu",
         "image": "https://img.pokemondb.net/sprites/home/normal/urshifu-rapid-strike.png"
       },
       {
@@ -151,6 +165,7 @@
         "t2": "Fairy",
         "gen": 9,
         "slug": "flutter-mane",
+        "base_slug": "flutter-mane",
         "image": "https://img.pokemondb.net/sprites/home/normal/flutter-mane.png"
       },
       {
@@ -160,6 +175,7 @@
         "t2": "Ice",
         "gen": 9,
         "slug": "chien-pao",
+        "base_slug": "chien-pao",
         "image": "https://img.pokemondb.net/sprites/home/normal/chien-pao.png"
       },
       {
@@ -169,6 +185,7 @@
         "t2": "Poison",
         "gen": 5,
         "slug": "amoonguss",
+        "base_slug": "amoonguss",
         "image": "https://img.pokemondb.net/sprites/home/normal/amoonguss.png"
       },
       {
@@ -178,6 +195,7 @@
         "t2": "Electric",
         "gen": 9,
         "slug": "iron-hands",
+        "base_slug": "iron-hands",
         "image": "https://img.pokemondb.net/sprites/home/normal/iron-hands.png"
       }
     ]
@@ -194,6 +212,7 @@
         "t2": "Ground",
         "gen": 4,
         "slug": "gastrodon",
+        "base_slug": "gastrodon",
         "image": "https://img.pokemondb.net/sprites/home/normal/gastrodon.png"
       },
       {
@@ -203,6 +222,7 @@
         "t2": "Ghost",
         "gen": 8,
         "slug": "calyrex-s",
+        "base_slug": "calyrex",
         "image": "https://img.pokemondb.net/sprites/home/normal/calyrex-shadow-rider.png"
       },
       {
@@ -212,6 +232,7 @@
         "t2": "",
         "gen": 8,
         "slug": "rillaboom",
+        "base_slug": "rillaboom",
         "image": "https://img.pokemondb.net/sprites/home/normal/rillaboom.png"
       },
       {
@@ -221,6 +242,7 @@
         "t2": "Dark",
         "gen": 7,
         "slug": "incineroar",
+        "base_slug": "incineroar",
         "image": "https://img.pokemondb.net/sprites/home/normal/incineroar.png"
       },
       {
@@ -230,6 +252,7 @@
         "t2": "Flying",
         "gen": 5,
         "slug": "thundurus-i",
+        "base_slug": "thundurus",
         "image": "https://img.pokemondb.net/sprites/home/normal/thundurus-incarnate.png"
       },
       {
@@ -239,6 +262,7 @@
         "t2": "Steel",
         "gen": 8,
         "slug": "zacian-cs",
+        "base_slug": "zacian",
         "image": "https://img.pokemondb.net/sprites/home/normal/zacian.png"
       }
     ]
@@ -255,6 +279,7 @@
         "t2": "Ghost",
         "gen": 7,
         "slug": "lunala",
+        "base_slug": "lunala",
         "image": "https://img.pokemondb.net/sprites/home/normal/lunala.png"
       },
       {
@@ -264,6 +289,7 @@
         "t2": "Fire",
         "gen": 6,
         "slug": "groudon-primal",
+        "base_slug": "groudon",
         "image": "https://img.pokemondb.net/sprites/home/normal/groudon-primal.png"
       },
       {
@@ -273,6 +299,7 @@
         "t2": "Dark",
         "gen": 7,
         "slug": "incineroar",
+        "base_slug": "incineroar",
         "image": "https://img.pokemondb.net/sprites/home/normal/incineroar.png"
       },
       {
@@ -282,6 +309,7 @@
         "t2": "Flying",
         "gen": 6,
         "slug": "salamence-mega",
+        "base_slug": "salamence",
         "image": "https://img.pokemondb.net/sprites/home/normal/salamence-mega.png"
       },
       {
@@ -291,6 +319,7 @@
         "t2": "Fairy",
         "gen": 7,
         "slug": "tapu-fini",
+        "base_slug": "tapu-fini",
         "image": "https://img.pokemondb.net/sprites/home/normal/tapu-fini.png"
       },
       {
@@ -300,6 +329,7 @@
         "t2": "Steel",
         "gen": 7,
         "slug": "stakataka",
+        "base_slug": "stakataka",
         "image": "https://img.pokemondb.net/sprites/home/normal/stakataka.png"
       }
     ]
@@ -316,6 +346,7 @@
         "t2": "Fairy",
         "gen": 7,
         "slug": "tapu-koko",
+        "base_slug": "tapu-koko",
         "image": "https://img.pokemondb.net/sprites/home/normal/tapu-koko.png"
       },
       {
@@ -325,6 +356,7 @@
         "t2": "Flying",
         "gen": 6,
         "slug": "salamence-mega",
+        "base_slug": "salamence",
         "image": "https://img.pokemondb.net/sprites/home/normal/salamence-mega.png"
       },
       {
@@ -334,6 +366,7 @@
         "t2": "",
         "gen": 1,
         "slug": "snorlax",
+        "base_slug": "snorlax",
         "image": "https://img.pokemondb.net/sprites/home/normal/snorlax.png"
       },
       {
@@ -343,6 +376,7 @@
         "t2": "Dark",
         "gen": 7,
         "slug": "incineroar",
+        "base_slug": "incineroar",
         "image": "https://img.pokemondb.net/sprites/home/normal/incineroar.png"
       },
       {
@@ -352,6 +386,7 @@
         "t2": "Ground",
         "gen": 4,
         "slug": "gastrodon",
+        "base_slug": "gastrodon",
         "image": "https://img.pokemondb.net/sprites/home/normal/gastrodon.png"
       },
       {
@@ -361,6 +396,7 @@
         "t2": "Steel",
         "gen": 7,
         "slug": "kartana",
+        "base_slug": "kartana",
         "image": "https://img.pokemondb.net/sprites/home/normal/kartana.png"
       }
     ]
@@ -377,6 +413,7 @@
         "t2": "Dark",
         "gen": 5,
         "slug": "krookodile",
+        "base_slug": "krookodile",
         "image": "https://img.pokemondb.net/sprites/home/normal/krookodile.png"
       },
       {
@@ -386,6 +423,7 @@
         "t2": "Fairy",
         "gen": 5,
         "slug": "whimsicott",
+        "base_slug": "whimsicott",
         "image": "https://img.pokemondb.net/sprites/home/normal/whimsicott.png"
       },
       {
@@ -395,6 +433,7 @@
         "t2": "Fairy",
         "gen": 7,
         "slug": "tapu-fini",
+        "base_slug": "tapu-fini",
         "image": "https://img.pokemondb.net/sprites/home/normal/tapu-fini.png"
       },
       {
@@ -404,6 +443,7 @@
         "t2": "Ghost",
         "gen": 1,
         "slug": "marowak-a",
+        "base_slug": "marowak-alolan",
         "image": "https://img.pokemondb.net/sprites/home/normal/marowak-alolan.png"
       },
       {
@@ -413,6 +453,7 @@
         "t2": "Flying",
         "gen": 7,
         "slug": "celesteela",
+        "base_slug": "celesteela",
         "image": "https://img.pokemondb.net/sprites/home/normal/celesteela.png"
       },
       {
@@ -422,6 +463,7 @@
         "t2": "Fairy",
         "gen": 7,
         "slug": "tapu-koko",
+        "base_slug": "tapu-koko",
         "image": "https://img.pokemondb.net/sprites/home/normal/tapu-koko.png"
       }
     ]
@@ -438,6 +480,7 @@
         "t2": "",
         "gen": 6,
         "slug": "kyogre-primal",
+        "base_slug": "kyogre",
         "image": "https://img.pokemondb.net/sprites/home/normal/kyogre-primal.png"
       },
       {
@@ -447,6 +490,7 @@
         "t2": "",
         "gen": 2,
         "slug": "hitmontop",
+        "base_slug": "hitmontop",
         "image": "https://img.pokemondb.net/sprites/home/normal/hitmontop.png"
       },
       {
@@ -456,6 +500,7 @@
         "t2": "Poison",
         "gen": 6,
         "slug": "gengar-mega",
+        "base_slug": "gengar",
         "image": "https://img.pokemondb.net/sprites/home/normal/gengar-mega.png"
       },
       {
@@ -465,6 +510,7 @@
         "t2": "",
         "gen": 1,
         "slug": "raichu",
+        "base_slug": "raichu",
         "image": "https://img.pokemondb.net/sprites/home/normal/raichu.png"
       },
       {
@@ -474,6 +520,7 @@
         "t2": "Psychic",
         "gen": 4,
         "slug": "bronzong",
+        "base_slug": "bronzong",
         "image": "https://img.pokemondb.net/sprites/home/normal/bronzong.png"
       },
       {
@@ -483,6 +530,7 @@
         "t2": "Flying",
         "gen": 6,
         "slug": "rayquaza-mega",
+        "base_slug": "rayquaza",
         "image": "https://img.pokemondb.net/sprites/home/normal/rayquaza-mega.png"
       }
     ]
@@ -499,6 +547,7 @@
         "t2": "",
         "gen": 1,
         "slug": "kangaskhan-mega",
+        "base_slug": "kangaskhan",
         "image": "https://img.pokemondb.net/sprites/home/normal/kangaskhan-mega.png"
       },
       {
@@ -508,6 +557,7 @@
         "t2": "Steel",
         "gen": 4,
         "slug": "heatran",
+        "base_slug": "heatran",
         "image": "https://img.pokemondb.net/sprites/home/normal/heatran.png"
       },
       {
@@ -517,6 +567,7 @@
         "t2": "Flying",
         "gen": 5,
         "slug": "thundurus-i",
+        "base_slug": "thundurus",
         "image": "https://img.pokemondb.net/sprites/home/normal/thundurus-incarnate.png"
       },
       {
@@ -526,6 +577,7 @@
         "t2": "Flying",
         "gen": 5,
         "slug": "landorus-t",
+        "base_slug": "landorus",
         "image": "https://img.pokemondb.net/sprites/home/normal/landorus-therian.png"
       },
       {
@@ -535,6 +587,7 @@
         "t2": "",
         "gen": 4,
         "slug": "cresselia",
+        "base_slug": "cresselia",
         "image": "https://img.pokemondb.net/sprites/home/normal/cresselia.png"
       },
       {
@@ -544,6 +597,7 @@
         "t2": "Poison",
         "gen": 5,
         "slug": "amoonguss",
+        "base_slug": "amoonguss",
         "image": "https://img.pokemondb.net/sprites/home/normal/amoonguss.png"
       }
     ]
@@ -560,6 +614,7 @@
         "t2": "",
         "gen": 4,
         "slug": "pachirisu",
+        "base_slug": "pachirisu",
         "image": "https://img.pokemondb.net/sprites/home/normal/pachirisu.png"
       },
       {
@@ -569,6 +624,7 @@
         "t2": "",
         "gen": 5,
         "slug": "gothitelle",
+        "base_slug": "gothitelle",
         "image": "https://img.pokemondb.net/sprites/home/normal/gothitelle.png"
       },
       {
@@ -578,6 +634,7 @@
         "t2": "Fairy",
         "gen": 3,
         "slug": "gardevoir",
+        "base_slug": "gardevoir",
         "image": "https://img.pokemondb.net/sprites/home/normal/gardevoir.png"
       },
       {
@@ -587,6 +644,7 @@
         "t2": "Dark",
         "gen": 6,
         "slug": "gyarados-mega",
+        "base_slug": "gyarados",
         "image": "https://img.pokemondb.net/sprites/home/normal/gyarados-mega.png"
       },
       {
@@ -596,6 +654,7 @@
         "t2": "Flying",
         "gen": 6,
         "slug": "talonflame",
+        "base_slug": "talonflame",
         "image": "https://img.pokemondb.net/sprites/home/normal/talonflame.png"
       },
       {
@@ -605,6 +664,7 @@
         "t2": "Ground",
         "gen": 4,
         "slug": "garchomp",
+        "base_slug": "garchomp",
         "image": "https://img.pokemondb.net/sprites/home/normal/garchomp.png"
       }
     ]
@@ -621,6 +681,7 @@
         "t2": "Ground",
         "gen": 4,
         "slug": "mamoswine",
+        "base_slug": "mamoswine",
         "image": "https://img.pokemondb.net/sprites/home/normal/mamoswine.png"
       },
       {
@@ -630,6 +691,7 @@
         "t2": "",
         "gen": 5,
         "slug": "tornadus-i",
+        "base_slug": "tornadus",
         "image": "https://img.pokemondb.net/sprites/home/normal/tornadus-incarnate.png"
       },
       {
@@ -639,6 +701,7 @@
         "t2": "Psychic",
         "gen": 3,
         "slug": "latios",
+        "base_slug": "latios",
         "image": "https://img.pokemondb.net/sprites/home/normal/latios.png"
       },
       {
@@ -648,6 +711,7 @@
         "t2": "Poison",
         "gen": 5,
         "slug": "amoonguss",
+        "base_slug": "amoonguss",
         "image": "https://img.pokemondb.net/sprites/home/normal/amoonguss.png"
       },
       {
@@ -657,6 +721,7 @@
         "t2": "Steel",
         "gen": 4,
         "slug": "heatran",
+        "base_slug": "heatran",
         "image": "https://img.pokemondb.net/sprites/home/normal/heatran.png"
       },
       {
@@ -666,6 +731,7 @@
         "t2": "",
         "gen": 5,
         "slug": "conkeldurr",
+        "base_slug": "conkeldurr",
         "image": "https://img.pokemondb.net/sprites/home/normal/conkeldurr.png"
       }
     ]
@@ -682,6 +748,7 @@
         "t2": "Dark",
         "gen": 2,
         "slug": "tyranitar",
+        "base_slug": "tyranitar",
         "image": "https://img.pokemondb.net/sprites/home/normal/tyranitar.png"
       },
       {
@@ -691,6 +758,7 @@
         "t2": "Ground",
         "gen": 4,
         "slug": "garchomp",
+        "base_slug": "garchomp",
         "image": "https://img.pokemondb.net/sprites/home/normal/garchomp.png"
       },
       {
@@ -700,6 +768,7 @@
         "t2": "",
         "gen": 4,
         "slug": "cresselia",
+        "base_slug": "cresselia",
         "image": "https://img.pokemondb.net/sprites/home/normal/cresselia.png"
       },
       {
@@ -709,6 +778,7 @@
         "t2": "Dragon",
         "gen": 5,
         "slug": "hydreigon",
+        "base_slug": "hydreigon",
         "image": "https://img.pokemondb.net/sprites/home/normal/hydreigon.png"
       },
       {
@@ -718,6 +788,7 @@
         "t2": "Water",
         "gen": 4,
         "slug": "rotom-w",
+        "base_slug": "rotom",
         "image": "https://img.pokemondb.net/sprites/home/normal/rotom-wash.png"
       },
       {
@@ -727,6 +798,7 @@
         "t2": "Psychic",
         "gen": 3,
         "slug": "metagross",
+        "base_slug": "metagross",
         "image": "https://img.pokemondb.net/sprites/home/normal/metagross.png"
       }
     ]
@@ -743,6 +815,7 @@
         "t2": "Steel",
         "gen": 5,
         "slug": "escavalier",
+        "base_slug": "escavalier",
         "image": "https://img.pokemondb.net/sprites/home/normal/escavalier.png"
       },
       {
@@ -752,6 +825,7 @@
         "t2": "",
         "gen": 5,
         "slug": "conkeldurr",
+        "base_slug": "conkeldurr",
         "image": "https://img.pokemondb.net/sprites/home/normal/conkeldurr.png"
       },
       {
@@ -761,6 +835,7 @@
         "t2": "Fighting",
         "gen": 5,
         "slug": "terrakion",
+        "base_slug": "terrakion",
         "image": "https://img.pokemondb.net/sprites/home/normal/terrakion.png"
       },
       {
@@ -770,6 +845,7 @@
         "t2": "",
         "gen": 5,
         "slug": "gothitelle",
+        "base_slug": "gothitelle",
         "image": "https://img.pokemondb.net/sprites/home/normal/gothitelle.png"
       },
       {
@@ -779,6 +855,7 @@
         "t2": "Flying",
         "gen": 5,
         "slug": "thundurus-i",
+        "base_slug": "thundurus",
         "image": "https://img.pokemondb.net/sprites/home/normal/thundurus-incarnate.png"
       },
       {
@@ -788,6 +865,7 @@
         "t2": "Dragon",
         "gen": 5,
         "slug": "hydreigon",
+        "base_slug": "hydreigon",
         "image": "https://img.pokemondb.net/sprites/home/normal/hydreigon.png"
       }
     ]
@@ -804,6 +882,7 @@
         "t2": "",
         "gen": 3,
         "slug": "hariyama",
+        "base_slug": "hariyama",
         "image": "https://img.pokemondb.net/sprites/home/normal/hariyama.png"
       },
       {
@@ -813,6 +892,7 @@
         "t2": "",
         "gen": 4,
         "slug": "cresselia",
+        "base_slug": "cresselia",
         "image": "https://img.pokemondb.net/sprites/home/normal/cresselia.png"
       },
       {
@@ -822,6 +902,7 @@
         "t2": "Dragon",
         "gen": 4,
         "slug": "dialga",
+        "base_slug": "dialga",
         "image": "https://img.pokemondb.net/sprites/home/normal/dialga.png"
       },
       {
@@ -831,6 +912,7 @@
         "t2": "",
         "gen": 3,
         "slug": "kyogre",
+        "base_slug": "kyogre",
         "image": "https://img.pokemondb.net/sprites/home/normal/kyogre.png"
       },
       {
@@ -840,6 +922,7 @@
         "t2": "",
         "gen": 3,
         "slug": "groudon",
+        "base_slug": "groudon",
         "image": "https://img.pokemondb.net/sprites/home/normal/groudon.png"
       },
       {
@@ -849,6 +932,7 @@
         "t2": "Grass",
         "gen": 3,
         "slug": "ludicolo",
+        "base_slug": "ludicolo",
         "image": "https://img.pokemondb.net/sprites/home/normal/ludicolo.png"
       }
     ]
@@ -865,6 +949,7 @@
         "t2": "Grass",
         "gen": 3,
         "slug": "ludicolo",
+        "base_slug": "ludicolo",
         "image": "https://img.pokemondb.net/sprites/home/normal/ludicolo.png"
       },
       {
@@ -874,6 +959,7 @@
         "t2": "Fighting",
         "gen": 4,
         "slug": "toxicroak",
+        "base_slug": "toxicroak",
         "image": "https://img.pokemondb.net/sprites/home/normal/toxicroak.png"
       },
       {
@@ -883,6 +969,7 @@
         "t2": "Psychic",
         "gen": 3,
         "slug": "metagross",
+        "base_slug": "metagross",
         "image": "https://img.pokemondb.net/sprites/home/normal/metagross.png"
       },
       {
@@ -892,6 +979,7 @@
         "t2": "",
         "gen": 1,
         "slug": "snorlax",
+        "base_slug": "snorlax",
         "image": "https://img.pokemondb.net/sprites/home/normal/snorlax.png"
       },
       {
@@ -901,6 +989,7 @@
         "t2": "Flying",
         "gen": 3,
         "slug": "salamence",
+        "base_slug": "salamence",
         "image": "https://img.pokemondb.net/sprites/home/normal/salamence.png"
       },
       {
@@ -910,6 +999,7 @@
         "t2": "Steel",
         "gen": 4,
         "slug": "empoleon",
+        "base_slug": "empoleon",
         "image": "https://img.pokemondb.net/sprites/home/normal/empoleon.png"
       }
     ]
@@ -926,6 +1016,7 @@
         "t2": "",
         "gen": 2,
         "slug": "smeargle",
+        "base_slug": "smeargle",
         "image": "https://img.pokemondb.net/sprites/home/normal/smeargle.png"
       },
       {
@@ -935,6 +1026,7 @@
         "t2": "Psychic",
         "gen": 4,
         "slug": "bronzong",
+        "base_slug": "bronzong",
         "image": "https://img.pokemondb.net/sprites/home/normal/bronzong.png"
       },
       {
@@ -944,6 +1036,7 @@
         "t2": "",
         "gen": 1,
         "slug": "snorlax",
+        "base_slug": "snorlax",
         "image": "https://img.pokemondb.net/sprites/home/normal/snorlax.png"
       },
       {
@@ -953,6 +1046,7 @@
         "t2": "Psychic",
         "gen": 3,
         "slug": "metagross",
+        "base_slug": "metagross",
         "image": "https://img.pokemondb.net/sprites/home/normal/metagross.png"
       }
     ]

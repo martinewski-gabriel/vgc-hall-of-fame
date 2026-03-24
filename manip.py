@@ -23,6 +23,7 @@ for (year, player), group in grouped:
             "t2": row["Type2"] if pd.notna(row["Type2"]) else "",
             "gen": int(row["Generation"]),
             "slug": row["pokemon"].lower().replace(" ", "-"),
+            "base_slug": row["Original_Name"].lower().replace(" ", "-"),
             "image": row["image_url"] # simple slug
         })
 

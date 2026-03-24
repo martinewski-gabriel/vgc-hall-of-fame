@@ -46,7 +46,7 @@ body {
 .hero {
   position: relative;
   padding: 48px 28px 36px;
-  overflow: hidden;
+  overflow: visible;
   border-bottom: 0.5px solid var(--border-soft);
 }
 .hero::before {
@@ -169,7 +169,7 @@ nav {
   background: var(--bg-2);
   border: 0.5px solid var(--border);
   border-radius: var(--radius);
-  overflow: hidden;
+  overflow: visible;
   cursor: pointer;
   transition: border-color 0.18s, transform 0.15s, box-shadow 0.18s;
   position: relative;
@@ -294,7 +294,7 @@ nav {
   border-radius: var(--radius);
   width: 100%;
   max-width: 580px;
-  overflow: hidden;
+  overflow: visible;
   margin: auto;
   box-shadow: 0 24px 80px #000d;
   animation: modalIn 0.2s ease;
@@ -351,7 +351,7 @@ nav {
   text-align: center;
   transition: border-color 0.15s;
   position: relative;
-  overflow: hidden;
+  overflow: visible;
 }
 .poke-tile::before {
   content: '';
@@ -409,6 +409,42 @@ nav {
   margin-bottom: 16px;
 }
 
+.tooltip {
+  position: relative;
+  cursor: help;
+  font-size: 12px;
+  color: var(--text-2);
+}
+
+.tooltip-text {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s;
+
+  position: absolute;
+  bottom: 130%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  background: var(--bg-2);
+  color: var(--text-1);
+  border: 1px solid var(--border);
+  padding: 8px 10px;
+  border-radius: 6px;
+
+  width: 220px;
+  font-size: 11px;
+  line-height: 1.4;
+
+  pointer-events: none;
+  z-index: 999;
+}
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
 /* ── STATS SECTION ── */
 .chart-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
 @media (max-width: 540px) { .chart-grid { grid-template-columns: 1fr; } }
@@ -429,7 +465,7 @@ nav {
 }
 .chart-wrap { position: relative; width: 100%; }
 
-/* ── DOMINANT POKEMON ── */
+/* ── CHAMPION POKEMON ── */
 /* whole board spacing */
 #domGrid {
   display: flex;
@@ -577,7 +613,7 @@ nav {
   <!-- NAV -->
   <nav>
     <button class="nav-btn active" onclick="showSection('hof',this)">Hall of Fame</button>
-    <button class="nav-btn" onclick="showSection('dominant',this)">Dominant Pokémon</button>
+    <button class="nav-btn" onclick="showSection('poke',this)">Pokémon</button>
     <button class="nav-btn" onclick="showSection('stats',this)">Stats & Charts</button>
     <button class="nav-btn" onclick="showSection('countries',this)">By Country</button>
     <button class="nav-btn" onclick="showSection('compare',this)">Compare</button>
@@ -594,10 +630,29 @@ nav {
     <div class="champ-grid" id="champGrid"></div>
   </div>
 
-  <!-- DOMINANT POKEMON -->
-  <div id="dominant" class="section">
-    <div class="section-title">Most Used Pokémon <span>· All Time</span></div>
-    <div class="dom-grid" id="domGrid"></div>
+  <!-- CHAMPION POKEMON -->
+<div id="poke" class="section">
+
+  <div class="section-title">
+    Most Victorious Pokémon <span>· All Time</span>
+  </div>
+
+  <div style="margin:10px 0;">
+    <label style="display:flex;align-items:center;gap:6px;">
+      <input type="checkbox" id="megaToggle" onchange="buildpoke()" />
+      Correct for Forms
+
+      <span class="tooltip">
+        ⓘ
+        <span class="tooltip-text">
+          Groups alternate forms (Megas, Primals, etc.) under their base Pokémon.
+          Example: Mega Gengar → Gengar and Primal Kyogre → Kyogre
+        </span>
+      </span>
+    </label>
+  </div>
+
+  <div class="dom-grid" id="domGrid"></div>
     <div class="chart-card mt">
       <div class="chart-card-title">Usage count — top Pokémon across all World Championships</div>
       <div class="chart-wrap" style="height:320px;"><canvas id="domChart"></canvas></div>
@@ -706,7 +761,7 @@ function showSection(id, btn) {
   if (id === 'stats') buildCharts();
   if (id === 'compare') buildCompareSelects();
   if (id === 'countries') buildCountries();
-  if (id === 'dominant') buildDominant();
+  if (id === 'poke') buildpoke();
 }
 
 // filters
@@ -800,7 +855,7 @@ function openModal(index) {
     </div>
   `;
   document.getElementById('modalOverlay').classList.add('open');
-  document.body.style.overflow = 'hidden';
+  document.body.style.overflow = 'visible';
 }
 function closeModalBg(e) { if (e.target===document.getElementById('modalOverlay')) closeModal(); }
 function closeModal() {
@@ -808,17 +863,19 @@ function closeModal() {
   document.body.style.overflow = '';
 }
 
-// dominant pokemon
+// Champion pokemon
 let domChartInst;
-function buildDominant() {
+function buildpoke() {
   const tierColors = {
   3: '#e57373',   // red
   2: '#f0b36f',   // orange
   1: '#e6d37a'    // yellow
 };
 
-  const counts = {};
-  CHAMPS.forEach(c => {c.team.forEach(p => {if (!counts[p.name]) {counts[p.name] = {count: 0,image: p.image,t1: p.t1};}counts[p.name].count++;});});
+const counts = {};
+const useBase = document.getElementById('megaToggle')?.checked;
+
+CHAMPS.forEach(c => {c.team.forEach(p => {const key = useBase ? p.base : p.name;if (!counts[key]) {counts[key] = {count: 0,image: useBase? `https://img.pokemondb.net/sprites/home/normal/${p.base_slug}.png` : p.image,t1: p.t1};}counts[key].count++;});});
   const tiers = {};
   Object.entries(counts).forEach(([name, info]) => {const count = info.count;if (!tiers[count]) tiers[count] = [];tiers[count].push({name,image: info.image,t1: info.t1});});
 const sortedTiers = Object.entries(tiers).sort((a, b) => b[0] - a[0]);
