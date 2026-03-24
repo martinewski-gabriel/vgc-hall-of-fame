@@ -60,23 +60,23 @@
   <!-- POKÉMON TIER BOARD -->
   <div id="poke" class="section">
     <div class="section-title">Most Victorious Pokémon <span>· All Time</span></div>
-    <div style="margin: 10px 0;">
-      <label style="display:flex; align-items:center; gap:6px;">
-        <input type="checkbox" id="megaToggle" onchange="buildpoke()" />
-        Correct for Forms
-        <span class="tooltip">
-          ⓘ
-          <span class="tooltip-text">
-            Groups alternate forms (Megas, Primals, etc.) under their base Pokémon.
-            Example: Mega Gengar → Gengar and Primal Kyogre → Kyogre
+
+    <div class="chart-card">
+      <div class="chart-card-title">Appearances by title count</div>
+      <div style="margin-bottom: 14px;">
+        <label style="display:flex; align-items:center; gap:6px; font-size:13px; color:var(--text-2);">
+          <input type="checkbox" id="megaToggle" onchange="buildpoke()" />
+          Correct for Forms
+          <span class="tooltip">
+            ⓘ
+            <span class="tooltip-text">
+              Groups alternate forms (Megas, Primals, etc.) under their base Pokémon.
+              Example: Mega Gengar → Gengar and Primal Kyogre → Kyogre
+            </span>
           </span>
-        </span>
-      </label>
-    </div>
-    <div id="domGrid"></div>
-    <div class="chart-card mt">
-      <div class="chart-card-title">Usage count — top Pokémon across all World Championships</div>
-      <div class="chart-wrap" style="height: 320px;"><canvas id="domChart"></canvas></div>
+        </label>
+      </div>
+      <div id="domGrid"></div>
     </div>
   </div>
 
@@ -318,7 +318,6 @@ function buildpoke() {
 
   const useBase = document.getElementById('megaToggle')?.checked;
 
-  // Count appearances, grouping by base form if toggle is on
   const counts = {};
   CHAMPS.forEach(c => {
     c.team.forEach(p => {
@@ -330,26 +329,24 @@ function buildpoke() {
             ? `https://img.pokemondb.net/sprites/home/normal/${p.base_slug}.png`
             : p.image,
           t1: p.t1,
+          t2: p.t2,
+          // carry a reference to one of the raw pokemon objects for stats
+          ref: p,
         };
       }
       counts[key].count++;
     });
   });
 
-  // Group into tiers by appearance count
   const tiers = {};
   Object.entries(counts).forEach(([name, info]) => {
     const count = info.count;
     if (!tiers[count]) tiers[count] = [];
-    tiers[count].push({ name, image: info.image, t1: info.t1 });
+    tiers[count].push({ name, ...info });
   });
 
   const sortedTiers = Object.entries(tiers).sort((a, b) => b[0] - a[0]);
 
-  // Flat sorted list used by the bar chart
-  const sorted = Object.entries(counts).sort((a, b) => b[1].count - a[1].count);
-
-  // Render tier board
   document.getElementById('domGrid').innerHTML = sortedTiers.map(([count, pokes]) => `
     <div class="tier-row-board">
       <div class="tier-label" style="background:${tierColors[count] || '#ccc'}">
@@ -357,13 +354,124 @@ function buildpoke() {
       </div>
       <div class="tier-content">
         ${pokes.map(p => `
-          <div class="tier-mon">
-            <img src="${p.image}" alt="${p.name}" title="${p.name}" />
+          <div class="tier-mon" onclick="openPokeModal('${p.name}')" title="${p.name}">
+            <img src="${p.image}" alt="${p.name}" />
           </div>`).join('')}
       </div>
     </div>`).join('');
+}
 
+function openPokeModal(name) {
+  const useBase = document.getElementById('megaToggle')?.checked;
 
+  const appearances = [];
+  CHAMPS.forEach(c => {
+    const match = c.team.find(p => (useBase ? p.base : p.name) === name);
+    if (match) appearances.push({ year: c.year, player: c.player, country: c.country, p: match });
+  });
+
+  if (!appearances.length) return;
+
+  // Collect distinct forms (deduplicated by p.name)
+  const forms = [];
+  const seen  = new Set();
+  appearances.forEach(a => {
+    if (!seen.has(a.p.name)) {
+      seen.add(a.p.name);
+      forms.push(a.p);
+    }
+  });
+
+  const ref = forms[0];
+
+  const statColors = {
+    hp:  '#f87171', atk: '#fb923c', def: '#facc15',
+    spa: '#818cf8', spd: '#34d399', spe: '#38bdf8',
+  };
+  const statLabels = { hp: 'HP', atk: 'Atk', def: 'Def', spa: 'SpA', spd: 'SpD', spe: 'Spe' };
+  const hasStats = ref.stats && Object.keys(ref.stats).length > 0;
+
+  document.getElementById('mTitle').textContent = name;
+  document.getElementById('mSub').textContent   = `${appearances.length} World Championship title${appearances.length !== 1 ? 's' : ''}`;
+
+  document.getElementById('mBody').innerHTML = `
+    <div style="display:flex; gap:20px; align-items:flex-start; margin-bottom:20px; flex-wrap:wrap;">
+      <div style="text-align:center;">
+        <img class="poke-modal-sprite" id="pokeModalSprite" src="${ref.image}" alt="${name}" />
+        <div class="type-badges" style="justify-content:center; margin-top:10px;">
+          <span class="type-badge" style="background:${TYPE_COLORS[ref.t1] || '#888'}">${ref.t1}</span>
+          ${ref.t2 ? `<span class="type-badge" style="background:${TYPE_COLORS[ref.t2] || '#888'}">${ref.t2}</span>` : ''}
+        </div>
+          ${forms.length > 1 ? `
+          <div style="display:flex; gap:6px; justify-content:center; margin-top:12px;">
+            ${forms.map((f, i) => `
+              <button onclick="selectPokeForm('${f.name}')"
+                class="form-btn"
+                style="
+                  padding:4px 8px;
+                  border-radius:6px;
+                  cursor:pointer;
+                  border:1px solid ${i === 0 ? 'var(--gold)' : 'var(--border-soft)'};
+                  background:${i === 0 ? 'var(--gold-dim)' : 'var(--bg-4)'};
+                ">
+                ${f.name.includes('Mega') ? 'Mega' : 'Base'}
+              </button>
+            `).join('')}
+          </div>
+          ` : ''}
+      </div>
+      ${hasStats ? `
+      <div style="flex:1; min-width:180px;">
+        <div class="modal-section-title" style="margin-bottom:10px;">Base Stats</div>
+        ${Object.entries(ref.stats).map(([stat, val]) => `
+          <div class="poke-stat-row">
+            <span class="poke-stat-label">${statLabels[stat] || stat}</span>
+            <div class="poke-stat-bar-bg">
+              <div class="poke-stat-bar-fill" style="width:${Math.min(100, Math.round(val / 255 * 100))}%; background:${statColors[stat] || '#888'}"></div>
+            </div>
+            <span class="poke-stat-val">${val}</span>
+          </div>`).join('')}
+      </div>` : ''}
+    </div>
+
+    <div class="modal-section-title">Used by</div>
+    <div class="poke-used-by">
+      ${appearances.map(a => `
+        <div class="poke-used-row">
+          <span class="poke-used-year">${a.year}</span>
+          <span>
+            ${flag(a.country)} ${a.player}
+            <span style="opacity:0.7; font-size:11px;">
+              (${a.p.name.includes('Mega') ? 'Mega' : 'Base'})
+            </span>
+          </span>
+        </div>`).join('')}
+    </div>
+  `;
+
+  document.getElementById('modalOverlay').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function selectPokeForm(formName) {
+  const sprite = document.getElementById('pokeModalSprite');
+  const buttons = document.querySelectorAll('.form-btn');
+
+  buttons.forEach(btn => {
+    const isActive = btn.textContent.toLowerCase() === formName.toLowerCase() ||
+      (formName.includes('Mega') && btn.textContent === 'Mega') ||
+      (!formName.includes('Mega') && btn.textContent === 'Base');
+
+    btn.style.borderColor = isActive ? 'var(--gold)' : 'var(--border-soft)';
+    btn.style.background  = isActive ? 'var(--gold-dim)' : 'var(--bg-4)';
+  });
+
+  // find correct form image
+  const match = CHAMPS
+    .flatMap(c => c.team)
+    .find(p => p.name === formName);
+
+  if (match) sprite.src = match.image;
 }
 
 // ── STATS & CHARTS ────────────────────────────────────────────────────────────

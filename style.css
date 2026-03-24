@@ -485,6 +485,87 @@ nav {
   image-rendering: pixelated;
 }
 
+/* ── POKÉMON TIER BOARD (sizing) ── */
+.tier-row-board {
+  grid-template-columns: 160px 1fr;
+}
+.tier-mon {
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background 0.15s, transform 0.15s;
+}
+.tier-mon:hover {
+  background: var(--bg-4);
+  transform: translateY(-2px);
+}
+.tier-label {
+  font-size: 15px;
+}
+
+/* ── POKÉMON DETAIL MODAL ── */
+.poke-modal-sprite {
+  width: 120px;
+  height: 120px;
+  image-rendering: pixelated;
+  filter: drop-shadow(0 6px 12px #0009);
+}
+.poke-stat-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 7px;
+  font-size: 12px;
+}
+.poke-stat-label {
+  width: 32px;
+  color: var(--text-3);
+  flex-shrink: 0;
+  font-size: 11px;
+}
+.poke-stat-bar-bg {
+  flex: 1;
+  height: 6px;
+  background: var(--bg-4);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.poke-stat-bar-fill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.5s ease;
+}
+.poke-stat-val {
+  width: 28px;
+  text-align: right;
+  color: var(--text-2);
+  font-size: 11px;
+  flex-shrink: 0;
+}
+.poke-used-by {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.poke-used-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  color: var(--text-2);
+}
+.poke-used-year {
+  font-family: 'Cinzel', serif;
+  font-size: 11px;
+  color: var(--gold);
+  background: var(--gold-dim);
+  border: 0.5px solid var(--gold);
+  border-radius: 8px;
+  padding: 1px 7px;
+  flex-shrink: 0;
+}
+
 /* ── COUNTRY SECTION ── */
 .country-grid {
   display: grid;
