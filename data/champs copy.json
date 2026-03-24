@@ -1,0 +1,960 @@
+[
+  {
+    "year": 2025,
+    "player": "Giovanni Cischke",
+    "country": "USA",
+    "team": [
+      {
+        "name": "Koraidon",
+        "base": "Koraidon",
+        "t1": "Fighting",
+        "t2": "Dragon",
+        "gen": 9,
+        "slug": "koraidon",
+        "image": "https://img.pokemondb.net/sprites/home/normal/koraidon.png"
+      },
+      {
+        "name": "Lunala",
+        "base": "Lunala",
+        "t1": "Psychic",
+        "t2": "Ghost",
+        "gen": 7,
+        "slug": "lunala",
+        "image": "https://img.pokemondb.net/sprites/home/normal/lunala.png"
+      },
+      {
+        "name": "Flutter Mane",
+        "base": "Flutter Mane",
+        "t1": "Ghost",
+        "t2": "Fairy",
+        "gen": 9,
+        "slug": "flutter-mane",
+        "image": "https://img.pokemondb.net/sprites/home/normal/flutter-mane.png"
+      },
+      {
+        "name": "Chi-Yu",
+        "base": "Chi-Yu",
+        "t1": "Dark",
+        "t2": "Fire",
+        "gen": 9,
+        "slug": "chi-yu",
+        "image": "https://img.pokemondb.net/sprites/home/normal/chi-yu.png"
+      },
+      {
+        "name": "Ursaluna",
+        "base": "Ursaluna",
+        "t1": "Ground",
+        "t2": "Normal",
+        "gen": 8,
+        "slug": "ursaluna",
+        "image": "https://img.pokemondb.net/sprites/home/normal/ursaluna.png"
+      },
+      {
+        "name": "Brute Bonnet",
+        "base": "Brute Bonnet",
+        "t1": "Grass",
+        "t2": "Dark",
+        "gen": 9,
+        "slug": "brute-bonnet",
+        "image": "https://img.pokemondb.net/sprites/home/normal/brute-bonnet.png"
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "player": "Luca Ceribelli",
+    "country": "Italy",
+    "team": [
+      {
+        "name": "Miraidon",
+        "base": "Miraidon",
+        "t1": "Electric",
+        "t2": "Dragon",
+        "gen": 9,
+        "slug": "miraidon",
+        "image": "https://img.pokemondb.net/sprites/home/normal/miraidon.png"
+      },
+      {
+        "name": "Ogerpon-F",
+        "base": "Ogerpon",
+        "t1": "Grass",
+        "t2": "Fire",
+        "gen": 9,
+        "slug": "ogerpon-f",
+        "image": "https://img.pokemondb.net/sprites/home/normal/ogerpon-hearthflame.png"
+      },
+      {
+        "name": "Urshifu-W",
+        "base": "Urshifu",
+        "t1": "Fighting",
+        "t2": "Water",
+        "gen": 8,
+        "slug": "urshifu-w",
+        "image": "https://img.pokemondb.net/sprites/home/normal/urshifu-rapid-strike.png"
+      },
+      {
+        "name": "Iron Hands",
+        "base": "Iron Hands",
+        "t1": "Fighting",
+        "t2": "Electric",
+        "gen": 9,
+        "slug": "iron-hands",
+        "image": "https://img.pokemondb.net/sprites/home/normal/iron-hands.png"
+      },
+      {
+        "name": "Whimsicott",
+        "base": "Whimsicott",
+        "t1": "Grass",
+        "t2": "Fairy",
+        "gen": 5,
+        "slug": "whimsicott",
+        "image": "https://img.pokemondb.net/sprites/home/normal/whimsicott.png"
+      },
+      {
+        "name": "Farigiraf",
+        "base": "Farigiraf",
+        "t1": "Normal",
+        "t2": "Psychic",
+        "gen": 9,
+        "slug": "farigiraf",
+        "image": "https://img.pokemondb.net/sprites/home/normal/farigiraf.png"
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "player": "Shohei Kimura",
+    "country": "Japan",
+    "team": [
+      {
+        "name": "Landorus-T",
+        "base": "Landorus",
+        "t1": "Ground",
+        "t2": "Flying",
+        "gen": 5,
+        "slug": "landorus-t",
+        "image": "https://img.pokemondb.net/sprites/home/normal/landorus-therian.png"
+      },
+      {
+        "name": "Urshifu-W",
+        "base": "Urshifu",
+        "t1": "Fighting",
+        "t2": "Water",
+        "gen": 8,
+        "slug": "urshifu-w",
+        "image": "https://img.pokemondb.net/sprites/home/normal/urshifu-rapid-strike.png"
+      },
+      {
+        "name": "Flutter Mane",
+        "base": "Flutter Mane",
+        "t1": "Ghost",
+        "t2": "Fairy",
+        "gen": 9,
+        "slug": "flutter-mane",
+        "image": "https://img.pokemondb.net/sprites/home/normal/flutter-mane.png"
+      },
+      {
+        "name": "Chien-Pao",
+        "base": "Chien-Pao",
+        "t1": "Dark",
+        "t2": "Ice",
+        "gen": 9,
+        "slug": "chien-pao",
+        "image": "https://img.pokemondb.net/sprites/home/normal/chien-pao.png"
+      },
+      {
+        "name": "Amoonguss",
+        "base": "Amoonguss",
+        "t1": "Grass",
+        "t2": "Poison",
+        "gen": 5,
+        "slug": "amoonguss",
+        "image": "https://img.pokemondb.net/sprites/home/normal/amoonguss.png"
+      },
+      {
+        "name": "Iron Hands",
+        "base": "Iron Hands",
+        "t1": "Fighting",
+        "t2": "Electric",
+        "gen": 9,
+        "slug": "iron-hands",
+        "image": "https://img.pokemondb.net/sprites/home/normal/iron-hands.png"
+      }
+    ]
+  },
+  {
+    "year": 2022,
+    "player": "Eduardo Cunha",
+    "country": "Portugal",
+    "team": [
+      {
+        "name": "Gastrodon",
+        "base": "Gastrodon",
+        "t1": "Water",
+        "t2": "Ground",
+        "gen": 4,
+        "slug": "gastrodon",
+        "image": "https://img.pokemondb.net/sprites/home/normal/gastrodon.png"
+      },
+      {
+        "name": "Calyrex-S",
+        "base": "Calyrex",
+        "t1": "Psychic",
+        "t2": "Ghost",
+        "gen": 8,
+        "slug": "calyrex-s",
+        "image": "https://img.pokemondb.net/sprites/home/normal/calyrex-shadow-rider.png"
+      },
+      {
+        "name": "Rillaboom",
+        "base": "Rillaboom",
+        "t1": "Grass",
+        "t2": "",
+        "gen": 8,
+        "slug": "rillaboom",
+        "image": "https://img.pokemondb.net/sprites/home/normal/rillaboom.png"
+      },
+      {
+        "name": "Incineroar",
+        "base": "Incineroar",
+        "t1": "Fire",
+        "t2": "Dark",
+        "gen": 7,
+        "slug": "incineroar",
+        "image": "https://img.pokemondb.net/sprites/home/normal/incineroar.png"
+      },
+      {
+        "name": "Thundurus-I",
+        "base": "Thundurus",
+        "t1": "Electric",
+        "t2": "Flying",
+        "gen": 5,
+        "slug": "thundurus-i",
+        "image": "https://img.pokemondb.net/sprites/home/normal/thundurus-incarnate.png"
+      },
+      {
+        "name": "Zacian-CS",
+        "base": "Zacian",
+        "t1": "Fairy",
+        "t2": "Steel",
+        "gen": 8,
+        "slug": "zacian-cs",
+        "image": "https://img.pokemondb.net/sprites/home/normal/zacian.png"
+      }
+    ]
+  },
+  {
+    "year": 2019,
+    "player": "Naoto Mizobuchi",
+    "country": "Japan",
+    "team": [
+      {
+        "name": "Lunala",
+        "base": "Lunala",
+        "t1": "Psychic",
+        "t2": "Ghost",
+        "gen": 7,
+        "slug": "lunala",
+        "image": "https://img.pokemondb.net/sprites/home/normal/lunala.png"
+      },
+      {
+        "name": "Groudon-Primal",
+        "base": "Groudon",
+        "t1": "Ground",
+        "t2": "Fire",
+        "gen": 6,
+        "slug": "groudon-primal",
+        "image": "https://img.pokemondb.net/sprites/home/normal/groudon-primal.png"
+      },
+      {
+        "name": "Incineroar",
+        "base": "Incineroar",
+        "t1": "Fire",
+        "t2": "Dark",
+        "gen": 7,
+        "slug": "incineroar",
+        "image": "https://img.pokemondb.net/sprites/home/normal/incineroar.png"
+      },
+      {
+        "name": "Salamence-Mega",
+        "base": "Salamence",
+        "t1": "Dragon",
+        "t2": "Flying",
+        "gen": 6,
+        "slug": "salamence-mega",
+        "image": "https://img.pokemondb.net/sprites/home/normal/salamence-mega.png"
+      },
+      {
+        "name": "Tapu Fini",
+        "base": "Tapu Fini",
+        "t1": "Water",
+        "t2": "Fairy",
+        "gen": 7,
+        "slug": "tapu-fini",
+        "image": "https://img.pokemondb.net/sprites/home/normal/tapu-fini.png"
+      },
+      {
+        "name": "Stakataka",
+        "base": "Stakataka",
+        "t1": "Rock",
+        "t2": "Steel",
+        "gen": 7,
+        "slug": "stakataka",
+        "image": "https://img.pokemondb.net/sprites/home/normal/stakataka.png"
+      }
+    ]
+  },
+  {
+    "year": 2018,
+    "player": "Paul Ruiz",
+    "country": "Ecuador",
+    "team": [
+      {
+        "name": "Tapu Koko",
+        "base": "Tapu Koko",
+        "t1": "Electric",
+        "t2": "Fairy",
+        "gen": 7,
+        "slug": "tapu-koko",
+        "image": "https://img.pokemondb.net/sprites/home/normal/tapu-koko.png"
+      },
+      {
+        "name": "Salamence-Mega",
+        "base": "Salamence",
+        "t1": "Dragon",
+        "t2": "Flying",
+        "gen": 6,
+        "slug": "salamence-mega",
+        "image": "https://img.pokemondb.net/sprites/home/normal/salamence-mega.png"
+      },
+      {
+        "name": "Snorlax",
+        "base": "Snorlax",
+        "t1": "Normal",
+        "t2": "",
+        "gen": 1,
+        "slug": "snorlax",
+        "image": "https://img.pokemondb.net/sprites/home/normal/snorlax.png"
+      },
+      {
+        "name": "Incineroar",
+        "base": "Incineroar",
+        "t1": "Fire",
+        "t2": "Dark",
+        "gen": 7,
+        "slug": "incineroar",
+        "image": "https://img.pokemondb.net/sprites/home/normal/incineroar.png"
+      },
+      {
+        "name": "Gastrodon",
+        "base": "Gastrodon",
+        "t1": "Water",
+        "t2": "Ground",
+        "gen": 4,
+        "slug": "gastrodon",
+        "image": "https://img.pokemondb.net/sprites/home/normal/gastrodon.png"
+      },
+      {
+        "name": "Kartana",
+        "base": "Kartana",
+        "t1": "Grass",
+        "t2": "Steel",
+        "gen": 7,
+        "slug": "kartana",
+        "image": "https://img.pokemondb.net/sprites/home/normal/kartana.png"
+      }
+    ]
+  },
+  {
+    "year": 2017,
+    "player": "Ryota Otsubo",
+    "country": "Japan",
+    "team": [
+      {
+        "name": "Krookodile",
+        "base": "Krookodile",
+        "t1": "Ground",
+        "t2": "Dark",
+        "gen": 5,
+        "slug": "krookodile",
+        "image": "https://img.pokemondb.net/sprites/home/normal/krookodile.png"
+      },
+      {
+        "name": "Whimsicott",
+        "base": "Whimsicott",
+        "t1": "Grass",
+        "t2": "Fairy",
+        "gen": 5,
+        "slug": "whimsicott",
+        "image": "https://img.pokemondb.net/sprites/home/normal/whimsicott.png"
+      },
+      {
+        "name": "Tapu Fini",
+        "base": "Tapu Fini",
+        "t1": "Water",
+        "t2": "Fairy",
+        "gen": 7,
+        "slug": "tapu-fini",
+        "image": "https://img.pokemondb.net/sprites/home/normal/tapu-fini.png"
+      },
+      {
+        "name": "Marowak-A",
+        "base": "Alolan Marowak",
+        "t1": "Ground",
+        "t2": "",
+        "gen": 1,
+        "slug": "marowak-a",
+        "image": "https://img.pokemondb.net/sprites/home/normal/marowak-alolan.png"
+      },
+      {
+        "name": "Celesteela",
+        "base": "Celesteela",
+        "t1": "Steel",
+        "t2": "Flying",
+        "gen": 7,
+        "slug": "celesteela",
+        "image": "https://img.pokemondb.net/sprites/home/normal/celesteela.png"
+      },
+      {
+        "name": "Tapu Koko",
+        "base": "Tapu Koko",
+        "t1": "Electric",
+        "t2": "Fairy",
+        "gen": 7,
+        "slug": "tapu-koko",
+        "image": "https://img.pokemondb.net/sprites/home/normal/tapu-koko.png"
+      }
+    ]
+  },
+  {
+    "year": 2016,
+    "player": "Wolfe Glick",
+    "country": "USA",
+    "team": [
+      {
+        "name": "Kyogre-Primal",
+        "base": "Kyogre",
+        "t1": "Water",
+        "t2": "",
+        "gen": 6,
+        "slug": "kyogre-primal",
+        "image": "https://img.pokemondb.net/sprites/home/normal/kyogre-primal.png"
+      },
+      {
+        "name": "Hitmontop",
+        "base": "Hitmontop",
+        "t1": "Fighting",
+        "t2": "",
+        "gen": 2,
+        "slug": "hitmontop",
+        "image": "https://img.pokemondb.net/sprites/home/normal/hitmontop.png"
+      },
+      {
+        "name": "Gengar-Mega",
+        "base": "Gengar",
+        "t1": "Ghost",
+        "t2": "Poison",
+        "gen": 6,
+        "slug": "gengar-mega",
+        "image": "https://img.pokemondb.net/sprites/home/normal/gengar-mega.png"
+      },
+      {
+        "name": "Raichu",
+        "base": "Raichu",
+        "t1": "Electric",
+        "t2": "",
+        "gen": 1,
+        "slug": "raichu",
+        "image": "https://img.pokemondb.net/sprites/home/normal/raichu.png"
+      },
+      {
+        "name": "Bronzong",
+        "base": "Bronzong",
+        "t1": "Steel",
+        "t2": "Psychic",
+        "gen": 4,
+        "slug": "bronzong",
+        "image": "https://img.pokemondb.net/sprites/home/normal/bronzong.png"
+      },
+      {
+        "name": "Rayquaza-Mega",
+        "base": "Rayquaza",
+        "t1": "Dragon",
+        "t2": "Flying",
+        "gen": 6,
+        "slug": "rayquaza-mega",
+        "image": "https://img.pokemondb.net/sprites/home/normal/rayquaza-mega.png"
+      }
+    ]
+  },
+  {
+    "year": 2015,
+    "player": "Shoma Honami",
+    "country": "Japan",
+    "team": [
+      {
+        "name": "Kangaskhan-Mega",
+        "base": "Kangaskhan",
+        "t1": "Normal",
+        "t2": "",
+        "gen": 1,
+        "slug": "kangaskhan-mega",
+        "image": "https://img.pokemondb.net/sprites/home/normal/kangaskhan-mega.png"
+      },
+      {
+        "name": "Heatran",
+        "base": "Heatran",
+        "t1": "Fire",
+        "t2": "Steel",
+        "gen": 4,
+        "slug": "heatran",
+        "image": "https://img.pokemondb.net/sprites/home/normal/heatran.png"
+      },
+      {
+        "name": "Thundurus-I",
+        "base": "Thundurus",
+        "t1": "Electric",
+        "t2": "Flying",
+        "gen": 5,
+        "slug": "thundurus-i",
+        "image": "https://img.pokemondb.net/sprites/home/normal/thundurus-incarnate.png"
+      },
+      {
+        "name": "Landorus-T",
+        "base": "Landorus",
+        "t1": "Ground",
+        "t2": "Flying",
+        "gen": 5,
+        "slug": "landorus-t",
+        "image": "https://img.pokemondb.net/sprites/home/normal/landorus-therian.png"
+      },
+      {
+        "name": "Cresselia",
+        "base": "Cresselia",
+        "t1": "Psychic",
+        "t2": "",
+        "gen": 4,
+        "slug": "cresselia",
+        "image": "https://img.pokemondb.net/sprites/home/normal/cresselia.png"
+      },
+      {
+        "name": "Amoonguss",
+        "base": "Amoonguss",
+        "t1": "Grass",
+        "t2": "Poison",
+        "gen": 5,
+        "slug": "amoonguss",
+        "image": "https://img.pokemondb.net/sprites/home/normal/amoonguss.png"
+      }
+    ]
+  },
+  {
+    "year": 2014,
+    "player": "Se Jun Park",
+    "country": "South Korea",
+    "team": [
+      {
+        "name": "Pachirisu",
+        "base": "Pachirisu",
+        "t1": "Electric",
+        "t2": "",
+        "gen": 4,
+        "slug": "pachirisu",
+        "image": "https://img.pokemondb.net/sprites/home/normal/pachirisu.png"
+      },
+      {
+        "name": "Gothitelle",
+        "base": "Gothitelle",
+        "t1": "Psychic",
+        "t2": "",
+        "gen": 5,
+        "slug": "gothitelle",
+        "image": "https://img.pokemondb.net/sprites/home/normal/gothitelle.png"
+      },
+      {
+        "name": "Gardevoir",
+        "base": "Gardevoir",
+        "t1": "Psychic",
+        "t2": "Fairy",
+        "gen": 3,
+        "slug": "gardevoir",
+        "image": "https://img.pokemondb.net/sprites/home/normal/gardevoir.png"
+      },
+      {
+        "name": "Gyarados-Mega",
+        "base": "Gyarados",
+        "t1": "Water",
+        "t2": "Dark",
+        "gen": 6,
+        "slug": "gyarados-mega",
+        "image": "https://img.pokemondb.net/sprites/home/normal/gyarados-mega.png"
+      },
+      {
+        "name": "Talonflame",
+        "base": "Talonflame",
+        "t1": "Fire",
+        "t2": "Flying",
+        "gen": 6,
+        "slug": "talonflame",
+        "image": "https://img.pokemondb.net/sprites/home/normal/talonflame.png"
+      },
+      {
+        "name": "Garchomp",
+        "base": "Garchomp",
+        "t1": "Dragon",
+        "t2": "Ground",
+        "gen": 4,
+        "slug": "garchomp",
+        "image": "https://img.pokemondb.net/sprites/home/normal/garchomp.png"
+      }
+    ]
+  },
+  {
+    "year": 2013,
+    "player": "Arash Ohmati",
+    "country": "Italy",
+    "team": [
+      {
+        "name": "Mamoswine",
+        "base": "Mamoswine",
+        "t1": "Ice",
+        "t2": "Ground",
+        "gen": 4,
+        "slug": "mamoswine",
+        "image": "https://img.pokemondb.net/sprites/home/normal/mamoswine.png"
+      },
+      {
+        "name": "Tornadus-I",
+        "base": "Tornadus",
+        "t1": "Flying",
+        "t2": "",
+        "gen": 5,
+        "slug": "tornadus-i",
+        "image": "https://img.pokemondb.net/sprites/home/normal/tornadus-incarnate.png"
+      },
+      {
+        "name": "Latios",
+        "base": "Latios",
+        "t1": "Dragon",
+        "t2": "Psychic",
+        "gen": 3,
+        "slug": "latios",
+        "image": "https://img.pokemondb.net/sprites/home/normal/latios.png"
+      },
+      {
+        "name": "Amoonguss",
+        "base": "Amoonguss",
+        "t1": "Grass",
+        "t2": "Poison",
+        "gen": 5,
+        "slug": "amoonguss",
+        "image": "https://img.pokemondb.net/sprites/home/normal/amoonguss.png"
+      },
+      {
+        "name": "Heatran",
+        "base": "Heatran",
+        "t1": "Fire",
+        "t2": "Steel",
+        "gen": 4,
+        "slug": "heatran",
+        "image": "https://img.pokemondb.net/sprites/home/normal/heatran.png"
+      },
+      {
+        "name": "Conkeldurr",
+        "base": "Conkeldurr",
+        "t1": "Fighting",
+        "t2": "",
+        "gen": 5,
+        "slug": "conkeldurr",
+        "image": "https://img.pokemondb.net/sprites/home/normal/conkeldurr.png"
+      }
+    ]
+  },
+  {
+    "year": 2012,
+    "player": "Ray Rizzo",
+    "country": "USA",
+    "team": [
+      {
+        "name": "Tyranitar",
+        "base": "Tyranitar",
+        "t1": "Rock",
+        "t2": "Dark",
+        "gen": 2,
+        "slug": "tyranitar",
+        "image": "https://img.pokemondb.net/sprites/home/normal/tyranitar.png"
+      },
+      {
+        "name": "Garchomp",
+        "base": "Garchomp",
+        "t1": "Dragon",
+        "t2": "Ground",
+        "gen": 4,
+        "slug": "garchomp",
+        "image": "https://img.pokemondb.net/sprites/home/normal/garchomp.png"
+      },
+      {
+        "name": "Cresselia",
+        "base": "Cresselia",
+        "t1": "Psychic",
+        "t2": "",
+        "gen": 4,
+        "slug": "cresselia",
+        "image": "https://img.pokemondb.net/sprites/home/normal/cresselia.png"
+      },
+      {
+        "name": "Hydreigon",
+        "base": "Hydreigon",
+        "t1": "Dark",
+        "t2": "Dragon",
+        "gen": 5,
+        "slug": "hydreigon",
+        "image": "https://img.pokemondb.net/sprites/home/normal/hydreigon.png"
+      },
+      {
+        "name": "Rotom-W",
+        "base": "Rotom",
+        "t1": "Electric",
+        "t2": "Water",
+        "gen": 4,
+        "slug": "rotom-w",
+        "image": "https://img.pokemondb.net/sprites/home/normal/rotom-wash.png"
+      },
+      {
+        "name": "Metagross",
+        "base": "Metagross",
+        "t1": "Steel",
+        "t2": "Psychic",
+        "gen": 3,
+        "slug": "metagross",
+        "image": "https://img.pokemondb.net/sprites/home/normal/metagross.png"
+      }
+    ]
+  },
+  {
+    "year": 2011,
+    "player": "Ray Rizzo",
+    "country": "USA",
+    "team": [
+      {
+        "name": "Escavalier",
+        "base": "Escavalier",
+        "t1": "Bug",
+        "t2": "Steel",
+        "gen": 5,
+        "slug": "escavalier",
+        "image": "https://img.pokemondb.net/sprites/home/normal/escavalier.png"
+      },
+      {
+        "name": "Conkeldurr",
+        "base": "Conkeldurr",
+        "t1": "Fighting",
+        "t2": "",
+        "gen": 5,
+        "slug": "conkeldurr",
+        "image": "https://img.pokemondb.net/sprites/home/normal/conkeldurr.png"
+      },
+      {
+        "name": "Terrakion",
+        "base": "Terrakion",
+        "t1": "Rock",
+        "t2": "Fighting",
+        "gen": 5,
+        "slug": "terrakion",
+        "image": "https://img.pokemondb.net/sprites/home/normal/terrakion.png"
+      },
+      {
+        "name": "Gothitelle",
+        "base": "Gothitelle",
+        "t1": "Psychic",
+        "t2": "",
+        "gen": 5,
+        "slug": "gothitelle",
+        "image": "https://img.pokemondb.net/sprites/home/normal/gothitelle.png"
+      },
+      {
+        "name": "Thundurus-I",
+        "base": "Thundurus",
+        "t1": "Electric",
+        "t2": "Flying",
+        "gen": 5,
+        "slug": "thundurus-i",
+        "image": "https://img.pokemondb.net/sprites/home/normal/thundurus-incarnate.png"
+      },
+      {
+        "name": "Hydreigon",
+        "base": "Hydreigon",
+        "t1": "Dark",
+        "t2": "Dragon",
+        "gen": 5,
+        "slug": "hydreigon",
+        "image": "https://img.pokemondb.net/sprites/home/normal/hydreigon.png"
+      }
+    ]
+  },
+  {
+    "year": 2010,
+    "player": "Ray Rizzo",
+    "country": "USA",
+    "team": [
+      {
+        "name": "Hariyama",
+        "base": "Hariyama",
+        "t1": "Fighting",
+        "t2": "",
+        "gen": 3,
+        "slug": "hariyama",
+        "image": "https://img.pokemondb.net/sprites/home/normal/hariyama.png"
+      },
+      {
+        "name": "Cresselia",
+        "base": "Cresselia",
+        "t1": "Psychic",
+        "t2": "",
+        "gen": 4,
+        "slug": "cresselia",
+        "image": "https://img.pokemondb.net/sprites/home/normal/cresselia.png"
+      },
+      {
+        "name": "Dialga",
+        "base": "Dialga",
+        "t1": "Steel",
+        "t2": "Dragon",
+        "gen": 4,
+        "slug": "dialga",
+        "image": "https://img.pokemondb.net/sprites/home/normal/dialga.png"
+      },
+      {
+        "name": "Kyogre",
+        "base": "Kyogre",
+        "t1": "Water",
+        "t2": "",
+        "gen": 3,
+        "slug": "kyogre",
+        "image": "https://img.pokemondb.net/sprites/home/normal/kyogre.png"
+      },
+      {
+        "name": "Groudon",
+        "base": "Groudon",
+        "t1": "Ground",
+        "t2": "",
+        "gen": 3,
+        "slug": "groudon",
+        "image": "https://img.pokemondb.net/sprites/home/normal/groudon.png"
+      },
+      {
+        "name": "Ludicolo",
+        "base": "Ludicolo",
+        "t1": "Water",
+        "t2": "Grass",
+        "gen": 3,
+        "slug": "ludicolo",
+        "image": "https://img.pokemondb.net/sprites/home/normal/ludicolo.png"
+      }
+    ]
+  },
+  {
+    "year": 2009,
+    "player": "Kazuyuki Tsuji",
+    "country": "Japan",
+    "team": [
+      {
+        "name": "Ludicolo",
+        "base": "Ludicolo",
+        "t1": "Water",
+        "t2": "Grass",
+        "gen": 3,
+        "slug": "ludicolo",
+        "image": "https://img.pokemondb.net/sprites/home/normal/ludicolo.png"
+      },
+      {
+        "name": "Toxicroak",
+        "base": "Toxicroak",
+        "t1": "Poison",
+        "t2": "Fighting",
+        "gen": 4,
+        "slug": "toxicroak",
+        "image": "https://img.pokemondb.net/sprites/home/normal/toxicroak.png"
+      },
+      {
+        "name": "Metagross",
+        "base": "Metagross",
+        "t1": "Steel",
+        "t2": "Psychic",
+        "gen": 3,
+        "slug": "metagross",
+        "image": "https://img.pokemondb.net/sprites/home/normal/metagross.png"
+      },
+      {
+        "name": "Snorlax",
+        "base": "Snorlax",
+        "t1": "Normal",
+        "t2": "",
+        "gen": 1,
+        "slug": "snorlax",
+        "image": "https://img.pokemondb.net/sprites/home/normal/snorlax.png"
+      },
+      {
+        "name": "Salamence",
+        "base": "Salamence",
+        "t1": "Dragon",
+        "t2": "Flying",
+        "gen": 3,
+        "slug": "salamence",
+        "image": "https://img.pokemondb.net/sprites/home/normal/salamence.png"
+      },
+      {
+        "name": "Empoleon",
+        "base": "Empoleon",
+        "t1": "Water",
+        "t2": "Steel",
+        "gen": 4,
+        "slug": "empoleon",
+        "image": "https://img.pokemondb.net/sprites/home/normal/empoleon.png"
+      }
+    ]
+  },
+  {
+    "year": 2008,
+    "player": "Izuru Yoshimura",
+    "country": "Japan",
+    "team": [
+      {
+        "name": "Smeargle",
+        "base": "Smeargle",
+        "t1": "Normal",
+        "t2": "",
+        "gen": 2,
+        "slug": "smeargle",
+        "image": "https://img.pokemondb.net/sprites/home/normal/smeargle.png"
+      },
+      {
+        "name": "Bronzong",
+        "base": "Bronzong",
+        "t1": "Steel",
+        "t2": "Psychic",
+        "gen": 4,
+        "slug": "bronzong",
+        "image": "https://img.pokemondb.net/sprites/home/normal/bronzong.png"
+      },
+      {
+        "name": "Snorlax",
+        "base": "Snorlax",
+        "t1": "Normal",
+        "t2": "",
+        "gen": 1,
+        "slug": "snorlax",
+        "image": "https://img.pokemondb.net/sprites/home/normal/snorlax.png"
+      },
+      {
+        "name": "Metagross",
+        "base": "Metagross",
+        "t1": "Steel",
+        "t2": "Psychic",
+        "gen": 3,
+        "slug": "metagross",
+        "image": "https://img.pokemondb.net/sprites/home/normal/metagross.png"
+      }
+    ]
+  }
+]
