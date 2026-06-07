@@ -3,9 +3,11 @@
     "year": 2025,
     "player": "Giovanni Cischke",
     "country": "USA",
+    "division": "Masters",
     "team": [
       {
         "name": "Koraidon",
+        "code": "Koraidon",
         "base": "Koraidon",
         "t1": "Fighting",
         "t2": "Dragon",
@@ -13,10 +15,19 @@
         "category": "Legendary",
         "slug": "koraidon",
         "base_slug": "koraidon",
-        "image": "https://img.pokemondb.net/sprites/home/normal/koraidon.png"
+        "image": "https://img.pokemondb.net/sprites/home/normal/koraidon.png",
+        "stats": {
+          "hp": 100,
+          "atk": 135,
+          "def": 115,
+          "spa": 85,
+          "spd": 100,
+          "spe": 135
+        }
       },
       {
         "name": "Lunala",
+        "code": "Lunala",
         "base": "Lunala",
         "t1": "Psychic",
         "t2": "Ghost",
@@ -24,21 +35,39 @@
         "category": "Legendary",
         "slug": "lunala",
         "base_slug": "lunala",
-        "image": "https://img.pokemondb.net/sprites/home/normal/lunala.png"
+        "image": "https://img.pokemondb.net/sprites/home/normal/lunala.png",
+        "stats": {
+          "hp": 137,
+          "atk": 113,
+          "def": 89,
+          "spa": 137,
+          "spd": 107,
+          "spe": 97
+        }
       },
       {
         "name": "Flutter Mane",
+        "code": "Flutter Mane",
         "base": "Flutter Mane",
         "t1": "Ghost",
         "t2": "Fairy",
         "gen": 9,
-        "category": "Paradox Pokemon",
+        "category": "Paradox Pok\u00e9mon",
         "slug": "flutter-mane",
         "base_slug": "flutter-mane",
-        "image": "https://img.pokemondb.net/sprites/home/normal/flutter-mane.png"
+        "image": "https://img.pokemondb.net/sprites/home/normal/flutter-mane.png",
+        "stats": {
+          "hp": 55,
+          "atk": 55,
+          "def": 55,
+          "spa": 135,
+          "spd": 135,
+          "spe": 135
+        }
       },
       {
         "name": "Chi-Yu",
+        "code": "Chi-Yu",
         "base": "Chi-Yu",
         "t1": "Dark",
         "t2": "Fire",
@@ -46,10 +75,19 @@
         "category": "Legendary",
         "slug": "chi-yu",
         "base_slug": "chi-yu",
-        "image": "https://img.pokemondb.net/sprites/home/normal/chi-yu.png"
+        "image": "https://img.pokemondb.net/sprites/home/normal/chi-yu.png",
+        "stats": {
+          "hp": 55,
+          "atk": 80,
+          "def": 80,
+          "spa": 135,
+          "spd": 120,
+          "spe": 100
+        }
       },
       {
         "name": "Ursaluna",
+        "code": "Ursaluna",
         "base": "Ursaluna",
         "t1": "Ground",
         "t2": "Normal",
@@ -57,28 +95,67 @@
         "category": "Ordinary",
         "slug": "ursaluna",
         "base_slug": "ursaluna",
-        "image": "https://img.pokemondb.net/sprites/home/normal/ursaluna.png"
+        "image": "https://img.pokemondb.net/sprites/home/normal/ursaluna.png",
+        "stats": {
+          "hp": 130,
+          "atk": 140,
+          "def": 105,
+          "spa": 45,
+          "spd": 80,
+          "spe": 50
+        }
       },
       {
         "name": "Brute Bonnet",
+        "code": "Brute Bonnet",
         "base": "Brute Bonnet",
         "t1": "Grass",
         "t2": "Dark",
         "gen": 9,
-        "category": "Paradox Pokemon",
+        "category": "Paradox Pok\u00e9mon",
         "slug": "brute-bonnet",
         "base_slug": "brute-bonnet",
-        "image": "https://img.pokemondb.net/sprites/home/normal/brute-bonnet.png"
+        "image": "https://img.pokemondb.net/sprites/home/normal/brute-bonnet.png",
+        "stats": {
+          "hp": 111,
+          "atk": 127,
+          "def": 99,
+          "spa": 79,
+          "spd": 99,
+          "spe": 55
+        }
       }
     ]
   },
   {
-    "year": 2024,
-    "player": "Luca Ceribelli",
-    "country": "Italy",
+    "year": 2025,
+    "player": "Kevin Han",
+    "country": "USA",
+    "division": "Senior",
     "team": [
       {
+        "name": "Amoonguss",
+        "code": "Amoonguss",
+        "base": "Amoonguss",
+        "t1": "Grass",
+        "t2": "Poison",
+        "gen": 5,
+        "category": "Ordinary",
+        "slug": "amoonguss",
+        "base_slug": "amoonguss",
+        "image": "https://img.pokemondb.net/sprites/home/normal/amoonguss.png",
+        "stats": {
+          "hp": 114,
+          "atk": 85,
+          "def": 70,
+          "spa": 85,
+          "spd": 80,
+          "spe": 30
+        }
+      },
+      {
         "name": "Miraidon",
+        "code": "Miraidon",
         "base": "Miraidon",
         "t1": "Electric",
         "t2": "Dragon",
@@ -86,54 +163,167 @@
         "category": "Legendary",
         "slug": "miraidon",
         "base_slug": "miraidon",
-        "image": "https://img.pokemondb.net/sprites/home/normal/miraidon.png"
+        "image": "https://img.pokemondb.net/sprites/home/normal/miraidon.png",
+        "stats": {
+          "hp": 100,
+          "atk": 85,
+          "def": 100,
+          "spa": 135,
+          "spd": 115,
+          "spe": 135
+        }
       },
       {
-        "name": "Ogerpon-F",
-        "base": "Ogerpon",
-        "t1": "Grass",
-        "t2": "Fire",
-        "gen": 9,
+        "name": "Incineroar",
+        "code": "Incineroar",
+        "base": "Incineroar",
+        "t1": "Fire",
+        "t2": "Dark",
+        "gen": 7,
+        "category": "Ordinary",
+        "slug": "incineroar",
+        "base_slug": "incineroar",
+        "image": "https://img.pokemondb.net/sprites/home/normal/incineroar.png",
+        "stats": {
+          "hp": 95,
+          "atk": 115,
+          "def": 90,
+          "spa": 80,
+          "spd": 90,
+          "spe": 60
+        }
+      },
+      {
+        "name": "Landorus Incarnate Form",
+        "code": "Landorus-I",
+        "base": "Landorus",
+        "t1": "Ground",
+        "t2": "Flying",
+        "gen": 5,
         "category": "Legendary",
-        "slug": "ogerpon-f",
-        "base_slug": "ogerpon",
-        "image": "https://img.pokemondb.net/sprites/home/normal/ogerpon-hearthflame.png"
+        "slug": "landorus-incarnate",
+        "base_slug": "landorus",
+        "image": "https://img.pokemondb.net/sprites/home/normal/landorus-incarnate.png",
+        "stats": {
+          "hp": 89,
+          "atk": 125,
+          "def": 90,
+          "spa": 115,
+          "spd": 80,
+          "spe": 101
+        }
       },
       {
-        "name": "Urshifu-W",
+        "name": "Calyrex Ice Rider",
+        "code": "Calyrex-I",
+        "base": "Calyrex",
+        "t1": "Psychic",
+        "t2": "Ice",
+        "gen": 8,
+        "category": "Legendary",
+        "slug": "calyrex-ice-rider",
+        "base_slug": "calyrex",
+        "image": "https://img.pokemondb.net/sprites/home/normal/calyrex-ice-rider.png",
+        "stats": {
+          "hp": 100,
+          "atk": 165,
+          "def": 150,
+          "spa": 85,
+          "spd": 130,
+          "spe": 50
+        }
+      },
+      {
+        "name": "Urshifu Rapid Strike Style",
+        "code": "Urshifu-W",
         "base": "Urshifu",
         "t1": "Fighting",
         "t2": "Water",
         "gen": 8,
         "category": "Legendary",
-        "slug": "urshifu-w",
+        "slug": "urshifu-rapid-strike",
         "base_slug": "urshifu",
-        "image": "https://img.pokemondb.net/sprites/home/normal/urshifu-rapid-strike.png"
+        "image": "https://img.pokemondb.net/sprites/home/normal/urshifu-rapid-strike.png",
+        "stats": {
+          "hp": 100,
+          "atk": 130,
+          "def": 100,
+          "spa": 63,
+          "spd": 60,
+          "spe": 97
+        }
+      }
+    ]
+  },
+  {
+    "year": 2025,
+    "player": "Luke Whittier",
+    "country": "USA",
+    "division": "Junior",
+    "team": [
+      {
+        "name": "Calyrex Ice Rider",
+        "code": "Calyrex-I",
+        "base": "Calyrex",
+        "t1": "Psychic",
+        "t2": "Ice",
+        "gen": 8,
+        "category": "Legendary",
+        "slug": "calyrex-ice-rider",
+        "base_slug": "calyrex",
+        "image": "https://img.pokemondb.net/sprites/home/normal/calyrex-ice-rider.png",
+        "stats": {
+          "hp": 100,
+          "atk": 165,
+          "def": 150,
+          "spa": 85,
+          "spd": 130,
+          "spe": 50
+        }
       },
       {
         "name": "Iron Hands",
+        "code": "Iron Hands",
         "base": "Iron Hands",
         "t1": "Fighting",
         "t2": "Electric",
         "gen": 9,
-        "category": "Paradox Pokemon",
+        "category": "Paradox Pok\u00e9mon",
         "slug": "iron-hands",
         "base_slug": "iron-hands",
-        "image": "https://img.pokemondb.net/sprites/home/normal/iron-hands.png"
+        "image": "https://img.pokemondb.net/sprites/home/normal/iron-hands.png",
+        "stats": {
+          "hp": 154,
+          "atk": 140,
+          "def": 108,
+          "spa": 50,
+          "spd": 68,
+          "spe": 50
+        }
       },
       {
-        "name": "Whimsicott",
-        "base": "Whimsicott",
-        "t1": "Grass",
-        "t2": "Fairy",
+        "name": "Landorus Incarnate Form",
+        "code": "Landorus-I",
+        "base": "Landorus",
+        "t1": "Ground",
+        "t2": "Flying",
         "gen": 5,
-        "category": "Ordinary",
-        "slug": "whimsicott",
-        "base_slug": "whimsicott",
-        "image": "https://img.pokemondb.net/sprites/home/normal/whimsicott.png"
+        "category": "Legendary",
+        "slug": "landorus-incarnate",
+        "base_slug": "landorus",
+        "image": "https://img.pokemondb.net/sprites/home/normal/landorus-incarnate.png",
+        "stats": {
+          "hp": 89,
+          "atk": 125,
+          "def": 90,
+          "spa": 115,
+          "spd": 80,
+          "spe": 101
+        }
       },
       {
         "name": "Farigiraf",
+        "code": "Farigiraf",
         "base": "Farigiraf",
         "t1": "Normal",
         "t2": "Psychic",
@@ -141,112 +331,87 @@
         "category": "Ordinary",
         "slug": "farigiraf",
         "base_slug": "farigiraf",
-        "image": "https://img.pokemondb.net/sprites/home/normal/farigiraf.png"
-      }
-    ]
-  },
-  {
-    "year": 2023,
-    "player": "Shohei Kimura",
-    "country": "Japan",
-    "team": [
-      {
-        "name": "Landorus-T",
-        "base": "Landorus",
-        "t1": "Ground",
-        "t2": "Flying",
-        "gen": 5,
-        "category": "Legendary",
-        "slug": "landorus-t",
-        "base_slug": "landorus",
-        "image": "https://img.pokemondb.net/sprites/home/normal/landorus-therian.png"
+        "image": "https://img.pokemondb.net/sprites/home/normal/farigiraf.png",
+        "stats": {
+          "hp": 120,
+          "atk": 90,
+          "def": 70,
+          "spa": 110,
+          "spd": 70,
+          "spe": 60
+        }
       },
       {
-        "name": "Urshifu-W",
+        "name": "Urshifu Rapid Strike Style",
+        "code": "Urshifu-W",
         "base": "Urshifu",
         "t1": "Fighting",
         "t2": "Water",
         "gen": 8,
         "category": "Legendary",
-        "slug": "urshifu-w",
+        "slug": "urshifu-rapid-strike",
         "base_slug": "urshifu",
-        "image": "https://img.pokemondb.net/sprites/home/normal/urshifu-rapid-strike.png"
+        "image": "https://img.pokemondb.net/sprites/home/normal/urshifu-rapid-strike.png",
+        "stats": {
+          "hp": 100,
+          "atk": 130,
+          "def": 100,
+          "spa": 63,
+          "spd": 60,
+          "spe": 97
+        }
       },
       {
-        "name": "Flutter Mane",
-        "base": "Flutter Mane",
-        "t1": "Ghost",
-        "t2": "Fairy",
-        "gen": 9,
-        "category": "Paradox Pokemon",
-        "slug": "flutter-mane",
-        "base_slug": "flutter-mane",
-        "image": "https://img.pokemondb.net/sprites/home/normal/flutter-mane.png"
-      },
-      {
-        "name": "Chien-Pao",
-        "base": "Chien-Pao",
-        "t1": "Dark",
-        "t2": "Ice",
+        "name": "Miraidon",
+        "code": "Miraidon",
+        "base": "Miraidon",
+        "t1": "Electric",
+        "t2": "Dragon",
         "gen": 9,
         "category": "Legendary",
-        "slug": "chien-pao",
-        "base_slug": "chien-pao",
-        "image": "https://img.pokemondb.net/sprites/home/normal/chien-pao.png"
-      },
-      {
-        "name": "Amoonguss",
-        "base": "Amoonguss",
-        "t1": "Grass",
-        "t2": "Poison",
-        "gen": 5,
-        "category": "Ordinary",
-        "slug": "amoonguss",
-        "base_slug": "amoonguss",
-        "image": "https://img.pokemondb.net/sprites/home/normal/amoonguss.png"
-      },
-      {
-        "name": "Iron Hands",
-        "base": "Iron Hands",
-        "t1": "Fighting",
-        "t2": "Electric",
-        "gen": 9,
-        "category": "Paradox Pokemon",
-        "slug": "iron-hands",
-        "base_slug": "iron-hands",
-        "image": "https://img.pokemondb.net/sprites/home/normal/iron-hands.png"
+        "slug": "miraidon",
+        "base_slug": "miraidon",
+        "image": "https://img.pokemondb.net/sprites/home/normal/miraidon.png",
+        "stats": {
+          "hp": 100,
+          "atk": 85,
+          "def": 100,
+          "spa": 135,
+          "spd": 115,
+          "spe": 135
+        }
       }
     ]
   },
   {
-    "year": 2022,
-    "player": "Eduardo Cunha",
-    "country": "Portugal",
+    "year": 2024,
+    "player": "Kevin Han",
+    "country": "USA",
+    "division": "Junior",
     "team": [
       {
-        "name": "Gastrodon",
-        "base": "Gastrodon",
-        "t1": "Water",
-        "t2": "Ground",
-        "gen": 4,
-        "category": "Ordinary",
-        "slug": "gastrodon",
-        "base_slug": "gastrodon",
-        "image": "https://img.pokemondb.net/sprites/home/normal/gastrodon.png"
-      },
-      {
-        "name": "Calyrex-S",
-        "base": "Calyrex",
-        "t1": "Psychic",
-        "t2": "Ghost",
-        "gen": 8,
-        "category": "Legendary",
-        "slug": "calyrex-s",
-        "base_slug": "calyrex",
-        "image": "https://img.pokemondb.net/sprites/home/normal/calyrex-shadow-rider.png"
+        "name": "Raging Bolt",
+        "code": "Raging Bolt",
+        "base": "Raging Bolt",
+        "t1": "Electric",
+        "t2": "Dragon",
+        "gen": 9,
+        "category": "Paradox Pok\u00e9mon",
+        "slug": "raging-bolt",
+        "base_slug": "raging-bolt",
+        "image": "https://img.pokemondb.net/sprites/home/normal/raging-bolt.png",
+        "stats": {
+          "hp": 125,
+          "atk": 73,
+          "def": 91,
+          "spa": 137,
+          "spd": 89,
+          "spe": 75
+        }
       },
       {
         "name": "Rillaboom",
+        "code": "Rillaboom",
         "base": "Rillaboom",
         "t1": "Grass",
         "t2": "",
@@ -254,72 +419,79 @@
         "category": "Ordinary",
         "slug": "rillaboom",
         "base_slug": "rillaboom",
-        "image": "https://img.pokemondb.net/sprites/home/normal/rillaboom.png"
+        "image": "https://img.pokemondb.net/sprites/home/normal/rillaboom.png",
+        "stats": {
+          "hp": 100,
+          "atk": 125,
+          "def": 90,
+          "spa": 60,
+          "spd": 70,
+          "spe": 85
+        }
       },
       {
-        "name": "Incineroar",
-        "base": "Incineroar",
-        "t1": "Fire",
-        "t2": "Dark",
-        "gen": 7,
+        "name": "Farigiraf",
+        "code": "Farigiraf",
+        "base": "Farigiraf",
+        "t1": "Normal",
+        "t2": "Psychic",
+        "gen": 9,
         "category": "Ordinary",
-        "slug": "incineroar",
-        "base_slug": "incineroar",
-        "image": "https://img.pokemondb.net/sprites/home/normal/incineroar.png"
+        "slug": "farigiraf",
+        "base_slug": "farigiraf",
+        "image": "https://img.pokemondb.net/sprites/home/normal/farigiraf.png",
+        "stats": {
+          "hp": 120,
+          "atk": 90,
+          "def": 70,
+          "spa": 110,
+          "spd": 70,
+          "spe": 60
+        }
       },
       {
-        "name": "Thundurus-I",
-        "base": "Thundurus",
-        "t1": "Electric",
-        "t2": "Flying",
-        "gen": 5,
-        "category": "Legendary",
-        "slug": "thundurus-i",
-        "base_slug": "thundurus",
-        "image": "https://img.pokemondb.net/sprites/home/normal/thundurus-incarnate.png"
-      },
-      {
-        "name": "Zacian-Crowned",
-        "base": "Zacian",
-        "t1": "Fairy",
-        "t2": "Steel",
+        "name": "Urshifu Rapid Strike Style",
+        "code": "Urshifu-W",
+        "base": "Urshifu",
+        "t1": "Fighting",
+        "t2": "Water",
         "gen": 8,
         "category": "Legendary",
-        "slug": "zacian-crowned",
-        "base_slug": "zacian",
-        "image": "https://img.pokemondb.net/sprites/home/normal/zacian-crowned.png"
-      }
-    ]
-  },
-  {
-    "year": 2019,
-    "player": "Naoto Mizobuchi",
-    "country": "Japan",
-    "team": [
+        "slug": "urshifu-rapid-strike",
+        "base_slug": "urshifu",
+        "image": "https://img.pokemondb.net/sprites/home/normal/urshifu-rapid-strike.png",
+        "stats": {
+          "hp": 100,
+          "atk": 130,
+          "def": 100,
+          "spa": 63,
+          "spd": 60,
+          "spe": 97
+        }
+      },
       {
-        "name": "Lunala",
-        "base": "Lunala",
+        "name": "Calyrex Ice Rider",
+        "code": "Calyrex-I",
+        "base": "Calyrex",
         "t1": "Psychic",
-        "t2": "Ghost",
-        "gen": 7,
+        "t2": "Ice",
+        "gen": 8,
         "category": "Legendary",
-        "slug": "lunala",
-        "base_slug": "lunala",
-        "image": "https://img.pokemondb.net/sprites/home/normal/lunala.png"
-      },
-      {
-        "name": "Groudon-Primal",
-        "base": "Groudon",
-        "t1": "Ground",
-        "t2": "Fire",
-        "gen": 6,
-        "category": "Legendary",
-        "slug": "groudon-primal",
-        "base_slug": "groudon",
-        "image": "https://img.pokemondb.net/sprites/home/normal/groudon-primal.png"
+        "slug": "calyrex-ice-rider",
+        "base_slug": "calyrex",
+        "image": "https://img.pokemondb.net/sprites/home/normal/calyrex-ice-rider.png",
+        "stats": {
+          "hp": 100,
+          "atk": 165,
+          "def": 150,
+          "spa": 85,
+          "spd": 130,
+          "spe": 50
+        }
       },
       {
         "name": "Incineroar",
+        "code": "Incineroar",
         "base": "Incineroar",
         "t1": "Fire",
         "t2": "Dark",
@@ -327,134 +499,107 @@
         "category": "Ordinary",
         "slug": "incineroar",
         "base_slug": "incineroar",
-        "image": "https://img.pokemondb.net/sprites/home/normal/incineroar.png"
-      },
-      {
-        "name": "Salamence-Mega",
-        "base": "Salamence",
-        "t1": "Dragon",
-        "t2": "Flying",
-        "gen": 6,
-        "category": "Ordinary",
-        "slug": "salamence-mega",
-        "base_slug": "salamence",
-        "image": "https://img.pokemondb.net/sprites/home/normal/salamence-mega.png"
-      },
-      {
-        "name": "Tapu Fini",
-        "base": "Tapu Fini",
-        "t1": "Water",
-        "t2": "Fairy",
-        "gen": 7,
-        "category": "Legendary",
-        "slug": "tapu-fini",
-        "base_slug": "tapu-fini",
-        "image": "https://img.pokemondb.net/sprites/home/normal/tapu-fini.png"
-      },
-      {
-        "name": "Stakataka",
-        "base": "Stakataka",
-        "t1": "Rock",
-        "t2": "Steel",
-        "gen": 7,
-        "category": "Ultra Beast",
-        "slug": "stakataka",
-        "base_slug": "stakataka",
-        "image": "https://img.pokemondb.net/sprites/home/normal/stakataka.png"
+        "image": "https://img.pokemondb.net/sprites/home/normal/incineroar.png",
+        "stats": {
+          "hp": 95,
+          "atk": 115,
+          "def": 90,
+          "spa": 80,
+          "spd": 90,
+          "spe": 60
+        }
       }
     ]
   },
   {
-    "year": 2018,
-    "player": "Paul Ruiz",
-    "country": "Ecuador",
+    "year": 2024,
+    "player": "Luca Ceribelli",
+    "country": "Italy",
+    "division": "Masters",
     "team": [
       {
-        "name": "Tapu Koko",
-        "base": "Tapu Koko",
+        "name": "Miraidon",
+        "code": "Miraidon",
+        "base": "Miraidon",
         "t1": "Electric",
-        "t2": "Fairy",
-        "gen": 7,
+        "t2": "Dragon",
+        "gen": 9,
         "category": "Legendary",
-        "slug": "tapu-koko",
-        "base_slug": "tapu-koko",
-        "image": "https://img.pokemondb.net/sprites/home/normal/tapu-koko.png"
+        "slug": "miraidon",
+        "base_slug": "miraidon",
+        "image": "https://img.pokemondb.net/sprites/home/normal/miraidon.png",
+        "stats": {
+          "hp": 100,
+          "atk": 85,
+          "def": 100,
+          "spa": 135,
+          "spd": 115,
+          "spe": 135
+        }
       },
       {
-        "name": "Salamence-Mega",
-        "base": "Salamence",
-        "t1": "Dragon",
-        "t2": "Flying",
-        "gen": 6,
-        "category": "Ordinary",
-        "slug": "salamence-mega",
-        "base_slug": "salamence",
-        "image": "https://img.pokemondb.net/sprites/home/normal/salamence-mega.png"
-      },
-      {
-        "name": "Snorlax",
-        "base": "Snorlax",
-        "t1": "Normal",
-        "t2": "",
-        "gen": 1,
-        "category": "Ordinary",
-        "slug": "snorlax",
-        "base_slug": "snorlax",
-        "image": "https://img.pokemondb.net/sprites/home/normal/snorlax.png"
-      },
-      {
-        "name": "Incineroar",
-        "base": "Incineroar",
-        "t1": "Fire",
-        "t2": "Dark",
-        "gen": 7,
-        "category": "Ordinary",
-        "slug": "incineroar",
-        "base_slug": "incineroar",
-        "image": "https://img.pokemondb.net/sprites/home/normal/incineroar.png"
-      },
-      {
-        "name": "Gastrodon",
-        "base": "Gastrodon",
-        "t1": "Water",
-        "t2": "Ground",
-        "gen": 4,
-        "category": "Ordinary",
-        "slug": "gastrodon",
-        "base_slug": "gastrodon",
-        "image": "https://img.pokemondb.net/sprites/home/normal/gastrodon.png"
-      },
-      {
-        "name": "Kartana",
-        "base": "Kartana",
+        "name": "Ogerpon (Hearthflame Mask)",
+        "code": "Ogerpon-F",
+        "base": "Ogerpon",
         "t1": "Grass",
-        "t2": "Steel",
-        "gen": 7,
-        "category": "Ultra Beast",
-        "slug": "kartana",
-        "base_slug": "kartana",
-        "image": "https://img.pokemondb.net/sprites/home/normal/kartana.png"
-      }
-    ]
-  },
-  {
-    "year": 2017,
-    "player": "Ryota Otsubo",
-    "country": "Japan",
-    "team": [
+        "t2": "Fire",
+        "gen": 9,
+        "category": "Legendary",
+        "slug": "ogerpon-hearthflame",
+        "base_slug": "ogerpon",
+        "image": "https://img.pokemondb.net/sprites/home/normal/ogerpon-hearthflame.png",
+        "stats": {
+          "hp": 80,
+          "atk": 120,
+          "def": 84,
+          "spa": 60,
+          "spd": 96,
+          "spe": 110
+        }
+      },
       {
-        "name": "Krookodile",
-        "base": "Krookodile",
-        "t1": "Ground",
-        "t2": "Dark",
-        "gen": 5,
-        "category": "Ordinary",
-        "slug": "krookodile",
-        "base_slug": "krookodile",
-        "image": "https://img.pokemondb.net/sprites/home/normal/krookodile.png"
+        "name": "Urshifu Rapid Strike Style",
+        "code": "Urshifu-W",
+        "base": "Urshifu",
+        "t1": "Fighting",
+        "t2": "Water",
+        "gen": 8,
+        "category": "Legendary",
+        "slug": "urshifu-rapid-strike",
+        "base_slug": "urshifu",
+        "image": "https://img.pokemondb.net/sprites/home/normal/urshifu-rapid-strike.png",
+        "stats": {
+          "hp": 100,
+          "atk": 130,
+          "def": 100,
+          "spa": 63,
+          "spd": 60,
+          "spe": 97
+        }
+      },
+      {
+        "name": "Iron Hands",
+        "code": "Iron Hands",
+        "base": "Iron Hands",
+        "t1": "Fighting",
+        "t2": "Electric",
+        "gen": 9,
+        "category": "Paradox Pok\u00e9mon",
+        "slug": "iron-hands",
+        "base_slug": "iron-hands",
+        "image": "https://img.pokemondb.net/sprites/home/normal/iron-hands.png",
+        "stats": {
+          "hp": 154,
+          "atk": 140,
+          "def": 108,
+          "spa": 50,
+          "spd": 68,
+          "spe": 50
+        }
       },
       {
         "name": "Whimsicott",
+        "code": "Whimsicott",
         "base": "Whimsicott",
         "t1": "Grass",
         "t2": "Fairy",
@@ -462,189 +607,255 @@
         "category": "Ordinary",
         "slug": "whimsicott",
         "base_slug": "whimsicott",
-        "image": "https://img.pokemondb.net/sprites/home/normal/whimsicott.png"
+        "image": "https://img.pokemondb.net/sprites/home/normal/whimsicott.png",
+        "stats": {
+          "hp": 60,
+          "atk": 67,
+          "def": 85,
+          "spa": 77,
+          "spd": 75,
+          "spe": 116
+        }
       },
       {
-        "name": "Tapu Fini",
-        "base": "Tapu Fini",
-        "t1": "Water",
-        "t2": "Fairy",
-        "gen": 7,
-        "category": "Legendary",
-        "slug": "tapu-fini",
-        "base_slug": "tapu-fini",
-        "image": "https://img.pokemondb.net/sprites/home/normal/tapu-fini.png"
-      },
-      {
-        "name": "Marowak-A",
-        "base": "Alolan Marowak",
-        "t1": "Fire",
-        "t2": "Ghost",
-        "gen": 1,
-        "category": "Ordinary",
-        "slug": "marowak-a",
-        "base_slug": "alolan-marowak",
-        "image": "https://img.pokemondb.net/sprites/home/normal/marowak-alolan.png"
-      },
-      {
-        "name": "Celesteela",
-        "base": "Celesteela",
-        "t1": "Steel",
-        "t2": "Flying",
-        "gen": 7,
-        "category": "Legendary",
-        "slug": "celesteela",
-        "base_slug": "celesteela",
-        "image": "https://img.pokemondb.net/sprites/home/normal/celesteela.png"
-      },
-      {
-        "name": "Tapu Koko",
-        "base": "Tapu Koko",
-        "t1": "Electric",
-        "t2": "Fairy",
-        "gen": 7,
-        "category": "Legendary",
-        "slug": "tapu-koko",
-        "base_slug": "tapu-koko",
-        "image": "https://img.pokemondb.net/sprites/home/normal/tapu-koko.png"
-      }
-    ]
-  },
-  {
-    "year": 2016,
-    "player": "Wolfe Glick",
-    "country": "USA",
-    "team": [
-      {
-        "name": "Kyogre-Primal",
-        "base": "Kyogre",
-        "t1": "Water",
-        "t2": "",
-        "gen": 6,
-        "category": "Legendary",
-        "slug": "kyogre-primal",
-        "base_slug": "kyogre",
-        "image": "https://img.pokemondb.net/sprites/home/normal/kyogre-primal.png"
-      },
-      {
-        "name": "Hitmontop",
-        "base": "Hitmontop",
-        "t1": "Fighting",
-        "t2": "",
-        "gen": 2,
-        "category": "Ordinary",
-        "slug": "hitmontop",
-        "base_slug": "hitmontop",
-        "image": "https://img.pokemondb.net/sprites/home/normal/hitmontop.png"
-      },
-      {
-        "name": "Gengar-Mega",
-        "base": "Gengar",
-        "t1": "Ghost",
-        "t2": "Poison",
-        "gen": 6,
-        "category": "Ordinary",
-        "slug": "gengar-mega",
-        "base_slug": "gengar",
-        "image": "https://img.pokemondb.net/sprites/home/normal/gengar-mega.png"
-      },
-      {
-        "name": "Raichu",
-        "base": "Raichu",
-        "t1": "Electric",
-        "t2": "",
-        "gen": 1,
-        "category": "Ordinary",
-        "slug": "raichu",
-        "base_slug": "raichu",
-        "image": "https://img.pokemondb.net/sprites/home/normal/raichu.png"
-      },
-      {
-        "name": "Bronzong",
-        "base": "Bronzong",
-        "t1": "Steel",
-        "t2": "Psychic",
-        "gen": 4,
-        "category": "Ordinary",
-        "slug": "bronzong",
-        "base_slug": "bronzong",
-        "image": "https://img.pokemondb.net/sprites/home/normal/bronzong.png"
-      },
-      {
-        "name": "Rayquaza-Mega",
-        "base": "Rayquaza",
-        "t1": "Dragon",
-        "t2": "Flying",
-        "gen": 6,
-        "category": "Legendary",
-        "slug": "rayquaza-mega",
-        "base_slug": "rayquaza",
-        "image": "https://img.pokemondb.net/sprites/home/normal/rayquaza-mega.png"
-      }
-    ]
-  },
-  {
-    "year": 2015,
-    "player": "Shoma Honami",
-    "country": "Japan",
-    "team": [
-      {
-        "name": "Kangaskhan-Mega",
-        "base": "Kangaskhan",
+        "name": "Farigiraf",
+        "code": "Farigiraf",
+        "base": "Farigiraf",
         "t1": "Normal",
-        "t2": "",
-        "gen": 1,
+        "t2": "Psychic",
+        "gen": 9,
         "category": "Ordinary",
-        "slug": "kangaskhan-mega",
-        "base_slug": "kangaskhan",
-        "image": "https://img.pokemondb.net/sprites/home/normal/kangaskhan-mega.png"
+        "slug": "farigiraf",
+        "base_slug": "farigiraf",
+        "image": "https://img.pokemondb.net/sprites/home/normal/farigiraf.png",
+        "stats": {
+          "hp": 120,
+          "atk": 90,
+          "def": 70,
+          "spa": 110,
+          "spd": 70,
+          "spe": 60
+        }
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "player": "Ray Yamanaka",
+    "country": "Japan",
+    "division": "Senior",
+    "team": [
+      {
+        "name": "Rillaboom",
+        "code": "Rillaboom",
+        "base": "Rillaboom",
+        "t1": "Grass",
+        "t2": "",
+        "gen": 8,
+        "category": "Ordinary",
+        "slug": "rillaboom",
+        "base_slug": "rillaboom",
+        "image": "https://img.pokemondb.net/sprites/home/normal/rillaboom.png",
+        "stats": {
+          "hp": 100,
+          "atk": 125,
+          "def": 90,
+          "spa": 60,
+          "spd": 70,
+          "spe": 85
+        }
       },
       {
-        "name": "Heatran",
-        "base": "Heatran",
-        "t1": "Fire",
-        "t2": "Steel",
-        "gen": 4,
-        "category": "Legendary",
-        "slug": "heatran",
-        "base_slug": "heatran",
-        "image": "https://img.pokemondb.net/sprites/home/normal/heatran.png"
-      },
-      {
-        "name": "Thundurus-I",
-        "base": "Thundurus",
-        "t1": "Electric",
-        "t2": "Flying",
+        "name": "Amoonguss",
+        "code": "Amoonguss",
+        "base": "Amoonguss",
+        "t1": "Grass",
+        "t2": "Poison",
         "gen": 5,
-        "category": "Legendary",
-        "slug": "thundurus-i",
-        "base_slug": "thundurus",
-        "image": "https://img.pokemondb.net/sprites/home/normal/thundurus-incarnate.png"
+        "category": "Ordinary",
+        "slug": "amoonguss",
+        "base_slug": "amoonguss",
+        "image": "https://img.pokemondb.net/sprites/home/normal/amoonguss.png",
+        "stats": {
+          "hp": 114,
+          "atk": 85,
+          "def": 70,
+          "spa": 85,
+          "spd": 80,
+          "spe": 30
+        }
       },
       {
-        "name": "Landorus-T",
+        "name": "Raging Bolt",
+        "code": "Raging Bolt",
+        "base": "Raging Bolt",
+        "t1": "Electric",
+        "t2": "Dragon",
+        "gen": 9,
+        "category": "Paradox Pok\u00e9mon",
+        "slug": "raging-bolt",
+        "base_slug": "raging-bolt",
+        "image": "https://img.pokemondb.net/sprites/home/normal/raging-bolt.png",
+        "stats": {
+          "hp": 125,
+          "atk": 73,
+          "def": 91,
+          "spa": 137,
+          "spd": 89,
+          "spe": 75
+        }
+      },
+      {
+        "name": "Calyrex Shadow Rider",
+        "code": "Calyrex-S",
+        "base": "Calyrex",
+        "t1": "Psychic",
+        "t2": "Ghost",
+        "gen": 8,
+        "category": "Legendary",
+        "slug": "calyrex-shadow-rider",
+        "base_slug": "calyrex",
+        "image": "https://img.pokemondb.net/sprites/home/normal/calyrex-shadow-rider.png",
+        "stats": {
+          "hp": 100,
+          "atk": 85,
+          "def": 80,
+          "spa": 165,
+          "spd": 100,
+          "spe": 150
+        }
+      },
+      {
+        "name": "Incineroar",
+        "code": "Incineroar",
+        "base": "Incineroar",
+        "t1": "Fire",
+        "t2": "Dark",
+        "gen": 7,
+        "category": "Ordinary",
+        "slug": "incineroar",
+        "base_slug": "incineroar",
+        "image": "https://img.pokemondb.net/sprites/home/normal/incineroar.png",
+        "stats": {
+          "hp": 95,
+          "atk": 115,
+          "def": 90,
+          "spa": 80,
+          "spd": 90,
+          "spe": 60
+        }
+      },
+      {
+        "name": "Urshifu Rapid Strike Style",
+        "code": "Urshifu-W",
+        "base": "Urshifu",
+        "t1": "Fighting",
+        "t2": "Water",
+        "gen": 8,
+        "category": "Legendary",
+        "slug": "urshifu-rapid-strike",
+        "base_slug": "urshifu",
+        "image": "https://img.pokemondb.net/sprites/home/normal/urshifu-rapid-strike.png",
+        "stats": {
+          "hp": 100,
+          "atk": 130,
+          "def": 100,
+          "spa": 63,
+          "spd": 60,
+          "spe": 97
+        }
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "player": "Shohei Kimura",
+    "country": "Japan",
+    "division": "Masters",
+    "team": [
+      {
+        "name": "Landorus Therian Form",
+        "code": "Landorus-T",
         "base": "Landorus",
         "t1": "Ground",
         "t2": "Flying",
         "gen": 5,
         "category": "Legendary",
-        "slug": "landorus-t",
+        "slug": "landorus-therian",
         "base_slug": "landorus",
-        "image": "https://img.pokemondb.net/sprites/home/normal/landorus-therian.png"
+        "image": "https://img.pokemondb.net/sprites/home/normal/landorus-therian.png",
+        "stats": {
+          "hp": 89,
+          "atk": 145,
+          "def": 90,
+          "spa": 105,
+          "spd": 80,
+          "spe": 91
+        }
       },
       {
-        "name": "Cresselia",
-        "base": "Cresselia",
-        "t1": "Psychic",
-        "t2": "",
-        "gen": 4,
+        "name": "Urshifu Rapid Strike Style",
+        "code": "Urshifu-W",
+        "base": "Urshifu",
+        "t1": "Fighting",
+        "t2": "Water",
+        "gen": 8,
         "category": "Legendary",
-        "slug": "cresselia",
-        "base_slug": "cresselia",
-        "image": "https://img.pokemondb.net/sprites/home/normal/cresselia.png"
+        "slug": "urshifu-rapid-strike",
+        "base_slug": "urshifu",
+        "image": "https://img.pokemondb.net/sprites/home/normal/urshifu-rapid-strike.png",
+        "stats": {
+          "hp": 100,
+          "atk": 130,
+          "def": 100,
+          "spa": 63,
+          "spd": 60,
+          "spe": 97
+        }
+      },
+      {
+        "name": "Flutter Mane",
+        "code": "Flutter Mane",
+        "base": "Flutter Mane",
+        "t1": "Ghost",
+        "t2": "Fairy",
+        "gen": 9,
+        "category": "Paradox Pok\u00e9mon",
+        "slug": "flutter-mane",
+        "base_slug": "flutter-mane",
+        "image": "https://img.pokemondb.net/sprites/home/normal/flutter-mane.png",
+        "stats": {
+          "hp": 55,
+          "atk": 55,
+          "def": 55,
+          "spa": 135,
+          "spd": 135,
+          "spe": 135
+        }
+      },
+      {
+        "name": "Chien-Pao",
+        "code": "Chien-Pao",
+        "base": "Chien-Pao",
+        "t1": "Dark",
+        "t2": "Ice",
+        "gen": 9,
+        "category": "Legendary",
+        "slug": "chien-pao",
+        "base_slug": "chien-pao",
+        "image": "https://img.pokemondb.net/sprites/home/normal/chien-pao.png",
+        "stats": {
+          "hp": 80,
+          "atk": 120,
+          "def": 80,
+          "spa": 90,
+          "spd": 65,
+          "spe": 135
+        }
       },
       {
         "name": "Amoonguss",
+        "code": "Amoonguss",
         "base": "Amoonguss",
         "t1": "Grass",
         "t2": "Poison",
@@ -652,123 +863,127 @@
         "category": "Ordinary",
         "slug": "amoonguss",
         "base_slug": "amoonguss",
-        "image": "https://img.pokemondb.net/sprites/home/normal/amoonguss.png"
+        "image": "https://img.pokemondb.net/sprites/home/normal/amoonguss.png",
+        "stats": {
+          "hp": 114,
+          "atk": 85,
+          "def": 70,
+          "spa": 85,
+          "spd": 80,
+          "spe": 30
+        }
+      },
+      {
+        "name": "Iron Hands",
+        "code": "Iron Hands",
+        "base": "Iron Hands",
+        "t1": "Fighting",
+        "t2": "Electric",
+        "gen": 9,
+        "category": "Paradox Pok\u00e9mon",
+        "slug": "iron-hands",
+        "base_slug": "iron-hands",
+        "image": "https://img.pokemondb.net/sprites/home/normal/iron-hands.png",
+        "stats": {
+          "hp": 154,
+          "atk": 140,
+          "def": 108,
+          "spa": 50,
+          "spd": 68,
+          "spe": 50
+        }
       }
     ]
   },
   {
-    "year": 2014,
-    "player": "Se Jun Park",
-    "country": "South Korea",
+    "year": 2023,
+    "player": "Sora Ebisawa",
+    "country": "Japan",
+    "division": "Junior",
     "team": [
       {
-        "name": "Pachirisu",
-        "base": "Pachirisu",
-        "t1": "Electric",
-        "t2": "",
-        "gen": 4,
-        "category": "Ordinary",
-        "slug": "pachirisu",
-        "base_slug": "pachirisu",
-        "image": "https://img.pokemondb.net/sprites/home/normal/pachirisu.png"
-      },
-      {
-        "name": "Gothitelle",
-        "base": "Gothitelle",
-        "t1": "Psychic",
-        "t2": "",
-        "gen": 5,
-        "category": "Ordinary",
-        "slug": "gothitelle",
-        "base_slug": "gothitelle",
-        "image": "https://img.pokemondb.net/sprites/home/normal/gothitelle.png"
-      },
-      {
-        "name": "Gardevoir",
-        "base": "Gardevoir",
-        "t1": "Psychic",
-        "t2": "Fairy",
-        "gen": 3,
-        "category": "Ordinary",
-        "slug": "gardevoir",
-        "base_slug": "gardevoir",
-        "image": "https://img.pokemondb.net/sprites/home/normal/gardevoir.png"
-      },
-      {
-        "name": "Gyarados-Mega",
-        "base": "Gyarados",
-        "t1": "Water",
-        "t2": "Dark",
-        "gen": 6,
-        "category": "Ordinary",
-        "slug": "gyarados-mega",
-        "base_slug": "gyarados",
-        "image": "https://img.pokemondb.net/sprites/home/normal/gyarados-mega.png"
-      },
-      {
-        "name": "Talonflame",
-        "base": "Talonflame",
-        "t1": "Fire",
-        "t2": "Flying",
-        "gen": 6,
-        "category": "Ordinary",
-        "slug": "talonflame",
-        "base_slug": "talonflame",
-        "image": "https://img.pokemondb.net/sprites/home/normal/talonflame.png"
-      },
-      {
-        "name": "Garchomp",
-        "base": "Garchomp",
-        "t1": "Dragon",
-        "t2": "Ground",
-        "gen": 4,
-        "category": "Ordinary",
-        "slug": "garchomp",
-        "base_slug": "garchomp",
-        "image": "https://img.pokemondb.net/sprites/home/normal/garchomp.png"
-      }
-    ]
-  },
-  {
-    "year": 2013,
-    "player": "Arash Ohmati",
-    "country": "Italy",
-    "team": [
-      {
-        "name": "Mamoswine",
-        "base": "Mamoswine",
-        "t1": "Ice",
-        "t2": "Ground",
-        "gen": 4,
-        "category": "Ordinary",
-        "slug": "mamoswine",
-        "base_slug": "mamoswine",
-        "image": "https://img.pokemondb.net/sprites/home/normal/mamoswine.png"
-      },
-      {
-        "name": "Tornadus-I",
+        "name": "Tornadus Incarnate Form",
+        "code": "Tornadus-I",
         "base": "Tornadus",
         "t1": "Flying",
         "t2": "",
         "gen": 5,
         "category": "Legendary",
-        "slug": "tornadus-i",
+        "slug": "tornadus-incarnate",
         "base_slug": "tornadus",
-        "image": "https://img.pokemondb.net/sprites/home/normal/tornadus-incarnate.png"
+        "image": "https://img.pokemondb.net/sprites/home/normal/tornadus-incarnate.png",
+        "stats": {
+          "hp": 79,
+          "atk": 115,
+          "def": 70,
+          "spa": 125,
+          "spd": 80,
+          "spe": 111
+        }
       },
       {
-        "name": "Latios",
-        "base": "Latios",
-        "t1": "Dragon",
-        "t2": "Psychic",
-        "gen": 3,
+        "name": "Urshifu Single Strike Style",
+        "code": "Urshifu-D",
+        "base": "Urshifu",
+        "t1": "Fighting",
+        "t2": "Dark",
+        "gen": 8,
         "category": "Legendary",
-        "slug": "latios",
-        "base_slug": "latios",
-        "image": "https://img.pokemondb.net/sprites/home/normal/latios.png"
+        "slug": "urshifu-single-strike",
+        "base_slug": "urshifu",
+        "image": "https://img.pokemondb.net/sprites/home/normal/urshifu-single-strike.png",
+        "stats": {
+          "hp": 100,
+          "atk": 130,
+          "def": 100,
+          "spa": 63,
+          "spd": 60,
+          "spe": 97
+        }
+      },
+      {
+        "name": "Dragonite",
+        "code": "Dragonite",
+        "base": "Dragonite",
+        "t1": "Dragon",
+        "t2": "Flying",
+        "gen": 1,
+        "category": "Ordinary",
+        "slug": "dragonite",
+        "base_slug": "dragonite",
+        "image": "https://img.pokemondb.net/sprites/home/normal/dragonite.png",
+        "stats": {
+          "hp": 91,
+          "atk": 134,
+          "def": 95,
+          "spa": 100,
+          "spd": 100,
+          "spe": 80
+        }
+      },
+      {
+        "name": "Flutter Mane",
+        "code": "Flutter Mane",
+        "base": "Flutter Mane",
+        "t1": "Ghost",
+        "t2": "Fairy",
+        "gen": 9,
+        "category": "Paradox Pok\u00e9mon",
+        "slug": "flutter-mane",
+        "base_slug": "flutter-mane",
+        "image": "https://img.pokemondb.net/sprites/home/normal/flutter-mane.png",
+        "stats": {
+          "hp": 55,
+          "atk": 55,
+          "def": 55,
+          "spa": 135,
+          "spd": 135,
+          "spe": 135
+        }
       },
       {
         "name": "Amoonguss",
+        "code": "Amoonguss",
         "base": "Amoonguss",
         "t1": "Grass",
         "t2": "Poison",
@@ -776,10 +991,19 @@
         "category": "Ordinary",
         "slug": "amoonguss",
         "base_slug": "amoonguss",
-        "image": "https://img.pokemondb.net/sprites/home/normal/amoonguss.png"
+        "image": "https://img.pokemondb.net/sprites/home/normal/amoonguss.png",
+        "stats": {
+          "hp": 114,
+          "atk": 85,
+          "def": 70,
+          "spa": 85,
+          "spd": 80,
+          "spe": 30
+        }
       },
       {
         "name": "Heatran",
+        "code": "Heatran",
         "base": "Heatran",
         "t1": "Fire",
         "t2": "Steel",
@@ -787,218 +1011,411 @@
         "category": "Legendary",
         "slug": "heatran",
         "base_slug": "heatran",
-        "image": "https://img.pokemondb.net/sprites/home/normal/heatran.png"
-      },
-      {
-        "name": "Conkeldurr",
-        "base": "Conkeldurr",
-        "t1": "Fighting",
-        "t2": "",
-        "gen": 5,
-        "category": "Ordinary",
-        "slug": "conkeldurr",
-        "base_slug": "conkeldurr",
-        "image": "https://img.pokemondb.net/sprites/home/normal/conkeldurr.png"
+        "image": "https://img.pokemondb.net/sprites/home/normal/heatran.png",
+        "stats": {
+          "hp": 91,
+          "atk": 90,
+          "def": 106,
+          "spa": 130,
+          "spd": 106,
+          "spe": 77
+        }
       }
     ]
   },
   {
-    "year": 2012,
-    "player": "Ray Rizzo",
-    "country": "USA",
+    "year": 2023,
+    "player": "Tomoya Ogawa",
+    "country": "Japan",
+    "division": "Senior",
     "team": [
       {
-        "name": "Tyranitar",
-        "base": "Tyranitar",
-        "t1": "Rock",
-        "t2": "Dark",
-        "gen": 2,
-        "category": "Ordinary",
-        "slug": "tyranitar",
-        "base_slug": "tyranitar",
-        "image": "https://img.pokemondb.net/sprites/home/normal/tyranitar.png"
+        "name": "Zapdos",
+        "code": "Zapdos",
+        "base": "Zapdos",
+        "t1": "Electric",
+        "t2": "Flying",
+        "gen": 1,
+        "category": "Legendary",
+        "slug": "zapdos",
+        "base_slug": "zapdos",
+        "image": "https://img.pokemondb.net/sprites/home/normal/zapdos.png",
+        "stats": {
+          "hp": 90,
+          "atk": 90,
+          "def": 85,
+          "spa": 125,
+          "spd": 90,
+          "spe": 100
+        }
       },
       {
-        "name": "Garchomp",
-        "base": "Garchomp",
-        "t1": "Dragon",
+        "name": "Rillaboom",
+        "code": "Rillaboom",
+        "base": "Rillaboom",
+        "t1": "Grass",
+        "t2": "",
+        "gen": 8,
+        "category": "Ordinary",
+        "slug": "rillaboom",
+        "base_slug": "rillaboom",
+        "image": "https://img.pokemondb.net/sprites/home/normal/rillaboom.png",
+        "stats": {
+          "hp": 100,
+          "atk": 125,
+          "def": 90,
+          "spa": 60,
+          "spd": 70,
+          "spe": 85
+        }
+      },
+      {
+        "name": "Urshifu Single Strike Style",
+        "code": "Urshifu-D",
+        "base": "Urshifu",
+        "t1": "Fighting",
+        "t2": "Dark",
+        "gen": 8,
+        "category": "Legendary",
+        "slug": "urshifu-single-strike",
+        "base_slug": "urshifu",
+        "image": "https://img.pokemondb.net/sprites/home/normal/urshifu-single-strike.png",
+        "stats": {
+          "hp": 100,
+          "atk": 130,
+          "def": 100,
+          "spa": 63,
+          "spd": 60,
+          "spe": 97
+        }
+      },
+      {
+        "name": "Sylveon",
+        "code": "Sylveon",
+        "base": "Sylveon",
+        "t1": "Fairy",
+        "t2": "",
+        "gen": 6,
+        "category": "Ordinary",
+        "slug": "sylveon",
+        "base_slug": "sylveon",
+        "image": "https://img.pokemondb.net/sprites/home/normal/sylveon.png",
+        "stats": {
+          "hp": 95,
+          "atk": 65,
+          "def": 65,
+          "spa": 110,
+          "spd": 130,
+          "spe": 60
+        }
+      },
+      {
+        "name": "Hisuian Arcanine",
+        "code": "Arcanine-H",
+        "base": "Arcanine",
+        "t1": "Fire",
+        "t2": "Rock",
+        "gen": 8,
+        "category": "Ordinary",
+        "slug": "arcanine-hisuian",
+        "base_slug": "arcanine",
+        "image": "https://img.pokemondb.net/sprites/home/normal/arcanine-hisuian.png",
+        "stats": {
+          "hp": 95,
+          "atk": 115,
+          "def": 80,
+          "spa": 95,
+          "spd": 80,
+          "spe": 90
+        }
+      },
+      {
+        "name": "Gastrodon",
+        "code": "Gastrodon",
+        "base": "Gastrodon",
+        "t1": "Water",
         "t2": "Ground",
         "gen": 4,
         "category": "Ordinary",
-        "slug": "garchomp",
-        "base_slug": "garchomp",
-        "image": "https://img.pokemondb.net/sprites/home/normal/garchomp.png"
-      },
-      {
-        "name": "Cresselia",
-        "base": "Cresselia",
-        "t1": "Psychic",
-        "t2": "",
-        "gen": 4,
-        "category": "Legendary",
-        "slug": "cresselia",
-        "base_slug": "cresselia",
-        "image": "https://img.pokemondb.net/sprites/home/normal/cresselia.png"
-      },
-      {
-        "name": "Hydreigon",
-        "base": "Hydreigon",
-        "t1": "Dark",
-        "t2": "Dragon",
-        "gen": 5,
-        "category": "Ordinary",
-        "slug": "hydreigon",
-        "base_slug": "hydreigon",
-        "image": "https://img.pokemondb.net/sprites/home/normal/hydreigon.png"
-      },
-      {
-        "name": "Rotom-W",
-        "base": "Rotom",
-        "t1": "Electric",
-        "t2": "Water",
-        "gen": 4,
-        "category": "Ordinary",
-        "slug": "rotom-w",
-        "base_slug": "rotom",
-        "image": "https://img.pokemondb.net/sprites/home/normal/rotom-wash.png"
-      },
-      {
-        "name": "Metagross",
-        "base": "Metagross",
-        "t1": "Steel",
-        "t2": "Psychic",
-        "gen": 3,
-        "category": "Ordinary",
-        "slug": "metagross",
-        "base_slug": "metagross",
-        "image": "https://img.pokemondb.net/sprites/home/normal/metagross.png"
+        "slug": "gastrodon",
+        "base_slug": "gastrodon",
+        "image": "https://img.pokemondb.net/sprites/home/normal/gastrodon.png",
+        "stats": {
+          "hp": 111,
+          "atk": 83,
+          "def": 68,
+          "spa": 92,
+          "spd": 82,
+          "spe": 39
+        }
       }
     ]
   },
   {
-    "year": 2011,
-    "player": "Ray Rizzo",
-    "country": "USA",
+    "year": 2022,
+    "player": "Eduardo Cunha",
+    "country": "Portugal",
+    "division": "Masters",
     "team": [
       {
-        "name": "Escavalier",
-        "base": "Escavalier",
-        "t1": "Bug",
-        "t2": "Steel",
-        "gen": 5,
+        "name": "Gastrodon",
+        "code": "Gastrodon",
+        "base": "Gastrodon",
+        "t1": "Water",
+        "t2": "Ground",
+        "gen": 4,
         "category": "Ordinary",
-        "slug": "escavalier",
-        "base_slug": "escavalier",
-        "image": "https://img.pokemondb.net/sprites/home/normal/escavalier.png"
+        "slug": "gastrodon",
+        "base_slug": "gastrodon",
+        "image": "https://img.pokemondb.net/sprites/home/normal/gastrodon.png",
+        "stats": {
+          "hp": 111,
+          "atk": 83,
+          "def": 68,
+          "spa": 92,
+          "spd": 82,
+          "spe": 39
+        }
       },
       {
-        "name": "Conkeldurr",
-        "base": "Conkeldurr",
-        "t1": "Fighting",
-        "t2": "",
-        "gen": 5,
-        "category": "Ordinary",
-        "slug": "conkeldurr",
-        "base_slug": "conkeldurr",
-        "image": "https://img.pokemondb.net/sprites/home/normal/conkeldurr.png"
-      },
-      {
-        "name": "Terrakion",
-        "base": "Terrakion",
-        "t1": "Rock",
-        "t2": "Fighting",
-        "gen": 5,
-        "category": "Legendary",
-        "slug": "terrakion",
-        "base_slug": "terrakion",
-        "image": "https://img.pokemondb.net/sprites/home/normal/terrakion.png"
-      },
-      {
-        "name": "Gothitelle",
-        "base": "Gothitelle",
+        "name": "Calyrex Shadow Rider",
+        "code": "Calyrex-S",
+        "base": "Calyrex",
         "t1": "Psychic",
-        "t2": "",
-        "gen": 5,
-        "category": "Ordinary",
-        "slug": "gothitelle",
-        "base_slug": "gothitelle",
-        "image": "https://img.pokemondb.net/sprites/home/normal/gothitelle.png"
+        "t2": "Ghost",
+        "gen": 8,
+        "category": "Legendary",
+        "slug": "calyrex-shadow-rider",
+        "base_slug": "calyrex",
+        "image": "https://img.pokemondb.net/sprites/home/normal/calyrex-shadow-rider.png",
+        "stats": {
+          "hp": 100,
+          "atk": 85,
+          "def": 80,
+          "spa": 165,
+          "spd": 100,
+          "spe": 150
+        }
       },
       {
-        "name": "Thundurus-I",
+        "name": "Rillaboom",
+        "code": "Rillaboom",
+        "base": "Rillaboom",
+        "t1": "Grass",
+        "t2": "",
+        "gen": 8,
+        "category": "Ordinary",
+        "slug": "rillaboom",
+        "base_slug": "rillaboom",
+        "image": "https://img.pokemondb.net/sprites/home/normal/rillaboom.png",
+        "stats": {
+          "hp": 100,
+          "atk": 125,
+          "def": 90,
+          "spa": 60,
+          "spd": 70,
+          "spe": 85
+        }
+      },
+      {
+        "name": "Incineroar",
+        "code": "Incineroar",
+        "base": "Incineroar",
+        "t1": "Fire",
+        "t2": "Dark",
+        "gen": 7,
+        "category": "Ordinary",
+        "slug": "incineroar",
+        "base_slug": "incineroar",
+        "image": "https://img.pokemondb.net/sprites/home/normal/incineroar.png",
+        "stats": {
+          "hp": 95,
+          "atk": 115,
+          "def": 90,
+          "spa": 80,
+          "spd": 90,
+          "spe": 60
+        }
+      },
+      {
+        "name": "Thundurus Incarnate Form",
+        "code": "Thundurus-I",
         "base": "Thundurus",
         "t1": "Electric",
         "t2": "Flying",
         "gen": 5,
         "category": "Legendary",
-        "slug": "thundurus-i",
+        "slug": "thundurus-incarnate",
         "base_slug": "thundurus",
-        "image": "https://img.pokemondb.net/sprites/home/normal/thundurus-incarnate.png"
+        "image": "https://img.pokemondb.net/sprites/home/normal/thundurus-incarnate.png",
+        "stats": {
+          "hp": 79,
+          "atk": 115,
+          "def": 70,
+          "spa": 125,
+          "spd": 80,
+          "spe": 111
+        }
       },
       {
-        "name": "Hydreigon",
-        "base": "Hydreigon",
-        "t1": "Dark",
-        "t2": "Dragon",
-        "gen": 5,
-        "category": "Ordinary",
-        "slug": "hydreigon",
-        "base_slug": "hydreigon",
-        "image": "https://img.pokemondb.net/sprites/home/normal/hydreigon.png"
+        "name": "Zacian Crowned Sword",
+        "code": "Zacian-CS",
+        "base": "Zacian",
+        "t1": "Fairy",
+        "t2": "Steel",
+        "gen": 8,
+        "category": "Legendary",
+        "slug": "zacian-crowned",
+        "base_slug": "zacian",
+        "image": "https://img.pokemondb.net/sprites/home/normal/zacian-crowned.png",
+        "stats": {
+          "hp": 92,
+          "atk": 150,
+          "def": 115,
+          "spa": 80,
+          "spd": 115,
+          "spe": 148
+        }
       }
     ]
   },
   {
-    "year": 2010,
-    "player": "Ray Rizzo",
-    "country": "USA",
+    "year": 2022,
+    "player": "Kosaku Miyamoto",
+    "country": "Japan",
+    "division": "Junior",
     "team": [
       {
-        "name": "Hariyama",
-        "base": "Hariyama",
-        "t1": "Fighting",
-        "t2": "",
-        "gen": 3,
+        "name": "Whimsicott",
+        "code": "Whimsicott",
+        "base": "Whimsicott",
+        "t1": "Grass",
+        "t2": "Fairy",
+        "gen": 5,
         "category": "Ordinary",
-        "slug": "hariyama",
-        "base_slug": "hariyama",
-        "image": "https://img.pokemondb.net/sprites/home/normal/hariyama.png"
+        "slug": "whimsicott",
+        "base_slug": "whimsicott",
+        "image": "https://img.pokemondb.net/sprites/home/normal/whimsicott.png",
+        "stats": {
+          "hp": 60,
+          "atk": 67,
+          "def": 85,
+          "spa": 77,
+          "spd": 75,
+          "spe": 116
+        }
       },
       {
-        "name": "Cresselia",
-        "base": "Cresselia",
-        "t1": "Psychic",
-        "t2": "",
-        "gen": 4,
-        "category": "Legendary",
-        "slug": "cresselia",
-        "base_slug": "cresselia",
-        "image": "https://img.pokemondb.net/sprites/home/normal/cresselia.png"
-      },
-      {
-        "name": "Dialga",
-        "base": "Dialga",
-        "t1": "Steel",
-        "t2": "Dragon",
-        "gen": 4,
-        "category": "Legendary",
-        "slug": "dialga",
-        "base_slug": "dialga",
-        "image": "https://img.pokemondb.net/sprites/home/normal/dialga.png"
-      },
-      {
-        "name": "Kyogre",
-        "base": "Kyogre",
+        "name": "Blastoise",
+        "code": "Blastoise",
+        "base": "Blastoise",
         "t1": "Water",
         "t2": "",
-        "gen": 3,
-        "category": "Legendary",
-        "slug": "kyogre",
-        "base_slug": "kyogre",
-        "image": "https://img.pokemondb.net/sprites/home/normal/kyogre.png"
+        "gen": 1,
+        "category": "Ordinary",
+        "slug": "blastoise",
+        "base_slug": "blastoise",
+        "image": "https://img.pokemondb.net/sprites/home/normal/blastoise.png",
+        "stats": {
+          "hp": 79,
+          "atk": 83,
+          "def": 100,
+          "spa": 85,
+          "spd": 105,
+          "spe": 78
+        }
       },
       {
+        "name": "Zacian Crowned Sword",
+        "code": "Zacian-CS",
+        "base": "Zacian",
+        "t1": "Fairy",
+        "t2": "Steel",
+        "gen": 8,
+        "category": "Legendary",
+        "slug": "zacian-crowned",
+        "base_slug": "zacian",
+        "image": "https://img.pokemondb.net/sprites/home/normal/zacian-crowned.png",
+        "stats": {
+          "hp": 92,
+          "atk": 150,
+          "def": 115,
+          "spa": 80,
+          "spd": 115,
+          "spe": 148
+        }
+      },
+      {
+        "name": "Calyrex Shadow Rider",
+        "code": "Calyrex-S",
+        "base": "Calyrex",
+        "t1": "Psychic",
+        "t2": "Ghost",
+        "gen": 8,
+        "category": "Legendary",
+        "slug": "calyrex-shadow-rider",
+        "base_slug": "calyrex",
+        "image": "https://img.pokemondb.net/sprites/home/normal/calyrex-shadow-rider.png",
+        "stats": {
+          "hp": 100,
+          "atk": 85,
+          "def": 80,
+          "spa": 165,
+          "spd": 100,
+          "spe": 150
+        }
+      },
+      {
+        "name": "Amoonguss",
+        "code": "Amoonguss",
+        "base": "Amoonguss",
+        "t1": "Grass",
+        "t2": "Poison",
+        "gen": 5,
+        "category": "Ordinary",
+        "slug": "amoonguss",
+        "base_slug": "amoonguss",
+        "image": "https://img.pokemondb.net/sprites/home/normal/amoonguss.png",
+        "stats": {
+          "hp": 114,
+          "atk": 85,
+          "def": 70,
+          "spa": 85,
+          "spd": 80,
+          "spe": 30
+        }
+      },
+      {
+        "name": "Landorus Therian Form",
+        "code": "Landorus-T",
+        "base": "Landorus",
+        "t1": "Ground",
+        "t2": "Flying",
+        "gen": 5,
+        "category": "Legendary",
+        "slug": "landorus-therian",
+        "base_slug": "landorus",
+        "image": "https://img.pokemondb.net/sprites/home/normal/landorus-therian.png",
+        "stats": {
+          "hp": 89,
+          "atk": 145,
+          "def": 90,
+          "spa": 105,
+          "spd": 80,
+          "spe": 91
+        }
+      }
+    ]
+  },
+  {
+    "year": 2022,
+    "player": "Yasuharu Shimizu",
+    "country": "Japan",
+    "division": "Senior",
+    "team": [
+      {
         "name": "Groudon",
+        "code": "Groudon",
         "base": "Groudon",
         "t1": "Ground",
         "t2": "",
@@ -1006,112 +1423,59 @@
         "category": "Legendary",
         "slug": "groudon",
         "base_slug": "groudon",
-        "image": "https://img.pokemondb.net/sprites/home/normal/groudon.png"
+        "image": "https://img.pokemondb.net/sprites/home/normal/groudon.png",
+        "stats": {
+          "hp": 100,
+          "atk": 150,
+          "def": 140,
+          "spa": 100,
+          "spd": 90,
+          "spe": 90
+        }
       },
       {
-        "name": "Ludicolo",
-        "base": "Ludicolo",
-        "t1": "Water",
-        "t2": "Grass",
-        "gen": 3,
-        "category": "Ordinary",
-        "slug": "ludicolo",
-        "base_slug": "ludicolo",
-        "image": "https://img.pokemondb.net/sprites/home/normal/ludicolo.png"
-      }
-    ]
-  },
-  {
-    "year": 2009,
-    "player": "Kazuyuki Tsuji",
-    "country": "Japan",
-    "team": [
-      {
-        "name": "Ludicolo",
-        "base": "Ludicolo",
-        "t1": "Water",
-        "t2": "Grass",
-        "gen": 3,
-        "category": "Ordinary",
-        "slug": "ludicolo",
-        "base_slug": "ludicolo",
-        "image": "https://img.pokemondb.net/sprites/home/normal/ludicolo.png"
-      },
-      {
-        "name": "Toxicroak",
-        "base": "Toxicroak",
-        "t1": "Poison",
-        "t2": "Fighting",
-        "gen": 4,
-        "category": "Ordinary",
-        "slug": "toxicroak",
-        "base_slug": "toxicroak",
-        "image": "https://img.pokemondb.net/sprites/home/normal/toxicroak.png"
-      },
-      {
-        "name": "Metagross",
-        "base": "Metagross",
-        "t1": "Steel",
-        "t2": "Psychic",
-        "gen": 3,
-        "category": "Ordinary",
-        "slug": "metagross",
-        "base_slug": "metagross",
-        "image": "https://img.pokemondb.net/sprites/home/normal/metagross.png"
-      },
-      {
-        "name": "Snorlax",
-        "base": "Snorlax",
-        "t1": "Normal",
-        "t2": "",
+        "name": "Venusaur",
+        "code": "Venusaur",
+        "base": "Venusaur",
+        "t1": "Grass",
+        "t2": "Poison",
         "gen": 1,
         "category": "Ordinary",
-        "slug": "snorlax",
-        "base_slug": "snorlax",
-        "image": "https://img.pokemondb.net/sprites/home/normal/snorlax.png"
+        "slug": "venusaur",
+        "base_slug": "venusaur",
+        "image": "https://img.pokemondb.net/sprites/home/normal/venusaur.png",
+        "stats": {
+          "hp": 80,
+          "atk": 82,
+          "def": 83,
+          "spa": 100,
+          "spd": 100,
+          "spe": 80
+        }
       },
       {
-        "name": "Salamence",
-        "base": "Salamence",
-        "t1": "Dragon",
-        "t2": "Flying",
-        "gen": 3,
+        "name": "Incineroar",
+        "code": "Incineroar",
+        "base": "Incineroar",
+        "t1": "Fire",
+        "t2": "Dark",
+        "gen": 7,
         "category": "Ordinary",
-        "slug": "salamence",
-        "base_slug": "salamence",
-        "image": "https://img.pokemondb.net/sprites/home/normal/salamence.png"
-      },
-      {
-        "name": "Empoleon",
-        "base": "Empoleon",
-        "t1": "Water",
-        "t2": "Steel",
-        "gen": 4,
-        "category": "Ordinary",
-        "slug": "empoleon",
-        "base_slug": "empoleon",
-        "image": "https://img.pokemondb.net/sprites/home/normal/empoleon.png"
-      }
-    ]
-  },
-  {
-    "year": 2008,
-    "player": "Izuru Yoshimura",
-    "country": "Japan",
-    "team": [
-      {
-        "name": "Smeargle",
-        "base": "Smeargle",
-        "t1": "Normal",
-        "t2": "",
-        "gen": 2,
-        "category": "Ordinary",
-        "slug": "smeargle",
-        "base_slug": "smeargle",
-        "image": "https://img.pokemondb.net/sprites/home/normal/smeargle.png"
+        "slug": "incineroar",
+        "base_slug": "incineroar",
+        "image": "https://img.pokemondb.net/sprites/home/normal/incineroar.png",
+        "stats": {
+          "hp": 95,
+          "atk": 115,
+          "def": 90,
+          "spa": 80,
+          "spd": 90,
+          "spe": 60
+        }
       },
       {
         "name": "Bronzong",
+        "code": "Bronzong",
         "base": "Bronzong",
         "t1": "Steel",
         "t2": "Psychic",
@@ -1119,10 +1483,619 @@
         "category": "Ordinary",
         "slug": "bronzong",
         "base_slug": "bronzong",
-        "image": "https://img.pokemondb.net/sprites/home/normal/bronzong.png"
+        "image": "https://img.pokemondb.net/sprites/home/normal/bronzong.png",
+        "stats": {
+          "hp": 67,
+          "atk": 89,
+          "def": 116,
+          "spa": 79,
+          "spd": 116,
+          "spe": 33
+        }
+      },
+      {
+        "name": "Zacian Crowned Sword",
+        "code": "Zacian-CS",
+        "base": "Zacian",
+        "t1": "Fairy",
+        "t2": "Steel",
+        "gen": 8,
+        "category": "Legendary",
+        "slug": "zacian-crowned",
+        "base_slug": "zacian",
+        "image": "https://img.pokemondb.net/sprites/home/normal/zacian-crowned.png",
+        "stats": {
+          "hp": 92,
+          "atk": 150,
+          "def": 115,
+          "spa": 80,
+          "spd": 115,
+          "spe": 148
+        }
+      },
+      {
+        "name": "Thundurus Incarnate Form",
+        "code": "Thundurus-I",
+        "base": "Thundurus",
+        "t1": "Electric",
+        "t2": "Flying",
+        "gen": 5,
+        "category": "Legendary",
+        "slug": "thundurus-incarnate",
+        "base_slug": "thundurus",
+        "image": "https://img.pokemondb.net/sprites/home/normal/thundurus-incarnate.png",
+        "stats": {
+          "hp": 79,
+          "atk": 115,
+          "def": 70,
+          "spa": 125,
+          "spd": 80,
+          "spe": 111
+        }
+      }
+    ]
+  },
+  {
+    "year": 2019,
+    "player": "Ko Tsukide",
+    "country": "Japan",
+    "division": "Senior",
+    "team": [
+      {
+        "name": "Xerneas",
+        "code": "Xerneas",
+        "base": "Xerneas",
+        "t1": "Fairy",
+        "t2": "",
+        "gen": 6,
+        "category": "Legendary",
+        "slug": "xerneas",
+        "base_slug": "xerneas",
+        "image": "https://img.pokemondb.net/sprites/home/normal/xerneas.png",
+        "stats": {
+          "hp": 126,
+          "atk": 131,
+          "def": 95,
+          "spa": 131,
+          "spd": 98,
+          "spe": 99
+        }
+      },
+      {
+        "name": "Rayquaza",
+        "code": "Rayquaza",
+        "base": "Rayquaza",
+        "t1": "Dragon",
+        "t2": "Flying",
+        "gen": 3,
+        "category": "Legendary",
+        "slug": "rayquaza",
+        "base_slug": "rayquaza",
+        "image": "https://img.pokemondb.net/sprites/home/normal/rayquaza.png",
+        "stats": {
+          "hp": 105,
+          "atk": 150,
+          "def": 90,
+          "spa": 150,
+          "spd": 90,
+          "spe": 95
+        }
+      },
+      {
+        "name": "Togedemaru",
+        "code": "Togedemaru",
+        "base": "Togedemaru",
+        "t1": "Electric",
+        "t2": "Steel",
+        "gen": 7,
+        "category": "Ordinary",
+        "slug": "togedemaru",
+        "base_slug": "togedemaru",
+        "image": "https://img.pokemondb.net/sprites/home/normal/togedemaru.png",
+        "stats": {
+          "hp": 65,
+          "atk": 98,
+          "def": 63,
+          "spa": 40,
+          "spd": 73,
+          "spe": 96
+        }
+      },
+      {
+        "name": "Tapu Fini",
+        "code": "Tapu Fini",
+        "base": "Tapu Fini",
+        "t1": "Water",
+        "t2": "Fairy",
+        "gen": 7,
+        "category": "Legendary",
+        "slug": "tapu-fini",
+        "base_slug": "tapu-fini",
+        "image": "https://img.pokemondb.net/sprites/home/normal/tapu-fini.png",
+        "stats": {
+          "hp": 70,
+          "atk": 75,
+          "def": 115,
+          "spa": 95,
+          "spd": 130,
+          "spe": 85
+        }
+      },
+      {
+        "name": "Incineroar",
+        "code": "Incineroar",
+        "base": "Incineroar",
+        "t1": "Fire",
+        "t2": "Dark",
+        "gen": 7,
+        "category": "Ordinary",
+        "slug": "incineroar",
+        "base_slug": "incineroar",
+        "image": "https://img.pokemondb.net/sprites/home/normal/incineroar.png",
+        "stats": {
+          "hp": 95,
+          "atk": 115,
+          "def": 90,
+          "spa": 80,
+          "spd": 90,
+          "spe": 60
+        }
+      },
+      {
+        "name": "Amoonguss",
+        "code": "Amoonguss",
+        "base": "Amoonguss",
+        "t1": "Grass",
+        "t2": "Poison",
+        "gen": 5,
+        "category": "Ordinary",
+        "slug": "amoonguss",
+        "base_slug": "amoonguss",
+        "image": "https://img.pokemondb.net/sprites/home/normal/amoonguss.png",
+        "stats": {
+          "hp": 114,
+          "atk": 85,
+          "def": 70,
+          "spa": 85,
+          "spd": 80,
+          "spe": 30
+        }
+      }
+    ]
+  },
+  {
+    "year": 2019,
+    "player": "Naoto Mizobuchi",
+    "country": "Japan",
+    "division": "Masters",
+    "team": [
+      {
+        "name": "Lunala",
+        "code": "Lunala",
+        "base": "Lunala",
+        "t1": "Psychic",
+        "t2": "Ghost",
+        "gen": 7,
+        "category": "Legendary",
+        "slug": "lunala",
+        "base_slug": "lunala",
+        "image": "https://img.pokemondb.net/sprites/home/normal/lunala.png",
+        "stats": {
+          "hp": 137,
+          "atk": 113,
+          "def": 89,
+          "spa": 137,
+          "spd": 107,
+          "spe": 97
+        }
+      },
+      {
+        "name": "Primal Groudon",
+        "code": "Groudon-Primal",
+        "base": "Groudon",
+        "t1": "Ground",
+        "t2": "Fire",
+        "gen": 6,
+        "category": "Legendary",
+        "slug": "groudon-primal",
+        "base_slug": "groudon",
+        "image": "https://img.pokemondb.net/sprites/home/normal/groudon-primal.png",
+        "stats": {
+          "hp": 100,
+          "atk": 180,
+          "def": 160,
+          "spa": 150,
+          "spd": 90,
+          "spe": 90
+        }
+      },
+      {
+        "name": "Incineroar",
+        "code": "Incineroar",
+        "base": "Incineroar",
+        "t1": "Fire",
+        "t2": "Dark",
+        "gen": 7,
+        "category": "Ordinary",
+        "slug": "incineroar",
+        "base_slug": "incineroar",
+        "image": "https://img.pokemondb.net/sprites/home/normal/incineroar.png",
+        "stats": {
+          "hp": 95,
+          "atk": 115,
+          "def": 90,
+          "spa": 80,
+          "spd": 90,
+          "spe": 60
+        }
+      },
+      {
+        "name": "Mega Salamence",
+        "code": "Salamence-Mega",
+        "base": "Salamence",
+        "t1": "Dragon",
+        "t2": "Flying",
+        "gen": 6,
+        "category": "Ordinary",
+        "slug": "salamence-mega",
+        "base_slug": "salamence",
+        "image": "https://img.pokemondb.net/sprites/home/normal/salamence-mega.png",
+        "stats": {
+          "hp": 95,
+          "atk": 145,
+          "def": 130,
+          "spa": 120,
+          "spd": 90,
+          "spe": 120
+        }
+      },
+      {
+        "name": "Tapu Fini",
+        "code": "Tapu Fini",
+        "base": "Tapu Fini",
+        "t1": "Water",
+        "t2": "Fairy",
+        "gen": 7,
+        "category": "Legendary",
+        "slug": "tapu-fini",
+        "base_slug": "tapu-fini",
+        "image": "https://img.pokemondb.net/sprites/home/normal/tapu-fini.png",
+        "stats": {
+          "hp": 70,
+          "atk": 75,
+          "def": 115,
+          "spa": 95,
+          "spd": 130,
+          "spe": 85
+        }
+      },
+      {
+        "name": "Stakataka",
+        "code": "Stakataka",
+        "base": "Stakataka",
+        "t1": "Rock",
+        "t2": "Steel",
+        "gen": 7,
+        "category": "Ultra Beast",
+        "slug": "stakataka",
+        "base_slug": "stakataka",
+        "image": "https://img.pokemondb.net/sprites/home/normal/stakataka.png",
+        "stats": {
+          "hp": 61,
+          "atk": 131,
+          "def": 211,
+          "spa": 53,
+          "spd": 101,
+          "spe": 13
+        }
+      }
+    ]
+  },
+  {
+    "year": 2019,
+    "player": "Pi Wu",
+    "country": "Taiwan",
+    "division": "Junior",
+    "team": [
+      {
+        "name": "Rayquaza",
+        "code": "Rayquaza",
+        "base": "Rayquaza",
+        "t1": "Dragon",
+        "t2": "Flying",
+        "gen": 3,
+        "category": "Legendary",
+        "slug": "rayquaza",
+        "base_slug": "rayquaza",
+        "image": "https://img.pokemondb.net/sprites/home/normal/rayquaza.png",
+        "stats": {
+          "hp": 105,
+          "atk": 150,
+          "def": 90,
+          "spa": 150,
+          "spd": 90,
+          "spe": 95
+        }
+      },
+      {
+        "name": "Xerneas",
+        "code": "Xerneas",
+        "base": "Xerneas",
+        "t1": "Fairy",
+        "t2": "",
+        "gen": 6,
+        "category": "Legendary",
+        "slug": "xerneas",
+        "base_slug": "xerneas",
+        "image": "https://img.pokemondb.net/sprites/home/normal/xerneas.png",
+        "stats": {
+          "hp": 126,
+          "atk": 131,
+          "def": 95,
+          "spa": 131,
+          "spd": 98,
+          "spe": 99
+        }
+      },
+      {
+        "name": "Tapu Fini",
+        "code": "Tapu Fini",
+        "base": "Tapu Fini",
+        "t1": "Water",
+        "t2": "Fairy",
+        "gen": 7,
+        "category": "Legendary",
+        "slug": "tapu-fini",
+        "base_slug": "tapu-fini",
+        "image": "https://img.pokemondb.net/sprites/home/normal/tapu-fini.png",
+        "stats": {
+          "hp": 70,
+          "atk": 75,
+          "def": 115,
+          "spa": 95,
+          "spd": 130,
+          "spe": 85
+        }
+      },
+      {
+        "name": "Incineroar",
+        "code": "Incineroar",
+        "base": "Incineroar",
+        "t1": "Fire",
+        "t2": "Dark",
+        "gen": 7,
+        "category": "Ordinary",
+        "slug": "incineroar",
+        "base_slug": "incineroar",
+        "image": "https://img.pokemondb.net/sprites/home/normal/incineroar.png",
+        "stats": {
+          "hp": 95,
+          "atk": 115,
+          "def": 90,
+          "spa": 80,
+          "spd": 90,
+          "spe": 60
+        }
+      },
+      {
+        "name": "Nihilego",
+        "code": "Nihilego",
+        "base": "Nihilego",
+        "t1": "Rock",
+        "t2": "Poison",
+        "gen": 7,
+        "category": "Ultra Beast",
+        "slug": "nihilego",
+        "base_slug": "nihilego",
+        "image": "https://img.pokemondb.net/sprites/home/normal/nihilego.png",
+        "stats": {
+          "hp": 109,
+          "atk": 53,
+          "def": 47,
+          "spa": 127,
+          "spd": 131,
+          "spe": 103
+        }
+      },
+      {
+        "name": "Amoonguss",
+        "code": "Amoonguss",
+        "base": "Amoonguss",
+        "t1": "Grass",
+        "t2": "Poison",
+        "gen": 5,
+        "category": "Ordinary",
+        "slug": "amoonguss",
+        "base_slug": "amoonguss",
+        "image": "https://img.pokemondb.net/sprites/home/normal/amoonguss.png",
+        "stats": {
+          "hp": 114,
+          "atk": 85,
+          "def": 70,
+          "spa": 85,
+          "spd": 80,
+          "spe": 30
+        }
+      }
+    ]
+  },
+  {
+    "year": 2018,
+    "player": "James Evans",
+    "country": "USA",
+    "division": "Senior",
+    "team": [
+      {
+        "name": "Incineroar",
+        "code": "Incineroar",
+        "base": "Incineroar",
+        "t1": "Fire",
+        "t2": "Dark",
+        "gen": 7,
+        "category": "Ordinary",
+        "slug": "incineroar",
+        "base_slug": "incineroar",
+        "image": "https://img.pokemondb.net/sprites/home/normal/incineroar.png",
+        "stats": {
+          "hp": 95,
+          "atk": 115,
+          "def": 90,
+          "spa": 80,
+          "spd": 90,
+          "spe": 60
+        }
+      },
+      {
+        "name": "Mega Gardevoir",
+        "code": "Gardevoir-Mega",
+        "base": "Gardevoir",
+        "t1": "Psychic",
+        "t2": "Fairy",
+        "gen": 3,
+        "category": "Ordinary",
+        "slug": "gardevoir-mega",
+        "base_slug": "gardevoir",
+        "image": "https://img.pokemondb.net/sprites/home/normal/gardevoir-mega.png",
+        "stats": {
+          "hp": 68,
+          "atk": 85,
+          "def": 65,
+          "spa": 165,
+          "spd": 135,
+          "spe": 100
+        }
+      },
+      {
+        "name": "Tapu Koko",
+        "code": "Tapu Koko",
+        "base": "Tapu Koko",
+        "t1": "Electric",
+        "t2": "Fairy",
+        "gen": 7,
+        "category": "Legendary",
+        "slug": "tapu-koko",
+        "base_slug": "tapu-koko",
+        "image": "https://img.pokemondb.net/sprites/home/normal/tapu-koko.png",
+        "stats": {
+          "hp": 70,
+          "atk": 115,
+          "def": 85,
+          "spa": 95,
+          "spd": 75,
+          "spe": 130
+        }
+      },
+      {
+        "name": "Landorus Therian Form",
+        "code": "Landorus-T",
+        "base": "Landorus",
+        "t1": "Ground",
+        "t2": "Flying",
+        "gen": 5,
+        "category": "Legendary",
+        "slug": "landorus-therian",
+        "base_slug": "landorus",
+        "image": "https://img.pokemondb.net/sprites/home/normal/landorus-therian.png",
+        "stats": {
+          "hp": 89,
+          "atk": 145,
+          "def": 90,
+          "spa": 105,
+          "spd": 80,
+          "spe": 91
+        }
+      },
+      {
+        "name": "Porygon2",
+        "code": "Porygon2",
+        "base": "Porygon2",
+        "t1": "Normal",
+        "t2": "",
+        "gen": 2,
+        "category": "Ordinary",
+        "slug": "porygon2",
+        "base_slug": "porygon2",
+        "image": "https://img.pokemondb.net/sprites/home/normal/porygon2.png",
+        "stats": {
+          "hp": 85,
+          "atk": 80,
+          "def": 90,
+          "spa": 105,
+          "spd": 95,
+          "spe": 60
+        }
+      },
+      {
+        "name": "Araquanid",
+        "code": "Araquanid",
+        "base": "Araquanid",
+        "t1": "Water",
+        "t2": "Bug",
+        "gen": 7,
+        "category": "Ordinary",
+        "slug": "araquanid",
+        "base_slug": "araquanid",
+        "image": "https://img.pokemondb.net/sprites/home/normal/araquanid.png",
+        "stats": {
+          "hp": 68,
+          "atk": 70,
+          "def": 92,
+          "spa": 50,
+          "spd": 132,
+          "spe": 42
+        }
+      }
+    ]
+  },
+  {
+    "year": 2018,
+    "player": "Paul Ruiz",
+    "country": "Ecuador",
+    "division": "Masters",
+    "team": [
+      {
+        "name": "Tapu Koko",
+        "code": "Tapu Koko",
+        "base": "Tapu Koko",
+        "t1": "Electric",
+        "t2": "Fairy",
+        "gen": 7,
+        "category": "Legendary",
+        "slug": "tapu-koko",
+        "base_slug": "tapu-koko",
+        "image": "https://img.pokemondb.net/sprites/home/normal/tapu-koko.png",
+        "stats": {
+          "hp": 70,
+          "atk": 115,
+          "def": 85,
+          "spa": 95,
+          "spd": 75,
+          "spe": 130
+        }
+      },
+      {
+        "name": "Mega Salamence",
+        "code": "Salamence-Mega",
+        "base": "Salamence",
+        "t1": "Dragon",
+        "t2": "Flying",
+        "gen": 6,
+        "category": "Ordinary",
+        "slug": "salamence-mega",
+        "base_slug": "salamence",
+        "image": "https://img.pokemondb.net/sprites/home/normal/salamence-mega.png",
+        "stats": {
+          "hp": 95,
+          "atk": 145,
+          "def": 130,
+          "spa": 120,
+          "spd": 90,
+          "spe": 120
+        }
       },
       {
         "name": "Snorlax",
+        "code": "Snorlax",
         "base": "Snorlax",
         "t1": "Normal",
         "t2": "",
@@ -1130,10 +2103,2363 @@
         "category": "Ordinary",
         "slug": "snorlax",
         "base_slug": "snorlax",
-        "image": "https://img.pokemondb.net/sprites/home/normal/snorlax.png"
+        "image": "https://img.pokemondb.net/sprites/home/normal/snorlax.png",
+        "stats": {
+          "hp": 160,
+          "atk": 110,
+          "def": 65,
+          "spa": 65,
+          "spd": 110,
+          "spe": 30
+        }
+      },
+      {
+        "name": "Incineroar",
+        "code": "Incineroar",
+        "base": "Incineroar",
+        "t1": "Fire",
+        "t2": "Dark",
+        "gen": 7,
+        "category": "Ordinary",
+        "slug": "incineroar",
+        "base_slug": "incineroar",
+        "image": "https://img.pokemondb.net/sprites/home/normal/incineroar.png",
+        "stats": {
+          "hp": 95,
+          "atk": 115,
+          "def": 90,
+          "spa": 80,
+          "spd": 90,
+          "spe": 60
+        }
+      },
+      {
+        "name": "Gastrodon",
+        "code": "Gastrodon",
+        "base": "Gastrodon",
+        "t1": "Water",
+        "t2": "Ground",
+        "gen": 4,
+        "category": "Ordinary",
+        "slug": "gastrodon",
+        "base_slug": "gastrodon",
+        "image": "https://img.pokemondb.net/sprites/home/normal/gastrodon.png",
+        "stats": {
+          "hp": 111,
+          "atk": 83,
+          "def": 68,
+          "spa": 92,
+          "spd": 82,
+          "spe": 39
+        }
+      },
+      {
+        "name": "Kartana",
+        "code": "Kartana",
+        "base": "Kartana",
+        "t1": "Grass",
+        "t2": "Steel",
+        "gen": 7,
+        "category": "Ultra Beast",
+        "slug": "kartana",
+        "base_slug": "kartana",
+        "image": "https://img.pokemondb.net/sprites/home/normal/kartana.png",
+        "stats": {
+          "hp": 59,
+          "atk": 181,
+          "def": 131,
+          "spa": 59,
+          "spd": 31,
+          "spe": 109
+        }
+      }
+    ]
+  },
+  {
+    "year": 2018,
+    "player": "Wonn Lee",
+    "country": "Japan",
+    "division": "Junior",
+    "team": [
+      {
+        "name": "Terrakion",
+        "code": "Terrakion",
+        "base": "Terrakion",
+        "t1": "Rock",
+        "t2": "Fighting",
+        "gen": 5,
+        "category": "Legendary",
+        "slug": "terrakion",
+        "base_slug": "terrakion",
+        "image": "https://img.pokemondb.net/sprites/home/normal/terrakion.png",
+        "stats": {
+          "hp": 91,
+          "atk": 129,
+          "def": 90,
+          "spa": 72,
+          "spd": 90,
+          "spe": 108
+        }
+      },
+      {
+        "name": "Whimsicott",
+        "code": "Whimsicott",
+        "base": "Whimsicott",
+        "t1": "Grass",
+        "t2": "Fairy",
+        "gen": 5,
+        "category": "Ordinary",
+        "slug": "whimsicott",
+        "base_slug": "whimsicott",
+        "image": "https://img.pokemondb.net/sprites/home/normal/whimsicott.png",
+        "stats": {
+          "hp": 60,
+          "atk": 67,
+          "def": 85,
+          "spa": 77,
+          "spd": 75,
+          "spe": 116
+        }
+      },
+      {
+        "name": "Mega Gengar",
+        "code": "Gengar-Mega",
+        "base": "Gengar",
+        "t1": "Ghost",
+        "t2": "Poison",
+        "gen": 6,
+        "category": "Ordinary",
+        "slug": "gengar-mega",
+        "base_slug": "gengar",
+        "image": "https://img.pokemondb.net/sprites/home/normal/gengar-mega.png",
+        "stats": {
+          "hp": 60,
+          "atk": 65,
+          "def": 80,
+          "spa": 170,
+          "spd": 95,
+          "spe": 130
+        }
+      },
+      {
+        "name": "Tapu Bulu",
+        "code": "Tapu Bulu",
+        "base": "Tapu Bulu",
+        "t1": "Grass",
+        "t2": "Fairy",
+        "gen": 7,
+        "category": "Legendary",
+        "slug": "tapu-bulu",
+        "base_slug": "tapu-bulu",
+        "image": "https://img.pokemondb.net/sprites/home/normal/tapu-bulu.png",
+        "stats": {
+          "hp": 70,
+          "atk": 130,
+          "def": 115,
+          "spa": 85,
+          "spd": 95,
+          "spe": 75
+        }
+      },
+      {
+        "name": "Kommo-o",
+        "code": "Kommo-o",
+        "base": "Kommo-o",
+        "t1": "Dragon",
+        "t2": "Fighting",
+        "gen": 7,
+        "category": "Ordinary",
+        "slug": "kommo-o",
+        "base_slug": "kommo-o",
+        "image": "https://img.pokemondb.net/sprites/home/normal/kommo-o.png",
+        "stats": {
+          "hp": 75,
+          "atk": 110,
+          "def": 125,
+          "spa": 100,
+          "spd": 105,
+          "spe": 85
+        }
+      },
+      {
+        "name": "Snorlax",
+        "code": "Snorlax",
+        "base": "Snorlax",
+        "t1": "Normal",
+        "t2": "",
+        "gen": 1,
+        "category": "Ordinary",
+        "slug": "snorlax",
+        "base_slug": "snorlax",
+        "image": "https://img.pokemondb.net/sprites/home/normal/snorlax.png",
+        "stats": {
+          "hp": 160,
+          "atk": 110,
+          "def": 65,
+          "spa": 65,
+          "spd": 110,
+          "spe": 30
+        }
+      }
+    ]
+  },
+  {
+    "year": 2017,
+    "player": "Hong Juyoung",
+    "country": "South Korea",
+    "division": "Senior",
+    "team": [
+      {
+        "name": "Porygon2",
+        "code": "Porygon2",
+        "base": "Porygon2",
+        "t1": "Normal",
+        "t2": "",
+        "gen": 2,
+        "category": "Ordinary",
+        "slug": "porygon2",
+        "base_slug": "porygon2",
+        "image": "https://img.pokemondb.net/sprites/home/normal/porygon2.png",
+        "stats": {
+          "hp": 85,
+          "atk": 80,
+          "def": 90,
+          "spa": 105,
+          "spd": 95,
+          "spe": 60
+        }
+      },
+      {
+        "name": "Tapu Koko",
+        "code": "Tapu Koko",
+        "base": "Tapu Koko",
+        "t1": "Electric",
+        "t2": "Fairy",
+        "gen": 7,
+        "category": "Legendary",
+        "slug": "tapu-koko",
+        "base_slug": "tapu-koko",
+        "image": "https://img.pokemondb.net/sprites/home/normal/tapu-koko.png",
+        "stats": {
+          "hp": 70,
+          "atk": 115,
+          "def": 85,
+          "spa": 95,
+          "spd": 75,
+          "spe": 130
+        }
+      },
+      {
+        "name": "Arcanine",
+        "code": "Arcanine",
+        "base": "Arcanine",
+        "t1": "Fire",
+        "t2": "",
+        "gen": 1,
+        "category": "Ordinary",
+        "slug": "arcanine",
+        "base_slug": "arcanine",
+        "image": "https://img.pokemondb.net/sprites/home/normal/arcanine.png",
+        "stats": {
+          "hp": 90,
+          "atk": 110,
+          "def": 80,
+          "spa": 100,
+          "spd": 80,
+          "spe": 95
+        }
+      },
+      {
+        "name": "Kartana",
+        "code": "Kartana",
+        "base": "Kartana",
+        "t1": "Grass",
+        "t2": "Steel",
+        "gen": 7,
+        "category": "Ultra Beast",
+        "slug": "kartana",
+        "base_slug": "kartana",
+        "image": "https://img.pokemondb.net/sprites/home/normal/kartana.png",
+        "stats": {
+          "hp": 59,
+          "atk": 181,
+          "def": 131,
+          "spa": 59,
+          "spd": 31,
+          "spe": 109
+        }
+      },
+      {
+        "name": "Araquanid",
+        "code": "Araquanid",
+        "base": "Araquanid",
+        "t1": "Water",
+        "t2": "Bug",
+        "gen": 7,
+        "category": "Ordinary",
+        "slug": "araquanid",
+        "base_slug": "araquanid",
+        "image": "https://img.pokemondb.net/sprites/home/normal/araquanid.png",
+        "stats": {
+          "hp": 68,
+          "atk": 70,
+          "def": 92,
+          "spa": 50,
+          "spd": 132,
+          "spe": 42
+        }
+      },
+      {
+        "name": "Mudsdale",
+        "code": "Mudsdale",
+        "base": "Mudsdale",
+        "t1": "Ground",
+        "t2": "",
+        "gen": 7,
+        "category": "Ordinary",
+        "slug": "mudsdale",
+        "base_slug": "mudsdale",
+        "image": "https://img.pokemondb.net/sprites/home/normal/mudsdale.png",
+        "stats": {
+          "hp": 100,
+          "atk": 125,
+          "def": 100,
+          "spa": 55,
+          "spd": 85,
+          "spe": 35
+        }
+      }
+    ]
+  },
+  {
+    "year": 2017,
+    "player": "Nicholas Kan",
+    "country": "Australia",
+    "division": "Junior",
+    "team": [
+      {
+        "name": "Porygon2",
+        "code": "Porygon2",
+        "base": "Porygon2",
+        "t1": "Normal",
+        "t2": "",
+        "gen": 2,
+        "category": "Ordinary",
+        "slug": "porygon2",
+        "base_slug": "porygon2",
+        "image": "https://img.pokemondb.net/sprites/home/normal/porygon2.png",
+        "stats": {
+          "hp": 85,
+          "atk": 80,
+          "def": 90,
+          "spa": 105,
+          "spd": 95,
+          "spe": 60
+        }
+      },
+      {
+        "name": "Tapu Koko",
+        "code": "Tapu Koko",
+        "base": "Tapu Koko",
+        "t1": "Electric",
+        "t2": "Fairy",
+        "gen": 7,
+        "category": "Legendary",
+        "slug": "tapu-koko",
+        "base_slug": "tapu-koko",
+        "image": "https://img.pokemondb.net/sprites/home/normal/tapu-koko.png",
+        "stats": {
+          "hp": 70,
+          "atk": 115,
+          "def": 85,
+          "spa": 95,
+          "spd": 75,
+          "spe": 130
+        }
+      },
+      {
+        "name": "Arcanine",
+        "code": "Arcanine",
+        "base": "Arcanine",
+        "t1": "Fire",
+        "t2": "",
+        "gen": 1,
+        "category": "Ordinary",
+        "slug": "arcanine",
+        "base_slug": "arcanine",
+        "image": "https://img.pokemondb.net/sprites/home/normal/arcanine.png",
+        "stats": {
+          "hp": 90,
+          "atk": 110,
+          "def": 80,
+          "spa": 100,
+          "spd": 80,
+          "spe": 95
+        }
+      },
+      {
+        "name": "Gyarados",
+        "code": "Gyarados",
+        "base": "Gyarados",
+        "t1": "Water",
+        "t2": "Flying",
+        "gen": 1,
+        "category": "Ordinary",
+        "slug": "gyarados",
+        "base_slug": "gyarados",
+        "image": "https://img.pokemondb.net/sprites/home/normal/gyarados.png",
+        "stats": {
+          "hp": 95,
+          "atk": 125,
+          "def": 79,
+          "spa": 60,
+          "spd": 100,
+          "spe": 81
+        }
+      },
+      {
+        "name": "Garchomp",
+        "code": "Garchomp",
+        "base": "Garchomp",
+        "t1": "Dragon",
+        "t2": "Ground",
+        "gen": 4,
+        "category": "Ordinary",
+        "slug": "garchomp",
+        "base_slug": "garchomp",
+        "image": "https://img.pokemondb.net/sprites/home/normal/garchomp.png",
+        "stats": {
+          "hp": 108,
+          "atk": 130,
+          "def": 95,
+          "spa": 80,
+          "spd": 85,
+          "spe": 102
+        }
+      },
+      {
+        "name": "Snorlax",
+        "code": "Snorlax",
+        "base": "Snorlax",
+        "t1": "Normal",
+        "t2": "",
+        "gen": 1,
+        "category": "Ordinary",
+        "slug": "snorlax",
+        "base_slug": "snorlax",
+        "image": "https://img.pokemondb.net/sprites/home/normal/snorlax.png",
+        "stats": {
+          "hp": 160,
+          "atk": 110,
+          "def": 65,
+          "spa": 65,
+          "spd": 110,
+          "spe": 30
+        }
+      }
+    ]
+  },
+  {
+    "year": 2017,
+    "player": "Ryota Otsubo",
+    "country": "Japan",
+    "division": "Masters",
+    "team": [
+      {
+        "name": "Krookodile",
+        "code": "Krookodile",
+        "base": "Krookodile",
+        "t1": "Ground",
+        "t2": "Dark",
+        "gen": 5,
+        "category": "Ordinary",
+        "slug": "krookodile",
+        "base_slug": "krookodile",
+        "image": "https://img.pokemondb.net/sprites/home/normal/krookodile.png",
+        "stats": {
+          "hp": 95,
+          "atk": 117,
+          "def": 80,
+          "spa": 65,
+          "spd": 70,
+          "spe": 92
+        }
+      },
+      {
+        "name": "Whimsicott",
+        "code": "Whimsicott",
+        "base": "Whimsicott",
+        "t1": "Grass",
+        "t2": "Fairy",
+        "gen": 5,
+        "category": "Ordinary",
+        "slug": "whimsicott",
+        "base_slug": "whimsicott",
+        "image": "https://img.pokemondb.net/sprites/home/normal/whimsicott.png",
+        "stats": {
+          "hp": 60,
+          "atk": 67,
+          "def": 85,
+          "spa": 77,
+          "spd": 75,
+          "spe": 116
+        }
+      },
+      {
+        "name": "Tapu Fini",
+        "code": "Tapu Fini",
+        "base": "Tapu Fini",
+        "t1": "Water",
+        "t2": "Fairy",
+        "gen": 7,
+        "category": "Legendary",
+        "slug": "tapu-fini",
+        "base_slug": "tapu-fini",
+        "image": "https://img.pokemondb.net/sprites/home/normal/tapu-fini.png",
+        "stats": {
+          "hp": 70,
+          "atk": 75,
+          "def": 115,
+          "spa": 95,
+          "spd": 130,
+          "spe": 85
+        }
+      },
+      {
+        "name": "Alolan Marowak",
+        "code": "Marowak-A",
+        "base": "Marowak",
+        "t1": "Fire",
+        "t2": "Ghost",
+        "gen": 7,
+        "category": "Ordinary",
+        "slug": "marowak-alolan",
+        "base_slug": "marowak",
+        "image": "https://img.pokemondb.net/sprites/home/normal/marowak-alolan.png",
+        "stats": {
+          "hp": 60,
+          "atk": 80,
+          "def": 110,
+          "spa": 50,
+          "spd": 80,
+          "spe": 45
+        }
+      },
+      {
+        "name": "Celesteela",
+        "code": "Celesteela",
+        "base": "Celesteela",
+        "t1": "Steel",
+        "t2": "Flying",
+        "gen": 7,
+        "category": "Ultra Beast",
+        "slug": "celesteela",
+        "base_slug": "celesteela",
+        "image": "https://img.pokemondb.net/sprites/home/normal/celesteela.png",
+        "stats": {
+          "hp": 97,
+          "atk": 101,
+          "def": 103,
+          "spa": 107,
+          "spd": 101,
+          "spe": 61
+        }
+      },
+      {
+        "name": "Tapu Koko",
+        "code": "Tapu Koko",
+        "base": "Tapu Koko",
+        "t1": "Electric",
+        "t2": "Fairy",
+        "gen": 7,
+        "category": "Legendary",
+        "slug": "tapu-koko",
+        "base_slug": "tapu-koko",
+        "image": "https://img.pokemondb.net/sprites/home/normal/tapu-koko.png",
+        "stats": {
+          "hp": 70,
+          "atk": 115,
+          "def": 85,
+          "spa": 95,
+          "spd": 75,
+          "spe": 130
+        }
+      }
+    ]
+  },
+  {
+    "year": 2016,
+    "player": "Carson Confer",
+    "country": "USA",
+    "division": "Senior",
+    "team": [
+      {
+        "name": "Primal Kyogre",
+        "code": "Kyogre-Primal",
+        "base": "Kyogre",
+        "t1": "Water",
+        "t2": "",
+        "gen": 6,
+        "category": "Legendary",
+        "slug": "kyogre-primal",
+        "base_slug": "kyogre",
+        "image": "https://img.pokemondb.net/sprites/home/normal/kyogre-primal.png",
+        "stats": {
+          "hp": 100,
+          "atk": 150,
+          "def": 90,
+          "spa": 180,
+          "spd": 160,
+          "spe": 90
+        }
+      },
+      {
+        "name": "Mega Kangaskhan",
+        "code": "Kangaskhan-Mega",
+        "base": "Kangaskhan",
+        "t1": "Normal",
+        "t2": "",
+        "gen": 1,
+        "category": "Ordinary",
+        "slug": "kangaskhan-mega",
+        "base_slug": "kangaskhan",
+        "image": "https://img.pokemondb.net/sprites/home/normal/kangaskhan-mega.png",
+        "stats": {
+          "hp": 105,
+          "atk": 125,
+          "def": 100,
+          "spa": 60,
+          "spd": 100,
+          "spe": 100
+        }
+      },
+      {
+        "name": "Thundurus Incarnate Form",
+        "code": "Thundurus-I",
+        "base": "Thundurus",
+        "t1": "Electric",
+        "t2": "Flying",
+        "gen": 5,
+        "category": "Legendary",
+        "slug": "thundurus-incarnate",
+        "base_slug": "thundurus",
+        "image": "https://img.pokemondb.net/sprites/home/normal/thundurus-incarnate.png",
+        "stats": {
+          "hp": 79,
+          "atk": 115,
+          "def": 70,
+          "spa": 125,
+          "spd": 80,
+          "spe": 111
+        }
+      },
+      {
+        "name": "Bronzong",
+        "code": "Bronzong",
+        "base": "Bronzong",
+        "t1": "Steel",
+        "t2": "Psychic",
+        "gen": 4,
+        "category": "Ordinary",
+        "slug": "bronzong",
+        "base_slug": "bronzong",
+        "image": "https://img.pokemondb.net/sprites/home/normal/bronzong.png",
+        "stats": {
+          "hp": 67,
+          "atk": 89,
+          "def": 116,
+          "spa": 79,
+          "spd": 116,
+          "spe": 33
+        }
+      },
+      {
+        "name": "Cresselia",
+        "code": "Cresselia",
+        "base": "Cresselia",
+        "t1": "Psychic",
+        "t2": "",
+        "gen": 4,
+        "category": "Legendary",
+        "slug": "cresselia",
+        "base_slug": "cresselia",
+        "image": "https://img.pokemondb.net/sprites/home/normal/cresselia.png",
+        "stats": {
+          "hp": 120,
+          "atk": 70,
+          "def": 110,
+          "spa": 75,
+          "spd": 120,
+          "spe": 85
+        }
+      },
+      {
+        "name": "Primal Groudon",
+        "code": "Groudon-Primal",
+        "base": "Groudon",
+        "t1": "Ground",
+        "t2": "Fire",
+        "gen": 6,
+        "category": "Legendary",
+        "slug": "groudon-primal",
+        "base_slug": "groudon",
+        "image": "https://img.pokemondb.net/sprites/home/normal/groudon-primal.png",
+        "stats": {
+          "hp": 100,
+          "atk": 180,
+          "def": 160,
+          "spa": 150,
+          "spd": 90,
+          "spe": 90
+        }
+      }
+    ]
+  },
+  {
+    "year": 2016,
+    "player": "Cory Connor",
+    "country": "USA",
+    "division": "Junior",
+    "team": [
+      {
+        "name": "Primal Kyogre",
+        "code": "Kyogre-Primal",
+        "base": "Kyogre",
+        "t1": "Water",
+        "t2": "",
+        "gen": 6,
+        "category": "Legendary",
+        "slug": "kyogre-primal",
+        "base_slug": "kyogre",
+        "image": "https://img.pokemondb.net/sprites/home/normal/kyogre-primal.png",
+        "stats": {
+          "hp": 100,
+          "atk": 150,
+          "def": 90,
+          "spa": 180,
+          "spd": 160,
+          "spe": 90
+        }
+      },
+      {
+        "name": "Rayquaza",
+        "code": "Rayquaza",
+        "base": "Rayquaza",
+        "t1": "Dragon",
+        "t2": "Flying",
+        "gen": 3,
+        "category": "Legendary",
+        "slug": "rayquaza",
+        "base_slug": "rayquaza",
+        "image": "https://img.pokemondb.net/sprites/home/normal/rayquaza.png",
+        "stats": {
+          "hp": 105,
+          "atk": 150,
+          "def": 90,
+          "spa": 150,
+          "spd": 90,
+          "spe": 95
+        }
+      },
+      {
+        "name": "Togekiss",
+        "code": "Togekiss",
+        "base": "Togekiss",
+        "t1": "Fairy",
+        "t2": "Flying",
+        "gen": 4,
+        "category": "Ordinary",
+        "slug": "togekiss",
+        "base_slug": "togekiss",
+        "image": "https://img.pokemondb.net/sprites/home/normal/togekiss.png",
+        "stats": {
+          "hp": 85,
+          "atk": 50,
+          "def": 95,
+          "spa": 120,
+          "spd": 115,
+          "spe": 80
+        }
+      },
+      {
+        "name": "Thundurus Incarnate Form",
+        "code": "Thundurus-I",
+        "base": "Thundurus",
+        "t1": "Electric",
+        "t2": "Flying",
+        "gen": 5,
+        "category": "Legendary",
+        "slug": "thundurus-incarnate",
+        "base_slug": "thundurus",
+        "image": "https://img.pokemondb.net/sprites/home/normal/thundurus-incarnate.png",
+        "stats": {
+          "hp": 79,
+          "atk": 115,
+          "def": 70,
+          "spa": 125,
+          "spd": 80,
+          "spe": 111
+        }
+      },
+      {
+        "name": "Scizor",
+        "code": "Scizor",
+        "base": "Scizor",
+        "t1": "Bug",
+        "t2": "Steel",
+        "gen": 2,
+        "category": "Ordinary",
+        "slug": "scizor",
+        "base_slug": "scizor",
+        "image": "https://img.pokemondb.net/sprites/home/normal/scizor.png",
+        "stats": {
+          "hp": 70,
+          "atk": 130,
+          "def": 100,
+          "spa": 55,
+          "spd": 80,
+          "spe": 65
+        }
+      },
+      {
+        "name": "Hitmontop",
+        "code": "Hitmontop",
+        "base": "Hitmontop",
+        "t1": "Fighting",
+        "t2": "",
+        "gen": 2,
+        "category": "Ordinary",
+        "slug": "hitmontop",
+        "base_slug": "hitmontop",
+        "image": "https://img.pokemondb.net/sprites/home/normal/hitmontop.png",
+        "stats": {
+          "hp": 50,
+          "atk": 95,
+          "def": 95,
+          "spa": 35,
+          "spd": 110,
+          "spe": 70
+        }
+      }
+    ]
+  },
+  {
+    "year": 2016,
+    "player": "Wolfe Glick",
+    "country": "USA",
+    "division": "Masters",
+    "team": [
+      {
+        "name": "Primal Kyogre",
+        "code": "Kyogre-Primal",
+        "base": "Kyogre",
+        "t1": "Water",
+        "t2": "",
+        "gen": 6,
+        "category": "Legendary",
+        "slug": "kyogre-primal",
+        "base_slug": "kyogre",
+        "image": "https://img.pokemondb.net/sprites/home/normal/kyogre-primal.png",
+        "stats": {
+          "hp": 100,
+          "atk": 150,
+          "def": 90,
+          "spa": 180,
+          "spd": 160,
+          "spe": 90
+        }
+      },
+      {
+        "name": "Hitmontop",
+        "code": "Hitmontop",
+        "base": "Hitmontop",
+        "t1": "Fighting",
+        "t2": "",
+        "gen": 2,
+        "category": "Ordinary",
+        "slug": "hitmontop",
+        "base_slug": "hitmontop",
+        "image": "https://img.pokemondb.net/sprites/home/normal/hitmontop.png",
+        "stats": {
+          "hp": 50,
+          "atk": 95,
+          "def": 95,
+          "spa": 35,
+          "spd": 110,
+          "spe": 70
+        }
+      },
+      {
+        "name": "Mega Gengar",
+        "code": "Gengar-Mega",
+        "base": "Gengar",
+        "t1": "Ghost",
+        "t2": "Poison",
+        "gen": 6,
+        "category": "Ordinary",
+        "slug": "gengar-mega",
+        "base_slug": "gengar",
+        "image": "https://img.pokemondb.net/sprites/home/normal/gengar-mega.png",
+        "stats": {
+          "hp": 60,
+          "atk": 65,
+          "def": 80,
+          "spa": 170,
+          "spd": 95,
+          "spe": 130
+        }
+      },
+      {
+        "name": "Raichu",
+        "code": "Raichu",
+        "base": "Raichu",
+        "t1": "Electric",
+        "t2": "",
+        "gen": 1,
+        "category": "Ordinary",
+        "slug": "raichu",
+        "base_slug": "raichu",
+        "image": "https://img.pokemondb.net/sprites/home/normal/raichu.png",
+        "stats": {
+          "hp": 60,
+          "atk": 90,
+          "def": 55,
+          "spa": 90,
+          "spd": 80,
+          "spe": 110
+        }
+      },
+      {
+        "name": "Bronzong",
+        "code": "Bronzong",
+        "base": "Bronzong",
+        "t1": "Steel",
+        "t2": "Psychic",
+        "gen": 4,
+        "category": "Ordinary",
+        "slug": "bronzong",
+        "base_slug": "bronzong",
+        "image": "https://img.pokemondb.net/sprites/home/normal/bronzong.png",
+        "stats": {
+          "hp": 67,
+          "atk": 89,
+          "def": 116,
+          "spa": 79,
+          "spd": 116,
+          "spe": 33
+        }
+      },
+      {
+        "name": "Mega Rayquaza",
+        "code": "Rayquaza-Mega",
+        "base": "Rayquaza",
+        "t1": "Dragon",
+        "t2": "Flying",
+        "gen": 6,
+        "category": "Legendary",
+        "slug": "rayquaza-mega",
+        "base_slug": "rayquaza",
+        "image": "https://img.pokemondb.net/sprites/home/normal/rayquaza-mega.png",
+        "stats": {
+          "hp": 105,
+          "atk": 180,
+          "def": 100,
+          "spa": 180,
+          "spd": 100,
+          "spe": 115
+        }
+      }
+    ]
+  },
+  {
+    "year": 2015,
+    "player": "Kotone Yasue",
+    "country": "Japan",
+    "division": "Junior",
+    "team": [
+      {
+        "name": "Tyranitar",
+        "code": "Tyranitar",
+        "base": "Tyranitar",
+        "t1": "Rock",
+        "t2": "Dark",
+        "gen": 2,
+        "category": "Ordinary",
+        "slug": "tyranitar",
+        "base_slug": "tyranitar",
+        "image": "https://img.pokemondb.net/sprites/home/normal/tyranitar.png",
+        "stats": {
+          "hp": 100,
+          "atk": 134,
+          "def": 110,
+          "spa": 95,
+          "spd": 100,
+          "spe": 61
+        }
+      },
+      {
+        "name": "Amoonguss",
+        "code": "Amoonguss",
+        "base": "Amoonguss",
+        "t1": "Grass",
+        "t2": "Poison",
+        "gen": 5,
+        "category": "Ordinary",
+        "slug": "amoonguss",
+        "base_slug": "amoonguss",
+        "image": "https://img.pokemondb.net/sprites/home/normal/amoonguss.png",
+        "stats": {
+          "hp": 114,
+          "atk": 85,
+          "def": 70,
+          "spa": 85,
+          "spd": 80,
+          "spe": 30
+        }
+      },
+      {
+        "name": "Thundurus Incarnate Form",
+        "code": "Thundurus-I",
+        "base": "Thundurus",
+        "t1": "Electric",
+        "t2": "Flying",
+        "gen": 5,
+        "category": "Legendary",
+        "slug": "thundurus-incarnate",
+        "base_slug": "thundurus",
+        "image": "https://img.pokemondb.net/sprites/home/normal/thundurus-incarnate.png",
+        "stats": {
+          "hp": 79,
+          "atk": 115,
+          "def": 70,
+          "spa": 125,
+          "spd": 80,
+          "spe": 111
+        }
+      },
+      {
+        "name": "Landorus Therian Form",
+        "code": "Landorus-T",
+        "base": "Landorus",
+        "t1": "Ground",
+        "t2": "Flying",
+        "gen": 5,
+        "category": "Legendary",
+        "slug": "landorus-therian",
+        "base_slug": "landorus",
+        "image": "https://img.pokemondb.net/sprites/home/normal/landorus-therian.png",
+        "stats": {
+          "hp": 89,
+          "atk": 145,
+          "def": 90,
+          "spa": 105,
+          "spd": 80,
+          "spe": 91
+        }
+      },
+      {
+        "name": "Heatran",
+        "code": "Heatran",
+        "base": "Heatran",
+        "t1": "Fire",
+        "t2": "Steel",
+        "gen": 4,
+        "category": "Legendary",
+        "slug": "heatran",
+        "base_slug": "heatran",
+        "image": "https://img.pokemondb.net/sprites/home/normal/heatran.png",
+        "stats": {
+          "hp": 91,
+          "atk": 90,
+          "def": 106,
+          "spa": 130,
+          "spd": 106,
+          "spe": 77
+        }
+      },
+      {
+        "name": "Mega Gardevoir",
+        "code": "Gardevoir-Mega",
+        "base": "Gardevoir",
+        "t1": "Psychic",
+        "t2": "Fairy",
+        "gen": 3,
+        "category": "Ordinary",
+        "slug": "gardevoir-mega",
+        "base_slug": "gardevoir",
+        "image": "https://img.pokemondb.net/sprites/home/normal/gardevoir-mega.png",
+        "stats": {
+          "hp": 68,
+          "atk": 85,
+          "def": 65,
+          "spa": 165,
+          "spd": 135,
+          "spe": 100
+        }
+      }
+    ]
+  },
+  {
+    "year": 2015,
+    "player": "Mark Mcquillan",
+    "country": "United Kingdom",
+    "division": "Senior",
+    "team": [
+      {
+        "name": "Cresselia",
+        "code": "Cresselia",
+        "base": "Cresselia",
+        "t1": "Psychic",
+        "t2": "",
+        "gen": 4,
+        "category": "Legendary",
+        "slug": "cresselia",
+        "base_slug": "cresselia",
+        "image": "https://img.pokemondb.net/sprites/home/normal/cresselia.png",
+        "stats": {
+          "hp": 120,
+          "atk": 70,
+          "def": 110,
+          "spa": 75,
+          "spd": 120,
+          "spe": 85
+        }
+      },
+      {
+        "name": "Landorus Therian Form",
+        "code": "Landorus-T",
+        "base": "Landorus",
+        "t1": "Ground",
+        "t2": "Flying",
+        "gen": 5,
+        "category": "Legendary",
+        "slug": "landorus-therian",
+        "base_slug": "landorus",
+        "image": "https://img.pokemondb.net/sprites/home/normal/landorus-therian.png",
+        "stats": {
+          "hp": 89,
+          "atk": 145,
+          "def": 90,
+          "spa": 105,
+          "spd": 80,
+          "spe": 91
+        }
+      },
+      {
+        "name": "Machamp",
+        "code": "Machamp",
+        "base": "Machamp",
+        "t1": "Fighting",
+        "t2": "",
+        "gen": 1,
+        "category": "Ordinary",
+        "slug": "machamp",
+        "base_slug": "machamp",
+        "image": "https://img.pokemondb.net/sprites/home/normal/machamp.png",
+        "stats": {
+          "hp": 90,
+          "atk": 130,
+          "def": 80,
+          "spa": 65,
+          "spd": 85,
+          "spe": 55
+        }
+      },
+      {
+        "name": "Mega Charizard Y",
+        "code": "Charizard-Mega-Y",
+        "base": "Charizard",
+        "t1": "Fire",
+        "t2": "Flying",
+        "gen": 6,
+        "category": "Ordinary",
+        "slug": "charizard-mega-y",
+        "base_slug": "charizard",
+        "image": "https://img.pokemondb.net/sprites/home/normal/charizard-mega-y.png",
+        "stats": {
+          "hp": 78,
+          "atk": 104,
+          "def": 78,
+          "spa": 159,
+          "spd": 115,
+          "spe": 100
+        }
+      },
+      {
+        "name": "Sylveon",
+        "code": "Sylveon",
+        "base": "Sylveon",
+        "t1": "Fairy",
+        "t2": "",
+        "gen": 6,
+        "category": "Ordinary",
+        "slug": "sylveon",
+        "base_slug": "sylveon",
+        "image": "https://img.pokemondb.net/sprites/home/normal/sylveon.png",
+        "stats": {
+          "hp": 95,
+          "atk": 65,
+          "def": 65,
+          "spa": 110,
+          "spd": 130,
+          "spe": 60
+        }
+      },
+      {
+        "name": "Heatran",
+        "code": "Heatran",
+        "base": "Heatran",
+        "t1": "Fire",
+        "t2": "Steel",
+        "gen": 4,
+        "category": "Legendary",
+        "slug": "heatran",
+        "base_slug": "heatran",
+        "image": "https://img.pokemondb.net/sprites/home/normal/heatran.png",
+        "stats": {
+          "hp": 91,
+          "atk": 90,
+          "def": 106,
+          "spa": 130,
+          "spd": 106,
+          "spe": 77
+        }
+      }
+    ]
+  },
+  {
+    "year": 2015,
+    "player": "Shoma Honami",
+    "country": "Japan",
+    "division": "Masters",
+    "team": [
+      {
+        "name": "Mega Kangaskhan",
+        "code": "Kangaskhan-Mega",
+        "base": "Kangaskhan",
+        "t1": "Normal",
+        "t2": "",
+        "gen": 1,
+        "category": "Ordinary",
+        "slug": "kangaskhan-mega",
+        "base_slug": "kangaskhan",
+        "image": "https://img.pokemondb.net/sprites/home/normal/kangaskhan-mega.png",
+        "stats": {
+          "hp": 105,
+          "atk": 125,
+          "def": 100,
+          "spa": 60,
+          "spd": 100,
+          "spe": 100
+        }
+      },
+      {
+        "name": "Heatran",
+        "code": "Heatran",
+        "base": "Heatran",
+        "t1": "Fire",
+        "t2": "Steel",
+        "gen": 4,
+        "category": "Legendary",
+        "slug": "heatran",
+        "base_slug": "heatran",
+        "image": "https://img.pokemondb.net/sprites/home/normal/heatran.png",
+        "stats": {
+          "hp": 91,
+          "atk": 90,
+          "def": 106,
+          "spa": 130,
+          "spd": 106,
+          "spe": 77
+        }
+      },
+      {
+        "name": "Thundurus Incarnate Form",
+        "code": "Thundurus-I",
+        "base": "Thundurus",
+        "t1": "Electric",
+        "t2": "Flying",
+        "gen": 5,
+        "category": "Legendary",
+        "slug": "thundurus-incarnate",
+        "base_slug": "thundurus",
+        "image": "https://img.pokemondb.net/sprites/home/normal/thundurus-incarnate.png",
+        "stats": {
+          "hp": 79,
+          "atk": 115,
+          "def": 70,
+          "spa": 125,
+          "spd": 80,
+          "spe": 111
+        }
+      },
+      {
+        "name": "Landorus Therian Form",
+        "code": "Landorus-T",
+        "base": "Landorus",
+        "t1": "Ground",
+        "t2": "Flying",
+        "gen": 5,
+        "category": "Legendary",
+        "slug": "landorus-therian",
+        "base_slug": "landorus",
+        "image": "https://img.pokemondb.net/sprites/home/normal/landorus-therian.png",
+        "stats": {
+          "hp": 89,
+          "atk": 145,
+          "def": 90,
+          "spa": 105,
+          "spd": 80,
+          "spe": 91
+        }
+      },
+      {
+        "name": "Cresselia",
+        "code": "Cresselia",
+        "base": "Cresselia",
+        "t1": "Psychic",
+        "t2": "",
+        "gen": 4,
+        "category": "Legendary",
+        "slug": "cresselia",
+        "base_slug": "cresselia",
+        "image": "https://img.pokemondb.net/sprites/home/normal/cresselia.png",
+        "stats": {
+          "hp": 120,
+          "atk": 70,
+          "def": 110,
+          "spa": 75,
+          "spd": 120,
+          "spe": 85
+        }
+      },
+      {
+        "name": "Amoonguss",
+        "code": "Amoonguss",
+        "base": "Amoonguss",
+        "t1": "Grass",
+        "t2": "Poison",
+        "gen": 5,
+        "category": "Ordinary",
+        "slug": "amoonguss",
+        "base_slug": "amoonguss",
+        "image": "https://img.pokemondb.net/sprites/home/normal/amoonguss.png",
+        "stats": {
+          "hp": 114,
+          "atk": 85,
+          "def": 70,
+          "spa": 85,
+          "spd": 80,
+          "spe": 30
+        }
+      }
+    ]
+  },
+  {
+    "year": 2014,
+    "player": "Kota Yamamoto",
+    "country": "Japan",
+    "division": "Junior",
+    "team": [
+      {
+        "name": "Gardevoir",
+        "code": "Gardevoir",
+        "base": "Gardevoir",
+        "t1": "Psychic",
+        "t2": "Fairy",
+        "gen": 3,
+        "category": "Ordinary",
+        "slug": "gardevoir",
+        "base_slug": "gardevoir",
+        "image": "https://img.pokemondb.net/sprites/home/normal/gardevoir.png",
+        "stats": {
+          "hp": 68,
+          "atk": 65,
+          "def": 65,
+          "spa": 125,
+          "spd": 115,
+          "spe": 80
+        }
+      },
+      {
+        "name": "Zapdos",
+        "code": "Zapdos",
+        "base": "Zapdos",
+        "t1": "Electric",
+        "t2": "Flying",
+        "gen": 1,
+        "category": "Legendary",
+        "slug": "zapdos",
+        "base_slug": "zapdos",
+        "image": "https://img.pokemondb.net/sprites/home/normal/zapdos.png",
+        "stats": {
+          "hp": 90,
+          "atk": 90,
+          "def": 85,
+          "spa": 125,
+          "spd": 90,
+          "spe": 100
+        }
+      },
+      {
+        "name": "Hydreigon",
+        "code": "Hydreigon",
+        "base": "Hydreigon",
+        "t1": "Dark",
+        "t2": "Dragon",
+        "gen": 5,
+        "category": "Ordinary",
+        "slug": "hydreigon",
+        "base_slug": "hydreigon",
+        "image": "https://img.pokemondb.net/sprites/home/normal/hydreigon.png",
+        "stats": {
+          "hp": 92,
+          "atk": 105,
+          "def": 90,
+          "spa": 125,
+          "spd": 90,
+          "spe": 98
+        }
+      },
+      {
+        "name": "Garchomp",
+        "code": "Garchomp",
+        "base": "Garchomp",
+        "t1": "Dragon",
+        "t2": "Ground",
+        "gen": 4,
+        "category": "Ordinary",
+        "slug": "garchomp",
+        "base_slug": "garchomp",
+        "image": "https://img.pokemondb.net/sprites/home/normal/garchomp.png",
+        "stats": {
+          "hp": 108,
+          "atk": 130,
+          "def": 95,
+          "spa": 80,
+          "spd": 85,
+          "spe": 102
+        }
+      },
+      {
+        "name": "Aegislash Shield Form",
+        "code": "Aegislash",
+        "base": "Aegislash",
+        "t1": "Steel",
+        "t2": "Ghost",
+        "gen": 6,
+        "category": "Ordinary",
+        "slug": "aegislash",
+        "base_slug": "aegislash",
+        "image": "https://img.pokemondb.net/sprites/home/normal/aegislash.png",
+        "stats": {
+          "hp": 60,
+          "atk": 50,
+          "def": 140,
+          "spa": 50,
+          "spd": 140,
+          "spe": 60
+        }
+      },
+      {
+        "name": "Mega Kangaskhan",
+        "code": "Kangaskhan-Mega",
+        "base": "Kangaskhan",
+        "t1": "Normal",
+        "t2": "",
+        "gen": 1,
+        "category": "Ordinary",
+        "slug": "kangaskhan-mega",
+        "base_slug": "kangaskhan",
+        "image": "https://img.pokemondb.net/sprites/home/normal/kangaskhan-mega.png",
+        "stats": {
+          "hp": 105,
+          "atk": 125,
+          "def": 100,
+          "spa": 60,
+          "spd": 100,
+          "spe": 100
+        }
+      }
+    ]
+  },
+  {
+    "year": 2014,
+    "player": "Nikolai Zielinski",
+    "country": "USA",
+    "division": "Senior",
+    "team": [
+      {
+        "name": "Tyranitar",
+        "code": "Tyranitar",
+        "base": "Tyranitar",
+        "t1": "Rock",
+        "t2": "Dark",
+        "gen": 2,
+        "category": "Ordinary",
+        "slug": "tyranitar",
+        "base_slug": "tyranitar",
+        "image": "https://img.pokemondb.net/sprites/home/normal/tyranitar.png",
+        "stats": {
+          "hp": 100,
+          "atk": 134,
+          "def": 110,
+          "spa": 95,
+          "spd": 100,
+          "spe": 61
+        }
+      },
+      {
+        "name": "Mega Mawile",
+        "code": "Mawile-Mega",
+        "base": "Mawile",
+        "t1": "Steel",
+        "t2": "Fairy",
+        "gen": 3,
+        "category": "Ordinary",
+        "slug": "mawile-mega",
+        "base_slug": "mawile",
+        "image": "https://img.pokemondb.net/sprites/home/normal/mawile-mega.png",
+        "stats": {
+          "hp": 50,
+          "atk": 105,
+          "def": 125,
+          "spa": 55,
+          "spd": 95,
+          "spe": 50
+        }
+      },
+      {
+        "name": "Hydreigon",
+        "code": "Hydreigon",
+        "base": "Hydreigon",
+        "t1": "Dark",
+        "t2": "Dragon",
+        "gen": 5,
+        "category": "Ordinary",
+        "slug": "hydreigon",
+        "base_slug": "hydreigon",
+        "image": "https://img.pokemondb.net/sprites/home/normal/hydreigon.png",
+        "stats": {
+          "hp": 92,
+          "atk": 105,
+          "def": 90,
+          "spa": 125,
+          "spd": 90,
+          "spe": 98
+        }
+      },
+      {
+        "name": "Gengar",
+        "code": "Gengar",
+        "base": "Gengar",
+        "t1": "Ghost",
+        "t2": "Poison",
+        "gen": 1,
+        "category": "Ordinary",
+        "slug": "gengar",
+        "base_slug": "gengar",
+        "image": "https://img.pokemondb.net/sprites/home/normal/gengar.png",
+        "stats": {
+          "hp": 60,
+          "atk": 65,
+          "def": 60,
+          "spa": 130,
+          "spd": 75,
+          "spe": 110
+        }
+      },
+      {
+        "name": "Rotom Wash",
+        "code": "Rotom-W",
+        "base": "Rotom",
+        "t1": "Electric",
+        "t2": "Water",
+        "gen": 4,
+        "category": "Ordinary",
+        "slug": "rotom-wash",
+        "base_slug": "rotom",
+        "image": "https://img.pokemondb.net/sprites/home/normal/rotom-wash.png",
+        "stats": {
+          "hp": 50,
+          "atk": 65,
+          "def": 107,
+          "spa": 105,
+          "spd": 107,
+          "spe": 86
+        }
+      },
+      {
+        "name": "Garchomp",
+        "code": "Garchomp",
+        "base": "Garchomp",
+        "t1": "Dragon",
+        "t2": "Ground",
+        "gen": 4,
+        "category": "Ordinary",
+        "slug": "garchomp",
+        "base_slug": "garchomp",
+        "image": "https://img.pokemondb.net/sprites/home/normal/garchomp.png",
+        "stats": {
+          "hp": 108,
+          "atk": 130,
+          "def": 95,
+          "spa": 80,
+          "spd": 85,
+          "spe": 102
+        }
+      }
+    ]
+  },
+  {
+    "year": 2014,
+    "player": "Se Jun Park",
+    "country": "South Korea",
+    "division": "Masters",
+    "team": [
+      {
+        "name": "Pachirisu",
+        "code": "Pachirisu",
+        "base": "Pachirisu",
+        "t1": "Electric",
+        "t2": "",
+        "gen": 4,
+        "category": "Ordinary",
+        "slug": "pachirisu",
+        "base_slug": "pachirisu",
+        "image": "https://img.pokemondb.net/sprites/home/normal/pachirisu.png",
+        "stats": {
+          "hp": 60,
+          "atk": 45,
+          "def": 70,
+          "spa": 45,
+          "spd": 90,
+          "spe": 95
+        }
+      },
+      {
+        "name": "Gothitelle",
+        "code": "Gothitelle",
+        "base": "Gothitelle",
+        "t1": "Psychic",
+        "t2": "",
+        "gen": 5,
+        "category": "Ordinary",
+        "slug": "gothitelle",
+        "base_slug": "gothitelle",
+        "image": "https://img.pokemondb.net/sprites/home/normal/gothitelle.png",
+        "stats": {
+          "hp": 70,
+          "atk": 55,
+          "def": 95,
+          "spa": 95,
+          "spd": 110,
+          "spe": 65
+        }
+      },
+      {
+        "name": "Gardevoir",
+        "code": "Gardevoir",
+        "base": "Gardevoir",
+        "t1": "Psychic",
+        "t2": "Fairy",
+        "gen": 3,
+        "category": "Ordinary",
+        "slug": "gardevoir",
+        "base_slug": "gardevoir",
+        "image": "https://img.pokemondb.net/sprites/home/normal/gardevoir.png",
+        "stats": {
+          "hp": 68,
+          "atk": 65,
+          "def": 65,
+          "spa": 125,
+          "spd": 115,
+          "spe": 80
+        }
+      },
+      {
+        "name": "Mega Gyarados",
+        "code": "Gyarados-Mega",
+        "base": "Gyarados",
+        "t1": "Water",
+        "t2": "Dark",
+        "gen": 6,
+        "category": "Ordinary",
+        "slug": "gyarados-mega",
+        "base_slug": "gyarados",
+        "image": "https://img.pokemondb.net/sprites/home/normal/gyarados-mega.png",
+        "stats": {
+          "hp": 95,
+          "atk": 155,
+          "def": 109,
+          "spa": 70,
+          "spd": 130,
+          "spe": 81
+        }
+      },
+      {
+        "name": "Talonflame",
+        "code": "Talonflame",
+        "base": "Talonflame",
+        "t1": "Fire",
+        "t2": "Flying",
+        "gen": 6,
+        "category": "Ordinary",
+        "slug": "talonflame",
+        "base_slug": "talonflame",
+        "image": "https://img.pokemondb.net/sprites/home/normal/talonflame.png",
+        "stats": {
+          "hp": 78,
+          "atk": 81,
+          "def": 71,
+          "spa": 74,
+          "spd": 69,
+          "spe": 126
+        }
+      },
+      {
+        "name": "Garchomp",
+        "code": "Garchomp",
+        "base": "Garchomp",
+        "t1": "Dragon",
+        "t2": "Ground",
+        "gen": 4,
+        "category": "Ordinary",
+        "slug": "garchomp",
+        "base_slug": "garchomp",
+        "image": "https://img.pokemondb.net/sprites/home/normal/garchomp.png",
+        "stats": {
+          "hp": 108,
+          "atk": 130,
+          "def": 95,
+          "spa": 80,
+          "spd": 85,
+          "spe": 102
+        }
+      }
+    ]
+  },
+  {
+    "year": 2013,
+    "player": "Arash Ohmati",
+    "country": "Italy",
+    "division": "Masters",
+    "team": [
+      {
+        "name": "Mamoswine",
+        "code": "Mamoswine",
+        "base": "Mamoswine",
+        "t1": "Ice",
+        "t2": "Ground",
+        "gen": 4,
+        "category": "Ordinary",
+        "slug": "mamoswine",
+        "base_slug": "mamoswine",
+        "image": "https://img.pokemondb.net/sprites/home/normal/mamoswine.png",
+        "stats": {
+          "hp": 110,
+          "atk": 130,
+          "def": 80,
+          "spa": 70,
+          "spd": 60,
+          "spe": 80
+        }
+      },
+      {
+        "name": "Tornadus Incarnate Form",
+        "code": "Tornadus-I",
+        "base": "Tornadus",
+        "t1": "Flying",
+        "t2": "",
+        "gen": 5,
+        "category": "Legendary",
+        "slug": "tornadus-incarnate",
+        "base_slug": "tornadus",
+        "image": "https://img.pokemondb.net/sprites/home/normal/tornadus-incarnate.png",
+        "stats": {
+          "hp": 79,
+          "atk": 115,
+          "def": 70,
+          "spa": 125,
+          "spd": 80,
+          "spe": 111
+        }
+      },
+      {
+        "name": "Latios",
+        "code": "Latios",
+        "base": "Latios",
+        "t1": "Dragon",
+        "t2": "Psychic",
+        "gen": 3,
+        "category": "Legendary",
+        "slug": "latios",
+        "base_slug": "latios",
+        "image": "https://img.pokemondb.net/sprites/home/normal/latios.png",
+        "stats": {
+          "hp": 80,
+          "atk": 90,
+          "def": 80,
+          "spa": 130,
+          "spd": 110,
+          "spe": 110
+        }
+      },
+      {
+        "name": "Amoonguss",
+        "code": "Amoonguss",
+        "base": "Amoonguss",
+        "t1": "Grass",
+        "t2": "Poison",
+        "gen": 5,
+        "category": "Ordinary",
+        "slug": "amoonguss",
+        "base_slug": "amoonguss",
+        "image": "https://img.pokemondb.net/sprites/home/normal/amoonguss.png",
+        "stats": {
+          "hp": 114,
+          "atk": 85,
+          "def": 70,
+          "spa": 85,
+          "spd": 80,
+          "spe": 30
+        }
+      },
+      {
+        "name": "Heatran",
+        "code": "Heatran",
+        "base": "Heatran",
+        "t1": "Fire",
+        "t2": "Steel",
+        "gen": 4,
+        "category": "Legendary",
+        "slug": "heatran",
+        "base_slug": "heatran",
+        "image": "https://img.pokemondb.net/sprites/home/normal/heatran.png",
+        "stats": {
+          "hp": 91,
+          "atk": 90,
+          "def": 106,
+          "spa": 130,
+          "spd": 106,
+          "spe": 77
+        }
+      },
+      {
+        "name": "Conkeldurr",
+        "code": "Conkeldurr",
+        "base": "Conkeldurr",
+        "t1": "Fighting",
+        "t2": "",
+        "gen": 5,
+        "category": "Ordinary",
+        "slug": "conkeldurr",
+        "base_slug": "conkeldurr",
+        "image": "https://img.pokemondb.net/sprites/home/normal/conkeldurr.png",
+        "stats": {
+          "hp": 105,
+          "atk": 140,
+          "def": 95,
+          "spa": 55,
+          "spd": 65,
+          "spe": 45
+        }
+      }
+    ]
+  },
+  {
+    "year": 2013,
+    "player": "Brendan Zheng",
+    "country": "USA",
+    "division": "Junior",
+    "team": [
+      {
+        "name": "Cresselia",
+        "code": "Cresselia",
+        "base": "Cresselia",
+        "t1": "Psychic",
+        "t2": "",
+        "gen": 4,
+        "category": "Legendary",
+        "slug": "cresselia",
+        "base_slug": "cresselia",
+        "image": "https://img.pokemondb.net/sprites/home/normal/cresselia.png",
+        "stats": {
+          "hp": 120,
+          "atk": 70,
+          "def": 110,
+          "spa": 75,
+          "spd": 120,
+          "spe": 85
+        }
+      },
+      {
+        "name": "Conkeldurr",
+        "code": "Conkeldurr",
+        "base": "Conkeldurr",
+        "t1": "Fighting",
+        "t2": "",
+        "gen": 5,
+        "category": "Ordinary",
+        "slug": "conkeldurr",
+        "base_slug": "conkeldurr",
+        "image": "https://img.pokemondb.net/sprites/home/normal/conkeldurr.png",
+        "stats": {
+          "hp": 105,
+          "atk": 140,
+          "def": 95,
+          "spa": 55,
+          "spd": 65,
+          "spe": 45
+        }
+      },
+      {
+        "name": "Rotom Wash",
+        "code": "Rotom-W",
+        "base": "Rotom",
+        "t1": "Electric",
+        "t2": "Water",
+        "gen": 4,
+        "category": "Ordinary",
+        "slug": "rotom-wash",
+        "base_slug": "rotom",
+        "image": "https://img.pokemondb.net/sprites/home/normal/rotom-wash.png",
+        "stats": {
+          "hp": 50,
+          "atk": 65,
+          "def": 107,
+          "spa": 105,
+          "spd": 107,
+          "spe": 86
+        }
+      },
+      {
+        "name": "Heatran",
+        "code": "Heatran",
+        "base": "Heatran",
+        "t1": "Fire",
+        "t2": "Steel",
+        "gen": 4,
+        "category": "Legendary",
+        "slug": "heatran",
+        "base_slug": "heatran",
+        "image": "https://img.pokemondb.net/sprites/home/normal/heatran.png",
+        "stats": {
+          "hp": 91,
+          "atk": 90,
+          "def": 106,
+          "spa": 130,
+          "spd": 106,
+          "spe": 77
+        }
+      },
+      {
+        "name": "Jellicent",
+        "code": "Jellicent",
+        "base": "Jellicent",
+        "t1": "Water",
+        "t2": "Ghost",
+        "gen": 5,
+        "category": "Ordinary",
+        "slug": "jellicent",
+        "base_slug": "jellicent",
+        "image": "https://img.pokemondb.net/sprites/home/normal/jellicent.png",
+        "stats": {
+          "hp": 100,
+          "atk": 60,
+          "def": 70,
+          "spa": 85,
+          "spd": 105,
+          "spe": 60
+        }
+      },
+      {
+        "name": "Escavalier",
+        "code": "Escavalier",
+        "base": "Escavalier",
+        "t1": "Bug",
+        "t2": "Steel",
+        "gen": 5,
+        "category": "Ordinary",
+        "slug": "escavalier",
+        "base_slug": "escavalier",
+        "image": "https://img.pokemondb.net/sprites/home/normal/escavalier.png",
+        "stats": {
+          "hp": 70,
+          "atk": 135,
+          "def": 105,
+          "spa": 60,
+          "spd": 105,
+          "spe": 20
+        }
+      }
+    ]
+  },
+  {
+    "year": 2013,
+    "player": "Hayden McTavish",
+    "country": "USA",
+    "division": "Senior",
+    "team": [
+      {
+        "name": "Heatran",
+        "code": "Heatran",
+        "base": "Heatran",
+        "t1": "Fire",
+        "t2": "Steel",
+        "gen": 4,
+        "category": "Legendary",
+        "slug": "heatran",
+        "base_slug": "heatran",
+        "image": "https://img.pokemondb.net/sprites/home/normal/heatran.png",
+        "stats": {
+          "hp": 91,
+          "atk": 90,
+          "def": 106,
+          "spa": 130,
+          "spd": 106,
+          "spe": 77
+        }
+      },
+      {
+        "name": "Scizor",
+        "code": "Scizor",
+        "base": "Scizor",
+        "t1": "Bug",
+        "t2": "Steel",
+        "gen": 2,
+        "category": "Ordinary",
+        "slug": "scizor",
+        "base_slug": "scizor",
+        "image": "https://img.pokemondb.net/sprites/home/normal/scizor.png",
+        "stats": {
+          "hp": 70,
+          "atk": 130,
+          "def": 100,
+          "spa": 55,
+          "spd": 80,
+          "spe": 65
+        }
+      },
+      {
+        "name": "Rotom Wash",
+        "code": "Rotom-W",
+        "base": "Rotom",
+        "t1": "Electric",
+        "t2": "Water",
+        "gen": 4,
+        "category": "Ordinary",
+        "slug": "rotom-wash",
+        "base_slug": "rotom",
+        "image": "https://img.pokemondb.net/sprites/home/normal/rotom-wash.png",
+        "stats": {
+          "hp": 50,
+          "atk": 65,
+          "def": 107,
+          "spa": 105,
+          "spd": 107,
+          "spe": 86
+        }
+      },
+      {
+        "name": "Thundurus Incarnate Form",
+        "code": "Thundurus-I",
+        "base": "Thundurus",
+        "t1": "Electric",
+        "t2": "Flying",
+        "gen": 5,
+        "category": "Legendary",
+        "slug": "thundurus-incarnate",
+        "base_slug": "thundurus",
+        "image": "https://img.pokemondb.net/sprites/home/normal/thundurus-incarnate.png",
+        "stats": {
+          "hp": 79,
+          "atk": 115,
+          "def": 70,
+          "spa": 125,
+          "spd": 80,
+          "spe": 111
+        }
+      },
+      {
+        "name": "Cresselia",
+        "code": "Cresselia",
+        "base": "Cresselia",
+        "t1": "Psychic",
+        "t2": "",
+        "gen": 4,
+        "category": "Legendary",
+        "slug": "cresselia",
+        "base_slug": "cresselia",
+        "image": "https://img.pokemondb.net/sprites/home/normal/cresselia.png",
+        "stats": {
+          "hp": 120,
+          "atk": 70,
+          "def": 110,
+          "spa": 75,
+          "spd": 120,
+          "spe": 85
+        }
+      },
+      {
+        "name": "Machamp",
+        "code": "Machamp",
+        "base": "Machamp",
+        "t1": "Fighting",
+        "t2": "",
+        "gen": 1,
+        "category": "Ordinary",
+        "slug": "machamp",
+        "base_slug": "machamp",
+        "image": "https://img.pokemondb.net/sprites/home/normal/machamp.png",
+        "stats": {
+          "hp": 90,
+          "atk": 130,
+          "def": 80,
+          "spa": 65,
+          "spd": 85,
+          "spe": 55
+        }
+      }
+    ]
+  },
+  {
+    "year": 2012,
+    "player": "Abram Burrows",
+    "country": "USA",
+    "division": "Junior",
+    "team": [
+      {
+        "name": "Cloyster",
+        "code": "Cloyster",
+        "base": "Cloyster",
+        "t1": "Water",
+        "t2": "Ice",
+        "gen": 1,
+        "category": "Ordinary",
+        "slug": "cloyster",
+        "base_slug": "cloyster",
+        "image": "https://img.pokemondb.net/sprites/home/normal/cloyster.png",
+        "stats": {
+          "hp": 50,
+          "atk": 95,
+          "def": 180,
+          "spa": 85,
+          "spd": 45,
+          "spe": 70
+        }
+      },
+      {
+        "name": "Thundurus Incarnate Form",
+        "code": "Thundurus-I",
+        "base": "Thundurus",
+        "t1": "Electric",
+        "t2": "Flying",
+        "gen": 5,
+        "category": "Legendary",
+        "slug": "thundurus-incarnate",
+        "base_slug": "thundurus",
+        "image": "https://img.pokemondb.net/sprites/home/normal/thundurus-incarnate.png",
+        "stats": {
+          "hp": 79,
+          "atk": 115,
+          "def": 70,
+          "spa": 125,
+          "spd": 80,
+          "spe": 111
+        }
+      },
+      {
+        "name": "Volcarona",
+        "code": "Volcarona",
+        "base": "Volcarona",
+        "t1": "Bug",
+        "t2": "Fire",
+        "gen": 5,
+        "category": "Ordinary",
+        "slug": "volcarona",
+        "base_slug": "volcarona",
+        "image": "https://img.pokemondb.net/sprites/home/normal/volcarona.png",
+        "stats": {
+          "hp": 85,
+          "atk": 60,
+          "def": 65,
+          "spa": 135,
+          "spd": 105,
+          "spe": 100
+        }
+      },
+      {
+        "name": "Landorus Incarnate Form",
+        "code": "Landorus-I",
+        "base": "Landorus",
+        "t1": "Ground",
+        "t2": "Flying",
+        "gen": 5,
+        "category": "Legendary",
+        "slug": "landorus-incarnate",
+        "base_slug": "landorus",
+        "image": "https://img.pokemondb.net/sprites/home/normal/landorus-incarnate.png",
+        "stats": {
+          "hp": 89,
+          "atk": 125,
+          "def": 90,
+          "spa": 115,
+          "spd": 80,
+          "spe": 101
+        }
+      },
+      {
+        "name": "Tyranitar",
+        "code": "Tyranitar",
+        "base": "Tyranitar",
+        "t1": "Rock",
+        "t2": "Dark",
+        "gen": 2,
+        "category": "Ordinary",
+        "slug": "tyranitar",
+        "base_slug": "tyranitar",
+        "image": "https://img.pokemondb.net/sprites/home/normal/tyranitar.png",
+        "stats": {
+          "hp": 100,
+          "atk": 134,
+          "def": 110,
+          "spa": 95,
+          "spd": 100,
+          "spe": 61
+        }
+      },
+      {
+        "name": "Hitmontop",
+        "code": "Hitmontop",
+        "base": "Hitmontop",
+        "t1": "Fighting",
+        "t2": "",
+        "gen": 2,
+        "category": "Ordinary",
+        "slug": "hitmontop",
+        "base_slug": "hitmontop",
+        "image": "https://img.pokemondb.net/sprites/home/normal/hitmontop.png",
+        "stats": {
+          "hp": 50,
+          "atk": 95,
+          "def": 95,
+          "spa": 35,
+          "spd": 110,
+          "spe": 70
+        }
+      }
+    ]
+  },
+  {
+    "year": 2012,
+    "player": "Ray Rizzo",
+    "country": "USA",
+    "division": "Masters",
+    "team": [
+      {
+        "name": "Tyranitar",
+        "code": "Tyranitar",
+        "base": "Tyranitar",
+        "t1": "Rock",
+        "t2": "Dark",
+        "gen": 2,
+        "category": "Ordinary",
+        "slug": "tyranitar",
+        "base_slug": "tyranitar",
+        "image": "https://img.pokemondb.net/sprites/home/normal/tyranitar.png",
+        "stats": {
+          "hp": 100,
+          "atk": 134,
+          "def": 110,
+          "spa": 95,
+          "spd": 100,
+          "spe": 61
+        }
+      },
+      {
+        "name": "Garchomp",
+        "code": "Garchomp",
+        "base": "Garchomp",
+        "t1": "Dragon",
+        "t2": "Ground",
+        "gen": 4,
+        "category": "Ordinary",
+        "slug": "garchomp",
+        "base_slug": "garchomp",
+        "image": "https://img.pokemondb.net/sprites/home/normal/garchomp.png",
+        "stats": {
+          "hp": 108,
+          "atk": 130,
+          "def": 95,
+          "spa": 80,
+          "spd": 85,
+          "spe": 102
+        }
+      },
+      {
+        "name": "Cresselia",
+        "code": "Cresselia",
+        "base": "Cresselia",
+        "t1": "Psychic",
+        "t2": "",
+        "gen": 4,
+        "category": "Legendary",
+        "slug": "cresselia",
+        "base_slug": "cresselia",
+        "image": "https://img.pokemondb.net/sprites/home/normal/cresselia.png",
+        "stats": {
+          "hp": 120,
+          "atk": 70,
+          "def": 110,
+          "spa": 75,
+          "spd": 120,
+          "spe": 85
+        }
+      },
+      {
+        "name": "Hydreigon",
+        "code": "Hydreigon",
+        "base": "Hydreigon",
+        "t1": "Dark",
+        "t2": "Dragon",
+        "gen": 5,
+        "category": "Ordinary",
+        "slug": "hydreigon",
+        "base_slug": "hydreigon",
+        "image": "https://img.pokemondb.net/sprites/home/normal/hydreigon.png",
+        "stats": {
+          "hp": 92,
+          "atk": 105,
+          "def": 90,
+          "spa": 125,
+          "spd": 90,
+          "spe": 98
+        }
+      },
+      {
+        "name": "Rotom Wash",
+        "code": "Rotom-W",
+        "base": "Rotom",
+        "t1": "Electric",
+        "t2": "Water",
+        "gen": 4,
+        "category": "Ordinary",
+        "slug": "rotom-wash",
+        "base_slug": "rotom",
+        "image": "https://img.pokemondb.net/sprites/home/normal/rotom-wash.png",
+        "stats": {
+          "hp": 50,
+          "atk": 65,
+          "def": 107,
+          "spa": 105,
+          "spd": 107,
+          "spe": 86
+        }
       },
       {
         "name": "Metagross",
+        "code": "Metagross",
         "base": "Metagross",
         "t1": "Steel",
         "t2": "Psychic",
@@ -1141,7 +4467,1087 @@
         "category": "Ordinary",
         "slug": "metagross",
         "base_slug": "metagross",
-        "image": "https://img.pokemondb.net/sprites/home/normal/metagross.png"
+        "image": "https://img.pokemondb.net/sprites/home/normal/metagross.png",
+        "stats": {
+          "hp": 80,
+          "atk": 135,
+          "def": 130,
+          "spa": 95,
+          "spd": 90,
+          "spe": 70
+        }
+      }
+    ]
+  },
+  {
+    "year": 2012,
+    "player": "Toler Webb",
+    "country": "USA",
+    "division": "Senior",
+    "team": [
+      {
+        "name": "Garchomp",
+        "code": "Garchomp",
+        "base": "Garchomp",
+        "t1": "Dragon",
+        "t2": "Ground",
+        "gen": 4,
+        "category": "Ordinary",
+        "slug": "garchomp",
+        "base_slug": "garchomp",
+        "image": "https://img.pokemondb.net/sprites/home/normal/garchomp.png",
+        "stats": {
+          "hp": 108,
+          "atk": 130,
+          "def": 95,
+          "spa": 80,
+          "spd": 85,
+          "spe": 102
+        }
+      },
+      {
+        "name": "Ludicolo",
+        "code": "Ludicolo",
+        "base": "Ludicolo",
+        "t1": "Water",
+        "t2": "Grass",
+        "gen": 3,
+        "category": "Ordinary",
+        "slug": "ludicolo",
+        "base_slug": "ludicolo",
+        "image": "https://img.pokemondb.net/sprites/home/normal/ludicolo.png",
+        "stats": {
+          "hp": 80,
+          "atk": 70,
+          "def": 70,
+          "spa": 90,
+          "spd": 100,
+          "spe": 70
+        }
+      },
+      {
+        "name": "Cresselia",
+        "code": "Cresselia",
+        "base": "Cresselia",
+        "t1": "Psychic",
+        "t2": "",
+        "gen": 4,
+        "category": "Legendary",
+        "slug": "cresselia",
+        "base_slug": "cresselia",
+        "image": "https://img.pokemondb.net/sprites/home/normal/cresselia.png",
+        "stats": {
+          "hp": 120,
+          "atk": 70,
+          "def": 110,
+          "spa": 75,
+          "spd": 120,
+          "spe": 85
+        }
+      },
+      {
+        "name": "Hydreigon",
+        "code": "Hydreigon",
+        "base": "Hydreigon",
+        "t1": "Dark",
+        "t2": "Dragon",
+        "gen": 5,
+        "category": "Ordinary",
+        "slug": "hydreigon",
+        "base_slug": "hydreigon",
+        "image": "https://img.pokemondb.net/sprites/home/normal/hydreigon.png",
+        "stats": {
+          "hp": 92,
+          "atk": 105,
+          "def": 90,
+          "spa": 125,
+          "spd": 90,
+          "spe": 98
+        }
+      },
+      {
+        "name": "Rotom Heat",
+        "code": "Rotom-H",
+        "base": "Rotom",
+        "t1": "Electric",
+        "t2": "Fire",
+        "gen": 4,
+        "category": "Ordinary",
+        "slug": "rotom-heat",
+        "base_slug": "rotom",
+        "image": "https://img.pokemondb.net/sprites/home/normal/rotom-heat.png",
+        "stats": {
+          "hp": 50,
+          "atk": 65,
+          "def": 107,
+          "spa": 105,
+          "spd": 107,
+          "spe": 86
+        }
+      },
+      {
+        "name": "Metagross",
+        "code": "Metagross",
+        "base": "Metagross",
+        "t1": "Steel",
+        "t2": "Psychic",
+        "gen": 3,
+        "category": "Ordinary",
+        "slug": "metagross",
+        "base_slug": "metagross",
+        "image": "https://img.pokemondb.net/sprites/home/normal/metagross.png",
+        "stats": {
+          "hp": 80,
+          "atk": 135,
+          "def": 130,
+          "spa": 95,
+          "spd": 90,
+          "spe": 70
+        }
+      }
+    ]
+  },
+  {
+    "year": 2011,
+    "player": "Kamran Jahadi",
+    "country": "USA",
+    "division": "Senior",
+    "team": [
+      {
+        "name": "Jellicent",
+        "code": "Jellicent",
+        "base": "Jellicent",
+        "t1": "Water",
+        "t2": "Ghost",
+        "gen": 5,
+        "category": "Ordinary",
+        "slug": "jellicent",
+        "base_slug": "jellicent",
+        "image": "https://img.pokemondb.net/sprites/home/normal/jellicent.png",
+        "stats": {
+          "hp": 100,
+          "atk": 60,
+          "def": 70,
+          "spa": 85,
+          "spd": 105,
+          "spe": 60
+        }
+      },
+      {
+        "name": "Amoonguss",
+        "code": "Amoonguss",
+        "base": "Amoonguss",
+        "t1": "Grass",
+        "t2": "Poison",
+        "gen": 5,
+        "category": "Ordinary",
+        "slug": "amoonguss",
+        "base_slug": "amoonguss",
+        "image": "https://img.pokemondb.net/sprites/home/normal/amoonguss.png",
+        "stats": {
+          "hp": 114,
+          "atk": 85,
+          "def": 70,
+          "spa": 85,
+          "spd": 80,
+          "spe": 30
+        }
+      },
+      {
+        "name": "Chandelure",
+        "code": "Chandelure",
+        "base": "Chandelure",
+        "t1": "Ghost",
+        "t2": "Fire",
+        "gen": 5,
+        "category": "Ordinary",
+        "slug": "chandelure",
+        "base_slug": "chandelure",
+        "image": "https://img.pokemondb.net/sprites/home/normal/chandelure.png",
+        "stats": {
+          "hp": 60,
+          "atk": 55,
+          "def": 90,
+          "spa": 145,
+          "spd": 90,
+          "spe": 80
+        }
+      },
+      {
+        "name": "Terrakion",
+        "code": "Terrakion",
+        "base": "Terrakion",
+        "t1": "Rock",
+        "t2": "Fighting",
+        "gen": 5,
+        "category": "Legendary",
+        "slug": "terrakion",
+        "base_slug": "terrakion",
+        "image": "https://img.pokemondb.net/sprites/home/normal/terrakion.png",
+        "stats": {
+          "hp": 91,
+          "atk": 129,
+          "def": 90,
+          "spa": 72,
+          "spd": 90,
+          "spe": 108
+        }
+      },
+      {
+        "name": "Tornadus Incarnate Form",
+        "code": "Tornadus-I",
+        "base": "Tornadus",
+        "t1": "Flying",
+        "t2": "",
+        "gen": 5,
+        "category": "Legendary",
+        "slug": "tornadus-incarnate",
+        "base_slug": "tornadus",
+        "image": "https://img.pokemondb.net/sprites/home/normal/tornadus-incarnate.png",
+        "stats": {
+          "hp": 79,
+          "atk": 115,
+          "def": 70,
+          "spa": 125,
+          "spd": 80,
+          "spe": 111
+        }
+      },
+      {
+        "name": "Thundurus Incarnate Form",
+        "code": "Thundurus-I",
+        "base": "Thundurus",
+        "t1": "Electric",
+        "t2": "Flying",
+        "gen": 5,
+        "category": "Legendary",
+        "slug": "thundurus-incarnate",
+        "base_slug": "thundurus",
+        "image": "https://img.pokemondb.net/sprites/home/normal/thundurus-incarnate.png",
+        "stats": {
+          "hp": 79,
+          "atk": 115,
+          "def": 70,
+          "spa": 125,
+          "spd": 80,
+          "spe": 111
+        }
+      }
+    ]
+  },
+  {
+    "year": 2011,
+    "player": "Ray Rizzo",
+    "country": "USA",
+    "division": "Masters",
+    "team": [
+      {
+        "name": "Escavalier",
+        "code": "Escavalier",
+        "base": "Escavalier",
+        "t1": "Bug",
+        "t2": "Steel",
+        "gen": 5,
+        "category": "Ordinary",
+        "slug": "escavalier",
+        "base_slug": "escavalier",
+        "image": "https://img.pokemondb.net/sprites/home/normal/escavalier.png",
+        "stats": {
+          "hp": 70,
+          "atk": 135,
+          "def": 105,
+          "spa": 60,
+          "spd": 105,
+          "spe": 20
+        }
+      },
+      {
+        "name": "Conkeldurr",
+        "code": "Conkeldurr",
+        "base": "Conkeldurr",
+        "t1": "Fighting",
+        "t2": "",
+        "gen": 5,
+        "category": "Ordinary",
+        "slug": "conkeldurr",
+        "base_slug": "conkeldurr",
+        "image": "https://img.pokemondb.net/sprites/home/normal/conkeldurr.png",
+        "stats": {
+          "hp": 105,
+          "atk": 140,
+          "def": 95,
+          "spa": 55,
+          "spd": 65,
+          "spe": 45
+        }
+      },
+      {
+        "name": "Terrakion",
+        "code": "Terrakion",
+        "base": "Terrakion",
+        "t1": "Rock",
+        "t2": "Fighting",
+        "gen": 5,
+        "category": "Legendary",
+        "slug": "terrakion",
+        "base_slug": "terrakion",
+        "image": "https://img.pokemondb.net/sprites/home/normal/terrakion.png",
+        "stats": {
+          "hp": 91,
+          "atk": 129,
+          "def": 90,
+          "spa": 72,
+          "spd": 90,
+          "spe": 108
+        }
+      },
+      {
+        "name": "Gothitelle",
+        "code": "Gothitelle",
+        "base": "Gothitelle",
+        "t1": "Psychic",
+        "t2": "",
+        "gen": 5,
+        "category": "Ordinary",
+        "slug": "gothitelle",
+        "base_slug": "gothitelle",
+        "image": "https://img.pokemondb.net/sprites/home/normal/gothitelle.png",
+        "stats": {
+          "hp": 70,
+          "atk": 55,
+          "def": 95,
+          "spa": 95,
+          "spd": 110,
+          "spe": 65
+        }
+      },
+      {
+        "name": "Thundurus Incarnate Form",
+        "code": "Thundurus-I",
+        "base": "Thundurus",
+        "t1": "Electric",
+        "t2": "Flying",
+        "gen": 5,
+        "category": "Legendary",
+        "slug": "thundurus-incarnate",
+        "base_slug": "thundurus",
+        "image": "https://img.pokemondb.net/sprites/home/normal/thundurus-incarnate.png",
+        "stats": {
+          "hp": 79,
+          "atk": 115,
+          "def": 70,
+          "spa": 125,
+          "spd": 80,
+          "spe": 111
+        }
+      },
+      {
+        "name": "Hydreigon",
+        "code": "Hydreigon",
+        "base": "Hydreigon",
+        "t1": "Dark",
+        "t2": "Dragon",
+        "gen": 5,
+        "category": "Ordinary",
+        "slug": "hydreigon",
+        "base_slug": "hydreigon",
+        "image": "https://img.pokemondb.net/sprites/home/normal/hydreigon.png",
+        "stats": {
+          "hp": 92,
+          "atk": 105,
+          "def": 90,
+          "spa": 125,
+          "spd": 90,
+          "spe": 98
+        }
+      }
+    ]
+  },
+  {
+    "year": 2010,
+    "player": "Ray Rizzo",
+    "country": "USA",
+    "division": "Masters",
+    "team": [
+      {
+        "name": "Hariyama",
+        "code": "Hariyama",
+        "base": "Hariyama",
+        "t1": "Fighting",
+        "t2": "",
+        "gen": 3,
+        "category": "Ordinary",
+        "slug": "hariyama",
+        "base_slug": "hariyama",
+        "image": "https://img.pokemondb.net/sprites/home/normal/hariyama.png",
+        "stats": {
+          "hp": 144,
+          "atk": 120,
+          "def": 60,
+          "spa": 40,
+          "spd": 60,
+          "spe": 50
+        }
+      },
+      {
+        "name": "Cresselia",
+        "code": "Cresselia",
+        "base": "Cresselia",
+        "t1": "Psychic",
+        "t2": "",
+        "gen": 4,
+        "category": "Legendary",
+        "slug": "cresselia",
+        "base_slug": "cresselia",
+        "image": "https://img.pokemondb.net/sprites/home/normal/cresselia.png",
+        "stats": {
+          "hp": 120,
+          "atk": 70,
+          "def": 110,
+          "spa": 75,
+          "spd": 120,
+          "spe": 85
+        }
+      },
+      {
+        "name": "Dialga",
+        "code": "Dialga",
+        "base": "Dialga",
+        "t1": "Steel",
+        "t2": "Dragon",
+        "gen": 4,
+        "category": "Legendary",
+        "slug": "dialga",
+        "base_slug": "dialga",
+        "image": "https://img.pokemondb.net/sprites/home/normal/dialga.png",
+        "stats": {
+          "hp": 100,
+          "atk": 120,
+          "def": 120,
+          "spa": 150,
+          "spd": 100,
+          "spe": 90
+        }
+      },
+      {
+        "name": "Kyogre",
+        "code": "Kyogre",
+        "base": "Kyogre",
+        "t1": "Water",
+        "t2": "",
+        "gen": 3,
+        "category": "Legendary",
+        "slug": "kyogre",
+        "base_slug": "kyogre",
+        "image": "https://img.pokemondb.net/sprites/home/normal/kyogre.png",
+        "stats": {
+          "hp": 100,
+          "atk": 100,
+          "def": 90,
+          "spa": 150,
+          "spd": 140,
+          "spe": 90
+        }
+      },
+      {
+        "name": "Groudon",
+        "code": "Groudon",
+        "base": "Groudon",
+        "t1": "Ground",
+        "t2": "",
+        "gen": 3,
+        "category": "Legendary",
+        "slug": "groudon",
+        "base_slug": "groudon",
+        "image": "https://img.pokemondb.net/sprites/home/normal/groudon.png",
+        "stats": {
+          "hp": 100,
+          "atk": 150,
+          "def": 140,
+          "spa": 100,
+          "spd": 90,
+          "spe": 90
+        }
+      },
+      {
+        "name": "Ludicolo",
+        "code": "Ludicolo",
+        "base": "Ludicolo",
+        "t1": "Water",
+        "t2": "Grass",
+        "gen": 3,
+        "category": "Ordinary",
+        "slug": "ludicolo",
+        "base_slug": "ludicolo",
+        "image": "https://img.pokemondb.net/sprites/home/normal/ludicolo.png",
+        "stats": {
+          "hp": 80,
+          "atk": 70,
+          "def": 70,
+          "spa": 90,
+          "spd": 100,
+          "spe": 70
+        }
+      }
+    ]
+  },
+  {
+    "year": 2010,
+    "player": "Shota Yamamoto",
+    "country": "Japan",
+    "division": "Junior",
+    "team": [
+      {
+        "name": "Ludicolo",
+        "code": "Ludicolo",
+        "base": "Ludicolo",
+        "t1": "Water",
+        "t2": "Grass",
+        "gen": 3,
+        "category": "Ordinary",
+        "slug": "ludicolo",
+        "base_slug": "ludicolo",
+        "image": "https://img.pokemondb.net/sprites/home/normal/ludicolo.png",
+        "stats": {
+          "hp": 80,
+          "atk": 70,
+          "def": 70,
+          "spa": 90,
+          "spd": 100,
+          "spe": 70
+        }
+      },
+      {
+        "name": "Cresselia",
+        "code": "Cresselia",
+        "base": "Cresselia",
+        "t1": "Psychic",
+        "t2": "",
+        "gen": 4,
+        "category": "Legendary",
+        "slug": "cresselia",
+        "base_slug": "cresselia",
+        "image": "https://img.pokemondb.net/sprites/home/normal/cresselia.png",
+        "stats": {
+          "hp": 120,
+          "atk": 70,
+          "def": 110,
+          "spa": 75,
+          "spd": 120,
+          "spe": 85
+        }
+      },
+      {
+        "name": "Ho-Oh",
+        "code": "Ho-Oh",
+        "base": "Ho-Oh",
+        "t1": "Fire",
+        "t2": "Flying",
+        "gen": 2,
+        "category": "Legendary",
+        "slug": "ho-oh",
+        "base_slug": "ho-oh",
+        "image": "https://img.pokemondb.net/sprites/home/normal/ho-oh.png",
+        "stats": {
+          "hp": 106,
+          "atk": 130,
+          "def": 90,
+          "spa": 110,
+          "spd": 154,
+          "spe": 90
+        }
+      },
+      {
+        "name": "Groudon",
+        "code": "Groudon",
+        "base": "Groudon",
+        "t1": "Ground",
+        "t2": "",
+        "gen": 3,
+        "category": "Legendary",
+        "slug": "groudon",
+        "base_slug": "groudon",
+        "image": "https://img.pokemondb.net/sprites/home/normal/groudon.png",
+        "stats": {
+          "hp": 100,
+          "atk": 150,
+          "def": 140,
+          "spa": 100,
+          "spd": 90,
+          "spe": 90
+        }
+      },
+      {
+        "name": "Cherrim",
+        "code": "Cherrim",
+        "base": "Cherrim",
+        "t1": "Grass",
+        "t2": "",
+        "gen": 4,
+        "category": "Ordinary",
+        "slug": "cherrim",
+        "base_slug": "cherrim",
+        "image": "https://img.pokemondb.net/sprites/home/normal/cherrim.png",
+        "stats": {
+          "hp": 70,
+          "atk": 60,
+          "def": 70,
+          "spa": 87,
+          "spd": 78,
+          "spe": 85
+        }
+      },
+      {
+        "name": "Palkia",
+        "code": "Palkia",
+        "base": "Palkia",
+        "t1": "Water",
+        "t2": "Dragon",
+        "gen": 4,
+        "category": "Legendary",
+        "slug": "palkia",
+        "base_slug": "palkia",
+        "image": "https://img.pokemondb.net/sprites/home/normal/palkia.png",
+        "stats": {
+          "hp": 90,
+          "atk": 120,
+          "def": 100,
+          "spa": 150,
+          "spd": 120,
+          "spe": 100
+        }
+      }
+    ]
+  },
+  {
+    "year": 2009,
+    "player": "Jeremiah Fan",
+    "country": "USA",
+    "division": "Junior",
+    "team": [
+      {
+        "name": "Ludicolo",
+        "code": "Ludicolo",
+        "base": "Ludicolo",
+        "t1": "Water",
+        "t2": "Grass",
+        "gen": 3,
+        "category": "Ordinary",
+        "slug": "ludicolo",
+        "base_slug": "ludicolo",
+        "image": "https://img.pokemondb.net/sprites/home/normal/ludicolo.png",
+        "stats": {
+          "hp": 80,
+          "atk": 70,
+          "def": 70,
+          "spa": 90,
+          "spd": 100,
+          "spe": 70
+        }
+      },
+      {
+        "name": "Kingdra",
+        "code": "Kingdra",
+        "base": "Kingdra",
+        "t1": "Water",
+        "t2": "Dragon",
+        "gen": 2,
+        "category": "Ordinary",
+        "slug": "kingdra",
+        "base_slug": "kingdra",
+        "image": "https://img.pokemondb.net/sprites/home/normal/kingdra.png",
+        "stats": {
+          "hp": 75,
+          "atk": 95,
+          "def": 95,
+          "spa": 95,
+          "spd": 95,
+          "spe": 85
+        }
+      },
+      {
+        "name": "Vaporeon",
+        "code": "Vaporeon",
+        "base": "Vaporeon",
+        "t1": "Water",
+        "t2": "",
+        "gen": 1,
+        "category": "Ordinary",
+        "slug": "vaporeon",
+        "base_slug": "vaporeon",
+        "image": "https://img.pokemondb.net/sprites/home/normal/vaporeon.png",
+        "stats": {
+          "hp": 130,
+          "atk": 65,
+          "def": 60,
+          "spa": 110,
+          "spd": 95,
+          "spe": 65
+        }
+      },
+      {
+        "name": "Metagross",
+        "code": "Metagross",
+        "base": "Metagross",
+        "t1": "Steel",
+        "t2": "Psychic",
+        "gen": 3,
+        "category": "Ordinary",
+        "slug": "metagross",
+        "base_slug": "metagross",
+        "image": "https://img.pokemondb.net/sprites/home/normal/metagross.png",
+        "stats": {
+          "hp": 80,
+          "atk": 135,
+          "def": 130,
+          "spa": 95,
+          "spd": 90,
+          "spe": 70
+        }
+      },
+      {
+        "name": "Toxicroak",
+        "code": "Toxicroak",
+        "base": "Toxicroak",
+        "t1": "Poison",
+        "t2": "Fighting",
+        "gen": 4,
+        "category": "Ordinary",
+        "slug": "toxicroak",
+        "base_slug": "toxicroak",
+        "image": "https://img.pokemondb.net/sprites/home/normal/toxicroak.png",
+        "stats": {
+          "hp": 83,
+          "atk": 106,
+          "def": 65,
+          "spa": 86,
+          "spd": 65,
+          "spe": 85
+        }
+      },
+      {
+        "name": "Slowbro",
+        "code": "Slowbro",
+        "base": "Slowbro",
+        "t1": "Water",
+        "t2": "Psychic",
+        "gen": 1,
+        "category": "Ordinary",
+        "slug": "slowbro",
+        "base_slug": "slowbro",
+        "image": "https://img.pokemondb.net/sprites/home/normal/slowbro.png",
+        "stats": {
+          "hp": 95,
+          "atk": 75,
+          "def": 110,
+          "spa": 100,
+          "spd": 80,
+          "spe": 30
+        }
+      }
+    ]
+  },
+  {
+    "year": 2009,
+    "player": "Kazuyuki Tsuji",
+    "country": "Japan",
+    "division": "Masters",
+    "team": [
+      {
+        "name": "Ludicolo",
+        "code": "Ludicolo",
+        "base": "Ludicolo",
+        "t1": "Water",
+        "t2": "Grass",
+        "gen": 3,
+        "category": "Ordinary",
+        "slug": "ludicolo",
+        "base_slug": "ludicolo",
+        "image": "https://img.pokemondb.net/sprites/home/normal/ludicolo.png",
+        "stats": {
+          "hp": 80,
+          "atk": 70,
+          "def": 70,
+          "spa": 90,
+          "spd": 100,
+          "spe": 70
+        }
+      },
+      {
+        "name": "Toxicroak",
+        "code": "Toxicroak",
+        "base": "Toxicroak",
+        "t1": "Poison",
+        "t2": "Fighting",
+        "gen": 4,
+        "category": "Ordinary",
+        "slug": "toxicroak",
+        "base_slug": "toxicroak",
+        "image": "https://img.pokemondb.net/sprites/home/normal/toxicroak.png",
+        "stats": {
+          "hp": 83,
+          "atk": 106,
+          "def": 65,
+          "spa": 86,
+          "spd": 65,
+          "spe": 85
+        }
+      },
+      {
+        "name": "Metagross",
+        "code": "Metagross",
+        "base": "Metagross",
+        "t1": "Steel",
+        "t2": "Psychic",
+        "gen": 3,
+        "category": "Ordinary",
+        "slug": "metagross",
+        "base_slug": "metagross",
+        "image": "https://img.pokemondb.net/sprites/home/normal/metagross.png",
+        "stats": {
+          "hp": 80,
+          "atk": 135,
+          "def": 130,
+          "spa": 95,
+          "spd": 90,
+          "spe": 70
+        }
+      },
+      {
+        "name": "Snorlax",
+        "code": "Snorlax",
+        "base": "Snorlax",
+        "t1": "Normal",
+        "t2": "",
+        "gen": 1,
+        "category": "Ordinary",
+        "slug": "snorlax",
+        "base_slug": "snorlax",
+        "image": "https://img.pokemondb.net/sprites/home/normal/snorlax.png",
+        "stats": {
+          "hp": 160,
+          "atk": 110,
+          "def": 65,
+          "spa": 65,
+          "spd": 110,
+          "spe": 30
+        }
+      },
+      {
+        "name": "Salamence",
+        "code": "Salamence",
+        "base": "Salamence",
+        "t1": "Dragon",
+        "t2": "Flying",
+        "gen": 3,
+        "category": "Ordinary",
+        "slug": "salamence",
+        "base_slug": "salamence",
+        "image": "https://img.pokemondb.net/sprites/home/normal/salamence.png",
+        "stats": {
+          "hp": 95,
+          "atk": 135,
+          "def": 80,
+          "spa": 110,
+          "spd": 80,
+          "spe": 100
+        }
+      },
+      {
+        "name": "Empoleon",
+        "code": "Empoleon",
+        "base": "Empoleon",
+        "t1": "Water",
+        "t2": "Steel",
+        "gen": 4,
+        "category": "Ordinary",
+        "slug": "empoleon",
+        "base_slug": "empoleon",
+        "image": "https://img.pokemondb.net/sprites/home/normal/empoleon.png",
+        "stats": {
+          "hp": 84,
+          "atk": 86,
+          "def": 88,
+          "spa": 111,
+          "spd": 101,
+          "spe": 60
+        }
+      }
+    ]
+  },
+  {
+    "year": 2008,
+    "player": "Izuru Yoshimura",
+    "country": "Japan",
+    "division": "Masters",
+    "team": [
+      {
+        "name": "Smeargle",
+        "code": "Smeargle",
+        "base": "Smeargle",
+        "t1": "Normal",
+        "t2": "",
+        "gen": 2,
+        "category": "Ordinary",
+        "slug": "smeargle",
+        "base_slug": "smeargle",
+        "image": "https://img.pokemondb.net/sprites/home/normal/smeargle.png",
+        "stats": {
+          "hp": 55,
+          "atk": 20,
+          "def": 35,
+          "spa": 20,
+          "spd": 45,
+          "spe": 75
+        }
+      },
+      {
+        "name": "Bronzong",
+        "code": "Bronzong",
+        "base": "Bronzong",
+        "t1": "Steel",
+        "t2": "Psychic",
+        "gen": 4,
+        "category": "Ordinary",
+        "slug": "bronzong",
+        "base_slug": "bronzong",
+        "image": "https://img.pokemondb.net/sprites/home/normal/bronzong.png",
+        "stats": {
+          "hp": 67,
+          "atk": 89,
+          "def": 116,
+          "spa": 79,
+          "spd": 116,
+          "spe": 33
+        }
+      },
+      {
+        "name": "Snorlax",
+        "code": "Snorlax",
+        "base": "Snorlax",
+        "t1": "Normal",
+        "t2": "",
+        "gen": 1,
+        "category": "Ordinary",
+        "slug": "snorlax",
+        "base_slug": "snorlax",
+        "image": "https://img.pokemondb.net/sprites/home/normal/snorlax.png",
+        "stats": {
+          "hp": 160,
+          "atk": 110,
+          "def": 65,
+          "spa": 65,
+          "spd": 110,
+          "spe": 30
+        }
+      },
+      {
+        "name": "Metagross",
+        "code": "Metagross",
+        "base": "Metagross",
+        "t1": "Steel",
+        "t2": "Psychic",
+        "gen": 3,
+        "category": "Ordinary",
+        "slug": "metagross",
+        "base_slug": "metagross",
+        "image": "https://img.pokemondb.net/sprites/home/normal/metagross.png",
+        "stats": {
+          "hp": 80,
+          "atk": 135,
+          "def": 130,
+          "spa": 95,
+          "spd": 90,
+          "spe": 70
+        }
+      }
+    ]
+  },
+  {
+    "year": 2008,
+    "player": "Knight Silvayne",
+    "country": "USA",
+    "division": "Junior",
+    "team": [
+      {
+        "name": "Bronzong",
+        "code": "Bronzong",
+        "base": "Bronzong",
+        "t1": "Steel",
+        "t2": "Psychic",
+        "gen": 4,
+        "category": "Ordinary",
+        "slug": "bronzong",
+        "base_slug": "bronzong",
+        "image": "https://img.pokemondb.net/sprites/home/normal/bronzong.png",
+        "stats": {
+          "hp": 67,
+          "atk": 89,
+          "def": 116,
+          "spa": 79,
+          "spd": 116,
+          "spe": 33
+        }
+      },
+      {
+        "name": "Garchomp",
+        "code": "Garchomp",
+        "base": "Garchomp",
+        "t1": "Dragon",
+        "t2": "Ground",
+        "gen": 4,
+        "category": "Ordinary",
+        "slug": "garchomp",
+        "base_slug": "garchomp",
+        "image": "https://img.pokemondb.net/sprites/home/normal/garchomp.png",
+        "stats": {
+          "hp": 108,
+          "atk": 130,
+          "def": 95,
+          "spa": 80,
+          "spd": 85,
+          "spe": 102
+        }
+      },
+      {
+        "name": "Metagross",
+        "code": "Metagross",
+        "base": "Metagross",
+        "t1": "Steel",
+        "t2": "Psychic",
+        "gen": 3,
+        "category": "Ordinary",
+        "slug": "metagross",
+        "base_slug": "metagross",
+        "image": "https://img.pokemondb.net/sprites/home/normal/metagross.png",
+        "stats": {
+          "hp": 80,
+          "atk": 135,
+          "def": 130,
+          "spa": 95,
+          "spd": 90,
+          "spe": 70
+        }
+      },
+      {
+        "name": "Hippowdon",
+        "code": "Hippowdon",
+        "base": "Hippowdon",
+        "t1": "Ground",
+        "t2": "",
+        "gen": 4,
+        "category": "Ordinary",
+        "slug": "hippowdon",
+        "base_slug": "hippowdon",
+        "image": "https://img.pokemondb.net/sprites/home/normal/hippowdon.png",
+        "stats": {
+          "hp": 108,
+          "atk": 112,
+          "def": 118,
+          "spa": 68,
+          "spd": 72,
+          "spe": 47
+        }
       }
     ]
   }

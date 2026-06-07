@@ -1,0 +1,1223 @@
+No,Branch_Code,Original_Name,Name,Name2,Generation,Type1,Type2,Ability1,Ability2,Ability_Hidden,Category,Mega_Evolution_Flag,Region_Form,HP,Attack,Defense,SP_Attack,SP_Defense,Speed,Total,image_url
+1,1_0,Bulbasaur,Bulbasaur,,1,Grass,Poison,Overgrow,,Chlorophyll,Ordinary,,,45,49,49,65,65,45,318,https://img.pokemondb.net/artwork/large/bulbasaur.jpg
+2,2_0,Ivysaur,Ivysaur,,1,Grass,Poison,Overgrow,,Chlorophyll,Ordinary,,,60,62,63,80,80,60,405,https://img.pokemondb.net/artwork/large/ivysaur.jpg
+3,3_0,Venusaur,Venusaur,,1,Grass,Poison,Overgrow,,Chlorophyll,Ordinary,,,80,82,83,100,100,80,525,https://img.pokemondb.net/artwork/large/venusaur.jpg
+3,3_1,Venusaur,Mega Venusaur,Venusaur-Mega,6,Grass,Poison,Thick Fat,,,Ordinary,Mega,,80,100,123,122,120,80,625,https://img.pokemondb.net/artwork/large/mega-venusaur.jpg
+4,4_0,Charmander,Charmander,,1,Fire,,Blaze,,Solar Power,Ordinary,,,39,52,43,60,50,65,309,https://img.pokemondb.net/artwork/large/charmander.jpg
+5,5_0,Charmeleon,Charmeleon,,1,Fire,,Blaze,,Solar Power,Ordinary,,,58,64,58,80,65,80,405,https://img.pokemondb.net/artwork/large/charmeleon.jpg
+6,6_0,Charizard,Charizard,,1,Fire,Flying,Blaze,,Solar Power,Ordinary,,,78,84,78,109,85,100,534,https://img.pokemondb.net/artwork/large/charizard.jpg
+6,6_1,Charizard,Mega Charizard X,Charizard-Mega-X,6,Fire,Dragon,Tough Claws,,,Ordinary,Mega,,78,130,111,130,85,100,634,https://img.pokemondb.net/artwork/large/mega-charizard-x.jpg
+6,6_2,Charizard,Mega Charizard Y,Charizard-Mega-Y,6,Fire,Flying,Drought,,,Ordinary,Mega,,78,104,78,159,115,100,634,https://img.pokemondb.net/artwork/large/mega-charizard-y.jpg
+7,7_0,Squirtle,Squirtle,,1,Water,,Torrent,,Rain Dish,Ordinary,,,44,48,65,50,64,43,314,https://img.pokemondb.net/artwork/large/squirtle.jpg
+8,8_0,Wartortle,Wartortle,,1,Water,,Torrent,,Rain Dish,Ordinary,,,59,63,80,65,80,58,405,https://img.pokemondb.net/artwork/large/wartortle.jpg
+9,9_0,Blastoise,Blastoise,,1,Water,,Torrent,,Rain Dish,Ordinary,,,79,83,100,85,105,78,530,https://img.pokemondb.net/artwork/large/blastoise.jpg
+9,9_1,Blastoise,Mega Blastoise,Blastoise-Mega,6,Water,,Mega Launcher,,,Ordinary,Mega,,79,103,120,135,115,78,630,https://img.pokemondb.net/artwork/large/mega-blastoise.jpg
+10,10_0,Caterpie,Caterpie,,1,Bug,,Shield Dust,,Run Away,Ordinary,,,45,30,35,20,20,45,195,https://img.pokemondb.net/artwork/large/caterpie.jpg
+11,11_0,Metapod,Metapod,,1,Bug,,Shed Skin,,,Ordinary,,,50,20,55,25,25,30,205,https://img.pokemondb.net/artwork/large/metapod.jpg
+12,12_0,Butterfree,Butterfree,,1,Bug,Flying,Compound Eyes,,Tinted Lens,Ordinary,,,60,45,50,90,80,70,395,https://img.pokemondb.net/artwork/large/butterfree.jpg
+13,13_0,Weedle,Weedle,,1,Bug,Poison,Shield Dust,,Run Away,Ordinary,,,40,35,30,20,20,50,195,https://img.pokemondb.net/artwork/large/weedle.jpg
+14,14_0,Kakuna,Kakuna,,1,Bug,Poison,Shed Skin,,,Ordinary,,,45,25,50,25,25,35,205,https://img.pokemondb.net/artwork/large/kakuna.jpg
+15,15_0,Beedrill,Beedrill,,1,Bug,Poison,Swarm,,Sniper,Ordinary,,,65,90,40,45,80,75,395,https://img.pokemondb.net/artwork/large/beedrill.jpg
+15,15_1,Beedrill,Mega Beedrill,Beedrill-Mega,6,Bug,Poison,Adaptability,,,Ordinary,Mega,,65,150,40,15,80,145,495,https://img.pokemondb.net/artwork/large/mega-beedrill.jpg
+16,16_0,Pidgey,Pidgey,,1,Normal,Flying,Keen Eye,Tangled Feet,Big Pecks,Ordinary,,,40,45,40,35,35,56,251,https://img.pokemondb.net/artwork/large/pidgey.jpg
+17,17_0,Pidgeotto,Pidgeotto,,1,Normal,Flying,Keen Eye,Tangled Feet,Big Pecks,Ordinary,,,63,60,55,50,50,71,349,https://img.pokemondb.net/artwork/large/pidgeotto.jpg
+18,18_0,Pidgeot,Pidgeot,,1,Normal,Flying,Keen Eye,Tangled Feet,Big Pecks,Ordinary,,,83,80,75,70,70,101,479,https://img.pokemondb.net/artwork/large/pidgeot.jpg
+18,18_1,Pidgeot,Mega Pidgeot,Pidgeot-Mega,6,Normal,Flying,No Guard,,,Ordinary,Mega,,83,80,80,135,80,121,579,https://img.pokemondb.net/artwork/large/mega-pidgeot.jpg
+19,19_0,Rattata,Rattata,,1,Normal,,Run Away,Guts,Hustle,Ordinary,,,30,56,35,25,35,72,253,https://img.pokemondb.net/artwork/large/rattata.jpg
+19,19_1,Rattata,Alolan Rattata,,7,Dark,Normal,Gluttony,Hustle,Thick Fat,Ordinary,,Alolan,30,56,35,25,35,72,253,https://img.pokemondb.net/artwork/large/alolan-rattata.jpg
+20,20_0,Raticate,Raticate,,1,Normal,,Run Away,Guts,Hustle,Ordinary,,,55,81,60,50,70,97,413,https://img.pokemondb.net/artwork/large/raticate.jpg
+20,20_1,Raticate,Alolan Raticate,,7,Dark,Normal,Gluttony,Hustle,Thick Fat,Ordinary,,Alolan,75,71,70,40,80,77,413,https://img.pokemondb.net/artwork/large/alolan-raticate.jpg
+21,21_0,Spearow,Spearow,,1,Normal,Flying,Keen Eye,,Sniper,Ordinary,,,40,60,30,31,31,70,262,https://img.pokemondb.net/artwork/large/spearow.jpg
+22,22_0,Fearow,Fearow,,1,Normal,Flying,Keen Eye,,Sniper,Ordinary,,,65,90,65,61,61,100,442,https://img.pokemondb.net/artwork/large/fearow.jpg
+23,23_0,Ekans,Ekans,,1,Poison,,Intimidate,Shed Skin,Unnerve,Ordinary,,,35,60,44,40,54,55,288,https://img.pokemondb.net/artwork/large/ekans.jpg
+24,24_0,Arbok,Arbok,,1,Poison,,Intimidate,Shed Skin,Unnerve,Ordinary,,,60,95,69,65,79,80,448,https://img.pokemondb.net/artwork/large/arbok.jpg
+25,25_0,Pikachu,Pikachu,,1,Electric,,Static,,Lightning Rod,Ordinary,,,35,55,40,50,50,90,320,https://img.pokemondb.net/artwork/large/pikachu.jpg
+26,26_0,Raichu,Raichu,,1,Electric,,Static,,Lightning Rod,Ordinary,,,60,90,55,90,80,110,485,https://img.pokemondb.net/artwork/large/raichu.jpg
+26,26_1,Raichu,Alolan Raichu,,7,Electric,Psychic,Surge Surfer,,,Ordinary,,Alolan,60,85,50,95,85,110,485,https://img.pokemondb.net/artwork/large/alolan-raichu.jpg
+27,27_0,Sandshrew,Sandshrew,,1,Ground,,Sand Veil,,Sand Rush,Ordinary,,,50,75,85,20,30,40,300,https://img.pokemondb.net/artwork/large/sandshrew.jpg
+27,27_1,Sandshrew,Alolan Sandshrew,,7,Ice,Steel,Snow Cloak,,Slush Rush,Ordinary,,Alolan,50,75,90,10,35,40,300,https://img.pokemondb.net/artwork/large/alolan-sandshrew.jpg
+28,28_0,Sandslash,Sandslash,,1,Ground,,Sand Veil,,Sand Rush,Ordinary,,,75,100,110,45,55,65,450,https://img.pokemondb.net/artwork/large/sandslash.jpg
+28,28_1,Sandslash,Alolan Sandslash,,7,Ice,Steel,Snow Cloak,,Slush Rush,Ordinary,,Alolan,75,100,120,25,65,65,450,https://img.pokemondb.net/artwork/large/alolan-sandslash.jpg
+29,29_0,Nidoran F,Nidoran F,,1,Poison,,Poison Point,Rivalry,Hustle,Ordinary,,,55,47,52,40,40,41,275,https://img.pokemondb.net/artwork/large/nidoran-f.jpg
+30,30_0,Nidorina,Nidorina,,1,Poison,,Poison Point,Rivalry,Hustle,Ordinary,,,70,62,67,55,55,56,365,https://img.pokemondb.net/artwork/large/nidorina.jpg
+31,31_0,Nidoqueen,Nidoqueen,,1,Poison,Ground,Poison Point,Rivalry,Sheer Force,Ordinary,,,90,92,87,75,85,76,505,https://img.pokemondb.net/artwork/large/nidoqueen.jpg
+32,32_0,Nidoran M,Nidoran M,,1,Poison,,Poison Point,Rivalry,Hustle,Ordinary,,,46,57,40,40,40,50,273,https://img.pokemondb.net/artwork/large/nidoran-m.jpg
+33,33_0,Nidorino,Nidorino,,1,Poison,,Poison Point,Rivalry,Hustle,Ordinary,,,61,72,57,55,55,65,365,https://img.pokemondb.net/artwork/large/nidorino.jpg
+34,34_0,Nidoking,Nidoking,,1,Poison,Ground,Poison Point,Rivalry,Sheer Force,Ordinary,,,81,102,77,85,75,85,505,https://img.pokemondb.net/artwork/large/nidoking.jpg
+35,35_0,Clefairy,Clefairy,,1,Fairy,,Cute Charm,Magic Guard,Friend Guard,Ordinary,,,70,45,48,60,65,35,323,https://img.pokemondb.net/artwork/large/clefairy.jpg
+36,36_0,Clefable,Clefable,,1,Fairy,,Cute Charm,Magic Guard,Unaware,Ordinary,,,95,70,73,95,90,60,483,https://img.pokemondb.net/artwork/large/clefable.jpg
+37,37_0,Vulpix,Vulpix,,1,Fire,,Flash Fire,,Drought,Ordinary,,,38,41,40,50,65,65,299,https://img.pokemondb.net/artwork/large/vulpix.jpg
+37,37_1,Vulpix,Alolan Vulpix,,7,Ice,,Snow Cloak,,Snow Warning,Ordinary,,Alolan,38,41,40,50,65,65,299,https://img.pokemondb.net/artwork/large/alolan-vulpix.jpg
+38,38_0,Ninetales,Ninetales,,1,Fire,,Flash Fire,,Drought,Ordinary,,,73,76,75,81,100,100,505,https://img.pokemondb.net/artwork/large/ninetales.jpg
+38,38_1,Ninetales,Alolan Ninetales,,7,Ice,Fairy,Snow Cloak,,Snow Warning,Ordinary,,Alolan,73,67,75,81,100,109,505,https://img.pokemondb.net/artwork/large/alolan-ninetales.jpg
+39,39_0,Jigglypuff,Jigglypuff,,1,Normal,Fairy,Cute Charm,Competitive,Friend Guard,Ordinary,,,115,45,20,45,25,20,270,https://img.pokemondb.net/artwork/large/jigglypuff.jpg
+40,40_0,Wigglytuff,Wigglytuff,,1,Normal,Fairy,Cute Charm,Competitive,Frisk,Ordinary,,,140,70,45,85,50,45,435,https://img.pokemondb.net/artwork/large/wigglytuff.jpg
+41,41_0,Zubat,Zubat,,1,Poison,Flying,Inner Focus,,Infiltrator,Ordinary,,,40,45,35,30,40,55,245,https://img.pokemondb.net/artwork/large/zubat.jpg
+42,42_0,Golbat,Golbat,,1,Poison,Flying,Inner Focus,,Infiltrator,Ordinary,,,75,80,70,65,75,90,455,https://img.pokemondb.net/artwork/large/golbat.jpg
+43,43_0,Oddish,Oddish,,1,Grass,Poison,Chlorophyll,,Run Away,Ordinary,,,45,50,55,75,65,30,320,https://img.pokemondb.net/artwork/large/oddish.jpg
+44,44_0,Gloom,Gloom,,1,Grass,Poison,Chlorophyll,,Stench,Ordinary,,,60,65,70,85,75,40,395,https://img.pokemondb.net/artwork/large/gloom.jpg
+45,45_0,Vileplume,Vileplume,,1,Grass,Poison,Chlorophyll,,Effect Spore,Ordinary,,,75,80,85,110,90,50,490,https://img.pokemondb.net/artwork/large/vileplume.jpg
+46,46_0,Paras,Paras,,1,Bug,Grass,Effect Spore,Dry Skin,Damp,Ordinary,,,35,70,55,45,55,25,285,https://img.pokemondb.net/artwork/large/paras.jpg
+47,47_0,Parasect,Parasect,,1,Bug,Grass,Effect Spore,Dry Skin,Damp,Ordinary,,,60,95,80,60,80,30,405,https://img.pokemondb.net/artwork/large/parasect.jpg
+48,48_0,Venonat,Venonat,,1,Bug,Poison,Compound Eyes,Tinted Lens,Run Away,Ordinary,,,60,55,50,40,55,45,305,https://img.pokemondb.net/artwork/large/venonat.jpg
+49,49_0,Venomoth,Venomoth,,1,Bug,Poison,Shield Dust,Tinted Lens,Wonder Skin,Ordinary,,,70,65,60,90,75,90,450,https://img.pokemondb.net/artwork/large/venomoth.jpg
+50,50_0,Diglett,Diglett,,1,Ground,,Sand Veil,Arena Trap,Sand Force,Ordinary,,,10,55,25,35,45,95,265,https://img.pokemondb.net/artwork/large/diglett.jpg
+50,50_1,Diglett,Alolan Diglett,,7,Ground,Steel,Sand Veil,Tangling Hair,Sand Force,Ordinary,,Alolan,10,55,30,35,45,90,265,https://img.pokemondb.net/artwork/large/alolan-diglett.jpg
+51,51_0,Dugtrio,Dugtrio,,1,Ground,,Sand Veil,Arena Trap,Sand Force,Ordinary,,,35,100,50,50,70,120,425,https://img.pokemondb.net/artwork/large/dugtrio.jpg
+51,51_1,Dugtrio,Alolan Dugtrio,,7,Ground,Steel,Sand Veil,Tangling Hair,Sand Force,Ordinary,,Alolan,35,100,60,50,70,110,425,https://img.pokemondb.net/artwork/large/alolan-dugtrio.jpg
+52,52_0,Meowth,Meowth,,1,Normal,,Pickup,Technician,Unnerve,Ordinary,,,40,45,35,40,40,90,290,https://img.pokemondb.net/artwork/large/meowth.jpg
+52,52_1,Meowth,Alolan Meowth,,7,Dark,,Pickup,Technician,Rattled,Ordinary,,Alolan,40,35,35,50,40,90,290,https://img.pokemondb.net/artwork/large/alolan-meowth.jpg
+52,52_2,Meowth,Galarian Meowth,,8,Steel,,Pickup,Tough Claws,Unnerve,Ordinary,,Galarian,50,65,55,40,40,40,290,https://img.pokemondb.net/artwork/large/galarian-meowth.jpg
+53,53_0,Persian,Persian,,1,Normal,,Limber,Technician,Unnerve,Ordinary,,,65,70,60,65,65,115,440,https://img.pokemondb.net/artwork/large/persian.jpg
+53,53_1,Persian,Alolan Persian,,7,Dark,,Fur Coat,Technician,Rattled,Ordinary,,Alolan,65,60,60,75,65,115,440,https://img.pokemondb.net/artwork/large/alolan-persian.jpg
+54,54_0,Psyduck,Psyduck,,1,Water,,Damp,Cloud Nine,Swift Swim,Ordinary,,,50,52,48,65,50,55,320,https://img.pokemondb.net/artwork/large/psyduck.jpg
+55,55_0,Golduck,Golduck,,1,Water,,Damp,Cloud Nine,Swift Swim,Ordinary,,,80,82,78,95,80,85,500,https://img.pokemondb.net/artwork/large/golduck.jpg
+56,56_0,Mankey,Mankey,,1,Fighting,,Vital Spirit,Anger Point,Defiant,Ordinary,,,40,80,35,35,45,70,305,https://img.pokemondb.net/artwork/large/mankey.jpg
+57,57_0,Primeape,Primeape,,1,Fighting,,Vital Spirit,Anger Point,Defiant,Ordinary,,,65,105,60,60,70,95,455,https://img.pokemondb.net/artwork/large/primeape.jpg
+58,58_0,Growlithe,Growlithe,,1,Fire,,Intimidate,Flash Fire,Justified,Ordinary,,,55,70,45,70,50,60,350,https://img.pokemondb.net/artwork/large/growlithe.jpg
+58,58_1,Growlithe,Hisuian Growlithe,,8,Fire,Rock,Intimidate,Flash Fire,Rock Head,Ordinary,,Hisuian,60,75,45,65,50,55,350,https://img.pokemondb.net/artwork/large/hisuian-growlithe.jpg
+59,59_0,Arcanine,Arcanine,,1,Fire,,Intimidate,Flash Fire,Justified,Ordinary,,,90,110,80,100,80,95,555,https://img.pokemondb.net/artwork/large/arcanine.jpg
+59,59_1,Arcanine,Hisuian Arcanine,Arcanine-H,8,Fire,Rock,Intimidate,Flash Fire,Rock Head,Ordinary,,Hisuian,95,115,80,95,80,90,555,https://img.pokemondb.net/artwork/large/hisuian-arcanine.jpg
+60,60_0,Poliwag,Poliwag,,1,Water,,Water Absorb,Damp,Swift Swim,Ordinary,,,40,50,40,40,40,90,300,https://img.pokemondb.net/artwork/large/poliwag.jpg
+61,61_0,Poliwhirl,Poliwhirl,,1,Water,,Water Absorb,Damp,Swift Swim,Ordinary,,,65,65,65,50,50,90,385,https://img.pokemondb.net/artwork/large/poliwhirl.jpg
+62,62_0,Poliwrath,Poliwrath,,1,Water,Fighting,Water Absorb,Damp,Swift Swim,Ordinary,,,90,95,95,70,90,70,510,https://img.pokemondb.net/artwork/large/poliwrath.jpg
+63,63_0,Abra,Abra,,1,Psychic,,Synchronize,Inner Focus,Magic Guard,Ordinary,,,25,20,15,105,55,90,310,https://img.pokemondb.net/artwork/large/abra.jpg
+64,64_0,Kadabra,Kadabra,,1,Psychic,,Synchronize,Inner Focus,Magic Guard,Ordinary,,,40,35,30,120,70,105,400,https://img.pokemondb.net/artwork/large/kadabra.jpg
+65,65_0,Alakazam,Alakazam,,1,Psychic,,Synchronize,Inner Focus,Magic Guard,Ordinary,,,55,50,45,135,95,120,500,https://img.pokemondb.net/artwork/large/alakazam.jpg
+65,65_1,Alakazam,Mega Alakazam,,1,Psychic,,Trace,,,Ordinary,Mega,,55,50,65,175,105,150,600,https://img.pokemondb.net/artwork/large/mega-alakazam.jpg
+66,66_0,Machop,Machop,,1,Fighting,,Guts,No Guard,Steadfast,Ordinary,,,70,80,50,35,35,35,305,https://img.pokemondb.net/artwork/large/machop.jpg
+67,67_0,Machoke,Machoke,,1,Fighting,,Guts,No Guard,Steadfast,Ordinary,,,80,100,70,50,60,45,405,https://img.pokemondb.net/artwork/large/machoke.jpg
+68,68_0,Machamp,Machamp,,1,Fighting,,Guts,No Guard,Steadfast,Ordinary,,,90,130,80,65,85,55,505,https://img.pokemondb.net/artwork/large/machamp.jpg
+69,69_0,Bellsprout,Bellsprout,,1,Grass,Poison,Chlorophyll,,Gluttony,Ordinary,,,50,75,35,70,30,40,300,https://img.pokemondb.net/artwork/large/bellsprout.jpg
+70,70_0,Weepinbell,Weepinbell,,1,Grass,Poison,Chlorophyll,,Gluttony,Ordinary,,,65,90,50,85,45,55,390,https://img.pokemondb.net/artwork/large/weepinbell.jpg
+71,71_0,Victreebel,Victreebel,,1,Grass,Poison,Chlorophyll,,Gluttony,Ordinary,,,80,105,65,100,70,70,490,https://img.pokemondb.net/artwork/large/victreebel.jpg
+72,72_0,Tentacool,Tentacool,,1,Water,Poison,Clear Body,Liquid Ooze,Rain Dish,Ordinary,,,40,40,35,50,100,70,335,https://img.pokemondb.net/artwork/large/tentacool.jpg
+73,73_0,Tentacruel,Tentacruel,,1,Water,Poison,Clear Body,Liquid Ooze,Rain Dish,Ordinary,,,80,70,65,80,120,100,515,https://img.pokemondb.net/artwork/large/tentacruel.jpg
+74,74_0,Geodude,Geodude,,1,Rock,Ground,Rock Head,Sturdy,Sand Veil,Ordinary,,,40,80,100,30,30,20,300,https://img.pokemondb.net/artwork/large/geodude.jpg
+74,74_1,Geodude,Alolan Geodude,,7,Rock,Electric,Magnet Pull,Sturdy,Galvanize,Ordinary,,Alolan,40,80,100,30,30,20,300,https://img.pokemondb.net/artwork/large/alolan-geodude.jpg
+75,75_0,Graveler,Graveler,,1,Rock,Ground,Rock Head,Sturdy,Sand Veil,Ordinary,,,55,95,115,45,45,35,390,https://img.pokemondb.net/artwork/large/graveler.jpg
+75,75_1,Graveler,Alolan Graveler,,7,Rock,Electric,Magnet Pull,Sturdy,Galvanize,Ordinary,,Alolan,55,95,115,45,45,35,390,https://img.pokemondb.net/artwork/large/alolan-graveler.jpg
+76,76_0,Golem,Golem,,1,Rock,Ground,Rock Head,Sturdy,Sand Veil,Ordinary,,,80,120,130,55,65,45,495,https://img.pokemondb.net/artwork/large/golem.jpg
+76,76_1,Golem,Alolan Golem,,7,Rock,Electric,Magnet Pull,Sturdy,Galvanize,Ordinary,,Alolan,80,120,130,55,65,45,495,https://img.pokemondb.net/artwork/large/alolan-golem.jpg
+77,77_0,Ponyta,Ponyta,,1,Fire,,Run Away,Flash Fire,Flame Body,Ordinary,,,50,85,55,65,65,90,410,https://img.pokemondb.net/artwork/large/ponyta.jpg
+77,77_1,Ponyta,Galarian Ponyta,,8,Psychic,,Run Away,Pastel Veil,Anticipation,Ordinary,,Galarian,50,85,55,65,65,90,410,https://img.pokemondb.net/artwork/large/galarian-ponyta.jpg
+78,78_0,Rapidash,Rapidash,,1,Fire,,Run Away,Flash Fire,Flame Body,Ordinary,,,65,100,70,80,80,105,500,https://img.pokemondb.net/artwork/large/rapidash.jpg
+78,78_1,Rapidash,Galarian Rapidash,,8,Psychic,Fairy,Run Away,Pastel Veil,Anticipation,Ordinary,,Galarian,65,100,70,80,80,105,500,https://img.pokemondb.net/artwork/large/galarian-rapidash.jpg
+79,79_0,Slowpoke,Slowpoke,,1,Water,Psychic,Oblivious,Own Tempo,Regenerator,Ordinary,,,90,65,65,40,40,15,315,https://img.pokemondb.net/artwork/large/slowpoke.jpg
+79,79_1,Slowpoke,Galarian Slowpoke,,8,Psychic,,Gluttony,Own Tempo,Regenerator,Ordinary,,Galarian,90,65,65,40,40,15,315,https://img.pokemondb.net/artwork/large/galarian-slowpoke.jpg
+80,80_0,Slowbro,Slowbro,,1,Water,Psychic,Oblivious,Own Tempo,Regenerator,Ordinary,,,95,75,110,100,80,30,490,https://img.pokemondb.net/artwork/large/slowbro.jpg
+80,80_1,Slowbro,Galarian Slowbro,,8,Poison,Psychic,Quick Draw,Own Tempo,Regenerator,Ordinary,,Galarian,95,100,95,100,70,30,490,https://img.pokemondb.net/artwork/large/galarian-slowbro.jpg
+80,80_2,Slowbro,Mega Slowbro,,1,Water,Psychic,Shell Armor,,,Ordinary,Mega,,95,75,180,130,80,30,590,https://img.pokemondb.net/artwork/large/mega-slowbro.jpg
+81,81_0,Magnemite,Magnemite,,1,Electric,Steel,Magnet Pull,Sturdy,Analytic,Ordinary,,,25,35,70,95,55,45,325,https://img.pokemondb.net/artwork/large/magnemite.jpg
+82,82_0,Magneton,Magneton,,1,Electric,Steel,Magnet Pull,Sturdy,Analytic,Ordinary,,,50,60,95,120,70,70,465,https://img.pokemondb.net/artwork/large/magneton.jpg
+83,83_0,Farfetch'd,Farfetch'd,,1,Normal,Flying,Keen Eye,Inner Focus,Defiant,Ordinary,,,52,90,55,58,62,60,377,https://img.pokemondb.net/artwork/large/farfetchd.jpg
+83,83_1,Farfetch'd,Galarian Farfetch'd,,8,Fighting,,Steadfast,,Scrappy,Ordinary,,Galarian,52,95,55,58,62,55,377,https://img.pokemondb.net/artwork/large/galarian-farfetchd.jpg
+84,84_0,Doduo,Doduo,,1,Normal,Flying,Run Away,Early Bird,Tangled Feet,Ordinary,,,35,85,45,35,35,75,310,https://img.pokemondb.net/artwork/large/doduo.jpg
+85,85_0,Dodrio,Dodrio,,1,Normal,Flying,Run Away,Early Bird,Tangled Feet,Ordinary,,,60,110,70,60,60,110,470,https://img.pokemondb.net/artwork/large/dodrio.jpg
+86,86_0,Seel,Seel,,1,Water,,Thick Fat,Hydration,Ice Body,Ordinary,,,65,45,55,45,70,45,325,https://img.pokemondb.net/artwork/large/seel.jpg
+87,87_0,Dewgong,Dewgong,,1,Water,Ice,Thick Fat,Hydration,Ice Body,Ordinary,,,90,70,80,70,95,70,475,https://img.pokemondb.net/artwork/large/dewgong.jpg
+88,88_0,Grimer,Grimer,,1,Poison,,Stench,Sticky Hold,Poison Touch,Ordinary,,,80,80,50,40,50,25,325,https://img.pokemondb.net/artwork/large/grimer.jpg
+88,88_1,Grimer,Alolan Grimer,,7,Poison,Dark,Poison Touch,Gluttony,Power of Alchemy,Ordinary,,Alolan,80,80,50,40,50,25,325,https://img.pokemondb.net/artwork/large/alolan-grimer.jpg
+89,89_0,Muk,Muk,,1,Poison,,Stench,Sticky Hold,Poison Touch,Ordinary,,,105,105,75,65,100,50,500,https://img.pokemondb.net/artwork/large/muk.jpg
+89,89_1,Muk,Alolan Muk,,7,Poison,Dark,Poison Touch,Gluttony,Power of Alchemy,Ordinary,,Alolan,105,105,75,65,100,50,500,https://img.pokemondb.net/artwork/large/alolan-muk.jpg
+90,90_0,Shellder,Shellder,,1,Water,,Shell Armor,Skill Link,Overcoat,Ordinary,,,30,65,100,45,25,40,305,https://img.pokemondb.net/artwork/large/shellder.jpg
+91,91_0,Cloyster,Cloyster,,1,Water,Ice,Shell Armor,Skill Link,Overcoat,Ordinary,,,50,95,180,85,45,70,525,https://img.pokemondb.net/artwork/large/cloyster.jpg
+92,92_0,Gastly,Gastly,,1,Ghost,Poison,Levitate,,,Ordinary,,,30,35,30,100,35,80,310,https://img.pokemondb.net/artwork/large/gastly.jpg
+93,93_0,Haunter,Haunter,,1,Ghost,Poison,Levitate,,,Ordinary,,,45,50,45,115,55,95,405,https://img.pokemondb.net/artwork/large/haunter.jpg
+94,94_0,Gengar,Gengar,,1,Ghost,Poison,Cursed Body,,,Ordinary,,,60,65,60,130,75,110,500,https://img.pokemondb.net/artwork/large/gengar.jpg
+94,94_1,Gengar,Mega Gengar,Gengar-Mega,6,Ghost,Poison,Shadow Tag,,,Ordinary,Mega,,60,65,80,170,95,130,600,https://img.pokemondb.net/artwork/large/mega-gengar.jpg
+95,95_0,Onix,Onix,,1,Rock,Ground,Rock Head,Sturdy,Weak Armor,Ordinary,,,35,45,160,30,45,70,385,https://img.pokemondb.net/artwork/large/onix.jpg
+96,96_0,Drowzee,Drowzee,,1,Psychic,,Insomnia,Forewarn,Inner Focus,Ordinary,,,60,48,45,43,90,42,328,https://img.pokemondb.net/artwork/large/drowzee.jpg
+97,97_0,Hypno,Hypno,,1,Psychic,,Insomnia,Forewarn,Inner Focus,Ordinary,,,85,73,70,73,115,67,483,https://img.pokemondb.net/artwork/large/hypno.jpg
+98,98_0,Krabby,Krabby,,1,Water,,Hyper Cutter,Shell Armor,Sheer Force,Ordinary,,,30,105,90,25,25,50,325,https://img.pokemondb.net/artwork/large/krabby.jpg
+99,99_0,Kingler,Kingler,,1,Water,,Hyper Cutter,Shell Armor,Sheer Force,Ordinary,,,55,130,115,50,50,75,475,https://img.pokemondb.net/artwork/large/kingler.jpg
+100,100_0,Voltorb,Voltorb,,1,Electric,,Soundproof,Static,Aftermath,Ordinary,,,40,30,50,55,55,100,330,https://img.pokemondb.net/artwork/large/voltorb.jpg
+100,100_1,Voltorb,Hisuian Voltorb,,8,Electric,Grass,Soundproof,Static,Aftermath,Ordinary,,Hisuian,40,30,50,55,55,100,330,https://img.pokemondb.net/artwork/large/hisuian-voltorb.jpg
+101,101_0,Electrode,Electrode,,1,Electric,,Soundproof,Static,Aftermath,Ordinary,,,60,50,70,80,80,150,490,https://img.pokemondb.net/artwork/large/electrode.jpg
+101,101_1,Electrode,Hisuian Electrode,,8,Electric,Grass,Soundproof,Static,Aftermath,Ordinary,,Hisuian,60,50,70,80,80,150,490,https://img.pokemondb.net/artwork/large/hisuian-electrode.jpg
+102,102_0,Exeggcute,Exeggcute,,1,Grass,Psychic,Chlorophyll,,Harvest,Ordinary,,,60,40,80,60,45,40,325,https://img.pokemondb.net/artwork/large/exeggcute.jpg
+103,103_0,Exeggutor,Exeggutor,,1,Grass,Psychic,Chlorophyll,,Harvest,Ordinary,,,95,95,85,125,75,55,530,https://img.pokemondb.net/artwork/large/exeggutor.jpg
+103,103_1,Exeggutor,Alolan Exeggutor,Exeggutor-A,7,Grass,Dragon,Frisk,,Harvest,Ordinary,,Alolan,95,105,85,125,75,45,530,https://img.pokemondb.net/artwork/large/alolan-exeggutor.jpg
+104,104_0,Cubone,Cubone,,1,Ground,,Rock Head,Lightning Rod,Battle Armor,Ordinary,,,50,50,95,40,50,35,320,https://img.pokemondb.net/artwork/large/cubone.jpg
+105,105_0,Marowak,Marowak,,1,Ground,,Rock Head,Lightning Rod,Battle Armor,Ordinary,,,60,80,110,50,80,45,425,https://img.pokemondb.net/artwork/large/marowak.jpg
+105,105_1,Marowak,Alolan Marowak,Marowak-A,7,Fire,Ghost,Cursed Body,Lightning Rod,Rock Head,Ordinary,,Alolan,60,80,110,50,80,45,425,https://img.pokemondb.net/artwork/large/alolan-marowak.jpg
+106,106_0,Hitmonlee,Hitmonlee,,1,Fighting,,Limber,Reckless,Unburden,Ordinary,,,50,120,53,35,110,87,455,https://img.pokemondb.net/artwork/large/hitmonlee.jpg
+107,107_0,Hitmonchan,Hitmonchan,,1,Fighting,,Keen Eye,Iron Fist,Inner Focus,Ordinary,,,50,105,79,35,110,76,455,https://img.pokemondb.net/artwork/large/hitmonchan.jpg
+108,108_0,Lickitung,Lickitung,,1,Normal,,Own Tempo,Oblivious,Cloud Nine,Ordinary,,,90,55,75,60,75,30,385,https://img.pokemondb.net/artwork/large/lickitung.jpg
+109,109_0,Koffing,Koffing,,1,Poison,,Levitate,Neutralizing Gas,Stench,Ordinary,,,40,65,95,60,45,35,340,https://img.pokemondb.net/artwork/large/koffing.jpg
+110,110_0,Weezing,Weezing,,1,Poison,,Levitate,Neutralizing Gas,Stench,Ordinary,,,65,90,120,85,70,60,490,https://img.pokemondb.net/artwork/large/weezing.jpg
+110,110_1,Weezing,Galarian Weezing,,8,Poison,Fairy,Levitate,Neutralizing Gas,Misty Surge,Ordinary,,Galarian,65,90,120,85,70,60,490,https://img.pokemondb.net/artwork/large/galarian-weezing.jpg
+111,111_0,Rhyhorn,Rhyhorn,,1,Ground,Rock,Lightning Rod,Rock Head,Reckless,Ordinary,,,80,85,95,30,30,25,345,https://img.pokemondb.net/artwork/large/rhyhorn.jpg
+112,112_0,Rhydon,Rhydon,,1,Ground,Rock,Lightning Rod,Rock Head,Reckless,Ordinary,,,105,130,120,45,45,40,485,https://img.pokemondb.net/artwork/large/rhydon.jpg
+113,113_0,Chansey,Chansey,,1,Normal,,Natural Cure,Serene Grace,Healer,Ordinary,,,250,5,5,35,105,50,450,https://img.pokemondb.net/artwork/large/chansey.jpg
+114,114_0,Tangela,Tangela,,1,Grass,,Chlorophyll,Leaf Guard,Regenerator,Ordinary,,,65,55,115,100,40,60,435,https://img.pokemondb.net/artwork/large/tangela.jpg
+115,115_0,Kangaskhan,Kangaskhan,,1,Normal,,Early Bird,Scrappy,Inner Focus,Ordinary,,,105,95,80,40,80,90,490,https://img.pokemondb.net/artwork/large/kangaskhan.jpg
+115,115_1,Kangaskhan,Mega Kangaskhan,Kangaskhan-Mega,1,Normal,,Parental Bond,,,Ordinary,Mega,,105,125,100,60,100,100,590,https://img.pokemondb.net/artwork/large/mega-kangaskhan.jpg
+116,116_0,Horsea,Horsea,,1,Water,,Swift Swim,Sniper,Damp,Ordinary,,,30,40,70,70,25,60,295,https://img.pokemondb.net/artwork/large/horsea.jpg
+117,117_0,Seadra,Seadra,,1,Water,,Poison Point,Sniper,Damp,Ordinary,,,55,65,95,95,45,85,440,https://img.pokemondb.net/artwork/large/seadra.jpg
+118,118_0,Goldeen,Goldeen,,1,Water,,Swift Swim,Water Veil,Lightning Rod,Ordinary,,,45,67,60,35,50,63,320,https://img.pokemondb.net/artwork/large/goldeen.jpg
+119,119_0,Seaking,Seaking,,1,Water,,Swift Swim,Water Veil,Lightning Rod,Ordinary,,,80,92,65,65,80,68,450,https://img.pokemondb.net/artwork/large/seaking.jpg
+120,120_0,Staryu,Staryu,,1,Water,,Illuminate,Natural Cure,Analytic,Ordinary,,,30,45,55,70,55,85,340,https://img.pokemondb.net/artwork/large/staryu.jpg
+121,121_0,Starmie,Starmie,,1,Water,Psychic,Illuminate,Natural Cure,Analytic,Ordinary,,,60,75,85,100,85,115,520,https://img.pokemondb.net/artwork/large/starmie.jpg
+122,122_0,Mr. Mime,Mr. Mime,,1,Psychic,Fairy,Soundproof,Filter,Technician,Ordinary,,,40,45,65,100,120,90,460,https://img.pokemondb.net/artwork/large/mr-mime.jpg
+122,122_1,Mr. Mime,Galarian Mr. Mime,,8,Ice,Psychic,Vital Spirit,Screen Cleaner,Ice Body,Ordinary,,Galarian,50,65,65,90,90,100,460,https://img.pokemondb.net/artwork/large/galarian-mr-mime.jpg
+123,123_0,Scyther,Scyther,,1,Bug,Flying,Swarm,Technician,Steadfast,Ordinary,,,70,110,80,55,80,105,500,https://img.pokemondb.net/artwork/large/scyther.jpg
+124,124_0,Jynx,Jynx,,1,Ice,Psychic,Oblivious,Forewarn,Dry Skin,Ordinary,,,65,50,35,115,95,95,455,https://img.pokemondb.net/artwork/large/jynx.jpg
+125,125_0,Electabuzz,Electabuzz,,1,Electric,,Static,,Vital Spirit,Ordinary,,,65,83,57,95,85,105,490,https://img.pokemondb.net/artwork/large/electabuzz.jpg
+126,126_0,Magmar,Magmar,,1,Fire,,Flame Body,,Vital Spirit,Ordinary,,,65,95,57,100,85,93,495,https://img.pokemondb.net/artwork/large/magmar.jpg
+127,127_0,Pinsir,Pinsir,,1,Bug,,Hyper Cutter,Mold Breaker,Moxie,Ordinary,,,65,125,100,55,70,85,500,https://img.pokemondb.net/artwork/large/pinsir.jpg
+127,127_1,Pinsir,Mega Pinsir,,1,Bug,Flying,Aerilate,,,Ordinary,Mega,,65,155,120,65,90,105,600,https://img.pokemondb.net/artwork/large/mega-pinsir.jpg
+128,128_0,Tauros,Tauros,,1,Normal,,Intimidate,Anger Point,Sheer Force,Ordinary,,,75,100,95,40,70,110,490,https://img.pokemondb.net/artwork/large/tauros.jpg
+128,128_1,Tauros,Paldean Tauros Combat Breed,,1,Fighting,,Intimidate,Anger Point,Cud Chew,Ordinary,,,75,110,105,30,70,100,490,https://img.pokemondb.net/artwork/large/paldean-tauros-combat-breed.jpg
+128,128_2,Tauros,Paldean Tauros Blaze Breed,,9,Fighting,Fire,Intimidate,Anger Point,Cud Chew,Ordinary,,Paldean,75,110,105,30,70,100,490,https://img.pokemondb.net/artwork/large/paldean-tauros-blaze-breed.jpg
+128,128_3,Tauros,Paldean Tauros Aqua Breed,,9,Fighting,Water,Intimidate,Anger Point,Cud Chew,Ordinary,,Paldean,75,110,105,30,70,100,490,https://img.pokemondb.net/artwork/large/paldean-tauros-aqua-breed.jpg
+129,129_0,Magikarp,Magikarp,,1,Water,,Swift Swim,,Rattled,Ordinary,,,20,10,55,15,20,80,200,https://img.pokemondb.net/artwork/large/magikarp.jpg
+130,130_0,Gyarados,Gyarados,,1,Water,Flying,Intimidate,,Moxie,Ordinary,,,95,125,79,60,100,81,540,https://img.pokemondb.net/artwork/large/gyarados.jpg
+130,130_1,Gyarados,Mega Gyarados,Gyarados-Mega,6,Water,Dark,Mold Breaker,,,Ordinary,Mega,,95,155,109,70,130,81,640,https://img.pokemondb.net/artwork/large/mega-gyarados.jpg
+131,131_0,Lapras,Lapras,,1,Water,Ice,Water Absorb,Shell Armor,Hydration,Ordinary,,,130,85,80,85,95,60,535,https://img.pokemondb.net/artwork/large/lapras.jpg
+132,132_0,Ditto,Ditto,,1,Normal,,Limber,,Imposter,Ordinary,,,48,48,48,48,48,48,288,https://img.pokemondb.net/artwork/large/ditto.jpg
+133,133_0,Eevee,Eevee,,1,Normal,,Run Away,Adaptability,Anticipation,Ordinary,,,55,55,50,45,65,55,325,https://img.pokemondb.net/artwork/large/eevee.jpg
+134,134_0,Vaporeon,Vaporeon,,1,Water,,Water Absorb,,Hydration,Ordinary,,,130,65,60,110,95,65,525,https://img.pokemondb.net/artwork/large/vaporeon.jpg
+135,135_0,Jolteon,Jolteon,,1,Electric,,Volt Absorb,,Quick Feet,Ordinary,,,65,65,60,110,95,130,525,https://img.pokemondb.net/artwork/large/jolteon.jpg
+136,136_0,Flareon,Flareon,,1,Fire,,Flash Fire,,Guts,Ordinary,,,65,130,60,95,110,65,525,https://img.pokemondb.net/artwork/large/flareon.jpg
+137,137_0,Porygon,Porygon,,1,Normal,,Trace,Download,Analytic,Ordinary,,,65,60,70,85,75,40,395,https://img.pokemondb.net/artwork/large/porygon.jpg
+138,138_0,Omanyte,Omanyte,,1,Rock,Water,Swift Swim,Shell Armor,Weak Armor,Ordinary,,,35,40,100,90,55,35,355,https://img.pokemondb.net/artwork/large/omanyte.jpg
+139,139_0,Omastar,Omastar,,1,Rock,Water,Swift Swim,Shell Armor,Weak Armor,Ordinary,,,70,60,125,115,70,55,495,https://img.pokemondb.net/artwork/large/omastar.jpg
+140,140_0,Kabuto,Kabuto,,1,Rock,Water,Swift Swim,Battle Armor,Weak Armor,Ordinary,,,30,80,90,55,45,55,355,https://img.pokemondb.net/artwork/large/kabuto.jpg
+141,141_0,Kabutops,Kabutops,,1,Rock,Water,Swift Swim,Battle Armor,Weak Armor,Ordinary,,,60,115,105,65,70,80,495,https://img.pokemondb.net/artwork/large/kabutops.jpg
+142,142_0,Aerodactyl,Aerodactyl,,1,Rock,Flying,Rock Head,Pressure,Unnerve,Ordinary,,,80,105,65,60,75,130,515,https://img.pokemondb.net/artwork/large/aerodactyl.jpg
+142,142_1,Aerodactyl,Mega Aerodactyl,,1,Rock,Flying,Tough Claws,,,Ordinary,Mega,,80,135,85,70,95,150,615,https://img.pokemondb.net/artwork/large/mega-aerodactyl.jpg
+143,143_0,Snorlax,Snorlax,,1,Normal,,Immunity,Thick Fat,Gluttony,Ordinary,,,160,110,65,65,110,30,540,https://img.pokemondb.net/artwork/large/snorlax.jpg
+144,144_0,Articuno,Articuno,,1,Ice,Flying,Pressure,,Snow Cloak,Legendary,,,90,85,100,95,125,85,580,https://img.pokemondb.net/artwork/large/articuno.jpg
+144,144_1,Articuno,Galarian Articuno,,8,Psychic,Flying,Competitive,,,Legendary,,Galarian,90,85,85,125,100,95,580,https://img.pokemondb.net/artwork/large/galarian-articuno.jpg
+145,145_0,Zapdos,Zapdos,,1,Electric,Flying,Pressure,,Static,Legendary,,,90,90,85,125,90,100,580,https://img.pokemondb.net/artwork/large/zapdos.jpg
+145,145_1,Zapdos,Galarian Zapdos,,8,Fighting,Flying,Defiant,,,Legendary,,Galarian,90,125,90,85,90,100,580,https://img.pokemondb.net/artwork/large/galarian-zapdos.jpg
+146,146_0,Moltres,Moltres,,1,Fire,Flying,Pressure,,Flame Body,Legendary,,,90,100,90,125,85,90,580,https://img.pokemondb.net/artwork/large/moltres.jpg
+146,146_1,Moltres,Galarian Moltres,,8,Dark,Flying,Berserk,,,Legendary,,Galarian,90,85,90,100,125,90,580,https://img.pokemondb.net/artwork/large/galarian-moltres.jpg
+147,147_0,Dratini,Dratini,,1,Dragon,,Shed Skin,,Marvel Scale,Ordinary,,,41,64,45,50,50,50,300,https://img.pokemondb.net/artwork/large/dratini.jpg
+148,148_0,Dragonair,Dragonair,,1,Dragon,,Shed Skin,,Marvel Scale,Ordinary,,,61,84,65,70,70,70,420,https://img.pokemondb.net/artwork/large/dragonair.jpg
+149,149_0,Dragonite,Dragonite,,1,Dragon,Flying,Inner Focus,,Multiscale,Ordinary,,,91,134,95,100,100,80,600,https://img.pokemondb.net/artwork/large/dragonite.jpg
+150,150_0,Mewtwo,Mewtwo,,1,Psychic,,Pressure,,Unnerve,Legendary,,,106,110,90,154,90,130,680,https://img.pokemondb.net/artwork/large/mewtwo.jpg
+150,150_1,Mewtwo,Mega Mewtwo X,,1,Psychic,Fighting,Steadfast,,,Legendary,Mega,,106,190,100,154,100,130,780,https://img.pokemondb.net/artwork/large/mega-mewtwo-x.jpg
+150,150_2,Mewtwo,Mega Mewtwo Y,,1,Psychic,,Insomnia,,,Legendary,Mega,,106,150,70,194,120,140,780,https://img.pokemondb.net/artwork/large/mega-mewtwo-y.jpg
+151,151_0,Mew,Mew,,1,Psychic,,Synchronize,,,Mythical,,,100,100,100,100,100,100,600,https://img.pokemondb.net/artwork/large/mew.jpg
+152,152_0,Chikorita,Chikorita,,2,Grass,,Overgrow,,Leaf Guard,Ordinary,,,45,49,65,49,65,45,318,https://img.pokemondb.net/artwork/large/chikorita.jpg
+153,153_0,Bayleef,Bayleef,,2,Grass,,Overgrow,,Leaf Guard,Ordinary,,,60,62,80,63,80,60,405,https://img.pokemondb.net/artwork/large/bayleef.jpg
+154,154_0,Meganium,Meganium,,2,Grass,,Overgrow,,Leaf Guard,Ordinary,,,80,82,100,83,100,80,525,https://img.pokemondb.net/artwork/large/meganium.jpg
+155,155_0,Cyndaquil,Cyndaquil,,2,Fire,,Blaze,,Flash Fire,Ordinary,,,39,52,43,60,50,65,309,https://img.pokemondb.net/artwork/large/cyndaquil.jpg
+156,156_0,Quilava,Quilava,,2,Fire,,Blaze,,Flash Fire,Ordinary,,,58,64,58,80,65,80,405,https://img.pokemondb.net/artwork/large/quilava.jpg
+157,157_0,Typhlosion,Typhlosion,,2,Fire,,Blaze,,Flash Fire,Ordinary,,,78,84,78,109,85,100,534,https://img.pokemondb.net/artwork/large/typhlosion.jpg
+157,157_1,Typhlosion,Hisuian Typhlosion,,8,Fire,Ghost,Blaze,,Frisk,Ordinary,,Hisuian,73,84,78,119,85,95,534,https://img.pokemondb.net/artwork/large/hisuian-typhlosion.jpg
+158,158_0,Totodile,Totodile,,2,Water,,Torrent,,Sheer Force,Ordinary,,,50,65,64,44,48,43,314,https://img.pokemondb.net/artwork/large/totodile.jpg
+159,159_0,Croconaw,Croconaw,,2,Water,,Torrent,,Sheer Force,Ordinary,,,65,80,80,59,63,58,405,https://img.pokemondb.net/artwork/large/croconaw.jpg
+160,160_0,Feraligatr,Feraligatr,,2,Water,,Torrent,,Sheer Force,Ordinary,,,85,105,100,79,83,78,530,https://img.pokemondb.net/artwork/large/feraligatr.jpg
+161,161_0,Sentret,Sentret,,2,Normal,,Run Away,Keen Eye,Frisk,Ordinary,,,35,46,34,35,45,20,215,https://img.pokemondb.net/artwork/large/sentret.jpg
+162,162_0,Furret,Furret,,2,Normal,,Run Away,Keen Eye,Frisk,Ordinary,,,85,76,64,45,55,90,415,https://img.pokemondb.net/artwork/large/furret.jpg
+163,163_0,Hoothoot,Hoothoot,,2,Normal,Flying,Insomnia,Keen Eye,Tinted Lens,Ordinary,,,60,30,30,36,56,50,262,https://img.pokemondb.net/artwork/large/hoothoot.jpg
+164,164_0,Noctowl,Noctowl,,2,Normal,Flying,Insomnia,Keen Eye,Tinted Lens,Ordinary,,,100,50,50,86,96,70,452,https://img.pokemondb.net/artwork/large/noctowl.jpg
+165,165_0,Ledyba,Ledyba,,2,Bug,Flying,Swarm,Early Bird,Rattled,Ordinary,,,40,20,30,40,80,55,265,https://img.pokemondb.net/artwork/large/ledyba.jpg
+166,166_0,Ledian,Ledian,,2,Bug,Flying,Swarm,Early Bird,Iron Fist,Ordinary,,,55,35,50,55,110,85,390,https://img.pokemondb.net/artwork/large/ledian.jpg
+167,167_0,Spinarak,Spinarak,,2,Bug,Poison,Swarm,Insomnia,Sniper,Ordinary,,,40,60,40,40,40,30,250,https://img.pokemondb.net/artwork/large/spinarak.jpg
+168,168_0,Ariados,Ariados,,2,Bug,Poison,Swarm,Insomnia,Sniper,Ordinary,,,70,90,70,60,70,40,400,https://img.pokemondb.net/artwork/large/ariados.jpg
+169,169_0,Crobat,Crobat,,2,Poison,Flying,Inner Focus,,Infiltrator,Ordinary,,,85,90,80,70,80,130,535,https://img.pokemondb.net/artwork/large/crobat.jpg
+170,170_0,Chinchou,Chinchou,,2,Water,Electric,Volt Absorb,Illuminate,Water Absorb,Ordinary,,,75,38,38,56,56,67,330,https://img.pokemondb.net/artwork/large/chinchou.jpg
+171,171_0,Lanturn,Lanturn,,2,Water,Electric,Volt Absorb,Illuminate,Water Absorb,Ordinary,,,125,58,58,76,76,67,460,https://img.pokemondb.net/artwork/large/lanturn.jpg
+172,172_0,Pichu,Pichu,,2,Electric,,Static,,Lightning Rod,Ordinary,,,20,40,15,35,35,60,205,https://img.pokemondb.net/artwork/large/pichu.jpg
+173,173_0,Cleffa,Cleffa,,2,Fairy,,Cute Charm,Magic Guard,Friend Guard,Ordinary,,,50,25,28,45,55,15,218,https://img.pokemondb.net/artwork/large/cleffa.jpg
+174,174_0,Igglybuff,Igglybuff,,2,Normal,Fairy,Cute Charm,Competitive,Friend Guard,Ordinary,,,90,30,15,40,20,15,210,https://img.pokemondb.net/artwork/large/igglybuff.jpg
+175,175_0,Togepi,Togepi,,2,Fairy,,Hustle,Serene Grace,Super Luck,Ordinary,,,35,20,65,40,65,20,245,https://img.pokemondb.net/artwork/large/togepi.jpg
+176,176_0,Togetic,Togetic,,2,Fairy,Flying,Hustle,Serene Grace,Super Luck,Ordinary,,,55,40,85,80,105,40,405,https://img.pokemondb.net/artwork/large/togetic.jpg
+177,177_0,Natu,Natu,,2,Psychic,Flying,Synchronize,Early Bird,Magic Bounce,Ordinary,,,40,50,45,70,45,70,320,https://img.pokemondb.net/artwork/large/natu.jpg
+178,178_0,Xatu,Xatu,,2,Psychic,Flying,Synchronize,Early Bird,Magic Bounce,Ordinary,,,65,75,70,95,70,95,470,https://img.pokemondb.net/artwork/large/xatu.jpg
+179,179_0,Mareep,Mareep,,2,Electric,,Static,,Plus,Ordinary,,,55,40,40,65,45,35,280,https://img.pokemondb.net/artwork/large/mareep.jpg
+180,180_0,Flaaffy,Flaaffy,,2,Electric,,Static,,Plus,Ordinary,,,70,55,55,80,60,45,365,https://img.pokemondb.net/artwork/large/flaaffy.jpg
+181,181_0,Ampharos,Ampharos,,2,Electric,,Static,,Plus,Ordinary,,,90,75,85,115,90,55,510,https://img.pokemondb.net/artwork/large/ampharos.jpg
+181,181_1,Ampharos,Mega Ampharos,,2,Electric,Dragon,Mold Breaker,,,Ordinary,Mega,,90,95,105,165,110,45,610,https://img.pokemondb.net/artwork/large/mega-ampharos.jpg
+182,182_0,Bellossom,Bellossom,,2,Grass,,Chlorophyll,,Healer,Ordinary,,,75,80,95,90,100,50,490,https://img.pokemondb.net/artwork/large/bellossom.jpg
+183,183_0,Marill,Marill,,2,Water,Fairy,Thick Fat,Huge Power,Sap Sipper,Ordinary,,,70,20,50,20,50,40,250,https://img.pokemondb.net/artwork/large/marill.jpg
+184,184_0,Azumarill,Azumarill,,2,Water,Fairy,Thick Fat,Huge Power,Sap Sipper,Ordinary,,,100,50,80,60,80,50,420,https://img.pokemondb.net/artwork/large/azumarill.jpg
+185,185_0,Sudowoodo,Sudowoodo,,2,Rock,,Sturdy,Rock Head,Rattled,Ordinary,,,70,100,115,30,65,30,410,https://img.pokemondb.net/artwork/large/sudowoodo.jpg
+186,186_0,Politoed,Politoed,,2,Water,,Water Absorb,Damp,Drizzle,Ordinary,,,90,75,75,90,100,70,500,https://img.pokemondb.net/artwork/large/politoed.jpg
+187,187_0,Hoppip,Hoppip,,2,Grass,Flying,Chlorophyll,Leaf Guard,Infiltrator,Ordinary,,,35,35,40,35,55,50,250,https://img.pokemondb.net/artwork/large/hoppip.jpg
+188,188_0,Skiploom,Skiploom,,2,Grass,Flying,Chlorophyll,Leaf Guard,Infiltrator,Ordinary,,,55,45,50,45,65,80,340,https://img.pokemondb.net/artwork/large/skiploom.jpg
+189,189_0,Jumpluff,Jumpluff,,2,Grass,Flying,Chlorophyll,Leaf Guard,Infiltrator,Ordinary,,,75,55,70,55,95,110,460,https://img.pokemondb.net/artwork/large/jumpluff.jpg
+190,190_0,Aipom,Aipom,,2,Normal,,Run Away,Pickup,Skill Link,Ordinary,,,55,70,55,40,55,85,360,https://img.pokemondb.net/artwork/large/aipom.jpg
+191,191_0,Sunkern,Sunkern,,2,Grass,,Chlorophyll,Solar Power,Early Bird,Ordinary,,,30,30,30,30,30,30,180,https://img.pokemondb.net/artwork/large/sunkern.jpg
+192,192_0,Sunflora,Sunflora,,2,Grass,,Chlorophyll,Solar Power,Early Bird,Ordinary,,,75,75,55,105,85,30,425,https://img.pokemondb.net/artwork/large/sunflora.jpg
+193,193_0,Yanma,Yanma,,2,Bug,Flying,Speed Boost,Compound Eyes,Frisk,Ordinary,,,65,65,45,75,45,95,390,https://img.pokemondb.net/artwork/large/yanma.jpg
+194,194_0,Wooper,Paldean Wooper,,9,Poison,Ground,Poison Point,Water Absorb,Unaware,Ordinary,,Paldean,55,45,45,25,25,15,210,https://img.pokemondb.net/artwork/large/paldean-wooper.jpg
+194,194_1,Wooper,Wooper,,2,Water,Ground,Damp,Water Absorb,Unaware,Ordinary,,,55,45,45,25,25,15,210,https://img.pokemondb.net/artwork/large/wooper.jpg
+195,195_0,Quagsire,Quagsire,,2,Water,Ground,Damp,Water Absorb,Unaware,Ordinary,,,95,85,85,65,65,35,430,https://img.pokemondb.net/artwork/large/quagsire.jpg
+196,196_0,Espeon,Espeon,,2,Psychic,,Synchronize,,Magic Bounce,Ordinary,,,65,65,60,130,95,110,525,https://img.pokemondb.net/artwork/large/espeon.jpg
+197,197_0,Umbreon,Umbreon,,2,Dark,,Synchronize,,Inner Focus,Ordinary,,,95,65,110,60,130,65,525,https://img.pokemondb.net/artwork/large/umbreon.jpg
+198,198_0,Murkrow,Murkrow,,2,Dark,Flying,Insomnia,Super Luck,Prankster,Ordinary,,,60,85,42,85,42,91,405,https://img.pokemondb.net/artwork/large/murkrow.jpg
+199,199_0,Slowking,Slowking,,2,Water,Psychic,Oblivious,Own Tempo,Regenerator,Ordinary,,,95,75,80,100,110,30,490,https://img.pokemondb.net/artwork/large/slowking.jpg
+199,199_1,Slowking,Galarian Slowking,,8,Poison,Psychic,Curious Medicine,Own Tempo,Regenerator,Ordinary,,Galarian,95,65,80,110,110,30,490,https://img.pokemondb.net/artwork/large/galarian-slowking.jpg
+200,200_0,Misdreavus,Misdreavus,,2,Ghost,,Levitate,,,Ordinary,,,60,60,60,85,85,85,435,https://img.pokemondb.net/artwork/large/misdreavus.jpg
+201,201_0,Unown,Unown,,2,Psychic,,Levitate,,,Ordinary,,,48,72,48,72,48,48,336,https://img.pokemondb.net/artwork/large/unown.jpg
+202,202_0,Wobbuffet,Wobbuffet,,2,Psychic,,Shadow Tag,,Telepathy,Ordinary,,,190,33,58,33,58,33,405,https://img.pokemondb.net/artwork/large/wobbuffet.jpg
+203,203_0,Girafarig,Girafarig,,2,Normal,Psychic,Inner Focus,Early Bird,Sap Sipper,Ordinary,,,70,80,65,90,65,85,455,https://img.pokemondb.net/artwork/large/girafarig.jpg
+204,204_0,Pineco,Pineco,,2,Bug,,Sturdy,,Overcoat,Ordinary,,,50,65,90,35,35,15,290,https://img.pokemondb.net/artwork/large/pineco.jpg
+205,205_0,Forretress,Forretress,,2,Bug,Steel,Sturdy,,Overcoat,Ordinary,,,75,90,140,60,60,40,465,https://img.pokemondb.net/artwork/large/forretress.jpg
+206,206_0,Dunsparce,Dunsparce,,2,Normal,,Serene Grace,Run Away,Rattled,Ordinary,,,100,70,70,65,65,45,415,https://img.pokemondb.net/artwork/large/dunsparce.jpg
+207,207_0,Gligar,Gligar,,2,Ground,Flying,Hyper Cutter,Sand Veil,Immunity,Ordinary,,,65,75,105,35,65,85,430,https://img.pokemondb.net/artwork/large/gligar.jpg
+208,208_0,Steelix,Steelix,,2,Steel,Ground,Rock Head,Sturdy,Sheer Force,Ordinary,,,75,85,200,55,65,30,510,https://img.pokemondb.net/artwork/large/steelix.jpg
+208,208_1,Steelix,Mega Steelix,,2,Steel,Ground,Sand Force,,,Ordinary,Mega,,75,125,230,55,95,30,610,https://img.pokemondb.net/artwork/large/mega-steelix.jpg
+209,209_0,Snubbull,Snubbull,,2,Fairy,,Intimidate,Run Away,Rattled,Ordinary,,,60,80,50,40,40,30,300,https://img.pokemondb.net/artwork/large/snubbull.jpg
+210,210_0,Granbull,Granbull,,2,Fairy,,Intimidate,Quick Feet,Rattled,Ordinary,,,90,120,75,60,60,45,450,https://img.pokemondb.net/artwork/large/granbull.jpg
+211,211_0,Qwilfish,Qwilfish,,2,Water,Poison,Poison Point,Swift Swim,Intimidate,Ordinary,,,65,95,85,55,55,85,440,https://img.pokemondb.net/artwork/large/qwilfish.jpg
+211,211_1,Qwilfish,Hisuian Qwilfish,,8,Dark,Poison,Poison Point,Swift Swim,Intimidate,Ordinary,,Hisuian,65,95,85,55,55,85,440,https://img.pokemondb.net/artwork/large/hisuian-qwilfish.jpg
+212,212_0,Scizor,Scizor,,2,Bug,Steel,Swarm,Technician,Light Metal,Ordinary,,,70,130,100,55,80,65,500,https://img.pokemondb.net/artwork/large/scizor.jpg
+212,212_1,Scizor,Mega Scizor,,2,Bug,Steel,Technician,,,Ordinary,Mega,,70,150,140,65,100,75,600,https://img.pokemondb.net/artwork/large/mega-scizor.jpg
+213,213_0,Shuckle,Shuckle,,2,Bug,Rock,Sturdy,Gluttony,Contrary,Ordinary,,,20,10,230,10,230,5,505,https://img.pokemondb.net/artwork/large/shuckle.jpg
+214,214_0,Heracross,Heracross,,2,Bug,Fighting,Swarm,Guts,Moxie,Ordinary,,,80,125,75,40,95,85,500,https://img.pokemondb.net/artwork/large/heracross.jpg
+214,214_1,Heracross,Mega Heracross,,2,Bug,Fighting,Skill Link,,,Ordinary,Mega,,80,185,115,40,105,75,600,https://img.pokemondb.net/artwork/large/mega-heracross.jpg
+215,215_0,Sneasel,Sneasel,,2,Dark,Ice,Inner Focus,Keen Eye,Pickpocket,Ordinary,,,55,95,55,35,75,115,430,https://img.pokemondb.net/artwork/large/sneasel.jpg
+215,215_1,Sneasel,Hisuian Sneasel,,8,Fighting,Poison,Inner Focus,Keen Eye,Pickpocket,Ordinary,,Hisuian,55,95,55,35,75,115,430,https://img.pokemondb.net/artwork/large/hisuian-sneasel.jpg
+216,216_0,Teddiursa,Teddiursa,,2,Normal,,Pickup,Quick Feet,Honey Gather,Ordinary,,,60,80,50,50,50,40,330,https://img.pokemondb.net/artwork/large/teddiursa.jpg
+217,217_0,Ursaring,Ursaring,,2,Normal,,Guts,Quick Feet,Unnerve,Ordinary,,,90,130,75,75,75,55,500,https://img.pokemondb.net/artwork/large/ursaring.jpg
+218,218_0,Slugma,Slugma,,2,Fire,,Magma Armor,Flame Body,Weak Armor,Ordinary,,,40,40,40,70,40,20,250,https://img.pokemondb.net/artwork/large/slugma.jpg
+219,219_0,Magcargo,Magcargo,,2,Fire,Rock,Magma Armor,Flame Body,Weak Armor,Ordinary,,,60,50,120,90,80,30,430,https://img.pokemondb.net/artwork/large/magcargo.jpg
+220,220_0,Swinub,Swinub,,2,Ice,Ground,Oblivious,Snow Cloak,Thick Fat,Ordinary,,,50,50,40,30,30,50,250,https://img.pokemondb.net/artwork/large/swinub.jpg
+221,221_0,Piloswine,Piloswine,,2,Ice,Ground,Oblivious,Snow Cloak,Thick Fat,Ordinary,,,100,100,80,60,60,50,450,https://img.pokemondb.net/artwork/large/piloswine.jpg
+222,222_0,Corsola,Corsola,,2,Water,Rock,Hustle,Natural Cure,Regenerator,Ordinary,,,65,55,95,65,95,35,410,https://img.pokemondb.net/artwork/large/corsola.jpg
+222,222_1,Corsola,Galarian Corsola,,8,Ghost,,Weak Armor,,Cursed Body,Ordinary,,Galarian,60,55,100,65,100,30,410,https://img.pokemondb.net/artwork/large/galarian-corsola.jpg
+223,223_0,Remoraid,Remoraid,,2,Water,,Hustle,Sniper,Moody,Ordinary,,,35,65,35,65,35,65,300,https://img.pokemondb.net/artwork/large/remoraid.jpg
+224,224_0,Octillery,Octillery,,2,Water,,Suction Cups,Sniper,Moody,Ordinary,,,75,105,75,105,75,45,480,https://img.pokemondb.net/artwork/large/octillery.jpg
+225,225_0,Delibird,Delibird,,2,Ice,Flying,Vital Spirit,Hustle,Insomnia,Ordinary,,,45,55,45,65,45,75,330,https://img.pokemondb.net/artwork/large/delibird.jpg
+226,226_0,Mantine,Mantine,,2,Water,Flying,Swift Swim,Water Absorb,Water Veil,Ordinary,,,85,40,70,80,140,70,485,https://img.pokemondb.net/artwork/large/mantine.jpg
+227,227_0,Skarmory,Skarmory,,2,Steel,Flying,Keen Eye,Sturdy,Weak Armor,Ordinary,,,65,80,140,40,70,70,465,https://img.pokemondb.net/artwork/large/skarmory.jpg
+228,228_0,Houndour,Houndour,,2,Dark,Fire,Early Bird,Flash Fire,Unnerve,Ordinary,,,45,60,30,80,50,65,330,https://img.pokemondb.net/artwork/large/houndour.jpg
+229,229_0,Houndoom,Houndoom,,2,Dark,Fire,Early Bird,Flash Fire,Unnerve,Ordinary,,,75,90,50,110,80,95,500,https://img.pokemondb.net/artwork/large/houndoom.jpg
+229,229_1,Houndoom,Mega Houndoom,,2,Dark,Fire,Solar Power,,,Ordinary,Mega,,75,90,90,140,90,115,600,https://img.pokemondb.net/artwork/large/mega-houndoom.jpg
+230,230_0,Kingdra,Kingdra,,2,Water,Dragon,Swift Swim,Sniper,Damp,Ordinary,,,75,95,95,95,95,85,540,https://img.pokemondb.net/artwork/large/kingdra.jpg
+231,231_0,Phanpy,Phanpy,,2,Ground,,Pickup,,Sand Veil,Ordinary,,,90,60,60,40,40,40,330,https://img.pokemondb.net/artwork/large/phanpy.jpg
+232,232_0,Donphan,Donphan,,2,Ground,,Sturdy,,Sand Veil,Ordinary,,,90,120,120,60,60,50,500,https://img.pokemondb.net/artwork/large/donphan.jpg
+233,233_0,Porygon2,Porygon2,,2,Normal,,Trace,Download,Analytic,Ordinary,,,85,80,90,105,95,60,515,https://img.pokemondb.net/artwork/large/porygon2.jpg
+234,234_0,Stantler,Stantler,,2,Normal,,Intimidate,Frisk,Sap Sipper,Ordinary,,,73,95,62,85,65,85,465,https://img.pokemondb.net/artwork/large/stantler.jpg
+235,235_0,Smeargle,Smeargle,,2,Normal,,Own Tempo,Technician,Moody,Ordinary,,,55,20,35,20,45,75,250,https://img.pokemondb.net/artwork/large/smeargle.jpg
+236,236_0,Tyrogue,Tyrogue,,2,Fighting,,Guts,Steadfast,Vital Spirit,Ordinary,,,35,35,35,35,35,35,210,https://img.pokemondb.net/artwork/large/tyrogue.jpg
+237,237_0,Hitmontop,Hitmontop,,2,Fighting,,Intimidate,Technician,Steadfast,Ordinary,,,50,95,95,35,110,70,455,https://img.pokemondb.net/artwork/large/hitmontop.jpg
+238,238_0,Smoochum,Smoochum,,2,Ice,Psychic,Oblivious,Forewarn,Hydration,Ordinary,,,45,30,15,85,65,65,305,https://img.pokemondb.net/artwork/large/smoochum.jpg
+239,239_0,Elekid,Elekid,,2,Electric,,Static,,Vital Spirit,Ordinary,,,45,63,37,65,55,95,360,https://img.pokemondb.net/artwork/large/elekid.jpg
+240,240_0,Magby,Magby,,2,Fire,,Flame Body,,Vital Spirit,Ordinary,,,45,75,37,70,55,83,365,https://img.pokemondb.net/artwork/large/magby.jpg
+241,241_0,Miltank,Miltank,,2,Normal,,Thick Fat,Scrappy,Sap Sipper,Ordinary,,,95,80,105,40,70,100,490,https://img.pokemondb.net/artwork/large/miltank.jpg
+242,242_0,Blissey,Blissey,,2,Normal,,Natural Cure,Serene Grace,Healer,Ordinary,,,255,10,10,75,135,55,540,https://img.pokemondb.net/artwork/large/blissey.jpg
+243,243_0,Raikou,Raikou,,2,Electric,,Pressure,,Inner Focus,Legendary,,,90,85,75,115,100,115,580,https://img.pokemondb.net/artwork/large/raikou.jpg
+244,244_0,Entei,Entei,,2,Fire,,Pressure,,Inner Focus,Legendary,,,115,115,85,90,75,100,580,https://img.pokemondb.net/artwork/large/entei.jpg
+245,245_0,Suicune,Suicune,,2,Water,,Pressure,,Inner Focus,Legendary,,,100,75,115,90,115,85,580,https://img.pokemondb.net/artwork/large/suicune.jpg
+246,246_0,Larvitar,Larvitar,,2,Rock,Ground,Guts,,Sand Veil,Ordinary,,,50,64,50,45,50,41,300,https://img.pokemondb.net/artwork/large/larvitar.jpg
+247,247_0,Pupitar,Pupitar,,2,Rock,Ground,Shed Skin,,,Ordinary,,,70,84,70,65,70,51,410,https://img.pokemondb.net/artwork/large/pupitar.jpg
+248,248_0,Tyranitar,Tyranitar,,2,Rock,Dark,Sand Stream,,Unnerve,Ordinary,,,100,134,110,95,100,61,600,https://img.pokemondb.net/artwork/large/tyranitar.jpg
+248,248_1,Tyranitar,Mega Tyranitar,,2,Rock,Dark,Sand Stream,,,Ordinary,Mega,,100,164,150,95,120,71,700,https://img.pokemondb.net/artwork/large/mega-tyranitar.jpg
+249,249_0,Lugia,Lugia,,2,Psychic,Flying,Pressure,,Multiscale,Legendary,,,106,90,130,90,154,110,680,https://img.pokemondb.net/artwork/large/lugia.jpg
+250,250_0,Ho-Oh,Ho-Oh,,2,Fire,Flying,Pressure,,Regenerator,Legendary,,,106,130,90,110,154,90,680,https://img.pokemondb.net/artwork/large/ho-oh.jpg
+251,251_0,Celebi,Celebi,,2,Psychic,Grass,Natural Cure,,,Mythical,,,100,100,100,100,100,100,600,https://img.pokemondb.net/artwork/large/celebi.jpg
+252,252_0,Treecko,Treecko,,3,Grass,,Overgrow,,Unburden,Ordinary,,,40,45,35,65,55,70,310,https://img.pokemondb.net/artwork/large/treecko.jpg
+253,253_0,Grovyle,Grovyle,,3,Grass,,Overgrow,,Unburden,Ordinary,,,50,65,45,85,65,95,405,https://img.pokemondb.net/artwork/large/grovyle.jpg
+254,254_0,Sceptile,Sceptile,,3,Grass,,Overgrow,,Unburden,Ordinary,,,70,85,65,105,85,120,530,https://img.pokemondb.net/artwork/large/sceptile.jpg
+254,254_1,Sceptile,Mega Sceptile,,3,Grass,Dragon,Lightning Rod,,,Ordinary,Mega,,70,110,75,145,85,145,630,https://img.pokemondb.net/artwork/large/mega-sceptile.jpg
+255,255_0,Torchic,Torchic,,3,Fire,,Blaze,,Speed Boost,Ordinary,,,45,60,40,70,50,45,310,https://img.pokemondb.net/artwork/large/torchic.jpg
+256,256_0,Combusken,Combusken,,3,Fire,Fighting,Blaze,,Speed Boost,Ordinary,,,60,85,60,85,60,55,405,https://img.pokemondb.net/artwork/large/combusken.jpg
+257,257_0,Blaziken,Blaziken,,3,Fire,Fighting,Blaze,,Speed Boost,Ordinary,,,80,120,70,110,70,80,530,https://img.pokemondb.net/artwork/large/blaziken.jpg
+257,257_1,Blaziken,Mega Blaziken,,3,Fire,Fighting,Speed Boost,,,Ordinary,Mega,,80,160,80,130,80,100,630,https://img.pokemondb.net/artwork/large/mega-blaziken.jpg
+258,258_0,Mudkip,Mudkip,,3,Water,,Torrent,,Damp,Ordinary,,,50,70,50,50,50,40,310,https://img.pokemondb.net/artwork/large/mudkip.jpg
+259,259_0,Marshtomp,Marshtomp,,3,Water,Ground,Torrent,,Damp,Ordinary,,,70,85,70,60,70,50,405,https://img.pokemondb.net/artwork/large/marshtomp.jpg
+260,260_0,Swampert,Swampert,,3,Water,Ground,Torrent,,Damp,Ordinary,,,100,110,90,85,90,60,535,https://img.pokemondb.net/artwork/large/swampert.jpg
+260,260_1,Swampert,Mega Swampert,,3,Water,Ground,Swift Swim,,,Ordinary,Mega,,100,150,110,95,110,70,635,https://img.pokemondb.net/artwork/large/mega-swampert.jpg
+261,261_0,Poochyena,Poochyena,,3,Dark,,Run Away,Quick Feet,Rattled,Ordinary,,,35,55,35,30,30,35,220,https://img.pokemondb.net/artwork/large/poochyena.jpg
+262,262_0,Mightyena,Mightyena,,3,Dark,,Intimidate,Quick Feet,Moxie,Ordinary,,,70,90,70,60,60,70,420,https://img.pokemondb.net/artwork/large/mightyena.jpg
+263,263_0,Zigzagoon,Zigzagoon,,3,Normal,,Pickup,Gluttony,Quick Feet,Ordinary,,,38,30,41,30,41,60,240,https://img.pokemondb.net/artwork/large/zigzagoon.jpg
+263,263_1,Zigzagoon,Galarian Zigzagoon,,8,Dark,Normal,Pickup,Gluttony,Quick Feet,Ordinary,,Galarian,38,30,41,30,41,60,240,https://img.pokemondb.net/artwork/large/galarian-zigzagoon.jpg
+264,264_0,Linoone,Linoone,,3,Normal,,Pickup,Gluttony,Quick Feet,Ordinary,,,78,70,61,50,61,100,420,https://img.pokemondb.net/artwork/large/linoone.jpg
+264,264_1,Linoone,Galarian Linoone,,8,Dark,Normal,Pickup,Gluttony,Quick Feet,Ordinary,,Galarian,78,70,61,50,61,100,420,https://img.pokemondb.net/artwork/large/galarian-linoone.jpg
+265,265_0,Wurmple,Wurmple,,3,Bug,,Shield Dust,,Run Away,Ordinary,,,45,45,35,20,30,20,195,https://img.pokemondb.net/artwork/large/wurmple.jpg
+266,266_0,Silcoon,Silcoon,,3,Bug,,Shed Skin,,,Ordinary,,,50,35,55,25,25,15,205,https://img.pokemondb.net/artwork/large/silcoon.jpg
+267,267_0,Beautifly,Beautifly,,3,Bug,Flying,Swarm,,Rivalry,Ordinary,,,60,70,50,100,50,65,395,https://img.pokemondb.net/artwork/large/beautifly.jpg
+268,268_0,Cascoon,Cascoon,,3,Bug,,Shed Skin,,,Ordinary,,,50,35,55,25,25,15,205,https://img.pokemondb.net/artwork/large/cascoon.jpg
+269,269_0,Dustox,Dustox,,3,Bug,Poison,Shield Dust,,Compound Eyes,Ordinary,,,60,50,70,50,90,65,385,https://img.pokemondb.net/artwork/large/dustox.jpg
+270,270_0,Lotad,Lotad,,3,Water,Grass,Swift Swim,Rain Dish,Own Tempo,Ordinary,,,40,30,30,40,50,30,220,https://img.pokemondb.net/artwork/large/lotad.jpg
+271,271_0,Lombre,Lombre,,3,Water,Grass,Swift Swim,Rain Dish,Own Tempo,Ordinary,,,60,50,50,60,70,50,340,https://img.pokemondb.net/artwork/large/lombre.jpg
+272,272_0,Ludicolo,Ludicolo,,3,Water,Grass,Swift Swim,Rain Dish,Own Tempo,Ordinary,,,80,70,70,90,100,70,480,https://img.pokemondb.net/artwork/large/ludicolo.jpg
+273,273_0,Seedot,Seedot,,3,Grass,,Chlorophyll,Early Bird,Pickpocket,Ordinary,,,40,40,50,30,30,30,220,https://img.pokemondb.net/artwork/large/seedot.jpg
+274,274_0,Nuzleaf,Nuzleaf,,3,Grass,Dark,Chlorophyll,Early Bird,Pickpocket,Ordinary,,,70,70,40,60,40,60,340,https://img.pokemondb.net/artwork/large/nuzleaf.jpg
+275,275_0,Shiftry,Shiftry,,3,Grass,Dark,Chlorophyll,Early Bird,Pickpocket,Ordinary,,,90,100,60,90,60,80,480,https://img.pokemondb.net/artwork/large/shiftry.jpg
+276,276_0,Taillow,Taillow,,3,Normal,Flying,Guts,,Scrappy,Ordinary,,,40,55,30,30,30,85,270,https://img.pokemondb.net/artwork/large/taillow.jpg
+277,277_0,Swellow,Swellow,,3,Normal,Flying,Guts,,Scrappy,Ordinary,,,60,85,60,75,50,125,455,https://img.pokemondb.net/artwork/large/swellow.jpg
+278,278_0,Wingull,Wingull,,3,Water,Flying,Keen Eye,Hydration,Rain Dish,Ordinary,,,40,30,30,55,30,85,270,https://img.pokemondb.net/artwork/large/wingull.jpg
+279,279_0,Pelipper,Pelipper,,3,Water,Flying,Keen Eye,Drizzle,Rain Dish,Ordinary,,,60,50,100,95,70,65,440,https://img.pokemondb.net/artwork/large/pelipper.jpg
+280,280_0,Ralts,Ralts,,3,Psychic,Fairy,Synchronize,Trace,Telepathy,Ordinary,,,28,25,25,45,35,40,198,https://img.pokemondb.net/artwork/large/ralts.jpg
+281,281_0,Kirlia,Kirlia,,3,Psychic,Fairy,Synchronize,Trace,Telepathy,Ordinary,,,38,35,35,65,55,50,278,https://img.pokemondb.net/artwork/large/kirlia.jpg
+282,282_0,Gardevoir,Gardevoir,,3,Psychic,Fairy,Synchronize,Trace,Telepathy,Ordinary,,,68,65,65,125,115,80,518,https://img.pokemondb.net/artwork/large/gardevoir.jpg
+282,282_1,Gardevoir,Mega Gardevoir,Gardevoir-Mega,3,Psychic,Fairy,Pixilate,,,Ordinary,Mega,,68,85,65,165,135,100,618,https://img.pokemondb.net/artwork/large/mega-gardevoir.jpg
+283,283_0,Surskit,Surskit,,3,Bug,Water,Swift Swim,,Rain Dish,Ordinary,,,40,30,32,50,52,65,269,https://img.pokemondb.net/artwork/large/surskit.jpg
+284,284_0,Masquerain,Masquerain,,3,Bug,Flying,Intimidate,,Unnerve,Ordinary,,,70,60,62,100,82,80,454,https://img.pokemondb.net/artwork/large/masquerain.jpg
+285,285_0,Shroomish,Shroomish,,3,Grass,,Effect Spore,Poison Heal,Quick Feet,Ordinary,,,60,40,60,40,60,35,295,https://img.pokemondb.net/artwork/large/shroomish.jpg
+286,286_0,Breloom,Breloom,,3,Grass,Fighting,Effect Spore,Poison Heal,Technician,Ordinary,,,60,130,80,60,60,70,460,https://img.pokemondb.net/artwork/large/breloom.jpg
+287,287_0,Slakoth,Slakoth,,3,Normal,,Truant,,,Ordinary,,,60,60,60,35,35,30,280,https://img.pokemondb.net/artwork/large/slakoth.jpg
+288,288_0,Vigoroth,Vigoroth,,3,Normal,,Vital Spirit,,,Ordinary,,,80,80,80,55,55,90,440,https://img.pokemondb.net/artwork/large/vigoroth.jpg
+289,289_0,Slaking,Slaking,,3,Normal,,Truant,,,Ordinary,,,150,160,100,95,65,100,670,https://img.pokemondb.net/artwork/large/slaking.jpg
+290,290_0,Nincada,Nincada,,3,Bug,Ground,Compound Eyes,,Run Away,Ordinary,,,31,45,90,30,30,40,266,https://img.pokemondb.net/artwork/large/nincada.jpg
+291,291_0,Ninjask,Ninjask,,3,Bug,Flying,Speed Boost,,Infiltrator,Ordinary,,,61,90,45,50,50,160,456,https://img.pokemondb.net/artwork/large/ninjask.jpg
+292,292_0,Shedinja,Shedinja,,3,Bug,Ghost,Wonder Guard,,,Ordinary,,,1,90,45,30,30,40,236,https://img.pokemondb.net/artwork/large/shedinja.jpg
+293,293_0,Whismur,Whismur,,3,Normal,,Soundproof,,Rattled,Ordinary,,,64,51,23,51,23,28,240,https://img.pokemondb.net/artwork/large/whismur.jpg
+294,294_0,Loudred,Loudred,,3,Normal,,Soundproof,,Scrappy,Ordinary,,,84,71,43,71,43,48,360,https://img.pokemondb.net/artwork/large/loudred.jpg
+295,295_0,Exploud,Exploud,,3,Normal,,Soundproof,,Scrappy,Ordinary,,,104,91,63,91,73,68,490,https://img.pokemondb.net/artwork/large/exploud.jpg
+296,296_0,Makuhita,Makuhita,,3,Fighting,,Thick Fat,Guts,Sheer Force,Ordinary,,,72,60,30,20,30,25,237,https://img.pokemondb.net/artwork/large/makuhita.jpg
+297,297_0,Hariyama,Hariyama,,3,Fighting,,Thick Fat,Guts,Sheer Force,Ordinary,,,144,120,60,40,60,50,474,https://img.pokemondb.net/artwork/large/hariyama.jpg
+298,298_0,Azurill,Azurill,,3,Normal,Fairy,Thick Fat,Huge Power,Sap Sipper,Ordinary,,,50,20,40,20,40,20,190,https://img.pokemondb.net/artwork/large/azurill.jpg
+299,299_0,Nosepass,Nosepass,,3,Rock,,Sturdy,Magnet Pull,Sand Force,Ordinary,,,30,45,135,45,90,30,375,https://img.pokemondb.net/artwork/large/nosepass.jpg
+300,300_0,Skitty,Skitty,,3,Normal,,Cute Charm,Normalize,Wonder Skin,Ordinary,,,50,45,45,35,35,50,260,https://img.pokemondb.net/artwork/large/skitty.jpg
+301,301_0,Delcatty,Delcatty,,3,Normal,,Cute Charm,Normalize,Wonder Skin,Ordinary,,,70,65,65,55,55,90,400,https://img.pokemondb.net/artwork/large/delcatty.jpg
+302,302_0,Sableye,Sableye,,3,Dark,Ghost,Keen Eye,Stall,Prankster,Ordinary,,,50,75,75,65,65,50,380,https://img.pokemondb.net/artwork/large/sableye.jpg
+302,302_1,Sableye,Mega Sableye,,3,Dark,Ghost,Magic Bounce,,,Ordinary,Mega,,50,85,125,85,115,20,480,https://img.pokemondb.net/artwork/large/mega-sableye.jpg
+303,303_0,Mawile,Mawile,,3,Steel,Fairy,Hyper Cutter,Intimidate,Sheer Force,Ordinary,,,50,85,85,55,55,50,380,https://img.pokemondb.net/artwork/large/mawile.jpg
+303,303_1,Mawile,Mega Mawile,Mawile-Mega,3,Steel,Fairy,Huge Power,,,Ordinary,Mega,,50,105,125,55,95,50,480,https://img.pokemondb.net/artwork/large/mega-mawile.jpg
+304,304_0,Aron,Aron,,3,Steel,Rock,Sturdy,Rock Head,Heavy Metal,Ordinary,,,50,70,100,40,40,30,330,https://img.pokemondb.net/artwork/large/aron.jpg
+305,305_0,Lairon,Lairon,,3,Steel,Rock,Sturdy,Rock Head,Heavy Metal,Ordinary,,,60,90,140,50,50,40,430,https://img.pokemondb.net/artwork/large/lairon.jpg
+306,306_0,Aggron,Aggron,,3,Steel,Rock,Sturdy,Rock Head,Heavy Metal,Ordinary,,,70,110,180,60,60,50,530,https://img.pokemondb.net/artwork/large/aggron.jpg
+306,306_1,Aggron,Mega Aggron,,3,Steel,,Filter,,,Ordinary,Mega,,70,140,230,60,80,50,630,https://img.pokemondb.net/artwork/large/mega-aggron.jpg
+307,307_0,Meditite,Meditite,,3,Fighting,Psychic,Pure Power,,Telepathy,Ordinary,,,30,40,55,40,55,60,280,https://img.pokemondb.net/artwork/large/meditite.jpg
+308,308_0,Medicham,Medicham,,3,Fighting,Psychic,Pure Power,,Telepathy,Ordinary,,,60,60,75,60,75,80,410,https://img.pokemondb.net/artwork/large/medicham.jpg
+308,308_1,Medicham,Mega Medicham,,3,Fighting,Psychic,Pure Power,,,Ordinary,Mega,,60,100,85,80,85,100,510,https://img.pokemondb.net/artwork/large/mega-medicham.jpg
+309,309_0,Electrike,Electrike,,3,Electric,,Static,Lightning Rod,Minus,Ordinary,,,40,45,40,65,40,65,295,https://img.pokemondb.net/artwork/large/electrike.jpg
+310,310_0,Manectric,Manectric,,3,Electric,,Static,Lightning Rod,Minus,Ordinary,,,70,75,60,105,60,105,475,https://img.pokemondb.net/artwork/large/manectric.jpg
+310,310_1,Manectric,Mega Manectric,,3,Electric,,Intimidate,,,Ordinary,Mega,,70,75,80,135,80,135,575,https://img.pokemondb.net/artwork/large/mega-manectric.jpg
+311,311_0,Plusle,Plusle,,3,Electric,,Plus,,Lightning Rod,Ordinary,,,60,50,40,85,75,95,405,https://img.pokemondb.net/artwork/large/plusle.jpg
+312,312_0,Minun,Minun,,3,Electric,,Minus,,Volt Absorb,Ordinary,,,60,40,50,75,85,95,405,https://img.pokemondb.net/artwork/large/minun.jpg
+313,313_0,Volbeat,Volbeat,,3,Bug,,Illuminate,Swarm,Prankster,Ordinary,,,65,73,75,47,85,85,430,https://img.pokemondb.net/artwork/large/volbeat.jpg
+314,314_0,Illumise,Illumise,,3,Bug,,Oblivious,Tinted Lens,Prankster,Ordinary,,,65,47,75,73,85,85,430,https://img.pokemondb.net/artwork/large/illumise.jpg
+315,315_0,Roselia,Roselia,,3,Grass,Poison,Natural Cure,Poison Point,Leaf Guard,Ordinary,,,50,60,45,100,80,65,400,https://img.pokemondb.net/artwork/large/roselia.jpg
+316,316_0,Gulpin,Gulpin,,3,Poison,,Liquid Ooze,Sticky Hold,Gluttony,Ordinary,,,70,43,53,43,53,40,302,https://img.pokemondb.net/artwork/large/gulpin.jpg
+317,317_0,Swalot,Swalot,,3,Poison,,Liquid Ooze,Sticky Hold,Gluttony,Ordinary,,,100,73,83,73,83,55,467,https://img.pokemondb.net/artwork/large/swalot.jpg
+318,318_0,Carvanha,Carvanha,,3,Water,Dark,Rough Skin,,Speed Boost,Ordinary,,,45,90,20,65,20,65,305,https://img.pokemondb.net/artwork/large/carvanha.jpg
+319,319_0,Sharpedo,Sharpedo,,3,Water,Dark,Rough Skin,,Speed Boost,Ordinary,,,70,120,40,95,40,95,460,https://img.pokemondb.net/artwork/large/sharpedo.jpg
+319,319_1,Sharpedo,Mega Sharpedo,,3,Water,Dark,Strong Jaw,,,Ordinary,Mega,,70,140,70,110,65,105,560,https://img.pokemondb.net/artwork/large/mega-sharpedo.jpg
+320,320_0,Wailmer,Wailmer,,3,Water,,Water Veil,Oblivious,Pressure,Ordinary,,,130,70,35,70,35,60,400,https://img.pokemondb.net/artwork/large/wailmer.jpg
+321,321_0,Wailord,Wailord,,3,Water,,Water Veil,Oblivious,Pressure,Ordinary,,,170,90,45,90,45,60,500,https://img.pokemondb.net/artwork/large/wailord.jpg
+322,322_0,Numel,Numel,,3,Fire,Ground,Oblivious,Simple,Own Tempo,Ordinary,,,60,60,40,65,45,35,305,https://img.pokemondb.net/artwork/large/numel.jpg
+323,323_0,Camerupt,Camerupt,,3,Fire,Ground,Magma Armor,Solid Rock,Anger Point,Ordinary,,,70,100,70,105,75,40,460,https://img.pokemondb.net/artwork/large/camerupt.jpg
+323,323_1,Camerupt,Mega Camerupt,,3,Fire,Ground,Sheer Force,,,Ordinary,Mega,,70,120,100,145,105,20,560,https://img.pokemondb.net/artwork/large/mega-camerupt.jpg
+324,324_0,Torkoal,Torkoal,,3,Fire,,White Smoke,Drought,Shell Armor,Ordinary,,,70,85,140,85,70,20,470,https://img.pokemondb.net/artwork/large/torkoal.jpg
+325,325_0,Spoink,Spoink,,3,Psychic,,Thick Fat,Own Tempo,Gluttony,Ordinary,,,60,25,35,70,80,60,330,https://img.pokemondb.net/artwork/large/spoink.jpg
+326,326_0,Grumpig,Grumpig,,3,Psychic,,Thick Fat,Own Tempo,Gluttony,Ordinary,,,80,45,65,90,110,80,470,https://img.pokemondb.net/artwork/large/grumpig.jpg
+327,327_0,Spinda,Spinda,,3,Normal,,Own Tempo,Tangled Feet,Contrary,Ordinary,,,60,60,60,60,60,60,360,https://img.pokemondb.net/artwork/large/spinda.jpg
+328,328_0,Trapinch,Trapinch,,3,Ground,,Hyper Cutter,Arena Trap,Sheer Force,Ordinary,,,45,100,45,45,45,10,290,https://img.pokemondb.net/artwork/large/trapinch.jpg
+329,329_0,Vibrava,Vibrava,,3,Ground,Dragon,Levitate,,,Ordinary,,,50,70,50,50,50,70,340,https://img.pokemondb.net/artwork/large/vibrava.jpg
+330,330_0,Flygon,Flygon,,3,Ground,Dragon,Levitate,,,Ordinary,,,80,100,80,80,80,100,520,https://img.pokemondb.net/artwork/large/flygon.jpg
+331,331_0,Cacnea,Cacnea,,3,Grass,,Sand Veil,,Water Absorb,Ordinary,,,50,85,40,85,40,35,335,https://img.pokemondb.net/artwork/large/cacnea.jpg
+332,332_0,Cacturne,Cacturne,,3,Grass,Dark,Sand Veil,,Water Absorb,Ordinary,,,70,115,60,115,60,55,475,https://img.pokemondb.net/artwork/large/cacturne.jpg
+333,333_0,Swablu,Swablu,,3,Normal,Flying,Natural Cure,,Cloud Nine,Ordinary,,,45,40,60,40,75,50,310,https://img.pokemondb.net/artwork/large/swablu.jpg
+334,334_0,Altaria,Altaria,,3,Dragon,Flying,Natural Cure,,Cloud Nine,Ordinary,,,75,70,90,70,105,80,490,https://img.pokemondb.net/artwork/large/altaria.jpg
+334,334_1,Altaria,Mega Altaria,,3,Dragon,Fairy,Pixilate,,,Ordinary,Mega,,75,110,110,110,105,80,590,https://img.pokemondb.net/artwork/large/mega-altaria.jpg
+335,335_0,Zangoose,Zangoose,,3,Normal,,Immunity,,Toxic Boost,Ordinary,,,73,115,60,60,60,90,458,https://img.pokemondb.net/artwork/large/zangoose.jpg
+336,336_0,Seviper,Seviper,,3,Poison,,Shed Skin,,Infiltrator,Ordinary,,,73,100,60,100,60,65,458,https://img.pokemondb.net/artwork/large/seviper.jpg
+337,337_0,Lunatone,Lunatone,,3,Rock,Psychic,Levitate,,,Ordinary,,,90,55,65,95,85,70,460,https://img.pokemondb.net/artwork/large/lunatone.jpg
+338,338_0,Solrock,Solrock,,3,Rock,Psychic,Levitate,,,Ordinary,,,90,95,85,55,65,70,460,https://img.pokemondb.net/artwork/large/solrock.jpg
+339,339_0,Barboach,Barboach,,3,Water,Ground,Oblivious,Anticipation,Hydration,Ordinary,,,50,48,43,46,41,60,288,https://img.pokemondb.net/artwork/large/barboach.jpg
+340,340_0,Whiscash,Whiscash,,3,Water,Ground,Oblivious,Anticipation,Hydration,Ordinary,,,110,78,73,76,71,60,468,https://img.pokemondb.net/artwork/large/whiscash.jpg
+341,341_0,Corphish,Corphish,,3,Water,,Hyper Cutter,Shell Armor,Adaptability,Ordinary,,,43,80,65,50,35,35,308,https://img.pokemondb.net/artwork/large/corphish.jpg
+342,342_0,Crawdaunt,Crawdaunt,,3,Water,Dark,Hyper Cutter,Shell Armor,Adaptability,Ordinary,,,63,120,85,90,55,55,468,https://img.pokemondb.net/artwork/large/crawdaunt.jpg
+343,343_0,Baltoy,Baltoy,,3,Ground,Psychic,Levitate,,,Ordinary,,,40,40,55,40,70,55,300,https://img.pokemondb.net/artwork/large/baltoy.jpg
+344,344_0,Claydol,Claydol,,3,Ground,Psychic,Levitate,,,Ordinary,,,60,70,105,70,120,75,500,https://img.pokemondb.net/artwork/large/claydol.jpg
+345,345_0,Lileep,Lileep,,3,Rock,Grass,Suction Cups,,Storm Drain,Ordinary,,,66,41,77,61,87,23,355,https://img.pokemondb.net/artwork/large/lileep.jpg
+346,346_0,Cradily,Cradily,,3,Rock,Grass,Suction Cups,,Storm Drain,Ordinary,,,86,81,97,81,107,43,495,https://img.pokemondb.net/artwork/large/cradily.jpg
+347,347_0,Anorith,Anorith,,3,Rock,Bug,Battle Armor,,Swift Swim,Ordinary,,,45,95,50,40,50,75,355,https://img.pokemondb.net/artwork/large/anorith.jpg
+348,348_0,Armaldo,Armaldo,,3,Rock,Bug,Battle Armor,,Swift Swim,Ordinary,,,75,125,100,70,80,45,495,https://img.pokemondb.net/artwork/large/armaldo.jpg
+349,349_0,Feebas,Feebas,,3,Water,,Swift Swim,Oblivious,Adaptability,Ordinary,,,20,15,20,10,55,80,200,https://img.pokemondb.net/artwork/large/feebas.jpg
+350,350_0,Milotic,Milotic,,3,Water,,Marvel Scale,Competitive,Cute Charm,Ordinary,,,95,60,79,100,125,81,540,https://img.pokemondb.net/artwork/large/milotic.jpg
+351,351_0,Castform,Castform,,3,Normal,,Forecast,,,Ordinary,,,70,70,70,70,70,70,420,https://img.pokemondb.net/artwork/large/castform.jpg
+351,351_1,Castform,Castform Sunny Form,Castform-Su,3,Normal,,Forecast,,,Ordinary,,,70,70,70,70,70,70,420,https://img.pokemondb.net/artwork/large/castform-sunny-form.jpg
+351,351_2,Castform,Castform Rainy Form,Castform-R,3,Normal,,Forecast,,,Ordinary,,,70,70,70,70,70,70,420,https://img.pokemondb.net/artwork/large/castform-rainy-form.jpg
+351,351_3,Castform,Castform Snowy Form,Castform-Sn,3,Normal,,Forecast,,,Ordinary,,,70,70,70,70,70,70,420,https://img.pokemondb.net/artwork/large/castform-snowy-form.jpg
+352,352_0,Kecleon,Kecleon,,3,Normal,,Color Change,,Protean,Ordinary,,,60,90,70,60,120,40,440,https://img.pokemondb.net/artwork/large/kecleon.jpg
+353,353_0,Shuppet,Shuppet,,3,Ghost,,Insomnia,Frisk,Cursed Body,Ordinary,,,44,75,35,63,33,45,295,https://img.pokemondb.net/artwork/large/shuppet.jpg
+354,354_0,Banette,Banette,,3,Ghost,,Insomnia,Frisk,Cursed Body,Ordinary,,,64,115,65,83,63,65,455,https://img.pokemondb.net/artwork/large/banette.jpg
+354,354_1,Banette,Mega Banette,,3,Ghost,,Prankster,,,Ordinary,Mega,,64,165,75,93,83,75,555,https://img.pokemondb.net/artwork/large/mega-banette.jpg
+355,355_0,Duskull,Duskull,,3,Ghost,,Levitate,,Frisk,Ordinary,,,20,40,90,30,90,25,295,https://img.pokemondb.net/artwork/large/duskull.jpg
+356,356_0,Dusclops,Dusclops,,3,Ghost,,Pressure,,Frisk,Ordinary,,,40,70,130,60,130,25,455,https://img.pokemondb.net/artwork/large/dusclops.jpg
+357,357_0,Tropius,Tropius,,3,Grass,Flying,Chlorophyll,Solar Power,Harvest,Ordinary,,,99,68,83,72,87,51,460,https://img.pokemondb.net/artwork/large/tropius.jpg
+358,358_0,Chimecho,Chimecho,,3,Psychic,,Levitate,,,Ordinary,,,75,50,80,95,90,65,455,https://img.pokemondb.net/artwork/large/chimecho.jpg
+359,359_0,Absol,Absol,,3,Dark,,Pressure,Super Luck,Justified,Ordinary,,,65,130,60,75,60,75,465,https://img.pokemondb.net/artwork/large/absol.jpg
+359,359_1,Absol,Mega Absol,,3,Dark,,Magic Bounce,,,Ordinary,Mega,,65,150,60,115,60,115,565,https://img.pokemondb.net/artwork/large/mega-absol.jpg
+360,360_0,Wynaut,Wynaut,,3,Psychic,,Shadow Tag,,Telepathy,Ordinary,,,95,23,48,23,48,23,260,https://img.pokemondb.net/artwork/large/wynaut.jpg
+361,361_0,Snorunt,Snorunt,,3,Ice,,Inner Focus,Ice Body,Moody,Ordinary,,,50,50,50,50,50,50,300,https://img.pokemondb.net/artwork/large/snorunt.jpg
+362,362_0,Glalie,Glalie,,3,Ice,,Inner Focus,Ice Body,Moody,Ordinary,,,80,80,80,80,80,80,480,https://img.pokemondb.net/artwork/large/glalie.jpg
+362,362_1,Glalie,Mega Glalie,,3,Ice,,Refrigerate,,,Ordinary,Mega,,80,120,80,120,80,100,580,https://img.pokemondb.net/artwork/large/mega-glalie.jpg
+363,363_0,Spheal,Spheal,,3,Ice,Water,Thick Fat,Ice Body,Oblivious,Ordinary,,,70,40,50,55,50,25,290,https://img.pokemondb.net/artwork/large/spheal.jpg
+364,364_0,Sealeo,Sealeo,,3,Ice,Water,Thick Fat,Ice Body,Oblivious,Ordinary,,,90,60,70,75,70,45,410,https://img.pokemondb.net/artwork/large/sealeo.jpg
+365,365_0,Walrein,Walrein,,3,Ice,Water,Thick Fat,Ice Body,Oblivious,Ordinary,,,110,80,90,95,90,65,530,https://img.pokemondb.net/artwork/large/walrein.jpg
+366,366_0,Clamperl,Clamperl,,3,Water,,Shell Armor,,Rattled,Ordinary,,,35,64,85,74,55,32,345,https://img.pokemondb.net/artwork/large/clamperl.jpg
+367,367_0,Huntail,Huntail,,3,Water,,Swift Swim,,Water Veil,Ordinary,,,55,104,105,94,75,52,485,https://img.pokemondb.net/artwork/large/huntail.jpg
+368,368_0,Gorebyss,Gorebyss,,3,Water,,Swift Swim,,Hydration,Ordinary,,,55,84,105,114,75,52,485,https://img.pokemondb.net/artwork/large/gorebyss.jpg
+369,369_0,Relicanth,Relicanth,,3,Water,Rock,Swift Swim,Rock Head,Sturdy,Ordinary,,,100,90,130,45,65,55,485,https://img.pokemondb.net/artwork/large/relicanth.jpg
+370,370_0,Luvdisc,Luvdisc,,3,Water,,Swift Swim,,Hydration,Ordinary,,,43,30,55,40,65,97,330,https://img.pokemondb.net/artwork/large/luvdisc.jpg
+371,371_0,Bagon,Bagon,,3,Dragon,,Rock Head,,Sheer Force,Ordinary,,,45,75,60,40,30,50,300,https://img.pokemondb.net/artwork/large/bagon.jpg
+372,372_0,Shelgon,Shelgon,,3,Dragon,,Rock Head,,Overcoat,Ordinary,,,65,95,100,60,50,50,420,https://img.pokemondb.net/artwork/large/shelgon.jpg
+373,373_0,Salamence,Salamence,,3,Dragon,Flying,Intimidate,,Moxie,Ordinary,,,95,135,80,110,80,100,600,https://img.pokemondb.net/artwork/large/salamence.jpg
+373,373_1,Salamence,Mega Salamence,Salamence-Mega,6,Dragon,Flying,Aerilate,,,Ordinary,Mega,,95,145,130,120,90,120,700,https://img.pokemondb.net/artwork/large/mega-salamence.jpg
+374,374_0,Beldum,Beldum,,3,Steel,Psychic,Clear Body,,Light Metal,Ordinary,,,40,55,80,35,60,30,300,https://img.pokemondb.net/artwork/large/beldum.jpg
+375,375_0,Metang,Metang,,3,Steel,Psychic,Clear Body,,Light Metal,Ordinary,,,60,75,100,55,80,50,420,https://img.pokemondb.net/artwork/large/metang.jpg
+376,376_0,Metagross,Metagross,,3,Steel,Psychic,Clear Body,,Light Metal,Ordinary,,,80,135,130,95,90,70,600,https://img.pokemondb.net/artwork/large/metagross.jpg
+376,376_1,Metagross,Mega Metagross,,3,Steel,Psychic,Tough Claws,,,Ordinary,Mega,,80,145,150,105,110,110,700,https://img.pokemondb.net/artwork/large/mega-metagross.jpg
+377,377_0,Regirock,Regirock,,3,Rock,,Clear Body,,Sturdy,Legendary,,,80,100,200,50,100,50,580,https://img.pokemondb.net/artwork/large/regirock.jpg
+378,378_0,Regice,Regice,,3,Ice,,Clear Body,,Ice Body,Legendary,,,80,50,100,100,200,50,580,https://img.pokemondb.net/artwork/large/regice.jpg
+379,379_0,Registeel,Registeel,,3,Steel,,Clear Body,,Light Metal,Legendary,,,80,75,150,75,150,50,580,https://img.pokemondb.net/artwork/large/registeel.jpg
+380,380_0,Latias,Latias,,3,Dragon,Psychic,Levitate,,,Legendary,,,80,80,90,110,130,110,600,https://img.pokemondb.net/artwork/large/latias.jpg
+380,380_1,Latias,Mega Latias,,3,Dragon,Psychic,Levitate,,,Legendary,Mega,,80,100,120,140,150,110,700,https://img.pokemondb.net/artwork/large/mega-latias.jpg
+381,381_0,Latios,Latios,,3,Dragon,Psychic,Levitate,,,Legendary,,,80,90,80,130,110,110,600,https://img.pokemondb.net/artwork/large/latios.jpg
+381,381_1,Latios,Mega Latios,,3,Dragon,Psychic,Levitate,,,Legendary,Mega,,80,130,100,160,120,110,700,https://img.pokemondb.net/artwork/large/mega-latios.jpg
+382,382_0,Kyogre,Kyogre,,3,Water,,Drizzle,,,Legendary,,,100,100,90,150,140,90,670,https://img.pokemondb.net/artwork/large/kyogre.jpg
+382,382_1,Kyogre,Primal Kyogre,Kyogre-Primal,6,Water,,Primordial Sea,,,Legendary,,,100,150,90,180,160,90,770,https://img.pokemondb.net/artwork/large/primal-kyogre.jpg
+383,383_0,Groudon,Groudon,,3,Ground,,Drought,,,Legendary,,,100,150,140,100,90,90,670,https://img.pokemondb.net/artwork/large/groudon.jpg
+383,383_1,Groudon,Primal Groudon,Groudon-Primal,6,Ground,Fire,Desolate Land,,,Legendary,,,100,180,160,150,90,90,770,https://img.pokemondb.net/artwork/large/primal-groudon.jpg
+384,384_0,Rayquaza,Rayquaza,,3,Dragon,Flying,Air Lock,,,Legendary,,,105,150,90,150,90,95,680,https://img.pokemondb.net/artwork/large/rayquaza.jpg
+384,384_1,Rayquaza,Mega Rayquaza,Rayquaza-Mega,6,Dragon,Flying,Delta Stream,,,Legendary,Mega,,105,180,100,180,100,115,780,https://img.pokemondb.net/artwork/large/mega-rayquaza.jpg
+385,385_0,Jirachi,Jirachi,,3,Steel,Psychic,Serene Grace,,,Mythical,,,100,100,100,100,100,100,600,https://img.pokemondb.net/artwork/large/jirachi.jpg
+386,386_0,Deoxys,Deoxys,,3,Psychic,,Pressure,,,Mythical,,,50,150,50,150,50,150,600,https://img.pokemondb.net/artwork/large/deoxys.jpg
+386,386_1,Deoxys,Deoxys Attack Form,Deoxys-A,3,Psychic,,Pressure,,,Mythical,,,50,180,20,180,20,150,600,https://img.pokemondb.net/artwork/large/deoxys-attack-form.jpg
+386,386_2,Deoxys,Deoxys Defense Form,Deoxys-D,3,Psychic,,Pressure,,,Mythical,,,50,70,160,70,160,90,600,https://img.pokemondb.net/artwork/large/deoxys-defense-form.jpg
+386,386_3,Deoxys,Deoxys Speed Form,Deoxys-S,3,Psychic,,Pressure,,,Mythical,,,50,95,90,95,90,180,600,https://img.pokemondb.net/artwork/large/deoxys-speed-form.jpg
+387,387_0,Turtwig,Turtwig,,4,Grass,,Overgrow,,Shell Armor,Ordinary,,,55,68,64,45,55,31,318,https://img.pokemondb.net/artwork/large/turtwig.jpg
+388,388_0,Grotle,Grotle,,4,Grass,,Overgrow,,Shell Armor,Ordinary,,,75,89,85,55,65,36,405,https://img.pokemondb.net/artwork/large/grotle.jpg
+389,389_0,Torterra,Torterra,,4,Grass,Ground,Overgrow,,Shell Armor,Ordinary,,,95,109,105,75,85,56,525,https://img.pokemondb.net/artwork/large/torterra.jpg
+390,390_0,Chimchar,Chimchar,,4,Fire,,Blaze,,Iron Fist,Ordinary,,,44,58,44,58,44,61,309,https://img.pokemondb.net/artwork/large/chimchar.jpg
+391,391_0,Monferno,Monferno,,4,Fire,Fighting,Blaze,,Iron Fist,Ordinary,,,64,78,52,78,52,81,405,https://img.pokemondb.net/artwork/large/monferno.jpg
+392,392_0,Infernape,Infernape,,4,Fire,Fighting,Blaze,,Iron Fist,Ordinary,,,76,104,71,104,71,108,534,https://img.pokemondb.net/artwork/large/infernape.jpg
+393,393_0,Piplup,Piplup,,4,Water,,Torrent,,Defiant,Ordinary,,,53,51,53,61,56,40,314,https://img.pokemondb.net/artwork/large/piplup.jpg
+394,394_0,Prinplup,Prinplup,,4,Water,,Torrent,,Defiant,Ordinary,,,64,66,68,81,76,50,405,https://img.pokemondb.net/artwork/large/prinplup.jpg
+395,395_0,Empoleon,Empoleon,,4,Water,Steel,Torrent,,Defiant,Ordinary,,,84,86,88,111,101,60,530,https://img.pokemondb.net/artwork/large/empoleon.jpg
+396,396_0,Starly,Starly,,4,Normal,Flying,Keen Eye,,Reckless,Ordinary,,,40,55,30,30,30,60,245,https://img.pokemondb.net/artwork/large/starly.jpg
+397,397_0,Staravia,Staravia,,4,Normal,Flying,Intimidate,,Reckless,Ordinary,,,55,75,50,40,40,80,340,https://img.pokemondb.net/artwork/large/staravia.jpg
+398,398_0,Staraptor,Staraptor,,4,Normal,Flying,Intimidate,,Reckless,Ordinary,,,85,120,70,50,60,100,485,https://img.pokemondb.net/artwork/large/staraptor.jpg
+399,399_0,Bidoof,Bidoof,,4,Normal,,Simple,Unaware,Moody,Ordinary,,,59,45,40,35,40,31,250,https://img.pokemondb.net/artwork/large/bidoof.jpg
+400,400_0,Bibarel,Bibarel,,4,Normal,Water,Simple,Unaware,Moody,Ordinary,,,79,85,60,55,60,71,410,https://img.pokemondb.net/artwork/large/bibarel.jpg
+401,401_0,Kricketot,Kricketot,,4,Bug,,Shed Skin,,Run Away,Ordinary,,,37,25,41,25,41,25,194,https://img.pokemondb.net/artwork/large/kricketot.jpg
+402,402_0,Kricketune,Kricketune,,4,Bug,,Swarm,,Technician,Ordinary,,,77,85,51,55,51,65,384,https://img.pokemondb.net/artwork/large/kricketune.jpg
+403,403_0,Shinx,Shinx,,4,Electric,,Rivalry,Intimidate,Guts,Ordinary,,,45,65,34,40,34,45,263,https://img.pokemondb.net/artwork/large/shinx.jpg
+404,404_0,Luxio,Luxio,,4,Electric,,Rivalry,Intimidate,Guts,Ordinary,,,60,85,49,60,49,60,363,https://img.pokemondb.net/artwork/large/luxio.jpg
+405,405_0,Luxray,Luxray,,4,Electric,,Rivalry,Intimidate,Guts,Ordinary,,,80,120,79,95,79,70,523,https://img.pokemondb.net/artwork/large/luxray.jpg
+406,406_0,Budew,Budew,,4,Grass,Poison,Natural Cure,Poison Point,Leaf Guard,Ordinary,,,40,30,35,50,70,55,280,https://img.pokemondb.net/artwork/large/budew.jpg
+407,407_0,Roserade,Roserade,,4,Grass,Poison,Natural Cure,Poison Point,Technician,Ordinary,,,60,70,65,125,105,90,515,https://img.pokemondb.net/artwork/large/roserade.jpg
+408,408_0,Cranidos,Cranidos,,4,Rock,,Mold Breaker,,Sheer Force,Ordinary,,,67,125,40,30,30,58,350,https://img.pokemondb.net/artwork/large/cranidos.jpg
+409,409_0,Rampardos,Rampardos,,4,Rock,,Mold Breaker,,Sheer Force,Ordinary,,,97,165,60,65,50,58,495,https://img.pokemondb.net/artwork/large/rampardos.jpg
+410,410_0,Shieldon,Shieldon,,4,Rock,Steel,Sturdy,,Soundproof,Ordinary,,,30,42,118,42,88,30,350,https://img.pokemondb.net/artwork/large/shieldon.jpg
+411,411_0,Bastiodon,Bastiodon,,4,Rock,Steel,Sturdy,,Soundproof,Ordinary,,,60,52,168,47,138,30,495,https://img.pokemondb.net/artwork/large/bastiodon.jpg
+412,412_0,Burmy,Burmy Plant Form,,4,Bug,,Shed Skin,,Overcoat,Ordinary,,,40,29,45,29,45,36,224,https://img.pokemondb.net/artwork/large/burmy-plant-form.jpg
+412,412_1,Burmy,Burmy Sandy Form,,4,Bug,,Shed Skin,,Overcoat,Ordinary,,,40,29,45,29,45,36,224,https://img.pokemondb.net/artwork/large/burmy-sandy-form.jpg
+412,412_2,Burmy,Burmy Trash Form,,4,Bug,,Shed Skin,,Overcoat,Ordinary,,,40,29,45,29,45,36,224,https://img.pokemondb.net/artwork/large/burmy-trash-form.jpg
+413,413_0,Wormadam,Wormadam Plant Form,,4,Bug,Grass,Anticipation,,Overcoat,Ordinary,,,60,59,85,79,105,36,424,https://img.pokemondb.net/artwork/large/wormadam-plant-form.jpg
+413,413_1,Wormadam,Wormadam Sandy Form,,4,Bug,Ground,Anticipation,,Overcoat,Ordinary,,,60,79,105,59,85,36,424,https://img.pokemondb.net/artwork/large/wormadam-sandy-form.jpg
+413,413_2,Wormadam,Wormadam Trash Form,,4,Bug,Steel,Anticipation,,Overcoat,Ordinary,,,60,69,95,69,95,36,424,https://img.pokemondb.net/artwork/large/wormadam-trash-form.jpg
+414,414_0,Mothim,Mothim,,4,Bug,Flying,Swarm,,Tinted Lens,Ordinary,,,70,94,50,94,50,66,424,https://img.pokemondb.net/artwork/large/mothim.jpg
+415,415_0,Combee,Combee,,4,Bug,Flying,Honey Gather,,Hustle,Ordinary,,,30,30,42,30,42,70,244,https://img.pokemondb.net/artwork/large/combee.jpg
+416,416_0,Vespiquen,Vespiquen,,4,Bug,Flying,Pressure,,Unnerve,Ordinary,,,70,80,102,80,102,40,474,https://img.pokemondb.net/artwork/large/vespiquen.jpg
+417,417_0,Pachirisu,Pachirisu,,4,Electric,,Run Away,Pickup,Volt Absorb,Ordinary,,,60,45,70,45,90,95,405,https://img.pokemondb.net/artwork/large/pachirisu.jpg
+418,418_0,Buizel,Buizel,,4,Water,,Swift Swim,,Water Veil,Ordinary,,,55,65,35,60,30,85,330,https://img.pokemondb.net/artwork/large/buizel.jpg
+419,419_0,Floatzel,Floatzel,,4,Water,,Swift Swim,,Water Veil,Ordinary,,,85,105,55,85,50,115,495,https://img.pokemondb.net/artwork/large/floatzel.jpg
+420,420_0,Cherubi,Cherubi,,4,Grass,,Chlorophyll,,,Ordinary,,,45,35,45,62,53,35,275,https://img.pokemondb.net/artwork/large/cherubi.jpg
+421,421_0,Cherrim,Cherrim,,4,Grass,,Flower Gift,,,Ordinary,,,70,60,70,87,78,85,450,https://img.pokemondb.net/artwork/large/cherrim.jpg
+421,421_1,Cherrim,Cherrim Sunshine Form,,4,Grass,,Flower Gift,,,Ordinary,,,70,60,70,87,78,85,450,https://img.pokemondb.net/artwork/large/cherrim-sunshine-form.jpg
+422,422_0,Shellos,Shellos East-Sea Form,,4,Water,,Sticky Hold,Storm Drain,Sand Force,Ordinary,,,76,48,48,57,62,34,325,https://img.pokemondb.net/artwork/large/shellos-east-sea-form.jpg
+422,422_1,Shellos,Shellos West-Sea Form,,4,Water,,Sticky Hold,Storm Drain,Sand Force,Ordinary,,,76,48,48,57,62,34,325,https://img.pokemondb.net/artwork/large/shellos-west-sea-form.jpg
+423,423_0,Gastrodon,Gastrodon,,4,Water,Ground,Sticky Hold,Storm Drain,Sand Force,Ordinary,,,111,83,68,92,82,39,475,https://img.pokemondb.net/artwork/large/gastrodon.jpg
+423,423_1,Gastrodon,Gastrodon West-Sea Form,,4,Water,Ground,Sticky Hold,Storm Drain,Sand Force,Ordinary,,,111,83,68,92,82,39,475,https://img.pokemondb.net/artwork/large/gastrodon-west-sea-form.jpg
+424,424_0,Ambipom,Ambipom,,4,Normal,,Technician,Pickup,Skill Link,Ordinary,,,75,100,66,60,66,115,482,https://img.pokemondb.net/artwork/large/ambipom.jpg
+425,425_0,Drifloon,Drifloon,,4,Ghost,Flying,Aftermath,Unburden,Flare Boost,Ordinary,,,90,50,34,60,44,70,348,https://img.pokemondb.net/artwork/large/drifloon.jpg
+426,426_0,Drifblim,Drifblim,,4,Ghost,Flying,Aftermath,Unburden,Flare Boost,Ordinary,,,150,80,44,90,54,80,498,https://img.pokemondb.net/artwork/large/drifblim.jpg
+427,427_0,Buneary,Buneary,,4,Normal,,Run Away,Klutz,Limber,Ordinary,,,55,66,44,44,56,85,350,https://img.pokemondb.net/artwork/large/buneary.jpg
+428,428_0,Lopunny,Lopunny,,4,Normal,,Cute Charm,Klutz,Limber,Ordinary,,,65,76,84,54,96,105,480,https://img.pokemondb.net/artwork/large/lopunny.jpg
+428,428_1,Lopunny,Mega Lopunny,,4,Normal,Fighting,Scrappy,,,Ordinary,Mega,,65,136,94,54,96,135,580,https://img.pokemondb.net/artwork/large/mega-lopunny.jpg
+429,429_0,Mismagius,Mismagius,,4,Ghost,,Levitate,,,Ordinary,,,60,60,60,105,105,105,495,https://img.pokemondb.net/artwork/large/mismagius.jpg
+430,430_0,Honchkrow,Honchkrow,,4,Dark,Flying,Insomnia,Super Luck,Moxie,Ordinary,,,100,125,52,105,52,71,505,https://img.pokemondb.net/artwork/large/honchkrow.jpg
+431,431_0,Glameow,Glameow,,4,Normal,,Limber,Own Tempo,Keen Eye,Ordinary,,,49,55,42,42,37,85,310,https://img.pokemondb.net/artwork/large/glameow.jpg
+432,432_0,Purugly,Purugly,,4,Normal,,Thick Fat,Own Tempo,Defiant,Ordinary,,,71,82,64,64,59,112,452,https://img.pokemondb.net/artwork/large/purugly.jpg
+433,433_0,Chingling,Chingling,,4,Psychic,,Levitate,,,Ordinary,,,45,30,50,65,50,45,285,https://img.pokemondb.net/artwork/large/chingling.jpg
+434,434_0,Stunky,Stunky,,4,Poison,Dark,Stench,Aftermath,Keen Eye,Ordinary,,,63,63,47,41,41,74,329,https://img.pokemondb.net/artwork/large/stunky.jpg
+435,435_0,Skuntank,Skuntank,,4,Poison,Dark,Stench,Aftermath,Keen Eye,Ordinary,,,103,93,67,71,61,84,479,https://img.pokemondb.net/artwork/large/skuntank.jpg
+436,436_0,Bronzor,Bronzor,,4,Steel,Psychic,Levitate,Heatproof,Heavy Metal,Ordinary,,,57,24,86,24,86,23,300,https://img.pokemondb.net/artwork/large/bronzor.jpg
+437,437_0,Bronzong,Bronzong,,4,Steel,Psychic,Levitate,Heatproof,Heavy Metal,Ordinary,,,67,89,116,79,116,33,500,https://img.pokemondb.net/artwork/large/bronzong.jpg
+438,438_0,Bonsly,Bonsly,,4,Rock,,Sturdy,Rock Head,Rattled,Ordinary,,,50,80,95,10,45,10,290,https://img.pokemondb.net/artwork/large/bonsly.jpg
+439,439_0,Mime Jr.,Mime Jr.,,4,Psychic,Fairy,Soundproof,Filter,Technician,Ordinary,,,20,25,45,70,90,60,310,https://img.pokemondb.net/artwork/large/mime-jr.jpg
+440,440_0,Happiny,Happiny,,4,Normal,,Natural Cure,Serene Grace,Friend Guard,Ordinary,,,100,5,5,15,65,30,220,https://img.pokemondb.net/artwork/large/happiny.jpg
+441,441_0,Chatot,Chatot,,4,Normal,Flying,Keen Eye,Tangled Feet,Big Pecks,Ordinary,,,76,65,45,92,42,91,411,https://img.pokemondb.net/artwork/large/chatot.jpg
+442,442_0,Spiritomb,Spiritomb,,4,Ghost,Dark,Pressure,,Infiltrator,Ordinary,,,50,92,108,92,108,35,485,https://img.pokemondb.net/artwork/large/spiritomb.jpg
+443,443_0,Gible,Gible,,4,Dragon,Ground,Sand Veil,,Rough Skin,Ordinary,,,58,70,45,40,45,42,300,https://img.pokemondb.net/artwork/large/gible.jpg
+444,444_0,Gabite,Gabite,,4,Dragon,Ground,Sand Veil,,Rough Skin,Ordinary,,,68,90,65,50,55,82,410,https://img.pokemondb.net/artwork/large/gabite.jpg
+445,445_0,Garchomp,Garchomp,,4,Dragon,Ground,Sand Veil,,Rough Skin,Ordinary,,,108,130,95,80,85,102,600,https://img.pokemondb.net/artwork/large/garchomp.jpg
+445,445_1,Garchomp,Mega Garchomp,,4,Dragon,Ground,Sand Force,,,Ordinary,Mega,,108,170,115,120,95,92,700,https://img.pokemondb.net/artwork/large/mega-garchomp.jpg
+446,446_0,Munchlax,Munchlax,,4,Normal,,Pickup,Thick Fat,Gluttony,Ordinary,,,135,85,40,40,85,5,390,https://img.pokemondb.net/artwork/large/munchlax.jpg
+447,447_0,Riolu,Riolu,,4,Fighting,,Steadfast,Inner Focus,Prankster,Ordinary,,,40,70,40,35,40,60,285,https://img.pokemondb.net/artwork/large/riolu.jpg
+448,448_0,Lucario,Lucario,,4,Fighting,Steel,Steadfast,Inner Focus,Justified,Ordinary,,,70,110,70,115,70,90,525,https://img.pokemondb.net/artwork/large/lucario.jpg
+448,448_1,Lucario,Mega Lucario,,4,Fighting,Steel,Adaptability,,,Ordinary,Mega,,70,145,88,140,70,112,625,https://img.pokemondb.net/artwork/large/mega-lucario.jpg
+449,449_0,Hippopotas,Hippopotas,,4,Ground,,Sand Stream,,Sand Force,Ordinary,,,68,72,78,38,42,32,330,https://img.pokemondb.net/artwork/large/hippopotas.jpg
+450,450_0,Hippowdon,Hippowdon,,4,Ground,,Sand Stream,,Sand Force,Ordinary,,,108,112,118,68,72,47,525,https://img.pokemondb.net/artwork/large/hippowdon.jpg
+451,451_0,Skorupi,Skorupi,,4,Poison,Bug,Battle Armor,Sniper,Keen Eye,Ordinary,,,40,50,90,30,55,65,330,https://img.pokemondb.net/artwork/large/skorupi.jpg
+452,452_0,Drapion,Drapion,,4,Poison,Dark,Battle Armor,Sniper,Keen Eye,Ordinary,,,70,90,110,60,75,95,500,https://img.pokemondb.net/artwork/large/drapion.jpg
+453,453_0,Croagunk,Croagunk,,4,Poison,Fighting,Anticipation,Dry Skin,Poison Touch,Ordinary,,,48,61,40,61,40,50,300,https://img.pokemondb.net/artwork/large/croagunk.jpg
+454,454_0,Toxicroak,Toxicroak,,4,Poison,Fighting,Anticipation,Dry Skin,Poison Touch,Ordinary,,,83,106,65,86,65,85,490,https://img.pokemondb.net/artwork/large/toxicroak.jpg
+455,455_0,Carnivine,Carnivine,,4,Grass,,Levitate,,,Ordinary,,,74,100,72,90,72,46,454,https://img.pokemondb.net/artwork/large/carnivine.jpg
+456,456_0,Finneon,Finneon,,4,Water,,Swift Swim,Storm Drain,Water Veil,Ordinary,,,49,49,56,49,61,66,330,https://img.pokemondb.net/artwork/large/finneon.jpg
+457,457_0,Lumineon,Lumineon,,4,Water,,Swift Swim,Storm Drain,Water Veil,Ordinary,,,69,69,76,69,86,91,460,https://img.pokemondb.net/artwork/large/lumineon.jpg
+458,458_0,Mantyke,Mantyke,,4,Water,Flying,Swift Swim,Water Absorb,Water Veil,Ordinary,,,45,20,50,60,120,50,345,https://img.pokemondb.net/artwork/large/mantyke.jpg
+459,459_0,Snover,Snover,,4,Grass,Ice,Snow Warning,,Soundproof,Ordinary,,,60,62,50,62,60,40,334,https://img.pokemondb.net/artwork/large/snover.jpg
+460,460_0,Abomasnow,Abomasnow,,4,Grass,Ice,Snow Warning,,Soundproof,Ordinary,,,90,92,75,92,85,60,494,https://img.pokemondb.net/artwork/large/abomasnow.jpg
+460,460_1,Abomasnow,Mega Abomasnow,,4,Grass,Ice,Snow Warning,,,Ordinary,Mega,,90,132,105,132,105,30,594,https://img.pokemondb.net/artwork/large/mega-abomasnow.jpg
+461,461_0,Weavile,Weavile,,4,Dark,Ice,Pressure,,Pickpocket,Ordinary,,,70,120,65,45,85,125,510,https://img.pokemondb.net/artwork/large/weavile.jpg
+462,462_0,Magnezone,Magnezone,,4,Electric,Steel,Magnet Pull,Sturdy,Analytic,Ordinary,,,70,70,115,130,90,60,535,https://img.pokemondb.net/artwork/large/magnezone.jpg
+463,463_0,Lickilicky,Lickilicky,,4,Normal,,Own Tempo,Oblivious,Cloud Nine,Ordinary,,,110,85,95,80,95,50,515,https://img.pokemondb.net/artwork/large/lickilicky.jpg
+464,464_0,Rhyperior,Rhyperior,,4,Ground,Rock,Lightning Rod,Solid Rock,Reckless,Ordinary,,,115,140,130,55,55,40,535,https://img.pokemondb.net/artwork/large/rhyperior.jpg
+465,465_0,Tangrowth,Tangrowth,,4,Grass,,Chlorophyll,Leaf Guard,Regenerator,Ordinary,,,100,100,125,110,50,50,535,https://img.pokemondb.net/artwork/large/tangrowth.jpg
+466,466_0,Electivire,Electivire,,4,Electric,,Motor Drive,,Vital Spirit,Ordinary,,,75,123,67,95,85,95,540,https://img.pokemondb.net/artwork/large/electivire.jpg
+467,467_0,Magmortar,Magmortar,,4,Fire,,Flame Body,,Vital Spirit,Ordinary,,,75,95,67,125,95,83,540,https://img.pokemondb.net/artwork/large/magmortar.jpg
+468,468_0,Togekiss,Togekiss,,4,Fairy,Flying,Hustle,Serene Grace,Super Luck,Ordinary,,,85,50,95,120,115,80,545,https://img.pokemondb.net/artwork/large/togekiss.jpg
+469,469_0,Yanmega,Yanmega,,4,Bug,Flying,Speed Boost,Tinted Lens,Frisk,Ordinary,,,86,76,86,116,56,95,515,https://img.pokemondb.net/artwork/large/yanmega.jpg
+470,470_0,Leafeon,Leafeon,,4,Grass,,Leaf Guard,,Chlorophyll,Ordinary,,,65,110,130,60,65,95,525,https://img.pokemondb.net/artwork/large/leafeon.jpg
+471,471_0,Glaceon,Glaceon,,4,Ice,,Snow Cloak,,Ice Body,Ordinary,,,65,60,110,130,95,65,525,https://img.pokemondb.net/artwork/large/glaceon.jpg
+472,472_0,Gliscor,Gliscor,,4,Ground,Flying,Hyper Cutter,Sand Veil,Poison Heal,Ordinary,,,75,95,125,45,75,95,510,https://img.pokemondb.net/artwork/large/gliscor.jpg
+473,473_0,Mamoswine,Mamoswine,,4,Ice,Ground,Oblivious,Snow Cloak,Thick Fat,Ordinary,,,110,130,80,70,60,80,530,https://img.pokemondb.net/artwork/large/mamoswine.jpg
+474,474_0,Porygon-Z,Porygon-Z,,4,Normal,,Adaptability,Download,Analytic,Ordinary,,,85,80,70,135,75,90,535,https://img.pokemondb.net/artwork/large/porygon-z.jpg
+475,475_0,Gallade,Gallade,,4,Psychic,Fighting,Steadfast,Sharpness,Justified,Ordinary,,,68,125,65,65,115,80,518,https://img.pokemondb.net/artwork/large/gallade.jpg
+475,475_1,Gallade,Mega Gallade,,4,Psychic,Fighting,Inner Focus,,,Ordinary,Mega,,68,165,95,65,115,110,618,https://img.pokemondb.net/artwork/large/mega-gallade.jpg
+476,476_0,Probopass,Probopass,,4,Rock,Steel,Sturdy,Magnet Pull,Sand Force,Ordinary,,,60,55,145,75,150,40,525,https://img.pokemondb.net/artwork/large/probopass.jpg
+477,477_0,Dusknoir,Dusknoir,,4,Ghost,,Pressure,,Frisk,Ordinary,,,45,100,135,65,135,45,525,https://img.pokemondb.net/artwork/large/dusknoir.jpg
+478,478_0,Froslass,Froslass,,4,Ice,Ghost,Snow Cloak,,Cursed Body,Ordinary,,,70,80,70,80,70,110,480,https://img.pokemondb.net/artwork/large/froslass.jpg
+479,479_0,Rotom,Rotom,,4,Electric,Ghost,Levitate,,,Ordinary,,,50,50,77,95,77,91,440,https://img.pokemondb.net/artwork/large/rotom.jpg
+479,479_1,Rotom,Rotom Heat,Rotom-H,4,Electric,Fire,Levitate,,,Ordinary,,,50,65,107,105,107,86,520,https://img.pokemondb.net/artwork/large/heat-rotom.jpg
+479,479_2,Rotom,Rotom Wash,Rotom-W,4,Electric,Water,Levitate,,,Ordinary,,,50,65,107,105,107,86,520,https://img.pokemondb.net/artwork/large/wash-rotom.jpg
+479,479_3,Rotom,Rotom Frost,Rotom-Fr,4,Electric,Ice,Levitate,,,Ordinary,,,50,65,107,105,107,86,520,https://img.pokemondb.net/artwork/large/frost-rotom.jpg
+479,479_4,Rotom,Rotom Fan,Rotom-Fa,4,Electric,Flying,Levitate,,,Ordinary,,,50,65,107,105,107,86,520,https://img.pokemondb.net/artwork/large/fan-rotom.jpg
+479,479_5,Rotom,Rotom Mow,Rotom-M,4,Electric,Grass,Levitate,,,Ordinary,,,50,65,107,105,107,86,520,https://img.pokemondb.net/artwork/large/mow-rotom.jpg
+480,480_0,Uxie,Uxie,,4,Psychic,,Levitate,,,Legendary,,,75,75,130,75,130,95,580,https://img.pokemondb.net/artwork/large/uxie.jpg
+481,481_0,Mesprit,Mesprit,,4,Psychic,,Levitate,,,Legendary,,,80,105,105,105,105,80,580,https://img.pokemondb.net/artwork/large/mesprit.jpg
+482,482_0,Azelf,Azelf,,4,Psychic,,Levitate,,,Legendary,,,75,125,70,125,70,115,580,https://img.pokemondb.net/artwork/large/azelf.jpg
+483,483_0,Dialga,Dialga,,4,Steel,Dragon,Pressure,,Telepathy,Legendary,,,100,120,120,150,100,90,680,https://img.pokemondb.net/artwork/large/dialga.jpg
+483,483_1,Dialga,Dialga Origin Form,,4,Steel,Dragon,Pressure,,Telepathy,Legendary,,,100,100,120,150,120,90,680,https://img.pokemondb.net/artwork/large/dialga-origin-form.jpg
+484,484_0,Palkia,Palkia,,4,Water,Dragon,Pressure,,Telepathy,Legendary,,,90,120,100,150,120,100,680,https://img.pokemondb.net/artwork/large/palkia.jpg
+484,484_1,Palkia,Palkia Origin Form,,4,Water,Dragon,Pressure,,Telepathy,Legendary,,,90,100,100,150,120,120,680,https://img.pokemondb.net/artwork/large/palkia-origin-form.jpg
+485,485_0,Heatran,Heatran,,4,Fire,Steel,Flash Fire,,Flame Body,Legendary,,,91,90,106,130,106,77,600,https://img.pokemondb.net/artwork/large/heatran.jpg
+486,486_0,Regigigas,Regigigas,,4,Normal,,Slow Start,,,Legendary,,,110,160,110,80,110,100,670,https://img.pokemondb.net/artwork/large/regigigas.jpg
+487,487_0,Giratina,Giratina,,4,Ghost,Dragon,Pressure,,Telepathy,Legendary,,,150,100,120,100,120,90,680,https://img.pokemondb.net/artwork/large/giratina.jpg
+487,487_1,Giratina,Giratina Origin Form,,4,Ghost,Dragon,Levitate,,,Legendary,,,150,120,100,120,100,90,680,https://img.pokemondb.net/artwork/large/giratina-origin-form.jpg
+488,488_0,Cresselia,Cresselia,,4,Psychic,,Levitate,,,Legendary,,,120,70,110,75,120,85,580,https://img.pokemondb.net/artwork/large/cresselia.jpg
+489,489_0,Phione,Phione,,4,Water,,Hydration,,,Mythical,,,80,80,80,80,80,80,480,https://img.pokemondb.net/artwork/large/phione.jpg
+490,490_0,Manaphy,Manaphy,,4,Water,,Hydration,,,Mythical,,,100,100,100,100,100,100,600,https://img.pokemondb.net/artwork/large/manaphy.jpg
+491,491_0,Darkrai,Darkrai,,4,Dark,,Bad Dreams,,,Mythical,,,70,90,90,135,90,125,600,https://img.pokemondb.net/artwork/large/darkrai.jpg
+492,492_0,Shaymin,Shaymin Land Form,,4,Grass,,Natural Cure,,,Mythical,,,100,100,100,100,100,100,600,https://img.pokemondb.net/artwork/large/shaymin-land-form.jpg
+492,492_1,Shaymin,Shaymin Sky Form,,4,Grass,Flying,Serene Grace,,,Mythical,,,100,103,75,120,75,127,600,https://img.pokemondb.net/artwork/large/shaymin-sky-form.jpg
+493,493_0,Arceus,Arceus,,4,Normal,,Multitype,,,Mythical,,,120,120,120,120,120,120,720,https://img.pokemondb.net/artwork/large/arceus.jpg
+494,494_0,Victini,Victini,,5,Psychic,Fire,Victory Star,,,Mythical,,,100,100,100,100,100,100,600,https://img.pokemondb.net/artwork/large/victini.jpg
+495,495_0,Snivy,Snivy,,5,Grass,,Overgrow,,Contrary,Ordinary,,,45,45,55,45,55,63,308,https://img.pokemondb.net/artwork/large/snivy.jpg
+496,496_0,Servine,Servine,,5,Grass,,Overgrow,,Contrary,Ordinary,,,60,60,75,60,75,83,413,https://img.pokemondb.net/artwork/large/servine.jpg
+497,497_0,Serperior,Serperior,,5,Grass,,Overgrow,,Contrary,Ordinary,,,75,75,95,75,95,113,528,https://img.pokemondb.net/artwork/large/serperior.jpg
+498,498_0,Tepig,Tepig,,5,Fire,,Blaze,,Thick Fat,Ordinary,,,65,63,45,45,45,45,308,https://img.pokemondb.net/artwork/large/tepig.jpg
+499,499_0,Pignite,Pignite,,5,Fire,Fighting,Blaze,,Thick Fat,Ordinary,,,90,93,55,70,55,55,418,https://img.pokemondb.net/artwork/large/pignite.jpg
+500,500_0,Emboar,Emboar,,5,Fire,Fighting,Blaze,,Reckless,Ordinary,,,110,123,65,100,65,65,528,https://img.pokemondb.net/artwork/large/emboar.jpg
+501,501_0,Oshawott,Oshawott,,5,Water,,Torrent,,Shell Armor,Ordinary,,,55,55,45,63,45,45,308,https://img.pokemondb.net/artwork/large/oshawott.jpg
+502,502_0,Dewott,Dewott,,5,Water,,Torrent,,Shell Armor,Ordinary,,,75,75,60,83,60,60,413,https://img.pokemondb.net/artwork/large/dewott.jpg
+503,503_0,Samurott,Samurott,,5,Water,,Torrent,,Shell Armor,Ordinary,,,95,100,85,108,70,70,528,https://img.pokemondb.net/artwork/large/samurott.jpg
+503,503_1,Samurott,Hisuian Samurott,,8,Water,Dark,Torrent,,Sharpness,Ordinary,,Hisuian,90,108,80,100,65,85,528,https://img.pokemondb.net/artwork/large/hisuian-samurott.jpg
+504,504_0,Patrat,Patrat,,5,Normal,,Run Away,Keen Eye,Analytic,Ordinary,,,45,55,39,35,39,42,255,https://img.pokemondb.net/artwork/large/patrat.jpg
+505,505_0,Watchog,Watchog,,5,Normal,,Illuminate,Keen Eye,Analytic,Ordinary,,,60,85,69,60,69,77,420,https://img.pokemondb.net/artwork/large/watchog.jpg
+506,506_0,Lillipup,Lillipup,,5,Normal,,Vital Spirit,Pickup,Run Away,Ordinary,,,45,60,45,25,45,55,275,https://img.pokemondb.net/artwork/large/lillipup.jpg
+507,507_0,Herdier,Herdier,,5,Normal,,Intimidate,Sand Rush,Scrappy,Ordinary,,,65,80,65,35,65,60,370,https://img.pokemondb.net/artwork/large/herdier.jpg
+508,508_0,Stoutland,Stoutland,,5,Normal,,Intimidate,Sand Rush,Scrappy,Ordinary,,,85,110,90,45,90,80,500,https://img.pokemondb.net/artwork/large/stoutland.jpg
+509,509_0,Purrloin,Purrloin,,5,Dark,,Limber,Unburden,Prankster,Ordinary,,,41,50,37,50,37,66,281,https://img.pokemondb.net/artwork/large/purrloin.jpg
+510,510_0,Liepard,Liepard,,5,Dark,,Limber,Unburden,Prankster,Ordinary,,,64,88,50,88,50,106,446,https://img.pokemondb.net/artwork/large/liepard.jpg
+511,511_0,Pansage,Pansage,,5,Grass,,Gluttony,,Overgrow,Ordinary,,,50,53,48,53,48,64,316,https://img.pokemondb.net/artwork/large/pansage.jpg
+512,512_0,Simisage,Simisage,,5,Grass,,Gluttony,,Overgrow,Ordinary,,,75,98,63,98,63,101,498,https://img.pokemondb.net/artwork/large/simisage.jpg
+513,513_0,Pansear,Pansear,,5,Fire,,Gluttony,,Blaze,Ordinary,,,50,53,48,53,48,64,316,https://img.pokemondb.net/artwork/large/pansear.jpg
+514,514_0,Simisear,Simisear,,5,Fire,,Gluttony,,Blaze,Ordinary,,,75,98,63,98,63,101,498,https://img.pokemondb.net/artwork/large/simisear.jpg
+515,515_0,Panpour,Panpour,,5,Water,,Gluttony,,Torrent,Ordinary,,,50,53,48,53,48,64,316,https://img.pokemondb.net/artwork/large/panpour.jpg
+516,516_0,Simipour,Simipour,,5,Water,,Gluttony,,Torrent,Ordinary,,,75,98,63,98,63,101,498,https://img.pokemondb.net/artwork/large/simipour.jpg
+517,517_0,Munna,Munna,,5,Psychic,,Forewarn,Synchronize,Telepathy,Ordinary,,,76,25,45,67,55,24,292,https://img.pokemondb.net/artwork/large/munna.jpg
+518,518_0,Musharna,Musharna,,5,Psychic,,Forewarn,Synchronize,Telepathy,Ordinary,,,116,55,85,107,95,29,487,https://img.pokemondb.net/artwork/large/musharna.jpg
+519,519_0,Pidove,Pidove,,5,Normal,Flying,Big Pecks,Super Luck,Rivalry,Ordinary,,,50,55,50,36,30,43,264,https://img.pokemondb.net/artwork/large/pidove.jpg
+520,520_0,Tranquill,Tranquill,,5,Normal,Flying,Big Pecks,Super Luck,Rivalry,Ordinary,,,62,77,62,50,42,65,358,https://img.pokemondb.net/artwork/large/tranquill.jpg
+521,521_0,Unfezant,Unfezant,,5,Normal,Flying,Big Pecks,Super Luck,Rivalry,Ordinary,,,80,115,80,65,55,93,488,https://img.pokemondb.net/artwork/large/unfezant.jpg
+522,522_0,Blitzle,Blitzle,,5,Electric,,Lightning Rod,Motor Drive,Sap Sipper,Ordinary,,,45,60,32,50,32,76,295,https://img.pokemondb.net/artwork/large/blitzle.jpg
+523,523_0,Zebstrika,Zebstrika,,5,Electric,,Lightning Rod,Motor Drive,Sap Sipper,Ordinary,,,75,100,63,80,63,116,497,https://img.pokemondb.net/artwork/large/zebstrika.jpg
+524,524_0,Roggenrola,Roggenrola,,5,Rock,,Sturdy,Weak Armor,Sand Force,Ordinary,,,55,75,85,25,25,15,280,https://img.pokemondb.net/artwork/large/roggenrola.jpg
+525,525_0,Boldore,Boldore,,5,Rock,,Sturdy,Weak Armor,Sand Force,Ordinary,,,70,105,105,50,40,20,390,https://img.pokemondb.net/artwork/large/boldore.jpg
+526,526_0,Gigalith,Gigalith,,5,Rock,,Sturdy,Sand Stream,Sand Force,Ordinary,,,85,135,130,60,80,25,515,https://img.pokemondb.net/artwork/large/gigalith.jpg
+527,527_0,Woobat,Woobat,,5,Psychic,Flying,Unaware,Klutz,Simple,Ordinary,,,65,45,43,55,43,72,323,https://img.pokemondb.net/artwork/large/woobat.jpg
+528,528_0,Swoobat,Swoobat,,5,Psychic,Flying,Unaware,Klutz,Simple,Ordinary,,,67,57,55,77,55,114,425,https://img.pokemondb.net/artwork/large/swoobat.jpg
+529,529_0,Drilbur,Drilbur,,5,Ground,,Sand Rush,Sand Force,Mold Breaker,Ordinary,,,60,85,40,30,45,68,328,https://img.pokemondb.net/artwork/large/drilbur.jpg
+530,530_0,Excadrill,Excadrill,,5,Ground,Steel,Sand Rush,Sand Force,Mold Breaker,Ordinary,,,110,135,60,50,65,88,508,https://img.pokemondb.net/artwork/large/excadrill.jpg
+531,531_0,Audino,Audino,,5,Normal,,Healer,Regenerator,Klutz,Ordinary,,,103,60,86,60,86,50,445,https://img.pokemondb.net/artwork/large/audino.jpg
+531,531_1,Audino,Mega Audino,,5,Normal,Fairy,Healer,,,Ordinary,Mega,,103,60,126,80,126,50,545,https://img.pokemondb.net/artwork/large/mega-audino.jpg
+532,532_0,Timburr,Timburr,,5,Fighting,,Guts,Sheer Force,Iron Fist,Ordinary,,,75,80,55,25,35,35,305,https://img.pokemondb.net/artwork/large/timburr.jpg
+533,533_0,Gurdurr,Gurdurr,,5,Fighting,,Guts,Sheer Force,Iron Fist,Ordinary,,,85,105,85,40,50,40,405,https://img.pokemondb.net/artwork/large/gurdurr.jpg
+534,534_0,Conkeldurr,Conkeldurr,,5,Fighting,,Guts,Sheer Force,Iron Fist,Ordinary,,,105,140,95,55,65,45,505,https://img.pokemondb.net/artwork/large/conkeldurr.jpg
+535,535_0,Tympole,Tympole,,5,Water,,Swift Swim,Hydration,Water Absorb,Ordinary,,,50,50,40,50,40,64,294,https://img.pokemondb.net/artwork/large/tympole.jpg
+536,536_0,Palpitoad,Palpitoad,,5,Water,Ground,Swift Swim,Hydration,Water Absorb,Ordinary,,,75,65,55,65,55,69,384,https://img.pokemondb.net/artwork/large/palpitoad.jpg
+537,537_0,Seismitoad,Seismitoad,,5,Water,Ground,Swift Swim,Poison Touch,Water Absorb,Ordinary,,,105,95,75,85,75,74,509,https://img.pokemondb.net/artwork/large/seismitoad.jpg
+538,538_0,Throh,Throh,,5,Fighting,,Guts,Inner Focus,Mold Breaker,Ordinary,,,120,100,85,30,85,45,465,https://img.pokemondb.net/artwork/large/throh.jpg
+539,539_0,Sawk,Sawk,,5,Fighting,,Sturdy,Inner Focus,Mold Breaker,Ordinary,,,75,125,75,30,75,85,465,https://img.pokemondb.net/artwork/large/sawk.jpg
+540,540_0,Sewaddle,Sewaddle,,5,Bug,Grass,Swarm,Chlorophyll,Overcoat,Ordinary,,,45,53,70,40,60,42,310,https://img.pokemondb.net/artwork/large/sewaddle.jpg
+541,541_0,Swadloon,Swadloon,,5,Bug,Grass,Leaf Guard,Chlorophyll,Overcoat,Ordinary,,,55,63,90,50,80,42,380,https://img.pokemondb.net/artwork/large/swadloon.jpg
+542,542_0,Leavanny,Leavanny,,5,Bug,Grass,Swarm,Chlorophyll,Overcoat,Ordinary,,,75,103,80,70,80,92,500,https://img.pokemondb.net/artwork/large/leavanny.jpg
+543,543_0,Venipede,Venipede,,5,Bug,Poison,Poison Point,Swarm,Speed Boost,Ordinary,,,30,45,59,30,39,57,260,https://img.pokemondb.net/artwork/large/venipede.jpg
+544,544_0,Whirlipede,Whirlipede,,5,Bug,Poison,Poison Point,Swarm,Speed Boost,Ordinary,,,40,55,99,40,79,47,360,https://img.pokemondb.net/artwork/large/whirlipede.jpg
+545,545_0,Scolipede,Scolipede,,5,Bug,Poison,Poison Point,Swarm,Speed Boost,Ordinary,,,60,100,89,55,69,112,485,https://img.pokemondb.net/artwork/large/scolipede.jpg
+546,546_0,Cottonee,Cottonee,,5,Grass,Fairy,Prankster,Infiltrator,Chlorophyll,Ordinary,,,40,27,60,37,50,66,280,https://img.pokemondb.net/artwork/large/cottonee.jpg
+547,547_0,Whimsicott,Whimsicott,,5,Grass,Fairy,Prankster,Infiltrator,Chlorophyll,Ordinary,,,60,67,85,77,75,116,480,https://img.pokemondb.net/artwork/large/whimsicott.jpg
+548,548_0,Petilil,Petilil,,5,Grass,,Chlorophyll,Own Tempo,Leaf Guard,Ordinary,,,45,35,50,70,50,30,280,https://img.pokemondb.net/artwork/large/petilil.jpg
+549,549_0,Lilligant,Lilligant,,5,Grass,,Chlorophyll,Own Tempo,Leaf Guard,Ordinary,,,70,60,75,110,75,90,480,https://img.pokemondb.net/artwork/large/lilligant.jpg
+549,549_1,Lilligant,Hisuian Lilligant,,8,Grass,Fighting,Chlorophyll,Hustle,Leaf Guard,Ordinary,,Hisuian,70,105,75,50,75,105,480,https://img.pokemondb.net/artwork/large/hisuian-lilligant.jpg
+550,550_0,Basculin,Basculin Red Stripe,,5,Water,,Reckless,Adaptability,Mold Breaker,Ordinary,,,70,92,65,80,55,98,460,https://img.pokemondb.net/artwork/large/basculin-red-stripe.jpg
+550,550_1,Basculin,Basculin Blue Stripe,,5,Water,,Rock Head,Adaptability,Mold Breaker,Ordinary,,,70,92,65,80,55,98,460,https://img.pokemondb.net/artwork/large/basculin-blue-stripe.jpg
+550,550_2,Basculin,Hisuian Basculin,,8,Water,,Rattled,Adaptability,Mold Breaker,Ordinary,,Hisuian,70,92,65,80,55,98,460,https://img.pokemondb.net/artwork/large/hisuian-basculin.jpg
+551,551_0,Sandile,Sandile,,5,Ground,Dark,Intimidate,Moxie,Anger Point,Ordinary,,,50,72,35,35,35,65,292,https://img.pokemondb.net/artwork/large/sandile.jpg
+552,552_0,Krokorok,Krokorok,,5,Ground,Dark,Intimidate,Moxie,Anger Point,Ordinary,,,60,82,45,45,45,74,351,https://img.pokemondb.net/artwork/large/krokorok.jpg
+553,553_0,Krookodile,Krookodile,,5,Ground,Dark,Intimidate,Moxie,Anger Point,Ordinary,,,95,117,80,65,70,92,519,https://img.pokemondb.net/artwork/large/krookodile.jpg
+554,554_0,Darumaka,Darumaka,,5,Fire,,Hustle,,Inner Focus,Ordinary,,,70,90,45,15,45,50,315,https://img.pokemondb.net/artwork/large/darumaka.jpg
+554,554_1,Darumaka,Galarian Darumaka,,8,Ice,,Hustle,,Inner Focus,Ordinary,,Galarian,70,90,45,15,45,50,315,https://img.pokemondb.net/artwork/large/galarian-darumaka.jpg
+555,555_0,Darmanitan,Darmanitan,,5,Fire,,Sheer Force,,Zen Mode,Ordinary,,,105,140,55,30,55,95,480,https://img.pokemondb.net/artwork/large/darmanitan.jpg
+555,555_1,Darmanitan,Darmanitan Zen-Mode,,5,Fire,Psychic,Sheer Force,,Zen Mode,Ordinary,,,105,30,105,140,105,55,540,https://img.pokemondb.net/artwork/large/darmanitan-zen-mode.jpg
+555,555_2,Darmanitan,Galarian Darmanitan,,8,Ice,,Gorilla Tactics,,Zen Mode,Ordinary,,Galarian,105,140,55,30,55,95,480,https://img.pokemondb.net/artwork/large/galarian-darmanitan.jpg
+555,555_3,Darmanitan,Galarian Darmanitan Zen-Mode,,8,Ice,Fire,Gorilla Tactics,,Zen Mode,Ordinary,,Galarian,105,160,55,30,55,135,540,https://img.pokemondb.net/artwork/large/galarian-darmanitan-zen-mode.jpg
+556,556_0,Maractus,Maractus,,5,Grass,,Water Absorb,Chlorophyll,Storm Drain,Ordinary,,,75,86,67,106,67,60,461,https://img.pokemondb.net/artwork/large/maractus.jpg
+557,557_0,Dwebble,Dwebble,,5,Bug,Rock,Sturdy,Shell Armor,Weak Armor,Ordinary,,,50,65,85,35,35,55,325,https://img.pokemondb.net/artwork/large/dwebble.jpg
+558,558_0,Crustle,Crustle,,5,Bug,Rock,Sturdy,Shell Armor,Weak Armor,Ordinary,,,70,105,125,65,75,45,485,https://img.pokemondb.net/artwork/large/crustle.jpg
+559,559_0,Scraggy,Scraggy,,5,Dark,Fighting,Shed Skin,Moxie,Intimidate,Ordinary,,,50,75,70,35,70,48,348,https://img.pokemondb.net/artwork/large/scraggy.jpg
+560,560_0,Scrafty,Scrafty,,5,Dark,Fighting,Shed Skin,Moxie,Intimidate,Ordinary,,,65,90,115,45,115,58,488,https://img.pokemondb.net/artwork/large/scrafty.jpg
+561,561_0,Sigilyph,Sigilyph,,5,Psychic,Flying,Wonder Skin,Magic Guard,Tinted Lens,Ordinary,,,72,58,80,103,80,97,490,https://img.pokemondb.net/artwork/large/sigilyph.jpg
+562,562_0,Yamask,Yamask,,5,Ghost,,Mummy,,,Ordinary,,,38,30,85,55,65,30,303,https://img.pokemondb.net/artwork/large/yamask.jpg
+562,562_1,Yamask,Galarian Yamask,,8,Ground,Ghost,Wandering Spirit,,,Ordinary,,Galarian,38,55,85,30,65,30,303,https://img.pokemondb.net/artwork/large/galarian-yamask.jpg
+563,563_0,Cofagrigus,Cofagrigus,,5,Ghost,,Mummy,,,Ordinary,,,58,50,145,95,105,30,483,https://img.pokemondb.net/artwork/large/cofagrigus.jpg
+564,564_0,Tirtouga,Tirtouga,,5,Water,Rock,Solid Rock,Sturdy,Swift Swim,Ordinary,,,54,78,103,53,45,22,355,https://img.pokemondb.net/artwork/large/tirtouga.jpg
+565,565_0,Carracosta,Carracosta,,5,Water,Rock,Solid Rock,Sturdy,Swift Swim,Ordinary,,,74,108,133,83,65,32,495,https://img.pokemondb.net/artwork/large/carracosta.jpg
+566,566_0,Archen,Archen,,5,Rock,Flying,Defeatist,,,Ordinary,,,55,112,45,74,45,70,401,https://img.pokemondb.net/artwork/large/archen.jpg
+567,567_0,Archeops,Archeops,,5,Rock,Flying,Defeatist,,,Ordinary,,,75,140,65,112,65,110,567,https://img.pokemondb.net/artwork/large/archeops.jpg
+568,568_0,Trubbish,Trubbish,,5,Poison,,Stench,Sticky Hold,Aftermath,Ordinary,,,50,50,62,40,62,65,329,https://img.pokemondb.net/artwork/large/trubbish.jpg
+569,569_0,Garbodor,Garbodor,,5,Poison,,Stench,Weak Armor,Aftermath,Ordinary,,,80,95,82,60,82,75,474,https://img.pokemondb.net/artwork/large/garbodor.jpg
+570,570_0,Zorua,Zorua,,5,Dark,,Illusion,,,Ordinary,,,40,65,40,80,40,65,330,https://img.pokemondb.net/artwork/large/zorua.jpg
+570,570_1,Zorua,Hisuian Zorua,,8,Normal,Ghost,Illusion,,,Ordinary,,Hisuian,35,60,40,85,40,70,330,https://img.pokemondb.net/artwork/large/hisuian-zorua.jpg
+571,571_0,Zoroark,Zoroark,,5,Dark,,Illusion,,,Ordinary,,,60,105,60,120,60,105,510,https://img.pokemondb.net/artwork/large/zoroark.jpg
+571,571_1,Zoroark,Hisuian Zoroark,,8,Normal,Ghost,Illusion,,,Ordinary,,Hisuian,60,105,60,120,60,105,510,https://img.pokemondb.net/artwork/large/hisuian-zoroark.jpg
+572,572_0,Minccino,Minccino,,5,Normal,,Cute Charm,Technician,Skill Link,Ordinary,,,55,50,40,40,40,75,300,https://img.pokemondb.net/artwork/large/minccino.jpg
+573,573_0,Cinccino,Cinccino,,5,Normal,,Cute Charm,Technician,Skill Link,Ordinary,,,75,95,60,65,60,115,470,https://img.pokemondb.net/artwork/large/cinccino.jpg
+574,574_0,Gothita,Gothita,,5,Psychic,,Frisk,Competitive,Shadow Tag,Ordinary,,,45,30,50,55,65,45,290,https://img.pokemondb.net/artwork/large/gothita.jpg
+575,575_0,Gothorita,Gothorita,,5,Psychic,,Frisk,Competitive,Shadow Tag,Ordinary,,,60,45,70,75,85,55,390,https://img.pokemondb.net/artwork/large/gothorita.jpg
+576,576_0,Gothitelle,Gothitelle,,5,Psychic,,Frisk,Competitive,Shadow Tag,Ordinary,,,70,55,95,95,110,65,490,https://img.pokemondb.net/artwork/large/gothitelle.jpg
+577,577_0,Solosis,Solosis,,5,Psychic,,Overcoat,Magic Guard,Regenerator,Ordinary,,,45,30,40,105,50,20,290,https://img.pokemondb.net/artwork/large/solosis.jpg
+578,578_0,Duosion,Duosion,,5,Psychic,,Overcoat,Magic Guard,Regenerator,Ordinary,,,65,40,50,125,60,30,370,https://img.pokemondb.net/artwork/large/duosion.jpg
+579,579_0,Reuniclus,Reuniclus,,5,Psychic,,Overcoat,Magic Guard,Regenerator,Ordinary,,,110,65,75,125,85,30,490,https://img.pokemondb.net/artwork/large/reuniclus.jpg
+580,580_0,Ducklett,Ducklett,,5,Water,Flying,Keen Eye,Big Pecks,Hydration,Ordinary,,,62,44,50,44,50,55,305,https://img.pokemondb.net/artwork/large/ducklett.jpg
+581,581_0,Swanna,Swanna,,5,Water,Flying,Keen Eye,Big Pecks,Hydration,Ordinary,,,75,87,63,87,63,98,473,https://img.pokemondb.net/artwork/large/swanna.jpg
+582,582_0,Vanillite,Vanillite,,5,Ice,,Ice Body,Snow Cloak,Weak Armor,Ordinary,,,36,50,50,65,60,44,305,https://img.pokemondb.net/artwork/large/vanillite.jpg
+583,583_0,Vanillish,Vanillish,,5,Ice,,Ice Body,Snow Cloak,Weak Armor,Ordinary,,,51,65,65,80,75,59,395,https://img.pokemondb.net/artwork/large/vanillish.jpg
+584,584_0,Vanilluxe,Vanilluxe,,5,Ice,,Ice Body,Snow Warning,Weak Armor,Ordinary,,,71,95,85,110,95,79,535,https://img.pokemondb.net/artwork/large/vanilluxe.jpg
+585,585_0,Deerling,Deerling Spring Form,,5,Normal,Grass,Chlorophyll,Sap Sipper,Serene Grace,Ordinary,,,60,60,50,40,50,75,335,https://img.pokemondb.net/artwork/large/deerling-spring-form.jpg
+585,585_1,Deerling,Deerling Summer Form,,5,Normal,Grass,Chlorophyll,Sap Sipper,Serene Grace,Ordinary,,,60,60,50,40,50,75,335,https://img.pokemondb.net/artwork/large/deerling-summer-form.jpg
+585,585_2,Deerling,Deerling Autumn Form,,5,Normal,Grass,Chlorophyll,Sap Sipper,Serene Grace,Ordinary,,,60,60,50,40,50,75,335,https://img.pokemondb.net/artwork/large/deerling-autumn-form.jpg
+585,585_3,Deerling,Deerling Winter Form,,5,Normal,Grass,Chlorophyll,Sap Sipper,Serene Grace,Ordinary,,,60,60,50,40,50,75,335,https://img.pokemondb.net/artwork/large/deerling-winter-form.jpg
+586,586_0,Sawsbuck,Sawsbuck,,5,Normal,Grass,Chlorophyll,Sap Sipper,Serene Grace,Ordinary,,,80,100,70,60,70,95,475,https://img.pokemondb.net/artwork/large/sawsbuck.jpg
+587,587_0,Emolga,Emolga,,5,Electric,Flying,Static,,Motor Drive,Ordinary,,,55,75,60,75,60,103,428,https://img.pokemondb.net/artwork/large/emolga.jpg
+588,588_0,Karrablast,Karrablast,,5,Bug,,Swarm,Shed Skin,No Guard,Ordinary,,,50,75,45,40,45,60,315,https://img.pokemondb.net/artwork/large/karrablast.jpg
+589,589_0,Escavalier,Escavalier,,5,Bug,Steel,Swarm,Shell Armor,Overcoat,Ordinary,,,70,135,105,60,105,20,495,https://img.pokemondb.net/artwork/large/escavalier.jpg
+590,590_0,Foongus,Foongus,,5,Grass,Poison,Effect Spore,,Regenerator,Ordinary,,,69,55,45,55,55,15,294,https://img.pokemondb.net/artwork/large/foongus.jpg
+591,591_0,Amoonguss,Amoonguss,,5,Grass,Poison,Effect Spore,,Regenerator,Ordinary,,,114,85,70,85,80,30,464,https://img.pokemondb.net/artwork/large/amoonguss.jpg
+592,592_0,Frillish,Frillish,,5,Water,Ghost,Water Absorb,Cursed Body,Damp,Ordinary,,,55,40,50,65,85,40,335,https://img.pokemondb.net/artwork/large/frillish.jpg
+593,593_0,Jellicent,Jellicent,,5,Water,Ghost,Water Absorb,Cursed Body,Damp,Ordinary,,,100,60,70,85,105,60,480,https://img.pokemondb.net/artwork/large/jellicent.jpg
+594,594_0,Alomomola,Alomomola,,5,Water,,Healer,Hydration,Regenerator,Ordinary,,,165,75,80,40,45,65,470,https://img.pokemondb.net/artwork/large/alomomola.jpg
+595,595_0,Joltik,Joltik,,5,Bug,Electric,Compound Eyes,Unnerve,Swarm,Ordinary,,,50,47,50,57,50,65,319,https://img.pokemondb.net/artwork/large/joltik.jpg
+596,596_0,Galvantula,Galvantula,,5,Bug,Electric,Compound Eyes,Unnerve,Swarm,Ordinary,,,70,77,60,97,60,108,472,https://img.pokemondb.net/artwork/large/galvantula.jpg
+597,597_0,Ferroseed,Ferroseed,,5,Grass,Steel,Iron Barbs,,,Ordinary,,,44,50,91,24,86,10,305,https://img.pokemondb.net/artwork/large/ferroseed.jpg
+598,598_0,Ferrothorn,Ferrothorn,,5,Grass,Steel,Iron Barbs,,Anticipation,Ordinary,,,74,94,131,54,116,20,489,https://img.pokemondb.net/artwork/large/ferrothorn.jpg
+599,599_0,Klink,Klink,,5,Steel,,Plus,Minus,Clear Body,Ordinary,,,40,55,70,45,60,30,300,https://img.pokemondb.net/artwork/large/klink.jpg
+600,600_0,Klang,Klang,,5,Steel,,Plus,Minus,Clear Body,Ordinary,,,60,80,95,70,85,50,440,https://img.pokemondb.net/artwork/large/klang.jpg
+601,601_0,Klinklang,Klinklang,,5,Steel,,Plus,Minus,Clear Body,Ordinary,,,60,100,115,70,85,90,520,https://img.pokemondb.net/artwork/large/klinklang.jpg
+602,602_0,Tynamo,Tynamo,,5,Electric,,Levitate,,,Ordinary,,,35,55,40,45,40,60,275,https://img.pokemondb.net/artwork/large/tynamo.jpg
+603,603_0,Eelektrik,Eelektrik,,5,Electric,,Levitate,,,Ordinary,,,65,85,70,75,70,40,405,https://img.pokemondb.net/artwork/large/eelektrik.jpg
+604,604_0,Eelektross,Eelektross,,5,Electric,,Levitate,,,Ordinary,,,85,115,80,105,80,50,515,https://img.pokemondb.net/artwork/large/eelektross.jpg
+605,605_0,Elgyem,Elgyem,,5,Psychic,,Telepathy,Synchronize,Analytic,Ordinary,,,55,55,55,85,55,30,335,https://img.pokemondb.net/artwork/large/elgyem.jpg
+606,606_0,Beheeyem,Beheeyem,,5,Psychic,,Telepathy,Synchronize,Analytic,Ordinary,,,75,75,75,125,95,40,485,https://img.pokemondb.net/artwork/large/beheeyem.jpg
+607,607_0,Litwick,Litwick,,5,Ghost,Fire,Flash Fire,Flame Body,Infiltrator,Ordinary,,,50,30,55,65,55,20,275,https://img.pokemondb.net/artwork/large/litwick.jpg
+608,608_0,Lampent,Lampent,,5,Ghost,Fire,Flash Fire,Flame Body,Infiltrator,Ordinary,,,60,40,60,95,60,55,370,https://img.pokemondb.net/artwork/large/lampent.jpg
+609,609_0,Chandelure,Chandelure,,5,Ghost,Fire,Flash Fire,Flame Body,Infiltrator,Ordinary,,,60,55,90,145,90,80,520,https://img.pokemondb.net/artwork/large/chandelure.jpg
+610,610_0,Axew,Axew,,5,Dragon,,Rivalry,Mold Breaker,Unnerve,Ordinary,,,46,87,60,30,40,57,320,https://img.pokemondb.net/artwork/large/axew.jpg
+611,611_0,Fraxure,Fraxure,,5,Dragon,,Rivalry,Mold Breaker,Unnerve,Ordinary,,,66,117,70,40,50,67,410,https://img.pokemondb.net/artwork/large/fraxure.jpg
+612,612_0,Haxorus,Haxorus,,5,Dragon,,Rivalry,Mold Breaker,Unnerve,Ordinary,,,76,147,90,60,70,97,540,https://img.pokemondb.net/artwork/large/haxorus.jpg
+613,613_0,Cubchoo,Cubchoo,,5,Ice,,Snow Cloak,Slush Rush,Rattled,Ordinary,,,55,70,40,60,40,40,305,https://img.pokemondb.net/artwork/large/cubchoo.jpg
+614,614_0,Beartic,Beartic,,5,Ice,,Snow Cloak,Slush Rush,Swift Swim,Ordinary,,,95,130,80,70,80,50,505,https://img.pokemondb.net/artwork/large/beartic.jpg
+615,615_0,Cryogonal,Cryogonal,,5,Ice,,Levitate,,,Ordinary,,,80,50,50,95,135,105,515,https://img.pokemondb.net/artwork/large/cryogonal.jpg
+616,616_0,Shelmet,Shelmet,,5,Bug,,Hydration,Shell Armor,Overcoat,Ordinary,,,50,40,85,40,65,25,305,https://img.pokemondb.net/artwork/large/shelmet.jpg
+617,617_0,Accelgor,Accelgor,,5,Bug,,Hydration,Sticky Hold,Unburden,Ordinary,,,80,70,40,100,60,145,495,https://img.pokemondb.net/artwork/large/accelgor.jpg
+618,618_0,Stunfisk,Stunfisk,,5,Ground,Electric,Static,Limber,Sand Veil,Ordinary,,,109,66,84,81,99,32,471,https://img.pokemondb.net/artwork/large/stunfisk.jpg
+618,618_1,Stunfisk,Galarian Stunfisk,,8,Ground,Steel,Mimicry,,,Ordinary,,Galarian,109,81,99,66,84,32,471,https://img.pokemondb.net/artwork/large/galarian-stunfisk.jpg
+619,619_0,Mienfoo,Mienfoo,,5,Fighting,,Inner Focus,Regenerator,Reckless,Ordinary,,,45,85,50,55,50,65,350,https://img.pokemondb.net/artwork/large/mienfoo.jpg
+620,620_0,Mienshao,Mienshao,,5,Fighting,,Inner Focus,Regenerator,Reckless,Ordinary,,,65,125,60,95,60,105,510,https://img.pokemondb.net/artwork/large/mienshao.jpg
+621,621_0,Druddigon,Druddigon,,5,Dragon,,Rough Skin,Sheer Force,Mold Breaker,Ordinary,,,77,120,90,60,90,48,485,https://img.pokemondb.net/artwork/large/druddigon.jpg
+622,622_0,Golett,Golett,,5,Ground,Ghost,Iron Fist,Klutz,No Guard,Ordinary,,,59,74,50,35,50,35,303,https://img.pokemondb.net/artwork/large/golett.jpg
+623,623_0,Golurk,Golurk,,5,Ground,Ghost,Iron Fist,Klutz,No Guard,Ordinary,,,89,124,80,55,80,55,483,https://img.pokemondb.net/artwork/large/golurk.jpg
+624,624_0,Pawniard,Pawniard,,5,Dark,Steel,Defiant,Inner Focus,Pressure,Ordinary,,,45,85,70,40,40,60,340,https://img.pokemondb.net/artwork/large/pawniard.jpg
+625,625_0,Bisharp,Bisharp,,5,Dark,Steel,Defiant,Inner Focus,Pressure,Ordinary,,,65,125,100,60,70,70,490,https://img.pokemondb.net/artwork/large/bisharp.jpg
+626,626_0,Bouffalant,Bouffalant,,5,Normal,,Reckless,Sap Sipper,Soundproof,Ordinary,,,95,110,95,40,95,55,490,https://img.pokemondb.net/artwork/large/bouffalant.jpg
+627,627_0,Rufflet,Rufflet,,5,Normal,Flying,Keen Eye,Sheer Force,Hustle,Ordinary,,,70,83,50,37,50,60,350,https://img.pokemondb.net/artwork/large/rufflet.jpg
+628,628_0,Braviary,Braviary,,5,Normal,Flying,Keen Eye,Sheer Force,Defiant,Ordinary,,,100,123,75,57,75,80,510,https://img.pokemondb.net/artwork/large/braviary.jpg
+628,628_1,Braviary,Hisuian Braviary,,8,Psychic,Flying,Keen Eye,Sheer Force,Tinted Lens,Ordinary,,Hisuian,110,83,70,112,70,65,510,https://img.pokemondb.net/artwork/large/hisuian-braviary.jpg
+629,629_0,Vullaby,Vullaby,,5,Dark,Flying,Big Pecks,Overcoat,Weak Armor,Ordinary,,,70,55,75,45,65,60,370,https://img.pokemondb.net/artwork/large/vullaby.jpg
+630,630_0,Mandibuzz,Mandibuzz,,5,Dark,Flying,Big Pecks,Overcoat,Weak Armor,Ordinary,,,110,65,105,55,95,80,510,https://img.pokemondb.net/artwork/large/mandibuzz.jpg
+631,631_0,Heatmor,Heatmor,,5,Fire,,Gluttony,Flash Fire,White Smoke,Ordinary,,,85,97,66,105,66,65,484,https://img.pokemondb.net/artwork/large/heatmor.jpg
+632,632_0,Durant,Durant,,5,Bug,Steel,Swarm,Hustle,Truant,Ordinary,,,58,109,112,48,48,109,484,https://img.pokemondb.net/artwork/large/durant.jpg
+633,633_0,Deino,Deino,,5,Dark,Dragon,Hustle,,,Ordinary,,,52,65,50,45,50,38,300,https://img.pokemondb.net/artwork/large/deino.jpg
+634,634_0,Zweilous,Zweilous,,5,Dark,Dragon,Hustle,,,Ordinary,,,72,85,70,65,70,58,420,https://img.pokemondb.net/artwork/large/zweilous.jpg
+635,635_0,Hydreigon,Hydreigon,,5,Dark,Dragon,Levitate,,,Ordinary,,,92,105,90,125,90,98,600,https://img.pokemondb.net/artwork/large/hydreigon.jpg
+636,636_0,Larvesta,Larvesta,,5,Bug,Fire,Flame Body,,Swarm,Ordinary,,,55,85,55,50,55,60,360,https://img.pokemondb.net/artwork/large/larvesta.jpg
+637,637_0,Volcarona,Volcarona,,5,Bug,Fire,Flame Body,,Swarm,Ordinary,,,85,60,65,135,105,100,550,https://img.pokemondb.net/artwork/large/volcarona.jpg
+638,638_0,Cobalion,Cobalion,,5,Steel,Fighting,Justified,,,Legendary,,,91,90,129,90,72,108,580,https://img.pokemondb.net/artwork/large/cobalion.jpg
+639,639_0,Terrakion,Terrakion,,5,Rock,Fighting,Justified,,,Legendary,,,91,129,90,72,90,108,580,https://img.pokemondb.net/artwork/large/terrakion.jpg
+640,640_0,Virizion,Virizion,,5,Grass,Fighting,Justified,,,Legendary,,,91,90,72,90,129,108,580,https://img.pokemondb.net/artwork/large/virizion.jpg
+641,641_0,Tornadus,Tornadus Incarnate Form,Tornadus-I,5,Flying,,Prankster,,Defiant,Legendary,,,79,115,70,125,80,111,580,https://img.pokemondb.net/artwork/large/tornadus-incarnate-form.jpg
+641,641_1,Tornadus,Tornadus Therian Form,Tornadus-T,5,Flying,,Regenerator,,,Legendary,,,79,100,80,110,90,121,580,https://img.pokemondb.net/artwork/large/tornadus-therian-form.jpg
+642,642_0,Thundurus,Thundurus Incarnate Form,Thundurus-I,5,Electric,Flying,Prankster,,Defiant,Legendary,,,79,115,70,125,80,111,580,https://img.pokemondb.net/artwork/large/thundurus-incarnate-form.jpg
+642,642_1,Thundurus,Thundurus Therian Form,Thundurus-T,5,Electric,Flying,Volt Absorb,,,Legendary,,,79,105,70,145,80,101,580,https://img.pokemondb.net/artwork/large/thundurus-therian-form.jpg
+643,643_0,Reshiram,Reshiram,,5,Dragon,Fire,Turboblaze,,,Legendary,,,100,120,100,150,120,90,680,https://img.pokemondb.net/artwork/large/reshiram.jpg
+644,644_0,Zekrom,Zekrom,,5,Dragon,Electric,Teravolt,,,Legendary,,,100,150,120,120,100,90,680,https://img.pokemondb.net/artwork/large/zekrom.jpg
+645,645_0,Landorus,Landorus Incarnate Form,Landorus-I,5,Ground,Flying,Sand Force,,Sheer Force,Legendary,,,89,125,90,115,80,101,600,https://img.pokemondb.net/artwork/large/landorus-incarnate-form.jpg
+645,645_1,Landorus,Landorus Therian Form,Landorus-T,5,Ground,Flying,Intimidate,,,Legendary,,,89,145,90,105,80,91,600,https://img.pokemondb.net/artwork/large/landorus-therian-form.jpg
+646,646_0,Kyurem,Kyurem,,5,Dragon,Ice,Pressure,,,Legendary,,,125,130,90,130,90,95,660,https://img.pokemondb.net/artwork/large/kyurem.jpg
+646,646_1,Kyurem,White Kyurem,,5,Dragon,Ice,Turboblaze,,,Legendary,,,125,120,90,170,100,95,700,https://img.pokemondb.net/artwork/large/white-kyurem.jpg
+646,646_2,Kyurem,Black Kyurem,,5,Dragon,Ice,Teravolt,,,Legendary,,,125,170,100,120,90,95,700,https://img.pokemondb.net/artwork/large/black-kyurem.jpg
+647,647_0,Keldeo,Keldeo Ordinary Form,,5,Water,Fighting,Justified,,,Mythical,,,91,72,90,129,90,108,580,https://img.pokemondb.net/artwork/large/keldeo-ordinary-form.jpg
+647,647_1,Keldeo,Keldeo Resolute Form,,5,Water,Fighting,Justified,,,Mythical,,,91,72,90,129,90,108,580,https://img.pokemondb.net/artwork/large/keldeo-resolute-form.jpg
+648,648_0,Meloetta,Meloetta Aria Form,,5,Normal,Psychic,Serene Grace,,,Mythical,,,100,77,77,128,128,90,600,https://img.pokemondb.net/artwork/large/meloetta-aria-form.jpg
+648,648_1,Meloetta,Meloetta Pirouette Form,,5,Normal,Fighting,Serene Grace,,,Mythical,,,100,128,90,77,77,128,600,https://img.pokemondb.net/artwork/large/meloetta-pirouette-form.jpg
+649,649_0,Genesect,Genesect,,5,Bug,Steel,Download,,,Mythical,,,71,120,95,120,95,99,600,https://img.pokemondb.net/artwork/large/genesect.jpg
+650,650_0,Chespin,Chespin,,6,Grass,,Overgrow,,Bulletproof,Ordinary,,,56,61,65,48,45,38,313,https://img.pokemondb.net/artwork/large/chespin.jpg
+651,651_0,Quilladin,Quilladin,,6,Grass,,Overgrow,,Bulletproof,Ordinary,,,61,78,95,56,58,57,405,https://img.pokemondb.net/artwork/large/quilladin.jpg
+652,652_0,Chesnaught,Chesnaught,,6,Grass,Fighting,Overgrow,,Bulletproof,Ordinary,,,88,107,122,74,75,64,530,https://img.pokemondb.net/artwork/large/chesnaught.jpg
+653,653_0,Fennekin,Fennekin,,6,Fire,,Blaze,,Magician,Ordinary,,,40,45,40,62,60,60,307,https://img.pokemondb.net/artwork/large/fennekin.jpg
+654,654_0,Braixen,Braixen,,6,Fire,,Blaze,,Magician,Ordinary,,,59,59,58,90,70,73,409,https://img.pokemondb.net/artwork/large/braixen.jpg
+655,655_0,Delphox,Delphox,,6,Fire,Psychic,Blaze,,Magician,Ordinary,,,75,69,72,114,100,104,534,https://img.pokemondb.net/artwork/large/delphox.jpg
+656,656_0,Froakie,Froakie,,6,Water,,Torrent,,Protean,Ordinary,,,41,56,40,62,44,71,314,https://img.pokemondb.net/artwork/large/froakie.jpg
+657,657_0,Frogadier,Frogadier,,6,Water,,Torrent,,Protean,Ordinary,,,54,63,52,83,56,97,405,https://img.pokemondb.net/artwork/large/frogadier.jpg
+658,658_0,Greninja,Greninja,,6,Water,Dark,Torrent,,Protean,Ordinary,,,72,95,67,103,71,122,530,https://img.pokemondb.net/artwork/large/greninja.jpg
+658,658_1,Greninja,Ash Greninja,,6,Water,Dark,Battle Bond,,,Ordinary,,,72,145,67,153,71,132,640,https://img.pokemondb.net/artwork/large/ash-greninja.jpg
+659,659_0,Bunnelby,Bunnelby,,6,Normal,,Pickup,Cheek Pouch,Huge Power,Ordinary,,,38,36,38,32,36,57,237,https://img.pokemondb.net/artwork/large/bunnelby.jpg
+660,660_0,Diggersby,Diggersby,,6,Normal,Ground,Pickup,Cheek Pouch,Huge Power,Ordinary,,,85,56,77,50,77,78,423,https://img.pokemondb.net/artwork/large/diggersby.jpg
+661,661_0,Fletchling,Fletchling,,6,Normal,Flying,Big Pecks,,Gale Wings,Ordinary,,,45,50,43,40,38,62,278,https://img.pokemondb.net/artwork/large/fletchling.jpg
+662,662_0,Fletchinder,Fletchinder,,6,Fire,Flying,Flame Body,,Gale Wings,Ordinary,,,62,73,55,56,52,84,382,https://img.pokemondb.net/artwork/large/fletchinder.jpg
+663,663_0,Talonflame,Talonflame,,6,Fire,Flying,Flame Body,,Gale Wings,Ordinary,,,78,81,71,74,69,126,499,https://img.pokemondb.net/artwork/large/talonflame.jpg
+664,664_0,Scatterbug,Scatterbug,,6,Bug,,Shield Dust,Compound Eyes,Friend Guard,Ordinary,,,38,35,40,27,25,35,200,https://img.pokemondb.net/artwork/large/scatterbug.jpg
+665,665_0,Spewpa,Spewpa,,6,Bug,,Shed Skin,,Friend Guard,Ordinary,,,45,22,60,27,30,29,213,https://img.pokemondb.net/artwork/large/spewpa.jpg
+666,666_0,Vivillon,Vivillon,,6,Bug,Flying,Shield Dust,Compound Eyes,Friend Guard,Ordinary,,,80,52,50,90,50,89,411,https://img.pokemondb.net/artwork/large/vivillon.jpg
+667,667_0,Litleo,Litleo,,6,Fire,Normal,Rivalry,Unnerve,Moxie,Ordinary,,,62,50,58,73,54,72,369,https://img.pokemondb.net/artwork/large/litleo.jpg
+668,668_0,Pyroar,Pyroar,,6,Fire,Normal,Rivalry,Unnerve,Moxie,Ordinary,,,86,68,72,109,66,106,507,https://img.pokemondb.net/artwork/large/pyroar.jpg
+669,669_0,Flabebe,Flabebe,,6,Fairy,,Flower Veil,,Symbiosis,Ordinary,,,44,38,39,61,79,42,303,https://img.pokemondb.net/artwork/large/flabebe.jpg
+670,670_0,Floette,Floette,,6,Fairy,,Flower Veil,,Symbiosis,Ordinary,,,54,45,47,75,98,52,371,https://img.pokemondb.net/artwork/large/floette.jpg
+671,671_0,Florges,Florges,,6,Fairy,,Flower Veil,,Symbiosis,Ordinary,,,78,65,68,112,154,75,552,https://img.pokemondb.net/artwork/large/florges.jpg
+672,672_0,Skiddo,Skiddo,,6,Grass,,Sap Sipper,,Grass Pelt,Ordinary,,,66,65,48,62,57,52,350,https://img.pokemondb.net/artwork/large/skiddo.jpg
+673,673_0,Gogoat,Gogoat,,6,Grass,,Sap Sipper,,Grass Pelt,Ordinary,,,123,100,62,97,81,68,531,https://img.pokemondb.net/artwork/large/gogoat.jpg
+674,674_0,Pancham,Pancham,,6,Fighting,,Iron Fist,Mold Breaker,Scrappy,Ordinary,,,67,82,62,46,48,43,348,https://img.pokemondb.net/artwork/large/pancham.jpg
+675,675_0,Pangoro,Pangoro,,6,Fighting,Dark,Iron Fist,Mold Breaker,Scrappy,Ordinary,,,95,124,78,69,71,58,495,https://img.pokemondb.net/artwork/large/pangoro.jpg
+676,676_0,Furfrou,Furfrou,,6,Normal,,Fur Coat,,,Ordinary,,,75,80,60,65,90,102,472,https://img.pokemondb.net/artwork/large/furfrou.jpg
+677,677_0,Espurr,Espurr,,6,Psychic,,Keen Eye,Infiltrator,Own Tempo,Ordinary,,,62,48,54,63,60,68,355,https://img.pokemondb.net/artwork/large/espurr.jpg
+678,678_0,Meowstic,Meowstic Male,,6,Psychic,,Keen Eye,Infiltrator,Prankster,Ordinary,,,74,48,76,83,81,104,466,https://img.pokemondb.net/artwork/large/meowstic-male.jpg
+678,678_1,Meowstic,Meowstic Female,,6,Psychic,,Keen Eye,Infiltrator,Competitive,Ordinary,,,74,48,76,83,81,104,466,https://img.pokemondb.net/artwork/large/meowstic-female.jpg
+679,679_0,Honedge,Honedge,,6,Steel,Ghost,No Guard,,,Ordinary,,,45,80,100,35,37,28,325,https://img.pokemondb.net/artwork/large/honedge.jpg
+680,680_0,Doublade,Doublade,,6,Steel,Ghost,No Guard,,,Ordinary,,,59,110,150,45,49,35,448,https://img.pokemondb.net/artwork/large/doublade.jpg
+681,681_0,Aegislash,Aegislash Shield Form,Aegislash,6,Steel,Ghost,Stance Change,,,Ordinary,,,60,50,140,50,140,60,500,https://img.pokemondb.net/artwork/large/aegislash-shield-form.jpg
+681,681_1,Aegislash,Aegislash Blade Form,Aegislash-BF,6,Steel,Ghost,Stance Change,,,Ordinary,,,60,140,50,140,50,60,500,https://img.pokemondb.net/artwork/large/aegislash-blade-form.jpg
+682,682_0,Spritzee,Spritzee,,6,Fairy,,Healer,,Aroma Veil,Ordinary,,,78,52,60,63,65,23,341,https://img.pokemondb.net/artwork/large/spritzee.jpg
+683,683_0,Aromatisse,Aromatisse,,6,Fairy,,Healer,,Aroma Veil,Ordinary,,,101,72,72,99,89,29,462,https://img.pokemondb.net/artwork/large/aromatisse.jpg
+684,684_0,Swirlix,Swirlix,,6,Fairy,,Sweet Veil,,Unburden,Ordinary,,,62,48,66,59,57,49,341,https://img.pokemondb.net/artwork/large/swirlix.jpg
+685,685_0,Slurpuff,Slurpuff,,6,Fairy,,Sweet Veil,,Unburden,Ordinary,,,82,80,86,85,75,72,480,https://img.pokemondb.net/artwork/large/slurpuff.jpg
+686,686_0,Inkay,Inkay,,6,Dark,Psychic,Contrary,Suction Cups,Infiltrator,Ordinary,,,53,54,53,37,46,45,288,https://img.pokemondb.net/artwork/large/inkay.jpg
+687,687_0,Malamar,Malamar,,6,Dark,Psychic,Contrary,Suction Cups,Infiltrator,Ordinary,,,86,92,88,68,75,73,482,https://img.pokemondb.net/artwork/large/malamar.jpg
+688,688_0,Binacle,Binacle,,6,Rock,Water,Tough Claws,Sniper,Pickpocket,Ordinary,,,42,52,67,39,56,50,306,https://img.pokemondb.net/artwork/large/binacle.jpg
+689,689_0,Barbaracle,Barbaracle,,6,Rock,Water,Tough Claws,Sniper,Pickpocket,Ordinary,,,72,105,115,54,86,68,500,https://img.pokemondb.net/artwork/large/barbaracle.jpg
+690,690_0,Skrelp,Skrelp,,6,Poison,Water,Poison Point,Poison Touch,Adaptability,Ordinary,,,50,60,60,60,60,30,320,https://img.pokemondb.net/artwork/large/skrelp.jpg
+691,691_0,Dragalge,Dragalge,,6,Poison,Dragon,Poison Point,Poison Touch,Adaptability,Ordinary,,,65,75,90,97,123,44,494,https://img.pokemondb.net/artwork/large/dragalge.jpg
+692,692_0,Clauncher,Clauncher,,6,Water,,Mega Launcher,,,Ordinary,,,50,53,62,58,63,44,330,https://img.pokemondb.net/artwork/large/clauncher.jpg
+693,693_0,Clawitzer,Clawitzer,,6,Water,,Mega Launcher,,,Ordinary,,,71,73,88,120,89,59,500,https://img.pokemondb.net/artwork/large/clawitzer.jpg
+694,694_0,Helioptile,Helioptile,,6,Electric,Normal,Dry Skin,Sand Veil,Solar Power,Ordinary,,,44,38,33,61,43,70,289,https://img.pokemondb.net/artwork/large/helioptile.jpg
+695,695_0,Heliolisk,Heliolisk,,6,Electric,Normal,Dry Skin,Sand Veil,Solar Power,Ordinary,,,62,55,52,109,94,109,481,https://img.pokemondb.net/artwork/large/heliolisk.jpg
+696,696_0,Tyrunt,Tyrunt,,6,Rock,Dragon,Strong Jaw,,Sturdy,Ordinary,,,58,89,77,45,45,48,362,https://img.pokemondb.net/artwork/large/tyrunt.jpg
+697,697_0,Tyrantrum,Tyrantrum,,6,Rock,Dragon,Strong Jaw,,Rock Head,Ordinary,,,82,121,119,69,59,71,521,https://img.pokemondb.net/artwork/large/tyrantrum.jpg
+698,698_0,Amaura,Amaura,,6,Rock,Ice,Refrigerate,,Snow Warning,Ordinary,,,77,59,50,67,63,46,362,https://img.pokemondb.net/artwork/large/amaura.jpg
+699,699_0,Aurorus,Aurorus,,6,Rock,Ice,Refrigerate,,Snow Warning,Ordinary,,,123,77,72,99,92,58,521,https://img.pokemondb.net/artwork/large/aurorus.jpg
+700,700_0,Sylveon,Sylveon,,6,Fairy,,Cute Charm,,Pixilate,Ordinary,,,95,65,65,110,130,60,525,https://img.pokemondb.net/artwork/large/sylveon.jpg
+701,701_0,Hawlucha,Hawlucha,,6,Fighting,Flying,Limber,Unburden,Mold Breaker,Ordinary,,,78,92,75,74,63,118,500,https://img.pokemondb.net/artwork/large/hawlucha.jpg
+702,702_0,Dedenne,Dedenne,,6,Electric,Fairy,Cheek Pouch,Pickup,Plus,Ordinary,,,67,58,57,81,67,101,431,https://img.pokemondb.net/artwork/large/dedenne.jpg
+703,703_0,Carbink,Carbink,,6,Rock,Fairy,Clear Body,,Sturdy,Ordinary,,,50,50,150,50,150,50,500,https://img.pokemondb.net/artwork/large/carbink.jpg
+704,704_0,Goomy,Goomy,,6,Dragon,,Sap Sipper,Hydration,Gooey,Ordinary,,,45,50,35,55,75,40,300,https://img.pokemondb.net/artwork/large/goomy.jpg
+705,705_0,Sliggoo,Sliggoo,,6,Dragon,,Sap Sipper,Hydration,Gooey,Ordinary,,,68,75,53,83,113,60,452,https://img.pokemondb.net/artwork/large/sliggoo.jpg
+705,705_1,Sliggoo,Hisuian Sliggoo,,8,Steel,Dragon,Sap Sipper,Shell Armor,Gooey,Ordinary,,Hisuian,58,75,83,83,113,40,452,https://img.pokemondb.net/artwork/large/hisuian-sliggoo.jpg
+706,706_0,Goodra,Goodra,,6,Dragon,,Sap Sipper,Hydration,Gooey,Ordinary,,,90,100,70,110,150,80,600,https://img.pokemondb.net/artwork/large/goodra.jpg
+706,706_1,Goodra,Hisuian Goodra,,8,Steel,Dragon,Sap Sipper,Shell Armor,Gooey,Ordinary,,Hisuian,80,100,100,110,150,60,600,https://img.pokemondb.net/artwork/large/hisuian-goodra.jpg
+707,707_0,Klefki,Klefki,,6,Steel,Fairy,Prankster,,Magician,Ordinary,,,57,80,91,80,87,75,470,https://img.pokemondb.net/artwork/large/klefki.jpg
+708,708_0,Phantump,Phantump,,6,Ghost,Grass,Natural Cure,Frisk,Harvest,Ordinary,,,43,70,48,50,60,38,309,https://img.pokemondb.net/artwork/large/phantump.jpg
+709,709_0,Trevenant,Trevenant,,6,Ghost,Grass,Natural Cure,Frisk,Harvest,Ordinary,,,85,110,76,65,82,56,474,https://img.pokemondb.net/artwork/large/trevenant.jpg
+710,710_0,Pumpkaboo,Pumpkaboo Small,,6,Ghost,Grass,Pickup,Frisk,Insomnia,Ordinary,,,49,66,70,44,55,51,335,https://img.pokemondb.net/artwork/large/pumpkaboo-small.jpg
+710,710_1,Pumpkaboo,Pumpkaboo Average,,6,Ghost,Grass,Pickup,Frisk,Insomnia,Ordinary,,,44,66,70,44,55,56,335,https://img.pokemondb.net/artwork/large/pumpkaboo-average.jpg
+710,710_2,Pumpkaboo,Pumpkaboo Large,,6,Ghost,Grass,Pickup,Frisk,Insomnia,Ordinary,,,54,66,70,44,55,46,335,https://img.pokemondb.net/artwork/large/pumpkaboo-large.jpg
+710,710_3,Pumpkaboo,Pumpkaboo Super,,6,Ghost,Grass,Pickup,Frisk,Insomnia,Ordinary,,,59,66,70,44,55,41,335,https://img.pokemondb.net/artwork/large/pumpkaboo-super.jpg
+711,711_0,Gourgeist,Gourgeist Small,,6,Ghost,Grass,Pickup,Frisk,Insomnia,Ordinary,,,65,90,122,58,75,84,494,https://img.pokemondb.net/artwork/large/gourgeist-small.jpg
+711,711_1,Gourgeist,Gourgeist Average,,6,Ghost,Grass,Pickup,Frisk,Insomnia,Ordinary,,,55,85,122,58,75,99,494,https://img.pokemondb.net/artwork/large/gourgeist-average.jpg
+711,711_2,Gourgeist,Gourgeist Large,,6,Ghost,Grass,Pickup,Frisk,Insomnia,Ordinary,,,75,95,122,58,75,69,494,https://img.pokemondb.net/artwork/large/gourgeist-large.jpg
+711,711_3,Gourgeist,Gourgeist Super,,6,Ghost,Grass,Pickup,Frisk,Insomnia,Ordinary,,,85,100,122,58,75,54,494,https://img.pokemondb.net/artwork/large/gourgeist-super.jpg
+712,712_0,Bergmite,Bergmite,,6,Ice,,Own Tempo,Ice Body,Sturdy,Ordinary,,,55,69,85,32,35,28,304,https://img.pokemondb.net/artwork/large/bergmite.jpg
+713,713_0,Avalugg,Avalugg,,6,Ice,,Own Tempo,Ice Body,Sturdy,Ordinary,,,95,117,184,44,46,28,514,https://img.pokemondb.net/artwork/large/avalugg.jpg
+713,713_1,Avalugg,Hisuian Avalugg,,8,Ice,Rock,Strong Jaw,Ice Body,Sturdy,Ordinary,,Hisuian,95,127,184,34,36,38,514,https://img.pokemondb.net/artwork/large/hisuian-avalugg.jpg
+714,714_0,Noibat,Noibat,,6,Flying,Dragon,Frisk,Infiltrator,Telepathy,Ordinary,,,40,30,35,45,40,55,245,https://img.pokemondb.net/artwork/large/noibat.jpg
+715,715_0,Noivern,Noivern,,6,Flying,Dragon,Frisk,Infiltrator,Telepathy,Ordinary,,,85,70,80,97,80,123,535,https://img.pokemondb.net/artwork/large/noivern.jpg
+716,716_0,Xerneas,Xerneas,,6,Fairy,,Fairy Aura,,,Legendary,,,126,131,95,131,98,99,680,https://img.pokemondb.net/artwork/large/xerneas.jpg
+717,717_0,Yveltal,Yveltal,,6,Dark,Flying,Dark Aura,,,Legendary,,,126,131,95,131,98,99,680,https://img.pokemondb.net/artwork/large/yveltal.jpg
+718,718_0,Zygarde,Zygarde 50% Form,,6,Dragon,Ground,Aura Break,,,Legendary,,,108,100,121,81,95,95,600,https://img.pokemondb.net/artwork/large/zygarde-50%-form.jpg
+718,718_1,Zygarde,Zygarde 10% Form,,6,Dragon,Ground,Aura Break,,,Legendary,,,54,100,71,61,85,115,486,https://img.pokemondb.net/artwork/large/zygarde-10%-form.jpg
+718,718_2,Zygarde,Zygarde Complete Form,,6,Dragon,Ground,Power Construct,,,Legendary,,,216,100,121,91,95,85,708,https://img.pokemondb.net/artwork/large/zygarde-complete-form.jpg
+719,719_0,Diancie,Diancie,,6,Rock,Fairy,Clear Body,,,Mythical,,,50,100,150,100,150,50,600,https://img.pokemondb.net/artwork/large/diancie.jpg
+719,719_1,Diancie,Mega Diancie,,6,Rock,Fairy,Magic Bounce,,,Mythical,Mega,,50,160,110,160,110,110,700,https://img.pokemondb.net/artwork/large/mega-diancie.jpg
+720,720_0,Hoopa,Confined Hoopa,,6,Psychic,Ghost,Magician,,,Mythical,,,80,110,60,150,130,70,600,https://img.pokemondb.net/artwork/large/confined-hoopa.jpg
+720,720_1,Hoopa,Unbound Hoopa,,6,Psychic,Dark,Magician,,,Mythical,,,80,160,60,170,130,80,680,https://img.pokemondb.net/artwork/large/unbound-hoopa.jpg
+721,721_0,Volcanion,Volcanion,,6,Fire,Water,Water Absorb,,,Mythical,,,80,110,120,130,90,70,600,https://img.pokemondb.net/artwork/large/volcanion.jpg
+722,722_0,Rowlet,Rowlet,,7,Grass,Flying,Overgrow,,Long Reach,Ordinary,,,68,55,55,50,50,42,320,https://img.pokemondb.net/artwork/large/rowlet.jpg
+723,723_0,Dartrix,Dartrix,,7,Grass,Flying,Overgrow,,Long Reach,Ordinary,,,78,75,75,70,70,52,420,https://img.pokemondb.net/artwork/large/dartrix.jpg
+724,724_0,Decidueye,Decidueye,,7,Grass,Ghost,Overgrow,,Long Reach,Ordinary,,,78,107,75,100,100,70,530,https://img.pokemondb.net/artwork/large/decidueye.jpg
+724,724_1,Decidueye,Hisuian Decidueye,,8,Grass,Fighting,Overgrow,,Scrappy,Ordinary,,Hisuian,88,112,80,95,95,60,530,https://img.pokemondb.net/artwork/large/hisuian-decidueye.jpg
+725,725_0,Litten,Litten,,7,Fire,,Blaze,,Intimidate,Ordinary,,,45,65,40,60,40,70,320,https://img.pokemondb.net/artwork/large/litten.jpg
+726,726_0,Torracat,Torracat,,7,Fire,,Blaze,,Intimidate,Ordinary,,,65,85,50,80,50,90,420,https://img.pokemondb.net/artwork/large/torracat.jpg
+727,727_0,Incineroar,Incineroar,,7,Fire,Dark,Blaze,,Intimidate,Ordinary,,,95,115,90,80,90,60,530,https://img.pokemondb.net/artwork/large/incineroar.jpg
+728,728_0,Popplio,Popplio,,7,Water,,Torrent,,Liquid Voice,Ordinary,,,50,54,54,66,56,40,320,https://img.pokemondb.net/artwork/large/popplio.jpg
+729,729_0,Brionne,Brionne,,7,Water,,Torrent,,Liquid Voice,Ordinary,,,60,69,69,91,81,50,420,https://img.pokemondb.net/artwork/large/brionne.jpg
+730,730_0,Primarina,Primarina,,7,Water,Fairy,Torrent,,Liquid Voice,Ordinary,,,80,74,74,126,116,60,530,https://img.pokemondb.net/artwork/large/primarina.jpg
+731,731_0,Pikipek,Pikipek,,7,Normal,Flying,Keen Eye,Skill Link,Pickup,Ordinary,,,35,75,30,30,30,65,265,https://img.pokemondb.net/artwork/large/pikipek.jpg
+732,732_0,Trumbeak,Trumbeak,,7,Normal,Flying,Keen Eye,Skill Link,Pickup,Ordinary,,,55,85,50,40,50,75,355,https://img.pokemondb.net/artwork/large/trumbeak.jpg
+733,733_0,Toucannon,Toucannon,,7,Normal,Flying,Keen Eye,Skill Link,Sheer Force,Ordinary,,,80,120,75,75,75,60,485,https://img.pokemondb.net/artwork/large/toucannon.jpg
+734,734_0,Yungoos,Yungoos,,7,Normal,,Stakeout,Strong Jaw,Adaptability,Ordinary,,,48,70,30,30,30,45,253,https://img.pokemondb.net/artwork/large/yungoos.jpg
+735,735_0,Gumshoos,Gumshoos,,7,Normal,,Stakeout,Strong Jaw,Adaptability,Ordinary,,,88,110,60,55,60,45,418,https://img.pokemondb.net/artwork/large/gumshoos.jpg
+736,736_0,Grubbin,Grubbin,,7,Bug,,Swarm,,,Ordinary,,,47,62,45,55,45,46,300,https://img.pokemondb.net/artwork/large/grubbin.jpg
+737,737_0,Charjabug,Charjabug,,7,Bug,Electric,Battery,,,Ordinary,,,57,82,95,55,75,36,400,https://img.pokemondb.net/artwork/large/charjabug.jpg
+738,738_0,Vikavolt,Vikavolt,,7,Bug,Electric,Levitate,,,Ordinary,,,77,70,90,145,75,43,500,https://img.pokemondb.net/artwork/large/vikavolt.jpg
+739,739_0,Crabrawler,Crabrawler,,7,Fighting,,Hyper Cutter,Iron Fist,Anger Point,Ordinary,,,47,82,57,42,47,63,338,https://img.pokemondb.net/artwork/large/crabrawler.jpg
+740,740_0,Crabominable,Crabominable,,7,Fighting,Ice,Hyper Cutter,Iron Fist,Anger Point,Ordinary,,,97,132,77,62,67,43,478,https://img.pokemondb.net/artwork/large/crabominable.jpg
+741,741_0,Oricorio,Oricorio Baile Style,,7,Fire,Flying,Dancer,,,Ordinary,,,75,70,70,98,70,93,476,https://img.pokemondb.net/artwork/large/oricorio-baile-style.jpg
+741,741_1,Oricorio,Oricorio Pom-Pom Style,,7,Electric,Flying,Dancer,,,Ordinary,,,75,70,70,98,70,93,476,https://img.pokemondb.net/artwork/large/oricorio-pom-pom-style.jpg
+741,741_2,Oricorio,Oricorio Pa'u Style,,7,Psychic,Flying,Dancer,,,Ordinary,,,75,70,70,98,70,93,476,https://img.pokemondb.net/artwork/large/oricorio-pau-style.jpg
+741,741_3,Oricorio,Oricorio Sensu Style,,7,Ghost,Flying,Dancer,,,Ordinary,,,75,70,70,98,70,93,476,https://img.pokemondb.net/artwork/large/oricorio-sensu-style.jpg
+742,742_0,Cutiefly,Cutiefly,,7,Bug,Fairy,Honey Gather,Shield Dust,Sweet Veil,Ordinary,,,40,45,40,55,40,84,304,https://img.pokemondb.net/artwork/large/cutiefly.jpg
+743,743_0,Ribombee,Ribombee,,7,Bug,Fairy,Honey Gather,Shield Dust,Sweet Veil,Ordinary,,,60,55,60,95,70,124,464,https://img.pokemondb.net/artwork/large/ribombee.jpg
+744,744_0,Rockruff,Rockruff,,7,Rock,,Keen Eye,Vital Spirit,Steadfast,Ordinary,,,45,65,40,30,40,60,280,https://img.pokemondb.net/artwork/large/rockruff.jpg
+745,745_0,Lycanroc,Lycanroc Midday Form,,7,Rock,,Keen Eye,Sand Rush,Steadfast,Ordinary,,,75,115,65,55,65,112,487,https://img.pokemondb.net/artwork/large/lycanroc-midday-form.jpg
+745,745_1,Lycanroc,Lycanroc Midnight Form,,7,Rock,,Keen Eye,Vital Spirit,No Guard,Ordinary,,,85,115,75,55,75,82,487,https://img.pokemondb.net/artwork/large/lycanroc-midnight-form.jpg
+745,745_2,Lycanroc,Lycanroc Dusk Form,,7,Rock,,Tough Claws,,,Ordinary,,,75,117,65,55,65,110,487,https://img.pokemondb.net/artwork/large/lycanroc-dusk-form.jpg
+746,746_0,Wishiwashi,Wishiwashi Solo Form,,7,Water,,Schooling,,,Ordinary,,,45,20,20,25,25,40,175,https://img.pokemondb.net/artwork/large/wishiwashi-solo-form.jpg
+746,746_1,Wishiwashi,Wishiwashi School Form,,7,Water,,Schooling,,,Ordinary,,,45,140,130,140,135,30,620,https://img.pokemondb.net/artwork/large/wishiwashi-school-form.jpg
+747,747_0,Mareanie,Mareanie,,7,Poison,Water,Merciless,Limber,Regenerator,Ordinary,,,50,53,62,43,52,45,305,https://img.pokemondb.net/artwork/large/mareanie.jpg
+748,748_0,Toxapex,Toxapex,,7,Poison,Water,Merciless,Limber,Regenerator,Ordinary,,,50,63,152,53,142,35,495,https://img.pokemondb.net/artwork/large/toxapex.jpg
+749,749_0,Mudbray,Mudbray,,7,Ground,,Own Tempo,Stamina,Inner Focus,Ordinary,,,70,100,70,45,55,45,385,https://img.pokemondb.net/artwork/large/mudbray.jpg
+750,750_0,Mudsdale,Mudsdale,,7,Ground,,Own Tempo,Stamina,Inner Focus,Ordinary,,,100,125,100,55,85,35,500,https://img.pokemondb.net/artwork/large/mudsdale.jpg
+751,751_0,Dewpider,Dewpider,,7,Water,Bug,Water Bubble,,Water Absorb,Ordinary,,,38,40,52,40,72,27,269,https://img.pokemondb.net/artwork/large/dewpider.jpg
+752,752_0,Araquanid,Araquanid,,7,Water,Bug,Water Bubble,,Water Absorb,Ordinary,,,68,70,92,50,132,42,454,https://img.pokemondb.net/artwork/large/araquanid.jpg
+753,753_0,Fomantis,Fomantis,,7,Grass,,Leaf Guard,,Contrary,Ordinary,,,40,55,35,50,35,35,250,https://img.pokemondb.net/artwork/large/fomantis.jpg
+754,754_0,Lurantis,Lurantis,,7,Grass,,Leaf Guard,,Contrary,Ordinary,,,70,105,90,80,90,45,480,https://img.pokemondb.net/artwork/large/lurantis.jpg
+755,755_0,Morelull,Morelull,,7,Grass,Fairy,Illuminate,Effect Spore,Rain Dish,Ordinary,,,40,35,55,65,75,15,285,https://img.pokemondb.net/artwork/large/morelull.jpg
+756,756_0,Shiinotic,Shiinotic,,7,Grass,Fairy,Illuminate,Effect Spore,Rain Dish,Ordinary,,,60,45,80,90,100,30,405,https://img.pokemondb.net/artwork/large/shiinotic.jpg
+757,757_0,Salandit,Salandit,,7,Poison,Fire,Corrosion,,Oblivious,Ordinary,,,48,44,40,71,40,77,320,https://img.pokemondb.net/artwork/large/salandit.jpg
+758,758_0,Salazzle,Salazzle,,7,Poison,Fire,Corrosion,,Oblivious,Ordinary,,,68,64,60,111,60,117,480,https://img.pokemondb.net/artwork/large/salazzle.jpg
+759,759_0,Stufful,Stufful,,7,Normal,Fighting,Fluffy,Klutz,Cute Charm,Ordinary,,,70,75,50,45,50,50,340,https://img.pokemondb.net/artwork/large/stufful.jpg
+760,760_0,Bewear,Bewear,,7,Normal,Fighting,Fluffy,Klutz,Unnerve,Ordinary,,,120,125,80,55,60,60,500,https://img.pokemondb.net/artwork/large/bewear.jpg
+761,761_0,Bounsweet,Bounsweet,,7,Grass,,Leaf Guard,Oblivious,Sweet Veil,Ordinary,,,42,30,38,30,38,32,210,https://img.pokemondb.net/artwork/large/bounsweet.jpg
+762,762_0,Steenee,Steenee,,7,Grass,,Leaf Guard,Oblivious,Sweet Veil,Ordinary,,,52,40,48,40,48,62,290,https://img.pokemondb.net/artwork/large/steenee.jpg
+763,763_0,Tsareena,Tsareena,,7,Grass,,Leaf Guard,Queenly Majesty,Sweet Veil,Ordinary,,,72,120,98,50,98,72,510,https://img.pokemondb.net/artwork/large/tsareena.jpg
+764,764_0,Comfey,Comfey,,7,Fairy,,Flower Veil,Triage,Natural Cure,Ordinary,,,51,52,90,82,110,100,485,https://img.pokemondb.net/artwork/large/comfey.jpg
+765,765_0,Oranguru,Oranguru,,7,Normal,Psychic,Inner Focus,Telepathy,Symbiosis,Ordinary,,,90,60,80,90,110,60,490,https://img.pokemondb.net/artwork/large/oranguru.jpg
+766,766_0,Passimian,Passimian,,7,Fighting,,Receiver,,Defiant,Ordinary,,,100,120,90,40,60,80,490,https://img.pokemondb.net/artwork/large/passimian.jpg
+767,767_0,Wimpod,Wimpod,,7,Bug,Water,Wimp Out,,,Ordinary,,,25,35,40,20,30,80,230,https://img.pokemondb.net/artwork/large/wimpod.jpg
+768,768_0,Golisopod,Golisopod,,7,Bug,Water,Emergency Exit,,,Ordinary,,,75,125,140,60,90,40,530,https://img.pokemondb.net/artwork/large/golisopod.jpg
+769,769_0,Sandygast,Sandygast,,7,Ghost,Ground,Water Compaction,,Sand Veil,Ordinary,,,55,55,80,70,45,15,320,https://img.pokemondb.net/artwork/large/sandygast.jpg
+770,770_0,Palossand,Palossand,,7,Ghost,Ground,Water Compaction,,Sand Veil,Ordinary,,,85,75,110,100,75,35,480,https://img.pokemondb.net/artwork/large/palossand.jpg
+771,771_0,Pyukumuku,Pyukumuku,,7,Water,,Innards Out,,Unaware,Ordinary,,,55,60,130,30,130,5,410,https://img.pokemondb.net/artwork/large/pyukumuku.jpg
+772,772_0,Type: Null,Type: Null,,7,Normal,,Battle Armor,,,Legendary,,,95,95,95,95,95,59,534,https://img.pokemondb.net/artwork/large/type:-null.jpg
+773,773_0,Silvally,Silvally,,7,Normal,,RKS System,,,Legendary,,,95,95,95,95,95,95,570,https://img.pokemondb.net/artwork/large/silvally.jpg
+774,774_0,Minior,Minior Meteor Form,,7,Rock,Flying,Shields Down,,,Ordinary,,,60,60,100,60,100,60,440,https://img.pokemondb.net/artwork/large/minior-meteor-form.jpg
+774,774_1,Minior,Minior Red Core,,7,Rock,Flying,Shields Down,,,Ordinary,,,60,100,60,100,60,120,500,https://img.pokemondb.net/artwork/large/minior-red-core.jpg
+774,774_2,Minior,Minior Orange Core,,7,Rock,Flying,Shields Down,,,Ordinary,,,60,100,60,100,60,120,500,https://img.pokemondb.net/artwork/large/minior-orange-core.jpg
+774,774_3,Minior,Minior Yellow Core,,7,Rock,Flying,Shields Down,,,Ordinary,,,60,100,60,100,60,120,500,https://img.pokemondb.net/artwork/large/minior-yellow-core.jpg
+774,774_4,Minior,Minior Green Core,,7,Rock,Flying,Shields Down,,,Ordinary,,,60,100,60,100,60,120,500,https://img.pokemondb.net/artwork/large/minior-green-core.jpg
+774,774_5,Minior,Minior Blue Core,,7,Rock,Flying,Shields Down,,,Ordinary,,,60,100,60,100,60,120,500,https://img.pokemondb.net/artwork/large/minior-blue-core.jpg
+774,774_6,Minior,Minior Indigo Core,,7,Rock,Flying,Shields Down,,,Ordinary,,,60,100,60,100,60,120,500,https://img.pokemondb.net/artwork/large/minior-indigo-core.jpg
+774,774_7,Minior,Minior Purple Core,,7,Rock,Flying,Shields Down,,,Ordinary,,,60,100,60,100,60,120,500,https://img.pokemondb.net/artwork/large/minior-purple-core.jpg
+775,775_0,Komala,Komala,,7,Normal,,Comatose,,,Ordinary,,,65,115,65,75,95,65,480,https://img.pokemondb.net/artwork/large/komala.jpg
+776,776_0,Turtonator,Turtonator,,7,Fire,Dragon,Shell Armor,,,Ordinary,,,60,78,135,91,85,36,485,https://img.pokemondb.net/artwork/large/turtonator.jpg
+777,777_0,Togedemaru,Togedemaru,,7,Electric,Steel,Iron Barbs,Lightning Rod,Sturdy,Ordinary,,,65,98,63,40,73,96,435,https://img.pokemondb.net/artwork/large/togedemaru.jpg
+778,778_0,Mimikyu,Mimikyu,,7,Ghost,Fairy,Disguise,,,Ordinary,,,55,90,80,50,105,96,476,https://img.pokemondb.net/artwork/large/mimikyu.jpg
+779,779_0,Bruxish,Bruxish,,7,Water,Psychic,Dazzling,Strong Jaw,Wonder Skin,Ordinary,,,68,105,70,70,70,92,475,https://img.pokemondb.net/artwork/large/bruxish.jpg
+780,780_0,Drampa,Drampa,,7,Normal,Dragon,Berserk,Sap Sipper,Cloud Nine,Ordinary,,,78,60,85,135,91,36,485,https://img.pokemondb.net/artwork/large/drampa.jpg
+781,781_0,Dhelmise,Dhelmise,,7,Ghost,Grass,Steelworker,,,Ordinary,,,70,131,100,86,90,40,517,https://img.pokemondb.net/artwork/large/dhelmise.jpg
+782,782_0,Jangmo-o,Jangmo-o,,7,Dragon,,Bulletproof,Soundproof,Overcoat,Ordinary,,,45,55,65,45,45,45,300,https://img.pokemondb.net/artwork/large/jangmo-o.jpg
+783,783_0,Hakamo-o,Hakamo-o,,7,Dragon,Fighting,Bulletproof,Soundproof,Overcoat,Ordinary,,,55,75,90,65,70,65,420,https://img.pokemondb.net/artwork/large/hakamo-o.jpg
+784,784_0,Kommo-o,Kommo-o,,7,Dragon,Fighting,Bulletproof,Soundproof,Overcoat,Ordinary,,,75,110,125,100,105,85,600,https://img.pokemondb.net/artwork/large/kommo-o.jpg
+785,785_0,Tapu Koko,Tapu Koko,,7,Electric,Fairy,Electric Surge,,Telepathy,Legendary,,,70,115,85,95,75,130,570,https://img.pokemondb.net/artwork/large/tapu-koko.jpg
+786,786_0,Tapu Lele,Tapu Lele,,7,Psychic,Fairy,Psychic Surge,,Telepathy,Legendary,,,70,85,75,130,115,95,570,https://img.pokemondb.net/artwork/large/tapu-lele.jpg
+787,787_0,Tapu Bulu,Tapu Bulu,,7,Grass,Fairy,Grassy Surge,,Telepathy,Legendary,,,70,130,115,85,95,75,570,https://img.pokemondb.net/artwork/large/tapu-bulu.jpg
+788,788_0,Tapu Fini,Tapu Fini,,7,Water,Fairy,Misty Surge,,Telepathy,Legendary,,,70,75,115,95,130,85,570,https://img.pokemondb.net/artwork/large/tapu-fini.jpg
+789,789_0,Cosmog,Cosmog,,7,Psychic,,Unaware,,,Legendary,,,43,29,31,29,31,37,200,https://img.pokemondb.net/artwork/large/cosmog.jpg
+790,790_0,Cosmoem,Cosmoem,,7,Psychic,,Sturdy,,,Legendary,,,43,29,131,29,131,37,400,https://img.pokemondb.net/artwork/large/cosmoem.jpg
+791,791_0,Solgaleo,Solgaleo,,7,Psychic,Steel,Full Metal Body,,,Legendary,,,137,137,107,113,89,97,680,https://img.pokemondb.net/artwork/large/solgaleo.jpg
+792,792_0,Lunala,Lunala,,7,Psychic,Ghost,Shadow Shield,,,Legendary,,,137,113,89,137,107,97,680,https://img.pokemondb.net/artwork/large/lunala.jpg
+793,793_0,Nihilego,Nihilego,,7,Rock,Poison,Beast Boost,,,Ultra Beast,,,109,53,47,127,131,103,570,https://img.pokemondb.net/artwork/large/nihilego.jpg
+794,794_0,Buzzwole,Buzzwole,,7,Bug,Fighting,Beast Boost,,,Ultra Beast,,,107,139,139,53,53,79,570,https://img.pokemondb.net/artwork/large/buzzwole.jpg
+795,795_0,Pheromosa,Pheromosa,,7,Bug,Fighting,Beast Boost,,,Ultra Beast,,,71,137,37,137,37,151,570,https://img.pokemondb.net/artwork/large/pheromosa.jpg
+796,796_0,Xurkitree,Xurkitree,,7,Electric,,Beast Boost,,,Ultra Beast,,,83,89,71,173,71,83,570,https://img.pokemondb.net/artwork/large/xurkitree.jpg
+797,797_0,Celesteela,Celesteela,,7,Steel,Flying,Beast Boost,,,Ultra Beast,,,97,101,103,107,101,61,570,https://img.pokemondb.net/artwork/large/celesteela.jpg
+798,798_0,Kartana,Kartana,,7,Grass,Steel,Beast Boost,,,Ultra Beast,,,59,181,131,59,31,109,570,https://img.pokemondb.net/artwork/large/kartana.jpg
+799,799_0,Guzzlord,Guzzlord,,7,Dark,Dragon,Beast Boost,,,Ultra Beast,,,223,101,53,97,53,43,570,https://img.pokemondb.net/artwork/large/guzzlord.jpg
+800,800_0,Necrozma,Necrozma,,7,Psychic,,Prism Armor,,,Legendary,,,97,107,101,127,89,79,600,https://img.pokemondb.net/artwork/large/necrozma.jpg
+800,800_1,Necrozma,Dusk Mane Necrozma,,7,Psychic,Steel,Prism Armor,,,Legendary,,,97,157,127,113,109,77,680,https://img.pokemondb.net/artwork/large/dusk-mane-necrozma.jpg
+800,800_2,Necrozma,Dawn Wings Necrozma,,7,Psychic,Ghost,Prism Armor,,,Legendary,,,97,113,109,157,127,77,680,https://img.pokemondb.net/artwork/large/dawn-wings-necrozma.jpg
+800,800_3,Necrozma,Ultra Necrozma,,7,Psychic,Dragon,Neuroforce,,,Legendary,,,97,167,97,167,97,129,754,https://img.pokemondb.net/artwork/large/ultra-necrozma.jpg
+801,801_0,Magearna,Magearna,,7,Steel,Fairy,Soul-Heart,,,Mythical,,,80,95,115,130,115,65,600,https://img.pokemondb.net/artwork/large/magearna.jpg
+802,802_0,Marshadow,Marshadow,,7,Fighting,Ghost,Technician,,,Mythical,,,90,125,80,90,90,125,600,https://img.pokemondb.net/artwork/large/marshadow.jpg
+803,803_0,Poipole,Poipole,,7,Poison,,Beast Boost,,,Ultra Beast,,,67,73,67,73,67,73,420,https://img.pokemondb.net/artwork/large/poipole.jpg
+804,804_0,Naganadel,Naganadel,,7,Poison,Dragon,Beast Boost,,,Ultra Beast,,,73,73,73,127,73,121,540,https://img.pokemondb.net/artwork/large/naganadel.jpg
+805,805_0,Stakataka,Stakataka,,7,Rock,Steel,Beast Boost,,,Ultra Beast,,,61,131,211,53,101,13,570,https://img.pokemondb.net/artwork/large/stakataka.jpg
+806,806_0,Blacephalon,Blacephalon,,7,Fire,Ghost,Beast Boost,,,Ultra Beast,,,53,127,53,151,79,107,570,https://img.pokemondb.net/artwork/large/blacephalon.jpg
+807,807_0,Zeraora,Zeraora,,7,Electric,,Volt Absorb,,,Mythical,,,88,112,75,102,80,143,600,https://img.pokemondb.net/artwork/large/zeraora.jpg
+808,808_0,Meltan,Meltan,,7,Steel,,Magnet Pull,,,Mythical,,,46,65,65,55,35,34,300,https://img.pokemondb.net/artwork/large/meltan.jpg
+809,809_0,Melmetal,Melmetal,,7,Steel,,Iron Fist,,,Mythical,,,135,143,143,80,65,34,600,https://img.pokemondb.net/artwork/large/melmetal.jpg
+810,810_0,Grookey,Grookey,,8,Grass,,Overgrow,,Grassy Surge,Ordinary,,,50,65,50,40,40,65,310,https://img.pokemondb.net/artwork/large/grookey.jpg
+811,811_0,Thwackey,Thwackey,,8,Grass,,Overgrow,,Grassy Surge,Ordinary,,,70,85,70,55,60,80,420,https://img.pokemondb.net/artwork/large/thwackey.jpg
+812,812_0,Rillaboom,Rillaboom,,8,Grass,,Overgrow,,Grassy Surge,Ordinary,,,100,125,90,60,70,85,530,https://img.pokemondb.net/artwork/large/rillaboom.jpg
+813,813_0,Scorbunny,Scorbunny,,8,Fire,,Blaze,,Libero,Ordinary,,,50,71,40,40,40,69,310,https://img.pokemondb.net/artwork/large/scorbunny.jpg
+814,814_0,Raboot,Raboot,,8,Fire,,Blaze,,Libero,Ordinary,,,65,86,60,55,60,94,420,https://img.pokemondb.net/artwork/large/raboot.jpg
+815,815_0,Cinderace,Cinderace,,8,Fire,,Blaze,,Libero,Ordinary,,,80,116,75,65,75,119,530,https://img.pokemondb.net/artwork/large/cinderace.jpg
+816,816_0,Sobble,Sobble,,8,Water,,Torrent,,Sniper,Ordinary,,,50,40,40,70,40,70,310,https://img.pokemondb.net/artwork/large/sobble.jpg
+817,817_0,Drizzile,Drizzile,,8,Water,,Torrent,,Sniper,Ordinary,,,65,60,55,95,55,90,420,https://img.pokemondb.net/artwork/large/drizzile.jpg
+818,818_0,Inteleon,Inteleon,,8,Water,,Torrent,,Sniper,Ordinary,,,70,85,65,125,65,120,530,https://img.pokemondb.net/artwork/large/inteleon.jpg
+819,819_0,Skwovet,Skwovet,,8,Normal,,Cheek Pouch,,Gluttony,Ordinary,,,70,55,55,35,35,25,275,https://img.pokemondb.net/artwork/large/skwovet.jpg
+820,820_0,Greedent,Greedent,,8,Normal,,Cheek Pouch,,Gluttony,Ordinary,,,120,95,95,55,75,20,460,https://img.pokemondb.net/artwork/large/greedent.jpg
+821,821_0,Rookidee,Rookidee,,8,Flying,,Keen Eye,Unnerve,Big Pecks,Ordinary,,,38,47,35,33,35,57,245,https://img.pokemondb.net/artwork/large/rookidee.jpg
+822,822_0,Corvisquire,Corvisquire,,8,Flying,,Keen Eye,Unnerve,Big Pecks,Ordinary,,,68,67,55,43,55,77,365,https://img.pokemondb.net/artwork/large/corvisquire.jpg
+823,823_0,Corviknight,Corviknight,,8,Flying,Steel,Pressure,Unnerve,Mirror Armor,Ordinary,,,98,87,105,53,85,67,495,https://img.pokemondb.net/artwork/large/corviknight.jpg
+824,824_0,Blipbug,Blipbug,,8,Bug,,Swarm,Compound Eyes,Telepathy,Ordinary,,,25,20,20,25,45,45,180,https://img.pokemondb.net/artwork/large/blipbug.jpg
+825,825_0,Dottler,Dottler,,8,Bug,Psychic,Swarm,Compound Eyes,Telepathy,Ordinary,,,50,35,80,50,90,30,335,https://img.pokemondb.net/artwork/large/dottler.jpg
+826,826_0,Orbeetle,Orbeetle,,8,Bug,Psychic,Swarm,Frisk,Telepathy,Ordinary,,,60,45,110,80,120,90,505,https://img.pokemondb.net/artwork/large/orbeetle.jpg
+827,827_0,Nickit,Nickit,,8,Dark,,Run Away,Unburden,Stakeout,Ordinary,,,40,28,28,47,52,50,245,https://img.pokemondb.net/artwork/large/nickit.jpg
+828,828_0,Thievul,Thievul,,8,Dark,,Run Away,Unburden,Stakeout,Ordinary,,,70,58,58,87,92,90,455,https://img.pokemondb.net/artwork/large/thievul.jpg
+829,829_0,Gossifleur,Gossifleur,,8,Grass,,Cotton Down,Regenerator,Effect Spore,Ordinary,,,40,40,60,40,60,10,250,https://img.pokemondb.net/artwork/large/gossifleur.jpg
+830,830_0,Eldegoss,Eldegoss,,8,Grass,,Cotton Down,Regenerator,Effect Spore,Ordinary,,,60,50,90,80,120,60,460,https://img.pokemondb.net/artwork/large/eldegoss.jpg
+831,831_0,Wooloo,Wooloo,,8,Normal,,Fluffy,Run Away,Bulletproof,Ordinary,,,42,40,55,40,45,48,270,https://img.pokemondb.net/artwork/large/wooloo.jpg
+832,832_0,Dubwool,Dubwool,,8,Normal,,Fluffy,Steadfast,Bulletproof,Ordinary,,,72,80,100,60,90,88,490,https://img.pokemondb.net/artwork/large/dubwool.jpg
+833,833_0,Chewtle,Chewtle,,8,Water,,Strong Jaw,Shell Armor,Swift Swim,Ordinary,,,50,64,50,38,38,44,284,https://img.pokemondb.net/artwork/large/chewtle.jpg
+834,834_0,Drednaw,Drednaw,,8,Water,Rock,Strong Jaw,Shell Armor,Swift Swim,Ordinary,,,90,115,90,48,68,74,485,https://img.pokemondb.net/artwork/large/drednaw.jpg
+835,835_0,Yamper,Yamper,,8,Electric,,Ball Fetch,,Rattled,Ordinary,,,59,45,50,40,50,26,270,https://img.pokemondb.net/artwork/large/yamper.jpg
+836,836_0,Boltund,Boltund,,8,Electric,,Strong Jaw,,Competitive,Ordinary,,,69,90,60,90,60,121,490,https://img.pokemondb.net/artwork/large/boltund.jpg
+837,837_0,Rolycoly,Rolycoly,,8,Rock,,Steam Engine,Heatproof,Flash Fire,Ordinary,,,30,40,50,40,50,30,240,https://img.pokemondb.net/artwork/large/rolycoly.jpg
+838,838_0,Carkol,Carkol,,8,Rock,Fire,Steam Engine,Flame Body,Flash Fire,Ordinary,,,80,60,90,60,70,50,410,https://img.pokemondb.net/artwork/large/carkol.jpg
+839,839_0,Coalossal,Coalossal,,8,Rock,Fire,Steam Engine,Flame Body,Flash Fire,Ordinary,,,110,80,120,80,90,30,510,https://img.pokemondb.net/artwork/large/coalossal.jpg
+840,840_0,Applin,Applin,,8,Grass,Dragon,Ripen,Gluttony,Bulletproof,Ordinary,,,40,40,80,40,40,20,260,https://img.pokemondb.net/artwork/large/applin.jpg
+841,841_0,Flapple,Flapple,,8,Grass,Dragon,Ripen,Gluttony,Hustle,Ordinary,,,70,110,80,95,60,70,485,https://img.pokemondb.net/artwork/large/flapple.jpg
+842,842_0,Appletun,Appletun,,8,Grass,Dragon,Ripen,Gluttony,Thick Fat,Ordinary,,,110,85,80,100,80,30,485,https://img.pokemondb.net/artwork/large/appletun.jpg
+843,843_0,Silicobra,Silicobra,,8,Ground,,Sand Spit,Shed Skin,Sand Veil,Ordinary,,,52,57,75,35,50,46,315,https://img.pokemondb.net/artwork/large/silicobra.jpg
+844,844_0,Sandaconda,Sandaconda,,8,Ground,,Sand Spit,Shed Skin,Sand Veil,Ordinary,,,72,107,125,65,70,71,510,https://img.pokemondb.net/artwork/large/sandaconda.jpg
+845,845_0,Cramorant,Cramorant,,8,Flying,Water,Gulp Missile,,,Ordinary,,,70,85,55,85,95,85,475,https://img.pokemondb.net/artwork/large/cramorant.jpg
+846,846_0,Arrokuda,Arrokuda,,8,Water,,Swift Swim,,Propeller Tail,Ordinary,,,41,63,40,40,30,66,280,https://img.pokemondb.net/artwork/large/arrokuda.jpg
+847,847_0,Barraskewda,Barraskewda,,8,Water,,Swift Swim,,Propeller Tail,Ordinary,,,61,123,60,60,50,136,490,https://img.pokemondb.net/artwork/large/barraskewda.jpg
+848,848_0,Toxel,Toxel,,8,Electric,Poison,Rattled,Static,Klutz,Ordinary,,,40,38,35,54,35,40,242,https://img.pokemondb.net/artwork/large/toxel.jpg
+849,849_0,Toxtricity,Toxtricity Amped Form,,8,Electric,Poison,Punk Rock,Plus,Technician,Ordinary,,,75,98,70,114,70,75,502,https://img.pokemondb.net/artwork/large/toxtricity-amped-form.jpg
+849,849_1,Toxtricity,Toxtricity Low-Key Form,,8,Electric,Poison,Punk Rock,Minus,Technician,Ordinary,,,75,98,70,114,70,75,502,https://img.pokemondb.net/artwork/large/toxtricity-low-key-form.jpg
+850,850_0,Sizzlipede,Sizzlipede,,8,Fire,Bug,Flash Fire,White Smoke,Flame Body,Ordinary,,,50,65,45,50,50,45,305,https://img.pokemondb.net/artwork/large/sizzlipede.jpg
+851,851_0,Centiskorch,Centiskorch,,8,Fire,Bug,Flash Fire,White Smoke,Flame Body,Ordinary,,,100,115,65,90,90,65,525,https://img.pokemondb.net/artwork/large/centiskorch.jpg
+852,852_0,Clobbopus,Clobbopus,,8,Fighting,,Limber,,Technician,Ordinary,,,50,68,60,50,50,32,310,https://img.pokemondb.net/artwork/large/clobbopus.jpg
+853,853_0,Grapploct,Grapploct,,8,Fighting,,Limber,,Technician,Ordinary,,,80,118,90,70,80,42,480,https://img.pokemondb.net/artwork/large/grapploct.jpg
+854,854_0,Sinistea,Sinistea,,8,Ghost,,Weak Armor,,Cursed Body,Ordinary,,,40,45,45,74,54,50,308,https://img.pokemondb.net/artwork/large/sinistea.jpg
+855,855_0,Polteageist,Polteageist,,8,Ghost,,Weak Armor,,Cursed Body,Ordinary,,,60,65,65,134,114,70,508,https://img.pokemondb.net/artwork/large/polteageist.jpg
+856,856_0,Hatenna,Hatenna,,8,Psychic,,Healer,Anticipation,Magic Bounce,Ordinary,,,42,30,45,56,53,39,265,https://img.pokemondb.net/artwork/large/hatenna.jpg
+857,857_0,Hattrem,Hattrem,,8,Psychic,,Healer,Anticipation,Magic Bounce,Ordinary,,,57,40,65,86,73,49,370,https://img.pokemondb.net/artwork/large/hattrem.jpg
+858,858_0,Hatterene,Hatterene,,8,Psychic,Fairy,Healer,Anticipation,Magic Bounce,Ordinary,,,57,90,95,136,103,29,510,https://img.pokemondb.net/artwork/large/hatterene.jpg
+859,859_0,Impidimp,Impidimp,,8,Dark,Fairy,Prankster,Frisk,Pickpocket,Ordinary,,,45,45,30,55,40,50,265,https://img.pokemondb.net/artwork/large/impidimp.jpg
+860,860_0,Morgrem,Morgrem,,8,Dark,Fairy,Prankster,Frisk,Pickpocket,Ordinary,,,65,60,45,75,55,70,370,https://img.pokemondb.net/artwork/large/morgrem.jpg
+861,861_0,Grimmsnarl,Grimmsnarl,,8,Dark,Fairy,Prankster,Frisk,Pickpocket,Ordinary,,,95,120,65,95,75,60,510,https://img.pokemondb.net/artwork/large/grimmsnarl.jpg
+862,862_0,Obstagoon,Obstagoon,,8,Dark,Normal,Reckless,Guts,Defiant,Ordinary,,,93,90,101,60,81,95,520,https://img.pokemondb.net/artwork/large/obstagoon.jpg
+863,863_0,Perrserker,Perrserker,,8,Steel,,Battle Armor,Tough Claws,Steely Spirit,Ordinary,,,70,110,100,50,60,50,440,https://img.pokemondb.net/artwork/large/perrserker.jpg
+864,864_0,Cursola,Cursola,,8,Ghost,,Weak Armor,,Perish Body,Ordinary,,,60,95,50,145,130,30,510,https://img.pokemondb.net/artwork/large/cursola.jpg
+865,865_0,Sirfetch'd,Sirfetch'd,,8,Fighting,,Steadfast,,Scrappy,Ordinary,,,62,135,95,68,82,65,507,https://img.pokemondb.net/artwork/large/sirfetchd.jpg
+866,866_0,Mr. Rime,Mr. Rime,,8,Ice,Psychic,Tangled Feet,Screen Cleaner,Ice Body,Ordinary,,,80,85,75,110,100,70,520,https://img.pokemondb.net/artwork/large/mr-rime.jpg
+867,867_0,Runerigus,Runerigus,,8,Ground,Ghost,Wandering Spirit,,,Ordinary,,,58,95,145,50,105,30,483,https://img.pokemondb.net/artwork/large/runerigus.jpg
+868,868_0,Milcery,Milcery,,8,Fairy,,Sweet Veil,,Aroma Veil,Ordinary,,,45,40,40,50,61,34,270,https://img.pokemondb.net/artwork/large/milcery.jpg
+869,869_0,Alcremie,Alcremie,,8,Fairy,,Sweet Veil,,Aroma Veil,Ordinary,,,65,60,75,110,121,64,495,https://img.pokemondb.net/artwork/large/alcremie.jpg
+870,870_0,Falinks,Falinks,,8,Fighting,,Battle Armor,,Defiant,Ordinary,,,65,100,100,70,60,75,470,https://img.pokemondb.net/artwork/large/falinks.jpg
+871,871_0,Pincurchin,Pincurchin,,8,Electric,,Lightning Rod,,Electric Surge,Ordinary,,,48,101,95,91,85,15,435,https://img.pokemondb.net/artwork/large/pincurchin.jpg
+872,872_0,Snom,Snom,,8,Ice,Bug,Shield Dust,,Ice Scales,Ordinary,,,30,25,35,45,30,20,185,https://img.pokemondb.net/artwork/large/snom.jpg
+873,873_0,Frosmoth,Frosmoth,,8,Ice,Bug,Shield Dust,,Ice Scales,Ordinary,,,70,65,60,125,90,65,475,https://img.pokemondb.net/artwork/large/frosmoth.jpg
+874,874_0,Stonjourner,Stonjourner,,8,Rock,,Power Spot,,,Ordinary,,,100,125,135,20,20,70,470,https://img.pokemondb.net/artwork/large/stonjourner.jpg
+875,875_0,Eiscue,Eiscue Ice Face,,8,Ice,,Ice Face,,,Ordinary,,,75,80,110,65,90,50,470,https://img.pokemondb.net/artwork/large/eiscue-ice-face.jpg
+875,875_1,Eiscue,Eiscue Noice Face,,8,Ice,,Ice Face,,,Ordinary,,,75,80,70,65,50,130,470,https://img.pokemondb.net/artwork/large/eiscue-noice-face.jpg
+876,876_0,Indeedee,Indeedee Male,,8,Psychic,Normal,Inner Focus,Synchronize,Psychic Surge,Ordinary,,,60,65,55,105,95,95,475,https://img.pokemondb.net/artwork/large/indeedee-male.jpg
+876,876_1,Indeedee,Indeedee Female,,8,Psychic,Normal,Own Tempo,Synchronize,Psychic Surge,Ordinary,,,70,55,65,95,105,85,475,https://img.pokemondb.net/artwork/large/indeedee-female.jpg
+877,877_0,Morpeko,Morpeko Full Berry Mode,,8,Electric,Dark,Hunger Switch,,,Ordinary,,,58,95,58,70,58,97,436,https://img.pokemondb.net/artwork/large/morpeko-full-berry-mode.jpg
+877,877_1,Morpeko,Morpeko Hangry Mode,,8,Electric,Dark,Hunger Switch,,,Ordinary,,,58,95,58,70,58,97,436,https://img.pokemondb.net/artwork/large/morpeko-hangry-mode.jpg
+878,878_0,Cufant,Cufant,,8,Steel,,Sheer Force,,Heavy Metal,Ordinary,,,72,80,49,40,49,40,330,https://img.pokemondb.net/artwork/large/cufant.jpg
+879,879_0,Copperajah,Copperajah,,8,Steel,,Sheer Force,,Heavy Metal,Ordinary,,,122,130,69,80,69,30,500,https://img.pokemondb.net/artwork/large/copperajah.jpg
+880,880_0,Dracozolt,Dracozolt,,8,Electric,Dragon,Volt Absorb,Hustle,Sand Rush,Ordinary,,,90,100,90,80,70,75,505,https://img.pokemondb.net/artwork/large/dracozolt.jpg
+881,881_0,Arctozolt,Arctozolt,,8,Electric,Ice,Volt Absorb,Static,Slush Rush,Ordinary,,,90,100,90,90,80,55,505,https://img.pokemondb.net/artwork/large/arctozolt.jpg
+882,882_0,Dracovish,Dracovish,,8,Water,Dragon,Water Absorb,Strong Jaw,Sand Rush,Ordinary,,,90,90,100,70,80,75,505,https://img.pokemondb.net/artwork/large/dracovish.jpg
+883,883_0,Arctovish,Arctovish,,8,Water,Ice,Water Absorb,Ice Body,Slush Rush,Ordinary,,,90,90,100,80,90,55,505,https://img.pokemondb.net/artwork/large/arctovish.jpg
+884,884_0,Duraludon,Duraludon,,8,Steel,Dragon,Light Metal,Heavy Metal,Stalwart,Ordinary,,,70,95,115,120,50,85,535,https://img.pokemondb.net/artwork/large/duraludon.jpg
+885,885_0,Dreepy,Dreepy,,8,Dragon,Ghost,Clear Body,Infiltrator,Cursed Body,Ordinary,,,28,60,30,40,30,82,270,https://img.pokemondb.net/artwork/large/dreepy.jpg
+886,886_0,Drakloak,Drakloak,,8,Dragon,Ghost,Clear Body,Infiltrator,Cursed Body,Ordinary,,,68,80,50,60,50,102,410,https://img.pokemondb.net/artwork/large/drakloak.jpg
+887,887_0,Dragapult,Dragapult,,8,Dragon,Ghost,Clear Body,Infiltrator,Cursed Body,Ordinary,,,88,120,75,100,75,142,600,https://img.pokemondb.net/artwork/large/dragapult.jpg
+888,888_0,Zacian,Zacian Hero of Many Battles,Zacian,8,Fairy,,Intrepid Sword,,,Legendary,,,92,120,115,80,115,138,660,https://img.pokemondb.net/artwork/large/zacian-hero-of-many-battles.jpg
+888,888_1,Zacian,Zacian Crowned Sword,Zacian-CS,8,Fairy,Steel,Intrepid Sword,,,Legendary,,,92,150,115,80,115,148,700,https://img.pokemondb.net/artwork/large/zacian.jpg
+889,889_0,Zamazenta,Zamazenta Hero of Many Battles,Zamazenta,8,Fighting,,Dauntless Shield,,,Legendary,,,92,120,115,80,115,138,660,https://img.pokemondb.net/artwork/large/zamazenta-hero-of-many-battles.jpg
+889,889_1,Zamazenta,Zamazenta Crowned Shield,Zamazenta-CS,8,Fighting,Steel,Dauntless Shield,,,Legendary,,,92,120,140,80,140,128,700,https://img.pokemondb.net/artwork/large/zamazenta.jpg
+890,890_0,Eternatus,Eternatus,,8,Poison,Dragon,Pressure,,,Legendary,,,140,85,95,145,95,130,690,https://img.pokemondb.net/artwork/large/eternatus.jpg
+890,890_1,Eternatus,Eternamax Eternatus,,8,Poison,Dragon,Pressure,,,Legendary,,,255,115,250,125,250,130,1125,https://img.pokemondb.net/artwork/large/eternamax-eternatus.jpg
+891,891_0,Kubfu,Kubfu,,8,Fighting,,Inner Focus,,No Guard,Legendary,,,60,90,60,53,50,72,385,https://img.pokemondb.net/artwork/large/kubfu.jpg
+892,892_0,Urshifu,Urshifu Single Strike Style,Urshifu-D,8,Fighting,Dark,Unseen Fist,,,Legendary,,,100,130,100,63,60,97,550,https://img.pokemondb.net/artwork/large/urshifu-single-strike-style.jpg
+892,892_1,Urshifu,Urshifu Rapid Strike Style,Urshifu-W,8,Fighting,Water,Unseen Fist,,,Legendary,,,100,130,100,63,60,97,550,https://img.pokemondb.net/artwork/large/urshifu-rapid-strike-style.jpg
+893,893_0,Zarude,Zarude,,8,Dark,Grass,Leaf Guard,,,Mythical,,,105,120,105,70,95,105,600,https://img.pokemondb.net/artwork/large/zarude.jpg
+894,894_0,Regieleki,Regieleki,,8,Electric,,Transistor,,,Legendary,,,80,100,50,100,50,200,580,https://img.pokemondb.net/artwork/large/regieleki.jpg
+895,895_0,Regidrago,Regidrago,,8,Dragon,,Dragon's Maw,,,Legendary,,,200,100,50,100,50,80,580,https://img.pokemondb.net/artwork/large/regidrago.jpg
+896,896_0,Glastrier,Glastrier,,8,Ice,,Chilling Neigh,,,Legendary,,,100,145,130,65,110,30,580,https://img.pokemondb.net/artwork/large/glastrier.jpg
+897,897_0,Spectrier,Spectrier,,8,Ghost,,Grim Neigh,,,Legendary,,,100,65,60,145,80,130,580,https://img.pokemondb.net/artwork/large/spectrier.jpg
+898,898_0,Calyrex,Calyrex,,8,Psychic,Grass,Unnerve,,,Legendary,,,100,80,80,80,80,80,500,https://img.pokemondb.net/artwork/large/calyrex.jpg
+898,898_1,Calyrex,Calyrex Ice Rider,Calyrex-I,8,Psychic,Ice,As One,,,Legendary,,,100,165,150,85,130,50,680,https://img.pokemondb.net/artwork/large/calyrex-ice-rider.jpg
+898,898_2,Calyrex,Calyrex Shadow Rider,Calyrex-S,8,Psychic,Ghost,As One,,,Legendary,,,100,85,80,165,100,150,680,https://img.pokemondb.net/artwork/large/calyrex-shadow-rider.jpg
+899,899_0,Wyrdeer,Wyrdeer,,8,Normal,Psychic,Intimidate,Frisk,Sap Sipper,Ordinary,,,103,105,72,105,75,65,525,https://img.pokemondb.net/artwork/large/wyrdeer.jpg
+900,900_0,Kleavor,Kleavor,,8,Bug,Rock,Swarm,Sheer Force,Sharpness,Ordinary,,,70,130,95,45,75,85,500,https://img.pokemondb.net/artwork/large/kleavor.jpg
+901,901_0,Ursaluna,Ursaluna,,8,Ground,Normal,Guts,Bulletproof,Unnerve,Ordinary,,,130,140,105,45,80,50,550,https://img.pokemondb.net/artwork/large/ursaluna.jpg
+902,902_0,Basculegion,Basculegion Male,Basculegion-M,8,Water,Ghost,Swift Swim,Adaptability,Mold Breaker,Ordinary,,,120,112,65,80,75,78,530,https://img.pokemondb.net/artwork/large/basculegion-male.jpg
+902,902_1,Basculegion,Basculegion Female,Basculegion-F,8,Water,Ghost,Swift Swim,Adaptability,Mold Breaker,Ordinary,,,120,92,65,100,75,78,530,https://img.pokemondb.net/artwork/large/basculegion-female.jpg
+903,903_0,Sneasler,Sneasler,,8,Fighting,Poison,Pressure,Unburden,Poison Touch,Ordinary,,,80,130,60,40,80,120,510,https://img.pokemondb.net/artwork/large/sneasler.jpg
+904,904_0,Overqwil,Overqwil,,8,Dark,Poison,Poison Point,Swift Swim,Intimidate,Ordinary,,,85,115,95,65,65,85,510,https://img.pokemondb.net/artwork/large/overqwil.jpg
+905,905_0,Enamorus,Enamorus Incarnate Style,Enamorus-I,8,Fairy,Flying,Cute Charm,,Contrary,Legendary,,,74,115,70,135,80,106,580,https://img.pokemondb.net/artwork/large/enamorus-incarnate-style.jpg
+905,905_1,Enamorus,Enamorus Therian Style,Enamorus-T,8,Fairy,Flying,Overcoat,,,Legendary,,,74,115,110,135,100,46,580,https://img.pokemondb.net/artwork/large/enamorus-therian-style.jpg
+906,906_0,Sprigatito,Sprigatito,,9,Grass,,Overgrow,,Protean,Ordinary,,,40,61,54,45,45,65,310,https://img.pokemondb.net/artwork/large/sprigatito.jpg
+907,907_0,Floragato,Floragato,,9,Grass,,Overgrow,,Protean,Ordinary,,,61,80,63,60,63,83,410,https://img.pokemondb.net/artwork/large/floragato.jpg
+908,908_0,Meowscarada,Meowscarada,,9,Grass,Dark,Overgrow,,Protean,Ordinary,,,76,110,70,81,70,123,530,https://img.pokemondb.net/artwork/large/meowscarada.jpg
+909,909_0,Fuecoco,Fuecoco,,9,Fire,,Blaze,,Unaware,Ordinary,,,67,45,59,63,40,36,310,https://img.pokemondb.net/artwork/large/fuecoco.jpg
+910,910_0,Crocalor,Crocalor,,9,Fire,,Blaze,,Unaware,Ordinary,,,81,55,78,90,58,49,411,https://img.pokemondb.net/artwork/large/crocalor.jpg
+911,911_0,Skeledirge,Skeledirge,,9,Fire,Ghost,Blaze,,Unaware,Ordinary,,,104,75,100,110,75,66,530,https://img.pokemondb.net/artwork/large/skeledirge.jpg
+912,912_0,Quaxly,Quaxly,,9,Water,,Torrent,,Moxie,Ordinary,,,55,65,45,50,45,50,310,https://img.pokemondb.net/artwork/large/quaxly.jpg
+913,913_0,Quaxwell,Quaxwell,,9,Water,,Torrent,,Moxie,Ordinary,,,70,85,65,65,60,65,410,https://img.pokemondb.net/artwork/large/quaxwell.jpg
+914,914_0,Quaquaval,Quaquaval,,9,Water,Fighting,Torrent,,Moxie,Ordinary,,,85,120,80,85,75,85,530,https://img.pokemondb.net/artwork/large/quaquaval.jpg
+915,915_0,Lechonk,Lechonk,,9,Normal,,Aroma Veil,Gluttony,Thick Fat,Ordinary,,,54,45,40,35,45,35,254,https://img.pokemondb.net/artwork/large/lechonk.jpg
+916,916_0,Oinkologne,Oinkologne,,9,Normal,,Lingering Aroma,Gluttony,Thick Fat,Ordinary,,,110,100,75,59,80,65,489,https://img.pokemondb.net/artwork/large/oinkologne.jpg
+916,916_1,Oinkologne,Oinkologne,,9,Normal,,Aroma Veil,Gluttony,Thick Fat,Ordinary,,,115,90,70,59,90,65,489,https://img.pokemondb.net/artwork/large/oinkologne.jpg
+917,917_0,Tarountula,Tarountula,,9,Bug,,Insomnia,,Stakeout,Ordinary,,,35,41,45,29,40,20,210,https://img.pokemondb.net/artwork/large/tarountula.jpg
+918,918_0,Spidops,Spidops,,9,Bug,,Insomnia,,Stakeout,Ordinary,,,60,79,92,52,86,35,404,https://img.pokemondb.net/artwork/large/spidops.jpg
+919,919_0,Nymble,Nymble,,9,Bug,,Swarm,,Tinted Lens,Ordinary,,,33,46,40,21,25,45,210,https://img.pokemondb.net/artwork/large/nymble.jpg
+920,920_0,Lokix,Lokix,,9,Bug,Dark,Swarm,,Tinted Lens,Ordinary,,,71,102,78,52,55,92,450,https://img.pokemondb.net/artwork/large/lokix.jpg
+921,921_0,Pawmi,Pawmi,,9,Electric,,Static,Natural Cure,Iron Fist,Ordinary,,,45,50,20,40,25,60,240,https://img.pokemondb.net/artwork/large/pawmi.jpg
+922,922_0,Pawmo,Pawmo,,9,Electric,Fighting,Volt Absorb,Natural Cure,Iron Fist,Ordinary,,,60,75,40,50,40,85,350,https://img.pokemondb.net/artwork/large/pawmo.jpg
+923,923_0,Pawmot,Pawmot,,9,Electric,Fighting,Volt Absorb,Natural Cure,Iron Fist,Ordinary,,,70,115,70,70,60,105,490,https://img.pokemondb.net/artwork/large/pawmot.jpg
+924,924_0,Tandemaus,Tandemaus,,9,Normal,,Run Away,Pickup,Own Tempo,Ordinary,,,50,50,45,40,45,75,305,https://img.pokemondb.net/artwork/large/tandemaus.jpg
+925,925_0,Maushold,Maushold Family of Three,,9,Normal,,Friend Guard,Cheek Pouch,Technician,Ordinary,,,74,75,70,65,75,111,470,https://img.pokemondb.net/artwork/large/maushold-family-of-three.jpg
+925,925_1,Maushold,Maushold Family of Four,,9,Normal,,Friend Guard,Cheek Pouch,Technician,Ordinary,,,74,75,70,65,75,111,470,https://img.pokemondb.net/artwork/large/maushold-family-of-four.jpg
+926,926_0,Fidough,Fidough,,9,Fairy,,Own Tempo,,Klutz,Ordinary,,,37,55,70,30,55,65,312,https://img.pokemondb.net/artwork/large/fidough.jpg
+927,927_0,Dachsbun,Dachsbun,,9,Fairy,,Well-Baked Body,,Aroma Veil,Ordinary,,,57,80,115,50,80,95,477,https://img.pokemondb.net/artwork/large/dachsbun.jpg
+928,928_0,Smoliv,Smoliv,,9,Grass,Normal,Early Bird,,Harvest,Ordinary,,,41,35,45,58,51,30,260,https://img.pokemondb.net/artwork/large/smoliv.jpg
+929,929_0,Dolliv,Dolliv,,9,Grass,Normal,Early Bird,,Harvest,Ordinary,,,52,53,60,78,78,33,354,https://img.pokemondb.net/artwork/large/dolliv.jpg
+930,930_0,Arboliva,Arboliva,,9,Grass,Normal,Seed Sower,,Harvest,Ordinary,,,78,69,90,125,109,39,510,https://img.pokemondb.net/artwork/large/arboliva.jpg
+931,931_0,Squawkabilly,Squawkabilly Green Plumage,,9,Normal,Flying,Intimidate,Guts,Guts,Ordinary,,,82,96,51,45,51,92,417,https://img.pokemondb.net/artwork/large/squawkabilly-green-plumage.jpg
+931,931_1,Squawkabilly,Squawkabilly Blue Plumage,,9,Normal,Flying,Intimidate,Guts,Guts,Ordinary,,,82,96,51,45,51,92,417,https://img.pokemondb.net/artwork/large/squawkabilly-blue-plumage.jpg
+931,931_2,Squawkabilly,Squawkabilly Yellow Plumage,,9,Normal,Flying,Intimidate,Guts,Sheer Force,Ordinary,,,82,96,51,45,51,92,417,https://img.pokemondb.net/artwork/large/squawkabilly-yellow-plumage.jpg
+931,931_3,Squawkabilly,Squawkabilly White Plumage,,9,Normal,Flying,Intimidate,Guts,Sheer Force,Ordinary,,,82,96,51,45,51,92,417,https://img.pokemondb.net/artwork/large/squawkabilly-white-plumage.jpg
+932,932_0,Nacli,Nacli,,9,Rock,,Purifying Salt,Sturdy,Clear Body,Ordinary,,,55,55,75,35,35,25,280,https://img.pokemondb.net/artwork/large/nacli.jpg
+933,933_0,Naclstack,Naclstack,,9,Rock,,Purifying Salt,Sturdy,Clear Body,Ordinary,,,60,60,100,35,65,35,355,https://img.pokemondb.net/artwork/large/naclstack.jpg
+934,934_0,Garganacl,Garganacl,,9,Rock,,Purifying Salt,Sturdy,Clear Body,Ordinary,,,100,100,130,45,90,35,500,https://img.pokemondb.net/artwork/large/garganacl.jpg
+935,935_0,Charcadet,Charcadet,,9,Fire,,Flash Fire,,Flame Body,Ordinary,,,40,50,40,50,40,35,255,https://img.pokemondb.net/artwork/large/charcadet.jpg
+936,936_0,Armarouge,Armarouge,,9,Fire,Psychic,Flash Fire,,Weak Armor,Ordinary,,,85,60,100,125,80,75,525,https://img.pokemondb.net/artwork/large/armarouge.jpg
+937,937_0,Ceruledge,Ceruledge,,9,Fire,Ghost,Flash Fire,,Weak Armor,Ordinary,,,75,125,80,60,100,85,525,https://img.pokemondb.net/artwork/large/ceruledge.jpg
+938,938_0,Tadbulb,Tadbulb,,9,Electric,,Own Tempo,Static,Damp,Ordinary,,,61,31,41,59,35,45,272,https://img.pokemondb.net/artwork/large/tadbulb.jpg
+939,939_0,Bellibolt,Bellibolt,,9,Electric,,Electromorphosis,Static,Damp,Ordinary,,,109,64,91,103,83,45,495,https://img.pokemondb.net/artwork/large/bellibolt.jpg
+940,940_0,Wattrel,Wattrel,,9,Electric,Flying,Wind Power,Volt Absorb,Competitive,Ordinary,,,40,40,35,55,40,70,280,https://img.pokemondb.net/artwork/large/wattrel.jpg
+941,941_0,Kilowattrel,Kilowattrel,,9,Electric,Flying,Wind Power,Volt Absorb,Competitive,Ordinary,,,70,70,60,105,60,125,490,https://img.pokemondb.net/artwork/large/kilowattrel.jpg
+942,942_0,Maschiff,Maschiff,,9,Dark,,Intimidate,Run Away,Stakeout,Ordinary,,,60,78,60,40,51,51,340,https://img.pokemondb.net/artwork/large/maschiff.jpg
+943,943_0,Mabosstiff,Mabosstiff,,9,Dark,,Intimidate,Guard Dog,Stakeout,Ordinary,,,80,120,90,60,70,85,505,https://img.pokemondb.net/artwork/large/mabosstiff.jpg
+944,944_0,Shroodle,Shroodle,,9,Poison,Normal,Unburden,Pickpocket,Prankster,Ordinary,,,40,65,35,40,35,75,290,https://img.pokemondb.net/artwork/large/shroodle.jpg
+945,945_0,Grafaiai,Grafaiai,,9,Poison,Normal,Unburden,Poison Touch,Prankster,Ordinary,,,63,95,65,80,72,110,485,https://img.pokemondb.net/artwork/large/grafaiai.jpg
+946,946_0,Bramblin,Bramblin,,9,Grass,Ghost,Wind Rider,,Infiltrator,Ordinary,,,40,65,30,45,35,60,275,https://img.pokemondb.net/artwork/large/bramblin.jpg
+947,947_0,Brambleghast,Brambleghast,,9,Grass,Ghost,Wind Rider,,Infiltrator,Ordinary,,,55,115,70,80,70,90,480,https://img.pokemondb.net/artwork/large/brambleghast.jpg
+948,948_0,Toedscool,Toedscool,,9,Ground,Grass,Mycelium Might,,,Ordinary,,,40,40,35,50,100,70,335,https://img.pokemondb.net/artwork/large/toedscool.jpg
+949,949_0,Toedscruel,Toedscruel,,9,Ground,Grass,Mycelium Might,,,Ordinary,,,80,70,65,80,120,100,515,https://img.pokemondb.net/artwork/large/toedscruel.jpg
+950,950_0,Klawf,Klawf,,9,Rock,,Anger Shell,Shell Armor,Regenerator,Ordinary,,,70,100,115,35,55,75,450,https://img.pokemondb.net/artwork/large/klawf.jpg
+951,951_0,Capsakid,Capsakid,,9,Grass,,Chlorophyll,Insomnia,Klutz,Ordinary,,,50,62,40,62,40,50,304,https://img.pokemondb.net/artwork/large/capsakid.jpg
+952,952_0,Scovillain,Scovillain,,9,Grass,Fire,Chlorophyll,Insomnia,Moody,Ordinary,,,65,108,65,108,65,75,486,https://img.pokemondb.net/artwork/large/scovillain.jpg
+953,953_0,Rellor,Rellor,,9,Bug,,Compound Eyes,,Shed Skin,Ordinary,,,41,50,60,31,58,30,270,https://img.pokemondb.net/artwork/large/rellor.jpg
+954,954_0,Rabsca,Rabsca,,9,Bug,Psychic,Synchronize,,Telepathy,Ordinary,,,75,50,85,115,100,45,470,https://img.pokemondb.net/artwork/large/rabsca.jpg
+955,955_0,Flittle,Flittle,,9,Psychic,,Anticipation,Frisk,Speed Boost,Ordinary,,,30,35,30,55,30,75,255,https://img.pokemondb.net/artwork/large/flittle.jpg
+956,956_0,Espathra,Espathra,,9,Psychic,,Opportunist,Frisk,Speed Boost,Ordinary,,,95,60,60,101,60,105,481,https://img.pokemondb.net/artwork/large/espathra.jpg
+957,957_0,Tinkatink,Tinkatink,,9,Fairy,Steel,Mold Breaker,Own Tempo,Pickpocket,Ordinary,,,50,45,45,35,64,58,297,https://img.pokemondb.net/artwork/large/tinkatink.jpg
+958,958_0,Tinkatuff,Tinkatuff,,9,Fairy,Steel,Mold Breaker,Own Tempo,Pickpocket,Ordinary,,,65,55,55,45,82,78,380,https://img.pokemondb.net/artwork/large/tinkatuff.jpg
+959,959_0,Tinkaton,Tinkaton,,9,Fairy,Steel,Mold Breaker,Own Tempo,Pickpocket,Ordinary,,,85,75,77,70,105,94,506,https://img.pokemondb.net/artwork/large/tinkaton.jpg
+960,960_0,Wiglett,Wiglett,,9,Water,,Gooey,Rattled,Sand Veil,Ordinary,,,10,55,25,35,25,95,245,https://img.pokemondb.net/artwork/large/wiglett.jpg
+961,961_0,Wugtrio,Wugtrio,,9,Water,,Gooey,Rattled,Sand Veil,Ordinary,,,35,100,50,50,70,120,425,https://img.pokemondb.net/artwork/large/wugtrio.jpg
+962,962_0,Bombirdier,Bombirdier,,9,Flying,Dark,Big Pecks,Keen Eye,Rocky Payload,Ordinary,,,70,103,85,60,85,82,485,https://img.pokemondb.net/artwork/large/bombirdier.jpg
+963,963_0,Finizen,Finizen,,9,Water,,Water Veil,,,Ordinary,,,70,45,40,45,40,75,315,https://img.pokemondb.net/artwork/large/finizen.jpg
+964,964_0,Palafin,Palafin Zero Form,,9,Water,,Zero to Hero,,,Ordinary,,,100,70,72,53,62,100,457,https://img.pokemondb.net/artwork/large/palafin-zero-form.jpg
+964,964_1,Palafin,Palafin Hero Form,,9,Water,,Zero to Hero,,,Ordinary,,,100,160,97,106,87,100,650,https://img.pokemondb.net/artwork/large/palafin-hero-form.jpg
+965,965_0,Varoom,Varoom,,9,Steel,Poison,Overcoat,,Slow Start,Ordinary,,,45,70,63,30,45,47,300,https://img.pokemondb.net/artwork/large/varoom.jpg
+966,966_0,Revavroom,Revavroom,,9,Steel,Poison,Overcoat,,Filter,Ordinary,,,80,119,90,54,67,90,500,https://img.pokemondb.net/artwork/large/revavroom.jpg
+967,967_0,Cyclizar,Cyclizar,,9,Dragon,Normal,Shed Skin,,Regenerator,Ordinary,,,70,95,65,85,65,121,501,https://img.pokemondb.net/artwork/large/cyclizar.jpg
+968,968_0,Orthworm,Orthworm,,9,Steel,,Earth Eater,,Sand Veil,Ordinary,,,70,85,145,60,55,65,480,https://img.pokemondb.net/artwork/large/orthworm.jpg
+969,969_0,Glimmet,Glimmet,,9,Rock,Poison,Toxic Debris,,Corrosion,Ordinary,,,48,35,42,105,60,60,350,https://img.pokemondb.net/artwork/large/glimmet.jpg
+970,970_0,Glimmora,Glimmora,,9,Rock,Poison,Toxic Debris,,Corrosion,Ordinary,,,83,55,90,130,81,86,525,https://img.pokemondb.net/artwork/large/glimmora.jpg
+971,971_0,Greavard,Greavard,,9,Ghost,,Pickup,,Fluffy,Ordinary,,,50,61,60,30,55,34,290,https://img.pokemondb.net/artwork/large/greavard.jpg
+972,972_0,Houndstone,Houndstone,,9,Ghost,,Sand Rush,,Fluffy,Ordinary,,,72,101,100,50,97,68,488,https://img.pokemondb.net/artwork/large/houndstone.jpg
+973,973_0,Flamigo,Flamigo,,9,Flying,Fighting,Scrappy,Tangled Feet,Costar,Ordinary,,,82,115,74,75,64,90,500,https://img.pokemondb.net/artwork/large/flamigo.jpg
+974,974_0,Cetoddle,Cetoddle,,9,Ice,,Thick Fat,Snow Cloak,Sheer Force,Ordinary,,,108,68,45,30,40,43,334,https://img.pokemondb.net/artwork/large/cetoddle.jpg
+975,975_0,Cetitan,Cetitan,,9,Ice,,Thick Fat,Slush Rush,Sheer Force,Ordinary,,,170,113,65,45,55,73,521,https://img.pokemondb.net/artwork/large/cetitan.jpg
+976,976_0,Veluza,Veluza,,9,Water,Psychic,Mold Breaker,,Sharpness,Ordinary,,,90,102,73,78,65,70,478,https://img.pokemondb.net/artwork/large/veluza.jpg
+977,977_0,Dondozo,Dondozo,,9,Water,,Unaware,Oblivious,Water Veil,Ordinary,,,150,100,115,65,65,35,530,https://img.pokemondb.net/artwork/large/dondozo.jpg
+978,978_0,Tatsugiri,Tatsugiri Curly Form,,9,Dragon,Water,Commander,,Storm Drain,Ordinary,,,68,50,60,120,95,82,475,https://img.pokemondb.net/artwork/large/tatsugiri-curly-form.jpg
+978,978_1,Tatsugiri,Tatsugiri Droopy Form,,9,Dragon,Water,Commander,,Storm Drain,Ordinary,,,68,50,60,120,95,82,475,https://img.pokemondb.net/artwork/large/tatsugiri-droopy-form.jpg
+978,978_2,Tatsugiri,Tatsugiri Stretchy Form,,9,Dragon,Water,Commander,,Storm Drain,Ordinary,,,68,50,60,120,95,82,475,https://img.pokemondb.net/artwork/large/tatsugiri-stretchy-form.jpg
+979,979_0,Annihilape,Annihilape,,9,Fighting,Ghost,Vital Spirit,Inner Focus,Defiant,Ordinary,,,110,115,80,50,90,90,535,https://img.pokemondb.net/artwork/large/annihilape.jpg
+980,980_0,Clodsire,Clodsire,,9,Poison,Ground,Poison Point,Water Absorb,Unaware,Ordinary,,,130,75,60,45,100,20,430,https://img.pokemondb.net/artwork/large/clodsire.jpg
+981,981_0,Farigiraf,Farigiraf,,9,Normal,Psychic,Cud Chew,Armor Tail,Sap Sipper,Ordinary,,,120,90,70,110,70,60,520,https://img.pokemondb.net/artwork/large/farigiraf.jpg
+982,982_0,Dudunsparce,Dudunsparce Two-Segment Form,,9,Normal,,Serene Grace,Run Away,Rattled,Ordinary,,,125,100,80,85,75,55,520,https://img.pokemondb.net/artwork/large/dudunsparce-two-segment.jpg
+982,982_1,Dudunsparce,Dudunsparce Three-Segment Form,,9,Normal,,Serene Grace,Run Away,Rattled,Ordinary,,,125,100,80,85,75,55,520,https://img.pokemondb.net/artwork/large/dudunsparce-three-segment.jpg
+983,983_0,Kingambit,Kingambit,,9,Dark,Steel,Defiant,Supreme Overlord,Pressure,Ordinary,,,100,135,120,60,85,50,550,https://img.pokemondb.net/artwork/large/kingambit.jpg
+984,984_0,Great Tusk,Great Tusk,,9,Ground,Fighting,Protosynthesis,,,Paradox Pokémon,,,115,131,131,53,53,87,570,https://img.pokemondb.net/artwork/large/great-tusk.jpg
+985,985_0,Scream Tail,Scream Tail,,9,Fairy,Psychic,Protosynthesis,,,Paradox Pokémon,,,115,65,99,65,115,111,570,https://img.pokemondb.net/artwork/large/scream-tail.jpg
+986,986_0,Brute Bonnet,Brute Bonnet,,9,Grass,Dark,Protosynthesis,,,Paradox Pokémon,,,111,127,99,79,99,55,570,https://img.pokemondb.net/artwork/large/brute-bonnet.jpg
+987,987_0,Flutter Mane,Flutter Mane,,9,Ghost,Fairy,Protosynthesis,,,Paradox Pokémon,,,55,55,55,135,135,135,570,https://img.pokemondb.net/artwork/large/flutter-mane.jpg
+988,988_0,Slither Wing,Slither Wing,,9,Bug,Fighting,Protosynthesis,,,Paradox Pokémon,,,85,135,79,85,105,81,570,https://img.pokemondb.net/artwork/large/slither-wing.jpg
+989,989_0,Sandy Shocks,Sandy Shocks,,9,Electric,Ground,Protosynthesis,,,Paradox Pokémon,,,85,81,97,121,85,101,570,https://img.pokemondb.net/artwork/large/sandy-shocks.jpg
+990,990_0,Iron Treads,Iron Treads,,9,Ground,Steel,Quark Drive,,,Paradox Pokémon,,,90,112,120,72,70,106,570,https://img.pokemondb.net/artwork/large/iron-treads.jpg
+991,991_0,Iron Bundle,Iron Bundle,,9,Ice,Water,Quark Drive,,,Paradox Pokémon,,,56,80,114,124,60,136,570,https://img.pokemondb.net/artwork/large/iron-bundle.jpg
+992,992_0,Iron Hands,Iron Hands,,9,Fighting,Electric,Quark Drive,,,Paradox Pokémon,,,154,140,108,50,68,50,570,https://img.pokemondb.net/artwork/large/iron-hands.jpg
+993,993_0,Iron Jugulis,Iron Jugulis,,9,Dark,Flying,Quark Drive,,,Paradox Pokémon,,,94,80,86,122,80,108,570,https://img.pokemondb.net/artwork/large/iron-jugulis.jpg
+994,994_0,Iron Moth,Iron Moth,,9,Fire,Poison,Quark Drive,,,Paradox Pokémon,,,80,70,60,140,110,110,570,https://img.pokemondb.net/artwork/large/iron-moth.jpg
+995,995_0,Iron Thorns,Iron Thorns,,9,Rock,Electric,Quark Drive,,,Paradox Pokémon,,,100,134,110,70,84,72,570,https://img.pokemondb.net/artwork/large/iron-thorns.jpg
+996,996_0,Frigibax,Frigibax,,9,Dragon,Ice,Thermal Exchange,,Ice Body,Ordinary,,,65,75,45,35,45,55,320,https://img.pokemondb.net/artwork/large/frigibax.jpg
+997,997_0,Arctibax,Arctibax,,9,Dragon,Ice,Thermal Exchange,,Ice Body,Ordinary,,,90,95,66,45,65,62,423,https://img.pokemondb.net/artwork/large/arctibax.jpg
+998,998_0,Baxcalibur,Baxcalibur,,9,Dragon,Ice,Thermal Exchange,,Ice Body,Ordinary,,,115,145,92,75,86,87,600,https://img.pokemondb.net/artwork/large/baxcalibur.jpg
+999,999_0,Gimmighoul,Gimmighoul Chest Form,,9,Ghost,,Rattled,,,Ordinary,,,45,30,70,75,70,10,300,https://img.pokemondb.net/artwork/large/gimmighoul-chest-form.jpg
+999,999_1,Gimmighoul,Gimmighoul Roaming Form,,9,Ghost,,Run Away,,,Ordinary,,,45,30,25,75,45,80,300,https://img.pokemondb.net/artwork/large/gimmighoul-roaming-form.jpg
+1000,1000_0,Gholdengo,Gholdengo,,9,Steel,Ghost,Good as Gold,,,Ordinary,,,87,60,95,133,91,84,550,https://img.pokemondb.net/artwork/large/gholdengo.jpg
+1001,1001_0,Wo-Chien,Wo-Chien,,9,Dark,Grass,Tablets of Ruin,,,Legendary,,,85,85,100,95,135,70,570,https://img.pokemondb.net/artwork/large/wo-chien.jpg
+1002,1002_0,Chien-Pao,Chien-Pao,,9,Dark,Ice,Sword of Ruin,,,Legendary,,,80,120,80,90,65,135,570,https://img.pokemondb.net/artwork/large/chien-pao.jpg
+1003,1003_0,Ting-Lu,Ting-Lu,,9,Dark,Ground,Vessel of Ruin,,,Legendary,,,155,110,125,55,80,45,570,https://img.pokemondb.net/artwork/large/ting-lu.jpg
+1004,1004_0,Chi-Yu,Chi-Yu,,9,Dark,Fire,Beads of Ruin,,,Legendary,,,55,80,80,135,120,100,570,https://img.pokemondb.net/artwork/large/chi-yu.jpg
+1005,1005_0,Roaring Moon,Roaring Moon,,9,Dragon,Dark,Protosynthesis,,,Paradox Pokémon,,,105,139,71,55,101,119,590,https://img.pokemondb.net/artwork/large/roaring-moon.jpg
+1006,1006_0,Iron Valiant,Iron Valiant,,9,Fairy,Fighting,Quark Drive,,,Paradox Pokémon,,,74,130,90,120,60,116,590,https://img.pokemondb.net/artwork/large/iron-valiant.jpg
+1007,1007_0,Koraidon,Koraidon,,9,Fighting,Dragon,Orichalcum Pulse,,,Legendary,,,100,135,115,85,100,135,670,https://img.pokemondb.net/artwork/large/koraidon.jpg
+1008,1008_0,Miraidon,Miraidon,,9,Electric,Dragon,Hadron Engine,,,Legendary,,,100,85,100,135,115,135,670,https://img.pokemondb.net/artwork/large/miraidon.jpg
+1009,1009_0,Walking Wake,Walking Wake,,9,Water,Dragon,Protosynthesis,,,Paradox Pokémon,,,99,83,91,125,83,109,590,https://img.pokemondb.net/artwork/large/walking-wake.jpg
+1010,1010_0,Iron Leaves,Iron Leaves,,9,Grass,Psychic,Quark Drive,,,Paradox Pokémon,,,90,130,88,70,108,104,590,https://img.pokemondb.net/artwork/large/iron-leaves.jpg
+1011,1011_0,Dipplin,Dipplin,,9,Grass,Dragon,Ripen,,Gluttony,Regular,0,,80,80,110,95,80,40,485,https://img.pokemondb.net/artwork/large/dipplin.jpg
+1012,1012_0,Poltchageist,Poltchageist,,9,Grass,Ghost,Hospitality,,Heatproof,Regular,0,,40,45,45,74,54,50,308,https://img.pokemondb.net/artwork/large/poltchageist.jpg
+1013,1013_0,Sinistcha,Sinistcha,,9,Grass,Ghost,Hospitality,,Heatproof,Regular,0,,71,60,106,121,80,70,508,https://img.pokemondb.net/artwork/large/sinistcha.jpg
+1014,1014_0,Okidogi,Okidogi,,9,Poison,Fighting,Toxic Chain,,Guard Dog,Legendary,0,,88,128,115,58,86,80,555,https://img.pokemondb.net/artwork/large/okidogi.jpg
+1015,1015_0,Munkidori,Munkidori,,9,Poison,Psychic,Toxic Chain,,Frisk,Legendary,0,,88,75,66,130,90,106,555,https://img.pokemondb.net/artwork/large/munkidori.jpg
+1016,1016_0,Fezandipiti,Fezandipiti,,9,Poison,Fairy,Toxic Chain,,Technician,Legendary,0,,88,91,82,70,125,99,555,https://img.pokemondb.net/artwork/large/fezandipiti.jpg
+1017,1017_0,Ogerpon,Ogerpon (Teal Mask),Ogerpon-G,9,Grass,,Defiant,,Pickup,Legendary,0,Teal Mask,80,120,84,60,96,110,550,https://img.pokemondb.net/artwork/large/ogerpon-teal.jpg
+1017,1017_1,Ogerpon,Ogerpon (Wellspring Mask),Ogerpon-W,9,Grass,Water,Water Absorb,,Pickup,Legendary,0,Wellspring Mask,80,120,84,60,96,110,550,https://img.pokemondb.net/artwork/large/ogerpon-wellspring.jpg
+1017,1017_2,Ogerpon,Ogerpon (Hearthflame Mask),Ogerpon-F,9,Grass,Fire,Mold Breaker,,Pickup,Legendary,0,Hearthflame Mask,80,120,84,60,96,110,550,https://img.pokemondb.net/artwork/large/ogerpon-hearthflame.jpg
+1017,1017_3,Ogerpon,Ogerpon (Cornerstone Mask),Ogerpon-R,9,Grass,Rock,Sturdy,,Pickup,Legendary,0,Cornerstone Mask,80,120,84,60,96,110,550,https://img.pokemondb.net/artwork/large/ogerpon-cornerstone.jpg
+1018,1018_0,Archaludon,Archaludon,,9,Steel,Dragon,Stamina,,Sturdy,Regular,0,,90,105,130,125,65,85,600,https://img.pokemondb.net/artwork/large/archaludon.jpg
+1019,1019_0,Hydrapple,Hydrapple,,9,Grass,Dragon,Supersweet Syrup,,Sticky Hold,Regular,0,,106,80,110,120,80,44,540,https://img.pokemondb.net/artwork/large/hydrapple.jpg
+1020,1020_0,Gouging Fire,Gouging Fire,,9,Fire,Dragon,Protosynthesis,,,Paradox Pokémon,0,,105,115,121,65,93,91,590,https://img.pokemondb.net/artwork/large/gouging-fire.jpg
+1021,1021_0,Raging Bolt,Raging Bolt,,9,Electric,Dragon,Protosynthesis,,,Paradox Pokémon,0,,125,73,91,137,89,75,590,https://img.pokemondb.net/artwork/large/raging-bolt.jpg
+1022,1022_0,Iron Boulder,Iron Boulder,,9,Rock,Psychic,Quark Drive,,,Paradox Pokémon,0,,90,120,80,68,108,124,590,https://img.pokemondb.net/artwork/large/iron-boulder.jpg
+1023,1023_0,Iron Crown,Iron Crown,,9,Steel,Psychic,Quark Drive,,,Paradox Pokémon,0,,90,72,100,122,108,98,590,https://img.pokemondb.net/artwork/large/iron-crown.jpg
+1024,1024_0,Terapagos,Terapagos (Normal Form),,9,Normal,,Tera Shell,,,Legendary,0,Normal Form,90,65,85,65,85,60,450,https://img.pokemondb.net/artwork/large/terapagos-(normal-form).jpg
+1024,1024_1,Terapagos,Terapagos (Terastal Form),Terapagos-T,9,Normal,,Tera Shell,,,Legendary,0,Terastal Form,160,105,110,130,110,85,700,https://img.pokemondb.net/artwork/large/terapagos-(terastal-form).jpg
+1025,1025_0,Pecharunt,Pecharunt,,9,Poison,Ghost,Poisonguard,,Technician,Mythical,0,,88,88,160,88,88,88,600,https://img.pokemondb.net/artwork/large/pecharunt.jpg

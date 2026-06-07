@@ -1,0 +1,261 @@
+;Year;Player;Country;Division;slot;pokemon;Original_Name;display_name;pokemon_name;Generation;Type1;Type2;Category;Mega_Evolution_Flag;Region_Form;HP;Attack;Defense;SP_Attack;SP_Defense;Speed;Total;image_url
+0;2008;Knight Silvayne;USA;Junior;Pokémon 01;Bronzong;Bronzong;Bronzong;Bronzong;4;Steel;Psychic;Ordinary;;;67;89;116;79;116;33;500;https://img.pokemondb.net/artwork/large/bronzong.jpg
+1;2008;Izuru Yoshimura;Japan;Masters;Pokémon 01;Smeargle;Smeargle;Smeargle;Smeargle;2;Normal;;Ordinary;;;55;20;35;20;45;75;250;https://img.pokemondb.net/artwork/large/smeargle.jpg
+2;2009;Jeremiah Fan;USA;Junior;Pokémon 01;Ludicolo;Ludicolo;Ludicolo;Ludicolo;3;Water;Grass;Ordinary;;;80;70;70;90;100;70;480;https://img.pokemondb.net/artwork/large/ludicolo.jpg
+3;2009;Kazuyuki Tsuji;Japan;Masters;Pokémon 01;Ludicolo;Ludicolo;Ludicolo;Ludicolo;3;Water;Grass;Ordinary;;;80;70;70;90;100;70;480;https://img.pokemondb.net/artwork/large/ludicolo.jpg
+4;2010;Shota Yamamoto;Japan;Junior;Pokémon 01;Ludicolo;Ludicolo;Ludicolo;Ludicolo;3;Water;Grass;Ordinary;;;80;70;70;90;100;70;480;https://img.pokemondb.net/artwork/large/ludicolo.jpg
+5;2010;Ray Rizzo;USA;Masters;Pokémon 01;Hariyama;Hariyama;Hariyama;Hariyama;3;Fighting;;Ordinary;;;144;120;60;40;60;50;474;https://img.pokemondb.net/artwork/large/hariyama.jpg
+6;2011;Kamran Jahadi;USA;Senior;Pokémon 01;Jellicent;Jellicent;Jellicent;Jellicent;5;Water;Ghost;Ordinary;;;100;60;70;85;105;60;480;https://img.pokemondb.net/artwork/large/jellicent.jpg
+7;2011;Ray Rizzo;USA;Masters;Pokémon 01;Escavalier;Escavalier;Escavalier;Escavalier;5;Bug;Steel;Ordinary;;;70;135;105;60;105;20;495;https://img.pokemondb.net/artwork/large/escavalier.jpg
+8;2012;Abram Burrows;USA;Junior;Pokémon 01;Cloyster;Cloyster;Cloyster;Cloyster;1;Water;Ice;Ordinary;;;50;95;180;85;45;70;525;https://img.pokemondb.net/artwork/large/cloyster.jpg
+9;2012;Toler Webb;USA;Senior;Pokémon 01;Garchomp;Garchomp;Garchomp;Garchomp;4;Dragon;Ground;Ordinary;;;108;130;95;80;85;102;600;https://img.pokemondb.net/artwork/large/garchomp.jpg
+10;2012;Ray Rizzo;USA;Masters;Pokémon 01;Tyranitar;Tyranitar;Tyranitar;Tyranitar;2;Rock;Dark;Ordinary;;;100;134;110;95;100;61;600;https://img.pokemondb.net/artwork/large/tyranitar.jpg
+11;2013;Brendan Zheng;USA;Junior;Pokémon 01;Cresselia;Cresselia;Cresselia;Cresselia;4;Psychic;;Legendary;;;120;70;110;75;120;85;580;https://img.pokemondb.net/artwork/large/cresselia.jpg
+12;2013;Hayden McTavish;USA;Senior;Pokémon 01;Heatran;Heatran;Heatran;Heatran;4;Fire;Steel;Legendary;;;91;90;106;130;106;77;600;https://img.pokemondb.net/artwork/large/heatran.jpg
+13;2013;Arash Ohmati;Italy;Masters;Pokémon 01;Mamoswine;Mamoswine;Mamoswine;Mamoswine;4;Ice;Ground;Ordinary;;;110;130;80;70;60;80;530;https://img.pokemondb.net/artwork/large/mamoswine.jpg
+14;2014;Kota Yamamoto;Japan;Junior;Pokémon 01;Gardevoir;Gardevoir;Gardevoir;Gardevoir;3;Psychic;Fairy;Ordinary;;;68;65;65;125;115;80;518;https://img.pokemondb.net/artwork/large/gardevoir.jpg
+15;2014;Nikolai Zielinski;USA;Senior;Pokémon 01;Tyranitar;Tyranitar;Tyranitar;Tyranitar;2;Rock;Dark;Ordinary;;;100;134;110;95;100;61;600;https://img.pokemondb.net/artwork/large/tyranitar.jpg
+16;2014;Se Jun Park;South Korea;Masters;Pokémon 01;Pachirisu;Pachirisu;Pachirisu;Pachirisu;4;Electric;;Ordinary;;;60;45;70;45;90;95;405;https://img.pokemondb.net/artwork/large/pachirisu.jpg
+17;2015;Kotone Yasue;Japan;Junior;Pokémon 01;Tyranitar;Tyranitar;Tyranitar;Tyranitar;2;Rock;Dark;Ordinary;;;100;134;110;95;100;61;600;https://img.pokemondb.net/artwork/large/tyranitar.jpg
+18;2015;Mark Mcquillan;United Kingdom;Senior;Pokémon 01;Cresselia;Cresselia;Cresselia;Cresselia;4;Psychic;;Legendary;;;120;70;110;75;120;85;580;https://img.pokemondb.net/artwork/large/cresselia.jpg
+19;2015;Shoma Honami;Japan;Masters;Pokémon 01;Kangaskhan-Mega;Kangaskhan;Mega Kangaskhan;Kangaskhan-Mega;1;Normal;;Ordinary;Mega;;105;125;100;60;100;100;590;https://img.pokemondb.net/artwork/large/mega-kangaskhan.jpg
+20;2016;Cory Connor;USA;Junior;Pokémon 01;Kyogre-Primal;Kyogre;Primal Kyogre;Kyogre-Primal;6;Water;;Legendary;;;100;150;90;180;160;90;770;https://img.pokemondb.net/artwork/large/primal-kyogre.jpg
+21;2016;Carson Confer;USA;Senior;Pokémon 01;Kyogre-Primal;Kyogre;Primal Kyogre;Kyogre-Primal;6;Water;;Legendary;;;100;150;90;180;160;90;770;https://img.pokemondb.net/artwork/large/primal-kyogre.jpg
+22;2016;Wolfe Glick;USA;Masters;Pokémon 01;Kyogre-Primal;Kyogre;Primal Kyogre;Kyogre-Primal;6;Water;;Legendary;;;100;150;90;180;160;90;770;https://img.pokemondb.net/artwork/large/primal-kyogre.jpg
+23;2017;Nicholas Kan;Australia;Junior;Pokémon 01;Porygon2;Porygon2;Porygon2;Porygon2;2;Normal;;Ordinary;;;85;80;90;105;95;60;515;https://img.pokemondb.net/artwork/large/porygon2.jpg
+24;2017;Hong Juyoung;South Korea;Senior;Pokémon 01;Porygon2;Porygon2;Porygon2;Porygon2;2;Normal;;Ordinary;;;85;80;90;105;95;60;515;https://img.pokemondb.net/artwork/large/porygon2.jpg
+25;2017;Ryota Otsubo;Japan;Masters;Pokémon 01;Krookodile;Krookodile;Krookodile;Krookodile;5;Ground;Dark;Ordinary;;;95;117;80;65;70;92;519;https://img.pokemondb.net/artwork/large/krookodile.jpg
+26;2018;Wonn Lee;Japan;Junior;Pokémon 01;Terrakion;Terrakion;Terrakion;Terrakion;5;Rock;Fighting;Legendary;;;91;129;90;72;90;108;580;https://img.pokemondb.net/artwork/large/terrakion.jpg
+27;2018;James Evans;USA;Senior;Pokémon 01;Incineroar;Incineroar;Incineroar;Incineroar;7;Fire;Dark;Ordinary;;;95;115;90;80;90;60;530;https://img.pokemondb.net/artwork/large/incineroar.jpg
+28;2018;Paul Ruiz;Ecuador;Masters;Pokémon 01;Tapu Koko;Tapu Koko;Tapu Koko;Tapu Koko;7;Electric;Fairy;Legendary;;;70;115;85;95;75;130;570;https://img.pokemondb.net/artwork/large/tapu-koko.jpg
+29;2019;Pi Wu;Taiwan;Junior;Pokémon 01;Rayquaza;Rayquaza;Rayquaza;Rayquaza;3;Dragon;Flying;Legendary;;;105;150;90;150;90;95;680;https://img.pokemondb.net/artwork/large/rayquaza.jpg
+30;2019;Ko Tsukide;Japan;Senior;Pokémon 01;Xerneas;Xerneas;Xerneas;Xerneas;6;Fairy;;Legendary;;;126;131;95;131;98;99;680;https://img.pokemondb.net/artwork/large/xerneas.jpg
+31;2019;Naoto Mizobuchi;Japan;Masters;Pokémon 01;Lunala;Lunala;Lunala;Lunala;7;Psychic;Ghost;Legendary;;;137;113;89;137;107;97;680;https://img.pokemondb.net/artwork/large/lunala.jpg
+32;2022;Kosaku Miyamoto;Japan;Junior;Pokémon 01;Whimsicott;Whimsicott;Whimsicott;Whimsicott;5;Grass;Fairy;Ordinary;;;60;67;85;77;75;116;480;https://img.pokemondb.net/artwork/large/whimsicott.jpg
+33;2022;Yasuharu Shimizu;Japan;Senior;Pokémon 01;Groudon;Groudon;Groudon;Groudon;3;Ground;;Legendary;;;100;150;140;100;90;90;670;https://img.pokemondb.net/artwork/large/groudon.jpg
+34;2022;Eduardo Cunha;Portugal;Masters;Pokémon 01;Gastrodon;Gastrodon;Gastrodon;Gastrodon;4;Water;Ground;Ordinary;;;111;83;68;92;82;39;475;https://img.pokemondb.net/artwork/large/gastrodon.jpg
+35;2023;Sora Ebisawa;Japan;Junior;Pokémon 01;Tornadus-I;Tornadus;Tornadus Incarnate Form;Tornadus-I;5;Flying;;Legendary;;;79;115;70;125;80;111;580;https://img.pokemondb.net/artwork/large/tornadus-incarnate-form.jpg
+36;2023;Tomoya Ogawa;Japan;Senior;Pokémon 01;Zapdos;Zapdos;Zapdos;Zapdos;1;Electric;Flying;Legendary;;;90;90;85;125;90;100;580;https://img.pokemondb.net/artwork/large/zapdos.jpg
+37;2023;Shohei Kimura;Japan;Masters;Pokémon 01;Landorus-T;Landorus;Landorus Therian Form;Landorus-T;5;Ground;Flying;Legendary;;;89;145;90;105;80;91;600;https://img.pokemondb.net/artwork/large/landorus-therian-form.jpg
+38;2024;Kevin Han;USA;Junior;Pokémon 01;Raging Bolt;Raging Bolt;Raging Bolt;Raging Bolt;9;Electric;Dragon;Paradox Pokémon;0;;125;73;91;137;89;75;590;https://img.pokemondb.net/artwork/large/raging-bolt.jpg
+39;2024;Ray Yamanaka;Japan;Senior;Pokémon 01;Rillaboom;Rillaboom;Rillaboom;Rillaboom;8;Grass;;Ordinary;;;100;125;90;60;70;85;530;https://img.pokemondb.net/artwork/large/rillaboom.jpg
+40;2024;Luca Ceribelli;Italy;Masters;Pokémon 01;Miraidon;Miraidon;Miraidon;Miraidon;9;Electric;Dragon;Legendary;;;100;85;100;135;115;135;670;https://img.pokemondb.net/artwork/large/miraidon.jpg
+41;2025;Luke Whittier;USA;Junior;Pokémon 01;Calyrex-I;Calyrex;Calyrex Ice Rider;Calyrex-I;8;Psychic;Ice;Legendary;;;100;165;150;85;130;50;680;https://img.pokemondb.net/artwork/large/calyrex-ice-rider.jpg
+42;2025;Kevin Han;USA;Senior;Pokémon 01;Amoonguss;Amoonguss;Amoonguss;Amoonguss;5;Grass;Poison;Ordinary;;;114;85;70;85;80;30;464;https://img.pokemondb.net/artwork/large/amoonguss.jpg
+43;2025;Giovanni Cischke;USA;Masters;Pokémon 01;Koraidon;Koraidon;Koraidon;Koraidon;9;Fighting;Dragon;Legendary;;;100;135;115;85;100;135;670;https://img.pokemondb.net/artwork/large/koraidon.jpg
+44;2008;Knight Silvayne;USA;Junior;Pokémon 02;Garchomp;Garchomp;Garchomp;Garchomp;4;Dragon;Ground;Ordinary;;;108;130;95;80;85;102;600;https://img.pokemondb.net/artwork/large/garchomp.jpg
+45;2008;Izuru Yoshimura;Japan;Masters;Pokémon 02;Bronzong;Bronzong;Bronzong;Bronzong;4;Steel;Psychic;Ordinary;;;67;89;116;79;116;33;500;https://img.pokemondb.net/artwork/large/bronzong.jpg
+46;2009;Jeremiah Fan;USA;Junior;Pokémon 02;Kingdra;Kingdra;Kingdra;Kingdra;2;Water;Dragon;Ordinary;;;75;95;95;95;95;85;540;https://img.pokemondb.net/artwork/large/kingdra.jpg
+47;2009;Kazuyuki Tsuji;Japan;Masters;Pokémon 02;Toxicroak;Toxicroak;Toxicroak;Toxicroak;4;Poison;Fighting;Ordinary;;;83;106;65;86;65;85;490;https://img.pokemondb.net/artwork/large/toxicroak.jpg
+48;2010;Shota Yamamoto;Japan;Junior;Pokémon 02;Cresselia;Cresselia;Cresselia;Cresselia;4;Psychic;;Legendary;;;120;70;110;75;120;85;580;https://img.pokemondb.net/artwork/large/cresselia.jpg
+49;2010;Ray Rizzo;USA;Masters;Pokémon 02;Cresselia;Cresselia;Cresselia;Cresselia;4;Psychic;;Legendary;;;120;70;110;75;120;85;580;https://img.pokemondb.net/artwork/large/cresselia.jpg
+50;2011;Kamran Jahadi;USA;Senior;Pokémon 02;Amoonguss;Amoonguss;Amoonguss;Amoonguss;5;Grass;Poison;Ordinary;;;114;85;70;85;80;30;464;https://img.pokemondb.net/artwork/large/amoonguss.jpg
+51;2011;Ray Rizzo;USA;Masters;Pokémon 02;Conkeldurr;Conkeldurr;Conkeldurr;Conkeldurr;5;Fighting;;Ordinary;;;105;140;95;55;65;45;505;https://img.pokemondb.net/artwork/large/conkeldurr.jpg
+52;2012;Abram Burrows;USA;Junior;Pokémon 02;Thundurus-I;Thundurus;Thundurus Incarnate Form;Thundurus-I;5;Electric;Flying;Legendary;;;79;115;70;125;80;111;580;https://img.pokemondb.net/artwork/large/thundurus-incarnate-form.jpg
+53;2012;Toler Webb;USA;Senior;Pokémon 02;Ludicolo;Ludicolo;Ludicolo;Ludicolo;3;Water;Grass;Ordinary;;;80;70;70;90;100;70;480;https://img.pokemondb.net/artwork/large/ludicolo.jpg
+54;2012;Ray Rizzo;USA;Masters;Pokémon 02;Garchomp;Garchomp;Garchomp;Garchomp;4;Dragon;Ground;Ordinary;;;108;130;95;80;85;102;600;https://img.pokemondb.net/artwork/large/garchomp.jpg
+55;2013;Brendan Zheng;USA;Junior;Pokémon 02;Conkeldurr;Conkeldurr;Conkeldurr;Conkeldurr;5;Fighting;;Ordinary;;;105;140;95;55;65;45;505;https://img.pokemondb.net/artwork/large/conkeldurr.jpg
+56;2013;Hayden McTavish;USA;Senior;Pokémon 02;Scizor;Scizor;Scizor;Scizor;2;Bug;Steel;Ordinary;;;70;130;100;55;80;65;500;https://img.pokemondb.net/artwork/large/scizor.jpg
+57;2013;Arash Ohmati;Italy;Masters;Pokémon 02;Tornadus-I;Tornadus;Tornadus Incarnate Form;Tornadus-I;5;Flying;;Legendary;;;79;115;70;125;80;111;580;https://img.pokemondb.net/artwork/large/tornadus-incarnate-form.jpg
+58;2014;Kota Yamamoto;Japan;Junior;Pokémon 02;Zapdos;Zapdos;Zapdos;Zapdos;1;Electric;Flying;Legendary;;;90;90;85;125;90;100;580;https://img.pokemondb.net/artwork/large/zapdos.jpg
+59;2014;Nikolai Zielinski;USA;Senior;Pokémon 02;Mawile-Mega;Mawile;Mega Mawile;Mawile-Mega;3;Steel;Fairy;Ordinary;Mega;;50;105;125;55;95;50;480;https://img.pokemondb.net/artwork/large/mega-mawile.jpg
+60;2014;Se Jun Park;South Korea;Masters;Pokémon 02;Gothitelle;Gothitelle;Gothitelle;Gothitelle;5;Psychic;;Ordinary;;;70;55;95;95;110;65;490;https://img.pokemondb.net/artwork/large/gothitelle.jpg
+61;2015;Kotone Yasue;Japan;Junior;Pokémon 02;Amoonguss;Amoonguss;Amoonguss;Amoonguss;5;Grass;Poison;Ordinary;;;114;85;70;85;80;30;464;https://img.pokemondb.net/artwork/large/amoonguss.jpg
+62;2015;Mark Mcquillan;United Kingdom;Senior;Pokémon 02;Landorus-T;Landorus;Landorus Therian Form;Landorus-T;5;Ground;Flying;Legendary;;;89;145;90;105;80;91;600;https://img.pokemondb.net/artwork/large/landorus-therian-form.jpg
+63;2015;Shoma Honami;Japan;Masters;Pokémon 02;Heatran;Heatran;Heatran;Heatran;4;Fire;Steel;Legendary;;;91;90;106;130;106;77;600;https://img.pokemondb.net/artwork/large/heatran.jpg
+64;2016;Cory Connor;USA;Junior;Pokémon 02;Rayquaza;Rayquaza;Rayquaza;Rayquaza;3;Dragon;Flying;Legendary;;;105;150;90;150;90;95;680;https://img.pokemondb.net/artwork/large/rayquaza.jpg
+65;2016;Carson Confer;USA;Senior;Pokémon 02;Kangaskhan-Mega;Kangaskhan;Mega Kangaskhan;Kangaskhan-Mega;1;Normal;;Ordinary;Mega;;105;125;100;60;100;100;590;https://img.pokemondb.net/artwork/large/mega-kangaskhan.jpg
+66;2016;Wolfe Glick;USA;Masters;Pokémon 02;Hitmontop;Hitmontop;Hitmontop;Hitmontop;2;Fighting;;Ordinary;;;50;95;95;35;110;70;455;https://img.pokemondb.net/artwork/large/hitmontop.jpg
+67;2017;Nicholas Kan;Australia;Junior;Pokémon 02;Tapu Koko;Tapu Koko;Tapu Koko;Tapu Koko;7;Electric;Fairy;Legendary;;;70;115;85;95;75;130;570;https://img.pokemondb.net/artwork/large/tapu-koko.jpg
+68;2017;Hong Juyoung;South Korea;Senior;Pokémon 02;Tapu Koko;Tapu Koko;Tapu Koko;Tapu Koko;7;Electric;Fairy;Legendary;;;70;115;85;95;75;130;570;https://img.pokemondb.net/artwork/large/tapu-koko.jpg
+69;2017;Ryota Otsubo;Japan;Masters;Pokémon 02;Whimsicott;Whimsicott;Whimsicott;Whimsicott;5;Grass;Fairy;Ordinary;;;60;67;85;77;75;116;480;https://img.pokemondb.net/artwork/large/whimsicott.jpg
+70;2018;Wonn Lee;Japan;Junior;Pokémon 02;Whimsicott;Whimsicott;Whimsicott;Whimsicott;5;Grass;Fairy;Ordinary;;;60;67;85;77;75;116;480;https://img.pokemondb.net/artwork/large/whimsicott.jpg
+71;2018;James Evans;USA;Senior;Pokémon 02;Gardevoir-Mega;Gardevoir;Mega Gardevoir;Gardevoir-Mega;3;Psychic;Fairy;Ordinary;Mega;;68;85;65;165;135;100;618;https://img.pokemondb.net/artwork/large/mega-gardevoir.jpg
+72;2018;Paul Ruiz;Ecuador;Masters;Pokémon 02;Salamence-Mega;Salamence;Mega Salamence;Salamence-Mega;6;Dragon;Flying;Ordinary;Mega;;95;145;130;120;90;120;700;https://img.pokemondb.net/artwork/large/mega-salamence.jpg
+73;2019;Pi Wu;Taiwan;Junior;Pokémon 02;Xerneas;Xerneas;Xerneas;Xerneas;6;Fairy;;Legendary;;;126;131;95;131;98;99;680;https://img.pokemondb.net/artwork/large/xerneas.jpg
+74;2019;Ko Tsukide;Japan;Senior;Pokémon 02;Rayquaza;Rayquaza;Rayquaza;Rayquaza;3;Dragon;Flying;Legendary;;;105;150;90;150;90;95;680;https://img.pokemondb.net/artwork/large/rayquaza.jpg
+75;2019;Naoto Mizobuchi;Japan;Masters;Pokémon 02;Groudon-Primal;Groudon;Primal Groudon;Groudon-Primal;6;Ground;Fire;Legendary;;;100;180;160;150;90;90;770;https://img.pokemondb.net/artwork/large/primal-groudon.jpg
+76;2022;Kosaku Miyamoto;Japan;Junior;Pokémon 02;Blastoise;Blastoise;Blastoise;Blastoise;1;Water;;Ordinary;;;79;83;100;85;105;78;530;https://img.pokemondb.net/artwork/large/blastoise.jpg
+77;2022;Yasuharu Shimizu;Japan;Senior;Pokémon 02;Venusaur;Venusaur;Venusaur;Venusaur;1;Grass;Poison;Ordinary;;;80;82;83;100;100;80;525;https://img.pokemondb.net/artwork/large/venusaur.jpg
+78;2022;Eduardo Cunha;Portugal;Masters;Pokémon 02;Calyrex-S;Calyrex;Calyrex Shadow Rider;Calyrex-S;8;Psychic;Ghost;Legendary;;;100;85;80;165;100;150;680;https://img.pokemondb.net/artwork/large/calyrex-shadow-rider.jpg
+79;2023;Sora Ebisawa;Japan;Junior;Pokémon 02;Urshifu-D;Urshifu;Urshifu Single Strike Style;Urshifu-D;8;Fighting;Dark;Legendary;;;100;130;100;63;60;97;550;https://img.pokemondb.net/artwork/large/urshifu-single-strike-style.jpg
+80;2023;Tomoya Ogawa;Japan;Senior;Pokémon 02;Rillaboom;Rillaboom;Rillaboom;Rillaboom;8;Grass;;Ordinary;;;100;125;90;60;70;85;530;https://img.pokemondb.net/artwork/large/rillaboom.jpg
+81;2023;Shohei Kimura;Japan;Masters;Pokémon 02;Urshifu-W;Urshifu;Urshifu Rapid Strike Style;Urshifu-W;8;Fighting;Water;Legendary;;;100;130;100;63;60;97;550;https://img.pokemondb.net/artwork/large/urshifu-rapid-strike-style.jpg
+82;2024;Kevin Han;USA;Junior;Pokémon 02;Rillaboom;Rillaboom;Rillaboom;Rillaboom;8;Grass;;Ordinary;;;100;125;90;60;70;85;530;https://img.pokemondb.net/artwork/large/rillaboom.jpg
+83;2024;Ray Yamanaka;Japan;Senior;Pokémon 02;Amoonguss;Amoonguss;Amoonguss;Amoonguss;5;Grass;Poison;Ordinary;;;114;85;70;85;80;30;464;https://img.pokemondb.net/artwork/large/amoonguss.jpg
+84;2024;Luca Ceribelli;Italy;Masters;Pokémon 02;Ogerpon-F;Ogerpon;Ogerpon (Hearthflame Mask);Ogerpon-F;9;Grass;Fire;Legendary;0;Hearthflame Mask;80;120;84;60;96;110;550;https://img.pokemondb.net/artwork/large/ogerpon-hearthflame.jpg
+85;2025;Luke Whittier;USA;Junior;Pokémon 02;Iron Hands;Iron Hands;Iron Hands;Iron Hands;9;Fighting;Electric;Paradox Pokémon;;;154;140;108;50;68;50;570;https://img.pokemondb.net/artwork/large/iron-hands.jpg
+86;2025;Kevin Han;USA;Senior;Pokémon 02;Miraidon;Miraidon;Miraidon;Miraidon;9;Electric;Dragon;Legendary;;;100;85;100;135;115;135;670;https://img.pokemondb.net/artwork/large/miraidon.jpg
+87;2025;Giovanni Cischke;USA;Masters;Pokémon 02;Lunala;Lunala;Lunala;Lunala;7;Psychic;Ghost;Legendary;;;137;113;89;137;107;97;680;https://img.pokemondb.net/artwork/large/lunala.jpg
+88;2008;Knight Silvayne;USA;Junior;Pokémon 03;Metagross;Metagross;Metagross;Metagross;3;Steel;Psychic;Ordinary;;;80;135;130;95;90;70;600;https://img.pokemondb.net/artwork/large/metagross.jpg
+89;2008;Izuru Yoshimura;Japan;Masters;Pokémon 03;Snorlax;Snorlax;Snorlax;Snorlax;1;Normal;;Ordinary;;;160;110;65;65;110;30;540;https://img.pokemondb.net/artwork/large/snorlax.jpg
+90;2009;Jeremiah Fan;USA;Junior;Pokémon 03;Vaporeon;Vaporeon;Vaporeon;Vaporeon;1;Water;;Ordinary;;;130;65;60;110;95;65;525;https://img.pokemondb.net/artwork/large/vaporeon.jpg
+91;2009;Kazuyuki Tsuji;Japan;Masters;Pokémon 03;Metagross;Metagross;Metagross;Metagross;3;Steel;Psychic;Ordinary;;;80;135;130;95;90;70;600;https://img.pokemondb.net/artwork/large/metagross.jpg
+92;2010;Shota Yamamoto;Japan;Junior;Pokémon 03;Ho-Oh;Ho-Oh;Ho-Oh;Ho-Oh;2;Fire;Flying;Legendary;;;106;130;90;110;154;90;680;https://img.pokemondb.net/artwork/large/ho-oh.jpg
+93;2010;Ray Rizzo;USA;Masters;Pokémon 03;Dialga;Dialga;Dialga;Dialga;4;Steel;Dragon;Legendary;;;100;120;120;150;100;90;680;https://img.pokemondb.net/artwork/large/dialga.jpg
+94;2011;Kamran Jahadi;USA;Senior;Pokémon 03;Chandelure;Chandelure;Chandelure;Chandelure;5;Ghost;Fire;Ordinary;;;60;55;90;145;90;80;520;https://img.pokemondb.net/artwork/large/chandelure.jpg
+95;2011;Ray Rizzo;USA;Masters;Pokémon 03;Terrakion;Terrakion;Terrakion;Terrakion;5;Rock;Fighting;Legendary;;;91;129;90;72;90;108;580;https://img.pokemondb.net/artwork/large/terrakion.jpg
+96;2012;Abram Burrows;USA;Junior;Pokémon 03;Volcarona;Volcarona;Volcarona;Volcarona;5;Bug;Fire;Ordinary;;;85;60;65;135;105;100;550;https://img.pokemondb.net/artwork/large/volcarona.jpg
+97;2012;Toler Webb;USA;Senior;Pokémon 03;Cresselia;Cresselia;Cresselia;Cresselia;4;Psychic;;Legendary;;;120;70;110;75;120;85;580;https://img.pokemondb.net/artwork/large/cresselia.jpg
+98;2012;Ray Rizzo;USA;Masters;Pokémon 03;Cresselia;Cresselia;Cresselia;Cresselia;4;Psychic;;Legendary;;;120;70;110;75;120;85;580;https://img.pokemondb.net/artwork/large/cresselia.jpg
+99;2013;Brendan Zheng;USA;Junior;Pokémon 03;Rotom-W;Rotom;Rotom Wash;Rotom-W;4;Electric;Water;Ordinary;;;50;65;107;105;107;86;520;https://img.pokemondb.net/artwork/large/wash-rotom.jpg
+100;2013;Hayden McTavish;USA;Senior;Pokémon 03;Rotom-W;Rotom;Rotom Wash;Rotom-W;4;Electric;Water;Ordinary;;;50;65;107;105;107;86;520;https://img.pokemondb.net/artwork/large/wash-rotom.jpg
+101;2013;Arash Ohmati;Italy;Masters;Pokémon 03;Latios;Latios;Latios;Latios;3;Dragon;Psychic;Legendary;;;80;90;80;130;110;110;600;https://img.pokemondb.net/artwork/large/latios.jpg
+102;2014;Kota Yamamoto;Japan;Junior;Pokémon 03;Hydreigon;Hydreigon;Hydreigon;Hydreigon;5;Dark;Dragon;Ordinary;;;92;105;90;125;90;98;600;https://img.pokemondb.net/artwork/large/hydreigon.jpg
+103;2014;Nikolai Zielinski;USA;Senior;Pokémon 03;Hydreigon;Hydreigon;Hydreigon;Hydreigon;5;Dark;Dragon;Ordinary;;;92;105;90;125;90;98;600;https://img.pokemondb.net/artwork/large/hydreigon.jpg
+104;2014;Se Jun Park;South Korea;Masters;Pokémon 03;Gardevoir;Gardevoir;Gardevoir;Gardevoir;3;Psychic;Fairy;Ordinary;;;68;65;65;125;115;80;518;https://img.pokemondb.net/artwork/large/gardevoir.jpg
+105;2015;Kotone Yasue;Japan;Junior;Pokémon 03;Thundurus-I;Thundurus;Thundurus Incarnate Form;Thundurus-I;5;Electric;Flying;Legendary;;;79;115;70;125;80;111;580;https://img.pokemondb.net/artwork/large/thundurus-incarnate-form.jpg
+106;2015;Mark Mcquillan;United Kingdom;Senior;Pokémon 03;Machamp;Machamp;Machamp;Machamp;1;Fighting;;Ordinary;;;90;130;80;65;85;55;505;https://img.pokemondb.net/artwork/large/machamp.jpg
+107;2015;Shoma Honami;Japan;Masters;Pokémon 03;Thundurus-I;Thundurus;Thundurus Incarnate Form;Thundurus-I;5;Electric;Flying;Legendary;;;79;115;70;125;80;111;580;https://img.pokemondb.net/artwork/large/thundurus-incarnate-form.jpg
+108;2016;Cory Connor;USA;Junior;Pokémon 03;Togekiss;Togekiss;Togekiss;Togekiss;4;Fairy;Flying;Ordinary;;;85;50;95;120;115;80;545;https://img.pokemondb.net/artwork/large/togekiss.jpg
+109;2016;Carson Confer;USA;Senior;Pokémon 03;Thundurus-I;Thundurus;Thundurus Incarnate Form;Thundurus-I;5;Electric;Flying;Legendary;;;79;115;70;125;80;111;580;https://img.pokemondb.net/artwork/large/thundurus-incarnate-form.jpg
+110;2016;Wolfe Glick;USA;Masters;Pokémon 03;Gengar-Mega;Gengar;Mega Gengar;Gengar-Mega;6;Ghost;Poison;Ordinary;Mega;;60;65;80;170;95;130;600;https://img.pokemondb.net/artwork/large/mega-gengar.jpg
+111;2017;Nicholas Kan;Australia;Junior;Pokémon 03;Arcanine;Arcanine;Arcanine;Arcanine;1;Fire;;Ordinary;;;90;110;80;100;80;95;555;https://img.pokemondb.net/artwork/large/arcanine.jpg
+112;2017;Hong Juyoung;South Korea;Senior;Pokémon 03;Arcanine;Arcanine;Arcanine;Arcanine;1;Fire;;Ordinary;;;90;110;80;100;80;95;555;https://img.pokemondb.net/artwork/large/arcanine.jpg
+113;2017;Ryota Otsubo;Japan;Masters;Pokémon 03;Tapu Fini;Tapu Fini;Tapu Fini;Tapu Fini;7;Water;Fairy;Legendary;;;70;75;115;95;130;85;570;https://img.pokemondb.net/artwork/large/tapu-fini.jpg
+114;2018;Wonn Lee;Japan;Junior;Pokémon 03;Gengar-Mega;Gengar;Mega Gengar;Gengar-Mega;6;Ghost;Poison;Ordinary;Mega;;60;65;80;170;95;130;600;https://img.pokemondb.net/artwork/large/mega-gengar.jpg
+115;2018;James Evans;USA;Senior;Pokémon 03;Tapu Koko;Tapu Koko;Tapu Koko;Tapu Koko;7;Electric;Fairy;Legendary;;;70;115;85;95;75;130;570;https://img.pokemondb.net/artwork/large/tapu-koko.jpg
+116;2018;Paul Ruiz;Ecuador;Masters;Pokémon 03;Snorlax;Snorlax;Snorlax;Snorlax;1;Normal;;Ordinary;;;160;110;65;65;110;30;540;https://img.pokemondb.net/artwork/large/snorlax.jpg
+117;2019;Pi Wu;Taiwan;Junior;Pokémon 03;Tapu Fini;Tapu Fini;Tapu Fini;Tapu Fini;7;Water;Fairy;Legendary;;;70;75;115;95;130;85;570;https://img.pokemondb.net/artwork/large/tapu-fini.jpg
+118;2019;Ko Tsukide;Japan;Senior;Pokémon 03;Togedemaru;Togedemaru;Togedemaru;Togedemaru;7;Electric;Steel;Ordinary;;;65;98;63;40;73;96;435;https://img.pokemondb.net/artwork/large/togedemaru.jpg
+119;2019;Naoto Mizobuchi;Japan;Masters;Pokémon 03;Incineroar;Incineroar;Incineroar;Incineroar;7;Fire;Dark;Ordinary;;;95;115;90;80;90;60;530;https://img.pokemondb.net/artwork/large/incineroar.jpg
+120;2022;Kosaku Miyamoto;Japan;Junior;Pokémon 03;Zacian-CS;Zacian;Zacian Crowned Sword;Zacian-CS;8;Fairy;Steel;Legendary;;;92;150;115;80;115;148;700;https://img.pokemondb.net/artwork/large/zacian.jpg
+121;2022;Yasuharu Shimizu;Japan;Senior;Pokémon 03;Incineroar;Incineroar;Incineroar;Incineroar;7;Fire;Dark;Ordinary;;;95;115;90;80;90;60;530;https://img.pokemondb.net/artwork/large/incineroar.jpg
+122;2022;Eduardo Cunha;Portugal;Masters;Pokémon 03;Rillaboom;Rillaboom;Rillaboom;Rillaboom;8;Grass;;Ordinary;;;100;125;90;60;70;85;530;https://img.pokemondb.net/artwork/large/rillaboom.jpg
+123;2023;Sora Ebisawa;Japan;Junior;Pokémon 03;Dragonite;Dragonite;Dragonite;Dragonite;1;Dragon;Flying;Ordinary;;;91;134;95;100;100;80;600;https://img.pokemondb.net/artwork/large/dragonite.jpg
+124;2023;Tomoya Ogawa;Japan;Senior;Pokémon 03;Urshifu-D;Urshifu;Urshifu Single Strike Style;Urshifu-D;8;Fighting;Dark;Legendary;;;100;130;100;63;60;97;550;https://img.pokemondb.net/artwork/large/urshifu-single-strike-style.jpg
+125;2023;Shohei Kimura;Japan;Masters;Pokémon 03;Flutter Mane;Flutter Mane;Flutter Mane;Flutter Mane;9;Ghost;Fairy;Paradox Pokémon;;;55;55;55;135;135;135;570;https://img.pokemondb.net/artwork/large/flutter-mane.jpg
+126;2024;Kevin Han;USA;Junior;Pokémon 03;Farigiraf;Farigiraf;Farigiraf;Farigiraf;9;Normal;Psychic;Ordinary;;;120;90;70;110;70;60;520;https://img.pokemondb.net/artwork/large/farigiraf.jpg
+127;2024;Ray Yamanaka;Japan;Senior;Pokémon 03;Raging Bolt;Raging Bolt;Raging Bolt;Raging Bolt;9;Electric;Dragon;Paradox Pokémon;0;;125;73;91;137;89;75;590;https://img.pokemondb.net/artwork/large/raging-bolt.jpg
+128;2024;Luca Ceribelli;Italy;Masters;Pokémon 03;Urshifu-W;Urshifu;Urshifu Rapid Strike Style;Urshifu-W;8;Fighting;Water;Legendary;;;100;130;100;63;60;97;550;https://img.pokemondb.net/artwork/large/urshifu-rapid-strike-style.jpg
+129;2025;Luke Whittier;USA;Junior;Pokémon 03;Landorus-I;Landorus;Landorus Incarnate Form;Landorus-I;5;Ground;Flying;Legendary;;;89;125;90;115;80;101;600;https://img.pokemondb.net/artwork/large/landorus-incarnate-form.jpg
+130;2025;Kevin Han;USA;Senior;Pokémon 03;Incineroar;Incineroar;Incineroar;Incineroar;7;Fire;Dark;Ordinary;;;95;115;90;80;90;60;530;https://img.pokemondb.net/artwork/large/incineroar.jpg
+131;2025;Giovanni Cischke;USA;Masters;Pokémon 03;Flutter Mane;Flutter Mane;Flutter Mane;Flutter Mane;9;Ghost;Fairy;Paradox Pokémon;;;55;55;55;135;135;135;570;https://img.pokemondb.net/artwork/large/flutter-mane.jpg
+132;2008;Knight Silvayne;USA;Junior;Pokémon 04;Hippowdon;Hippowdon;Hippowdon;Hippowdon;4;Ground;;Ordinary;;;108;112;118;68;72;47;525;https://img.pokemondb.net/artwork/large/hippowdon.jpg
+133;2008;Izuru Yoshimura;Japan;Masters;Pokémon 04;Metagross;Metagross;Metagross;Metagross;3;Steel;Psychic;Ordinary;;;80;135;130;95;90;70;600;https://img.pokemondb.net/artwork/large/metagross.jpg
+134;2009;Jeremiah Fan;USA;Junior;Pokémon 04;Metagross;Metagross;Metagross;Metagross;3;Steel;Psychic;Ordinary;;;80;135;130;95;90;70;600;https://img.pokemondb.net/artwork/large/metagross.jpg
+135;2009;Kazuyuki Tsuji;Japan;Masters;Pokémon 04;Snorlax;Snorlax;Snorlax;Snorlax;1;Normal;;Ordinary;;;160;110;65;65;110;30;540;https://img.pokemondb.net/artwork/large/snorlax.jpg
+136;2010;Shota Yamamoto;Japan;Junior;Pokémon 04;Groudon;Groudon;Groudon;Groudon;3;Ground;;Legendary;;;100;150;140;100;90;90;670;https://img.pokemondb.net/artwork/large/groudon.jpg
+137;2010;Ray Rizzo;USA;Masters;Pokémon 04;Kyogre;Kyogre;Kyogre;Kyogre;3;Water;;Legendary;;;100;100;90;150;140;90;670;https://img.pokemondb.net/artwork/large/kyogre.jpg
+138;2011;Kamran Jahadi;USA;Senior;Pokémon 04;Terrakion;Terrakion;Terrakion;Terrakion;5;Rock;Fighting;Legendary;;;91;129;90;72;90;108;580;https://img.pokemondb.net/artwork/large/terrakion.jpg
+139;2011;Ray Rizzo;USA;Masters;Pokémon 04;Gothitelle;Gothitelle;Gothitelle;Gothitelle;5;Psychic;;Ordinary;;;70;55;95;95;110;65;490;https://img.pokemondb.net/artwork/large/gothitelle.jpg
+140;2012;Abram Burrows;USA;Junior;Pokémon 04;Landorus-I;Landorus;Landorus Incarnate Form;Landorus-I;5;Ground;Flying;Legendary;;;89;125;90;115;80;101;600;https://img.pokemondb.net/artwork/large/landorus-incarnate-form.jpg
+141;2012;Toler Webb;USA;Senior;Pokémon 04;Hydreigon;Hydreigon;Hydreigon;Hydreigon;5;Dark;Dragon;Ordinary;;;92;105;90;125;90;98;600;https://img.pokemondb.net/artwork/large/hydreigon.jpg
+142;2012;Ray Rizzo;USA;Masters;Pokémon 04;Hydreigon;Hydreigon;Hydreigon;Hydreigon;5;Dark;Dragon;Ordinary;;;92;105;90;125;90;98;600;https://img.pokemondb.net/artwork/large/hydreigon.jpg
+143;2013;Brendan Zheng;USA;Junior;Pokémon 04;Heatran;Heatran;Heatran;Heatran;4;Fire;Steel;Legendary;;;91;90;106;130;106;77;600;https://img.pokemondb.net/artwork/large/heatran.jpg
+144;2013;Hayden McTavish;USA;Senior;Pokémon 04;Thundurus-I;Thundurus;Thundurus Incarnate Form;Thundurus-I;5;Electric;Flying;Legendary;;;79;115;70;125;80;111;580;https://img.pokemondb.net/artwork/large/thundurus-incarnate-form.jpg
+145;2013;Arash Ohmati;Italy;Masters;Pokémon 04;Amoonguss;Amoonguss;Amoonguss;Amoonguss;5;Grass;Poison;Ordinary;;;114;85;70;85;80;30;464;https://img.pokemondb.net/artwork/large/amoonguss.jpg
+146;2014;Kota Yamamoto;Japan;Junior;Pokémon 04;Garchomp;Garchomp;Garchomp;Garchomp;4;Dragon;Ground;Ordinary;;;108;130;95;80;85;102;600;https://img.pokemondb.net/artwork/large/garchomp.jpg
+147;2014;Nikolai Zielinski;USA;Senior;Pokémon 04;Gengar;Gengar;Gengar;Gengar;1;Ghost;Poison;Ordinary;;;60;65;60;130;75;110;500;https://img.pokemondb.net/artwork/large/gengar.jpg
+148;2014;Se Jun Park;South Korea;Masters;Pokémon 04;Gyarados-Mega;Gyarados;Mega Gyarados;Gyarados-Mega;6;Water;Dark;Ordinary;Mega;;95;155;109;70;130;81;640;https://img.pokemondb.net/artwork/large/mega-gyarados.jpg
+149;2015;Kotone Yasue;Japan;Junior;Pokémon 04;Landorus-T;Landorus;Landorus Therian Form;Landorus-T;5;Ground;Flying;Legendary;;;89;145;90;105;80;91;600;https://img.pokemondb.net/artwork/large/landorus-therian-form.jpg
+150;2015;Mark Mcquillan;United Kingdom;Senior;Pokémon 04;Charizard-Mega-Y;Charizard;Mega Charizard Y;Charizard-Mega-Y;6;Fire;Flying;Ordinary;Mega;;78;104;78;159;115;100;634;https://img.pokemondb.net/artwork/large/mega-charizard-y.jpg
+151;2015;Shoma Honami;Japan;Masters;Pokémon 04;Landorus-T;Landorus;Landorus Therian Form;Landorus-T;5;Ground;Flying;Legendary;;;89;145;90;105;80;91;600;https://img.pokemondb.net/artwork/large/landorus-therian-form.jpg
+152;2016;Cory Connor;USA;Junior;Pokémon 04;Thundurus-I;Thundurus;Thundurus Incarnate Form;Thundurus-I;5;Electric;Flying;Legendary;;;79;115;70;125;80;111;580;https://img.pokemondb.net/artwork/large/thundurus-incarnate-form.jpg
+153;2016;Carson Confer;USA;Senior;Pokémon 04;Bronzong;Bronzong;Bronzong;Bronzong;4;Steel;Psychic;Ordinary;;;67;89;116;79;116;33;500;https://img.pokemondb.net/artwork/large/bronzong.jpg
+154;2016;Wolfe Glick;USA;Masters;Pokémon 04;Raichu;Raichu;Raichu;Raichu;1;Electric;;Ordinary;;;60;90;55;90;80;110;485;https://img.pokemondb.net/artwork/large/raichu.jpg
+155;2017;Nicholas Kan;Australia;Junior;Pokémon 04;Gyarados;Gyarados;Gyarados;Gyarados;1;Water;Flying;Ordinary;;;95;125;79;60;100;81;540;https://img.pokemondb.net/artwork/large/gyarados.jpg
+156;2017;Hong Juyoung;South Korea;Senior;Pokémon 04;Kartana;Kartana;Kartana;Kartana;7;Grass;Steel;Ultra Beast;;;59;181;131;59;31;109;570;https://img.pokemondb.net/artwork/large/kartana.jpg
+157;2017;Ryota Otsubo;Japan;Masters;Pokémon 04;Marowak-A;Marowak;Alolan Marowak;Marowak-A;7;Fire;Ghost;Ordinary;;Alolan;60;80;110;50;80;45;425;https://img.pokemondb.net/artwork/large/alolan-marowak.jpg
+158;2018;Wonn Lee;Japan;Junior;Pokémon 04;Tapu Bulu;Tapu Bulu;Tapu Bulu;Tapu Bulu;7;Grass;Fairy;Legendary;;;70;130;115;85;95;75;570;https://img.pokemondb.net/artwork/large/tapu-bulu.jpg
+159;2018;James Evans;USA;Senior;Pokémon 04;Landorus-T;Landorus;Landorus Therian Form;Landorus-T;5;Ground;Flying;Legendary;;;89;145;90;105;80;91;600;https://img.pokemondb.net/artwork/large/landorus-therian-form.jpg
+160;2018;Paul Ruiz;Ecuador;Masters;Pokémon 04;Incineroar;Incineroar;Incineroar;Incineroar;7;Fire;Dark;Ordinary;;;95;115;90;80;90;60;530;https://img.pokemondb.net/artwork/large/incineroar.jpg
+161;2019;Pi Wu;Taiwan;Junior;Pokémon 04;Incineroar;Incineroar;Incineroar;Incineroar;7;Fire;Dark;Ordinary;;;95;115;90;80;90;60;530;https://img.pokemondb.net/artwork/large/incineroar.jpg
+162;2019;Ko Tsukide;Japan;Senior;Pokémon 04;Tapu Fini;Tapu Fini;Tapu Fini;Tapu Fini;7;Water;Fairy;Legendary;;;70;75;115;95;130;85;570;https://img.pokemondb.net/artwork/large/tapu-fini.jpg
+163;2019;Naoto Mizobuchi;Japan;Masters;Pokémon 04;Salamence-Mega;Salamence;Mega Salamence;Salamence-Mega;6;Dragon;Flying;Ordinary;Mega;;95;145;130;120;90;120;700;https://img.pokemondb.net/artwork/large/mega-salamence.jpg
+164;2022;Kosaku Miyamoto;Japan;Junior;Pokémon 04;Calyrex-S;Calyrex;Calyrex Shadow Rider;Calyrex-S;8;Psychic;Ghost;Legendary;;;100;85;80;165;100;150;680;https://img.pokemondb.net/artwork/large/calyrex-shadow-rider.jpg
+165;2022;Yasuharu Shimizu;Japan;Senior;Pokémon 04;Bronzong;Bronzong;Bronzong;Bronzong;4;Steel;Psychic;Ordinary;;;67;89;116;79;116;33;500;https://img.pokemondb.net/artwork/large/bronzong.jpg
+166;2022;Eduardo Cunha;Portugal;Masters;Pokémon 04;Incineroar;Incineroar;Incineroar;Incineroar;7;Fire;Dark;Ordinary;;;95;115;90;80;90;60;530;https://img.pokemondb.net/artwork/large/incineroar.jpg
+167;2023;Sora Ebisawa;Japan;Junior;Pokémon 04;Flutter Mane;Flutter Mane;Flutter Mane;Flutter Mane;9;Ghost;Fairy;Paradox Pokémon;;;55;55;55;135;135;135;570;https://img.pokemondb.net/artwork/large/flutter-mane.jpg
+168;2023;Tomoya Ogawa;Japan;Senior;Pokémon 04;Sylveon;Sylveon;Sylveon;Sylveon;6;Fairy;;Ordinary;;;95;65;65;110;130;60;525;https://img.pokemondb.net/artwork/large/sylveon.jpg
+169;2023;Shohei Kimura;Japan;Masters;Pokémon 04;Chien-Pao;Chien-Pao;Chien-Pao;Chien-Pao;9;Dark;Ice;Legendary;;;80;120;80;90;65;135;570;https://img.pokemondb.net/artwork/large/chien-pao.jpg
+170;2024;Kevin Han;USA;Junior;Pokémon 04;Urshifu-W;Urshifu;Urshifu Rapid Strike Style;Urshifu-W;8;Fighting;Water;Legendary;;;100;130;100;63;60;97;550;https://img.pokemondb.net/artwork/large/urshifu-rapid-strike-style.jpg
+171;2024;Ray Yamanaka;Japan;Senior;Pokémon 04;Calyrex-S;Calyrex;Calyrex Shadow Rider;Calyrex-S;8;Psychic;Ghost;Legendary;;;100;85;80;165;100;150;680;https://img.pokemondb.net/artwork/large/calyrex-shadow-rider.jpg
+172;2024;Luca Ceribelli;Italy;Masters;Pokémon 04;Iron Hands;Iron Hands;Iron Hands;Iron Hands;9;Fighting;Electric;Paradox Pokémon;;;154;140;108;50;68;50;570;https://img.pokemondb.net/artwork/large/iron-hands.jpg
+173;2025;Luke Whittier;USA;Junior;Pokémon 04;Farigiraf;Farigiraf;Farigiraf;Farigiraf;9;Normal;Psychic;Ordinary;;;120;90;70;110;70;60;520;https://img.pokemondb.net/artwork/large/farigiraf.jpg
+174;2025;Kevin Han;USA;Senior;Pokémon 04;Landorus-I;Landorus;Landorus Incarnate Form;Landorus-I;5;Ground;Flying;Legendary;;;89;125;90;115;80;101;600;https://img.pokemondb.net/artwork/large/landorus-incarnate-form.jpg
+175;2025;Giovanni Cischke;USA;Masters;Pokémon 04;Chi-Yu;Chi-Yu;Chi-Yu;Chi-Yu;9;Dark;Fire;Legendary;;;55;80;80;135;120;100;570;https://img.pokemondb.net/artwork/large/chi-yu.jpg
+176;2009;Jeremiah Fan;USA;Junior;Pokémon 05;Toxicroak;Toxicroak;Toxicroak;Toxicroak;4;Poison;Fighting;Ordinary;;;83;106;65;86;65;85;490;https://img.pokemondb.net/artwork/large/toxicroak.jpg
+177;2009;Kazuyuki Tsuji;Japan;Masters;Pokémon 05;Salamence;Salamence;Salamence;Salamence;3;Dragon;Flying;Ordinary;;;95;135;80;110;80;100;600;https://img.pokemondb.net/artwork/large/salamence.jpg
+178;2010;Shota Yamamoto;Japan;Junior;Pokémon 05;Cherrim;Cherrim;Cherrim;Cherrim;4;Grass;;Ordinary;;;70;60;70;87;78;85;450;https://img.pokemondb.net/artwork/large/cherrim.jpg
+179;2010;Ray Rizzo;USA;Masters;Pokémon 05;Groudon;Groudon;Groudon;Groudon;3;Ground;;Legendary;;;100;150;140;100;90;90;670;https://img.pokemondb.net/artwork/large/groudon.jpg
+180;2011;Kamran Jahadi;USA;Senior;Pokémon 05;Tornadus-I;Tornadus;Tornadus Incarnate Form;Tornadus-I;5;Flying;;Legendary;;;79;115;70;125;80;111;580;https://img.pokemondb.net/artwork/large/tornadus-incarnate-form.jpg
+181;2011;Ray Rizzo;USA;Masters;Pokémon 05;Thundurus-I;Thundurus;Thundurus Incarnate Form;Thundurus-I;5;Electric;Flying;Legendary;;;79;115;70;125;80;111;580;https://img.pokemondb.net/artwork/large/thundurus-incarnate-form.jpg
+182;2012;Abram Burrows;USA;Junior;Pokémon 05;Tyranitar;Tyranitar;Tyranitar;Tyranitar;2;Rock;Dark;Ordinary;;;100;134;110;95;100;61;600;https://img.pokemondb.net/artwork/large/tyranitar.jpg
+183;2012;Toler Webb;USA;Senior;Pokémon 05;Rotom-H;Rotom;Rotom Heat;Rotom-H;4;Electric;Fire;Ordinary;;;50;65;107;105;107;86;520;https://img.pokemondb.net/artwork/large/heat-rotom.jpg
+184;2012;Ray Rizzo;USA;Masters;Pokémon 05;Rotom-W;Rotom;Rotom Wash;Rotom-W;4;Electric;Water;Ordinary;;;50;65;107;105;107;86;520;https://img.pokemondb.net/artwork/large/wash-rotom.jpg
+185;2013;Brendan Zheng;USA;Junior;Pokémon 05;Jellicent;Jellicent;Jellicent;Jellicent;5;Water;Ghost;Ordinary;;;100;60;70;85;105;60;480;https://img.pokemondb.net/artwork/large/jellicent.jpg
+186;2013;Hayden McTavish;USA;Senior;Pokémon 05;Cresselia;Cresselia;Cresselia;Cresselia;4;Psychic;;Legendary;;;120;70;110;75;120;85;580;https://img.pokemondb.net/artwork/large/cresselia.jpg
+187;2013;Arash Ohmati;Italy;Masters;Pokémon 05;Heatran;Heatran;Heatran;Heatran;4;Fire;Steel;Legendary;;;91;90;106;130;106;77;600;https://img.pokemondb.net/artwork/large/heatran.jpg
+188;2014;Kota Yamamoto;Japan;Junior;Pokémon 05;Aegislash;Aegislash;Aegislash Shield Form;Aegislash;6;Steel;Ghost;Ordinary;;;60;50;140;50;140;60;500;https://img.pokemondb.net/artwork/large/aegislash-shield-form.jpg
+189;2014;Nikolai Zielinski;USA;Senior;Pokémon 05;Rotom-W;Rotom;Rotom Wash;Rotom-W;4;Electric;Water;Ordinary;;;50;65;107;105;107;86;520;https://img.pokemondb.net/artwork/large/wash-rotom.jpg
+190;2014;Se Jun Park;South Korea;Masters;Pokémon 05;Talonflame;Talonflame;Talonflame;Talonflame;6;Fire;Flying;Ordinary;;;78;81;71;74;69;126;499;https://img.pokemondb.net/artwork/large/talonflame.jpg
+191;2015;Kotone Yasue;Japan;Junior;Pokémon 05;Heatran;Heatran;Heatran;Heatran;4;Fire;Steel;Legendary;;;91;90;106;130;106;77;600;https://img.pokemondb.net/artwork/large/heatran.jpg
+192;2015;Mark Mcquillan;United Kingdom;Senior;Pokémon 05;Sylveon;Sylveon;Sylveon;Sylveon;6;Fairy;;Ordinary;;;95;65;65;110;130;60;525;https://img.pokemondb.net/artwork/large/sylveon.jpg
+193;2015;Shoma Honami;Japan;Masters;Pokémon 05;Cresselia;Cresselia;Cresselia;Cresselia;4;Psychic;;Legendary;;;120;70;110;75;120;85;580;https://img.pokemondb.net/artwork/large/cresselia.jpg
+194;2016;Cory Connor;USA;Junior;Pokémon 05;Scizor;Scizor;Scizor;Scizor;2;Bug;Steel;Ordinary;;;70;130;100;55;80;65;500;https://img.pokemondb.net/artwork/large/scizor.jpg
+195;2016;Carson Confer;USA;Senior;Pokémon 05;Cresselia;Cresselia;Cresselia;Cresselia;4;Psychic;;Legendary;;;120;70;110;75;120;85;580;https://img.pokemondb.net/artwork/large/cresselia.jpg
+196;2016;Wolfe Glick;USA;Masters;Pokémon 05;Bronzong;Bronzong;Bronzong;Bronzong;4;Steel;Psychic;Ordinary;;;67;89;116;79;116;33;500;https://img.pokemondb.net/artwork/large/bronzong.jpg
+197;2017;Nicholas Kan;Australia;Junior;Pokémon 05;Garchomp;Garchomp;Garchomp;Garchomp;4;Dragon;Ground;Ordinary;;;108;130;95;80;85;102;600;https://img.pokemondb.net/artwork/large/garchomp.jpg
+198;2017;Hong Juyoung;South Korea;Senior;Pokémon 05;Araquanid;Araquanid;Araquanid;Araquanid;7;Water;Bug;Ordinary;;;68;70;92;50;132;42;454;https://img.pokemondb.net/artwork/large/araquanid.jpg
+199;2017;Ryota Otsubo;Japan;Masters;Pokémon 05;Celesteela;Celesteela;Celesteela;Celesteela;7;Steel;Flying;Ultra Beast;;;97;101;103;107;101;61;570;https://img.pokemondb.net/artwork/large/celesteela.jpg
+200;2018;Wonn Lee;Japan;Junior;Pokémon 05;Kommo-o;Kommo-o;Kommo-o;Kommo-o;7;Dragon;Fighting;Ordinary;;;75;110;125;100;105;85;600;https://img.pokemondb.net/artwork/large/kommo-o.jpg
+201;2018;James Evans;USA;Senior;Pokémon 05;Porygon2;Porygon2;Porygon2;Porygon2;2;Normal;;Ordinary;;;85;80;90;105;95;60;515;https://img.pokemondb.net/artwork/large/porygon2.jpg
+202;2018;Paul Ruiz;Ecuador;Masters;Pokémon 05;Gastrodon;Gastrodon;Gastrodon;Gastrodon;4;Water;Ground;Ordinary;;;111;83;68;92;82;39;475;https://img.pokemondb.net/artwork/large/gastrodon.jpg
+203;2019;Pi Wu;Taiwan;Junior;Pokémon 05;Nihilego;Nihilego;Nihilego;Nihilego;7;Rock;Poison;Ultra Beast;;;109;53;47;127;131;103;570;https://img.pokemondb.net/artwork/large/nihilego.jpg
+204;2019;Ko Tsukide;Japan;Senior;Pokémon 05;Incineroar;Incineroar;Incineroar;Incineroar;7;Fire;Dark;Ordinary;;;95;115;90;80;90;60;530;https://img.pokemondb.net/artwork/large/incineroar.jpg
+205;2019;Naoto Mizobuchi;Japan;Masters;Pokémon 05;Tapu Fini;Tapu Fini;Tapu Fini;Tapu Fini;7;Water;Fairy;Legendary;;;70;75;115;95;130;85;570;https://img.pokemondb.net/artwork/large/tapu-fini.jpg
+206;2022;Kosaku Miyamoto;Japan;Junior;Pokémon 05;Amoonguss;Amoonguss;Amoonguss;Amoonguss;5;Grass;Poison;Ordinary;;;114;85;70;85;80;30;464;https://img.pokemondb.net/artwork/large/amoonguss.jpg
+207;2022;Yasuharu Shimizu;Japan;Senior;Pokémon 05;Zacian-CS;Zacian;Zacian Crowned Sword;Zacian-CS;8;Fairy;Steel;Legendary;;;92;150;115;80;115;148;700;https://img.pokemondb.net/artwork/large/zacian.jpg
+208;2022;Eduardo Cunha;Portugal;Masters;Pokémon 05;Thundurus-I;Thundurus;Thundurus Incarnate Form;Thundurus-I;5;Electric;Flying;Legendary;;;79;115;70;125;80;111;580;https://img.pokemondb.net/artwork/large/thundurus-incarnate-form.jpg
+209;2023;Sora Ebisawa;Japan;Junior;Pokémon 05;Amoonguss;Amoonguss;Amoonguss;Amoonguss;5;Grass;Poison;Ordinary;;;114;85;70;85;80;30;464;https://img.pokemondb.net/artwork/large/amoonguss.jpg
+210;2023;Tomoya Ogawa;Japan;Senior;Pokémon 05;Arcanine-H;Arcanine;Hisuian Arcanine;Arcanine-H;8;Fire;Rock;Ordinary;;Hisuian;95;115;80;95;80;90;555;https://img.pokemondb.net/artwork/large/hisuian-arcanine.jpg
+211;2023;Shohei Kimura;Japan;Masters;Pokémon 05;Amoonguss;Amoonguss;Amoonguss;Amoonguss;5;Grass;Poison;Ordinary;;;114;85;70;85;80;30;464;https://img.pokemondb.net/artwork/large/amoonguss.jpg
+212;2024;Kevin Han;USA;Junior;Pokémon 05;Calyrex-I;Calyrex;Calyrex Ice Rider;Calyrex-I;8;Psychic;Ice;Legendary;;;100;165;150;85;130;50;680;https://img.pokemondb.net/artwork/large/calyrex-ice-rider.jpg
+213;2024;Ray Yamanaka;Japan;Senior;Pokémon 05;Incineroar;Incineroar;Incineroar;Incineroar;7;Fire;Dark;Ordinary;;;95;115;90;80;90;60;530;https://img.pokemondb.net/artwork/large/incineroar.jpg
+214;2024;Luca Ceribelli;Italy;Masters;Pokémon 05;Whimsicott;Whimsicott;Whimsicott;Whimsicott;5;Grass;Fairy;Ordinary;;;60;67;85;77;75;116;480;https://img.pokemondb.net/artwork/large/whimsicott.jpg
+215;2025;Luke Whittier;USA;Junior;Pokémon 05;Urshifu-W;Urshifu;Urshifu Rapid Strike Style;Urshifu-W;8;Fighting;Water;Legendary;;;100;130;100;63;60;97;550;https://img.pokemondb.net/artwork/large/urshifu-rapid-strike-style.jpg
+216;2025;Kevin Han;USA;Senior;Pokémon 05;Calyrex-I;Calyrex;Calyrex Ice Rider;Calyrex-I;8;Psychic;Ice;Legendary;;;100;165;150;85;130;50;680;https://img.pokemondb.net/artwork/large/calyrex-ice-rider.jpg
+217;2025;Giovanni Cischke;USA;Masters;Pokémon 05;Ursaluna;Ursaluna;Ursaluna;Ursaluna;8;Ground;Normal;Ordinary;;;130;140;105;45;80;50;550;https://img.pokemondb.net/artwork/large/ursaluna.jpg
+218;2009;Jeremiah Fan;USA;Junior;Pokémon 06;Slowbro;Slowbro;Slowbro;Slowbro;1;Water;Psychic;Ordinary;;;95;75;110;100;80;30;490;https://img.pokemondb.net/artwork/large/slowbro.jpg
+219;2009;Kazuyuki Tsuji;Japan;Masters;Pokémon 06;Empoleon;Empoleon;Empoleon;Empoleon;4;Water;Steel;Ordinary;;;84;86;88;111;101;60;530;https://img.pokemondb.net/artwork/large/empoleon.jpg
+220;2010;Shota Yamamoto;Japan;Junior;Pokémon 06;Palkia;Palkia;Palkia;Palkia;4;Water;Dragon;Legendary;;;90;120;100;150;120;100;680;https://img.pokemondb.net/artwork/large/palkia.jpg
+221;2010;Ray Rizzo;USA;Masters;Pokémon 06;Ludicolo;Ludicolo;Ludicolo;Ludicolo;3;Water;Grass;Ordinary;;;80;70;70;90;100;70;480;https://img.pokemondb.net/artwork/large/ludicolo.jpg
+222;2011;Kamran Jahadi;USA;Senior;Pokémon 06;Thundurus-I;Thundurus;Thundurus Incarnate Form;Thundurus-I;5;Electric;Flying;Legendary;;;79;115;70;125;80;111;580;https://img.pokemondb.net/artwork/large/thundurus-incarnate-form.jpg
+223;2011;Ray Rizzo;USA;Masters;Pokémon 06;Hydreigon;Hydreigon;Hydreigon;Hydreigon;5;Dark;Dragon;Ordinary;;;92;105;90;125;90;98;600;https://img.pokemondb.net/artwork/large/hydreigon.jpg
+224;2012;Abram Burrows;USA;Junior;Pokémon 06;Hitmontop;Hitmontop;Hitmontop;Hitmontop;2;Fighting;;Ordinary;;;50;95;95;35;110;70;455;https://img.pokemondb.net/artwork/large/hitmontop.jpg
+225;2012;Toler Webb;USA;Senior;Pokémon 06;Metagross;Metagross;Metagross;Metagross;3;Steel;Psychic;Ordinary;;;80;135;130;95;90;70;600;https://img.pokemondb.net/artwork/large/metagross.jpg
+226;2012;Ray Rizzo;USA;Masters;Pokémon 06;Metagross;Metagross;Metagross;Metagross;3;Steel;Psychic;Ordinary;;;80;135;130;95;90;70;600;https://img.pokemondb.net/artwork/large/metagross.jpg
+227;2013;Brendan Zheng;USA;Junior;Pokémon 06;Escavalier;Escavalier;Escavalier;Escavalier;5;Bug;Steel;Ordinary;;;70;135;105;60;105;20;495;https://img.pokemondb.net/artwork/large/escavalier.jpg
+228;2013;Hayden McTavish;USA;Senior;Pokémon 06;Machamp;Machamp;Machamp;Machamp;1;Fighting;;Ordinary;;;90;130;80;65;85;55;505;https://img.pokemondb.net/artwork/large/machamp.jpg
+229;2013;Arash Ohmati;Italy;Masters;Pokémon 06;Conkeldurr;Conkeldurr;Conkeldurr;Conkeldurr;5;Fighting;;Ordinary;;;105;140;95;55;65;45;505;https://img.pokemondb.net/artwork/large/conkeldurr.jpg
+230;2014;Kota Yamamoto;Japan;Junior;Pokémon 06;Kangaskhan-Mega;Kangaskhan;Mega Kangaskhan;Kangaskhan-Mega;1;Normal;;Ordinary;Mega;;105;125;100;60;100;100;590;https://img.pokemondb.net/artwork/large/mega-kangaskhan.jpg
+231;2014;Nikolai Zielinski;USA;Senior;Pokémon 06;Garchomp;Garchomp;Garchomp;Garchomp;4;Dragon;Ground;Ordinary;;;108;130;95;80;85;102;600;https://img.pokemondb.net/artwork/large/garchomp.jpg
+232;2014;Se Jun Park;South Korea;Masters;Pokémon 06;Garchomp;Garchomp;Garchomp;Garchomp;4;Dragon;Ground;Ordinary;;;108;130;95;80;85;102;600;https://img.pokemondb.net/artwork/large/garchomp.jpg
+233;2015;Kotone Yasue;Japan;Junior;Pokémon 06;Gardevoir-Mega;Gardevoir;Mega Gardevoir;Gardevoir-Mega;3;Psychic;Fairy;Ordinary;Mega;;68;85;65;165;135;100;618;https://img.pokemondb.net/artwork/large/mega-gardevoir.jpg
+234;2015;Mark Mcquillan;United Kingdom;Senior;Pokémon 06;Heatran;Heatran;Heatran;Heatran;4;Fire;Steel;Legendary;;;91;90;106;130;106;77;600;https://img.pokemondb.net/artwork/large/heatran.jpg
+235;2015;Shoma Honami;Japan;Masters;Pokémon 06;Amoonguss;Amoonguss;Amoonguss;Amoonguss;5;Grass;Poison;Ordinary;;;114;85;70;85;80;30;464;https://img.pokemondb.net/artwork/large/amoonguss.jpg
+236;2016;Cory Connor;USA;Junior;Pokémon 06;Hitmontop;Hitmontop;Hitmontop;Hitmontop;2;Fighting;;Ordinary;;;50;95;95;35;110;70;455;https://img.pokemondb.net/artwork/large/hitmontop.jpg
+237;2016;Carson Confer;USA;Senior;Pokémon 06;Groudon-Primal;Groudon;Primal Groudon;Groudon-Primal;6;Ground;Fire;Legendary;;;100;180;160;150;90;90;770;https://img.pokemondb.net/artwork/large/primal-groudon.jpg
+238;2016;Wolfe Glick;USA;Masters;Pokémon 06;Rayquaza-Mega;Rayquaza;Mega Rayquaza;Rayquaza-Mega;6;Dragon;Flying;Legendary;Mega;;105;180;100;180;100;115;780;https://img.pokemondb.net/artwork/large/mega-rayquaza.jpg
+239;2017;Nicholas Kan;Australia;Junior;Pokémon 06;Snorlax;Snorlax;Snorlax;Snorlax;1;Normal;;Ordinary;;;160;110;65;65;110;30;540;https://img.pokemondb.net/artwork/large/snorlax.jpg
+240;2017;Hong Juyoung;South Korea;Senior;Pokémon 06;Mudsdale;Mudsdale;Mudsdale;Mudsdale;7;Ground;;Ordinary;;;100;125;100;55;85;35;500;https://img.pokemondb.net/artwork/large/mudsdale.jpg
+241;2017;Ryota Otsubo;Japan;Masters;Pokémon 06;Tapu Koko;Tapu Koko;Tapu Koko;Tapu Koko;7;Electric;Fairy;Legendary;;;70;115;85;95;75;130;570;https://img.pokemondb.net/artwork/large/tapu-koko.jpg
+242;2018;Wonn Lee;Japan;Junior;Pokémon 06;Snorlax;Snorlax;Snorlax;Snorlax;1;Normal;;Ordinary;;;160;110;65;65;110;30;540;https://img.pokemondb.net/artwork/large/snorlax.jpg
+243;2018;James Evans;USA;Senior;Pokémon 06;Araquanid;Araquanid;Araquanid;Araquanid;7;Water;Bug;Ordinary;;;68;70;92;50;132;42;454;https://img.pokemondb.net/artwork/large/araquanid.jpg
+244;2018;Paul Ruiz;Ecuador;Masters;Pokémon 06;Kartana;Kartana;Kartana;Kartana;7;Grass;Steel;Ultra Beast;;;59;181;131;59;31;109;570;https://img.pokemondb.net/artwork/large/kartana.jpg
+245;2019;Pi Wu;Taiwan;Junior;Pokémon 06;Amoonguss;Amoonguss;Amoonguss;Amoonguss;5;Grass;Poison;Ordinary;;;114;85;70;85;80;30;464;https://img.pokemondb.net/artwork/large/amoonguss.jpg
+246;2019;Ko Tsukide;Japan;Senior;Pokémon 06;Amoonguss;Amoonguss;Amoonguss;Amoonguss;5;Grass;Poison;Ordinary;;;114;85;70;85;80;30;464;https://img.pokemondb.net/artwork/large/amoonguss.jpg
+247;2019;Naoto Mizobuchi;Japan;Masters;Pokémon 06;Stakataka;Stakataka;Stakataka;Stakataka;7;Rock;Steel;Ultra Beast;;;61;131;211;53;101;13;570;https://img.pokemondb.net/artwork/large/stakataka.jpg
+248;2022;Kosaku Miyamoto;Japan;Junior;Pokémon 06;Landorus-T;Landorus;Landorus Therian Form;Landorus-T;5;Ground;Flying;Legendary;;;89;145;90;105;80;91;600;https://img.pokemondb.net/artwork/large/landorus-therian-form.jpg
+249;2022;Yasuharu Shimizu;Japan;Senior;Pokémon 06;Thundurus-I;Thundurus;Thundurus Incarnate Form;Thundurus-I;5;Electric;Flying;Legendary;;;79;115;70;125;80;111;580;https://img.pokemondb.net/artwork/large/thundurus-incarnate-form.jpg
+250;2022;Eduardo Cunha;Portugal;Masters;Pokémon 06;Zacian-CS;Zacian;Zacian Crowned Sword;Zacian-CS;8;Fairy;Steel;Legendary;;;92;150;115;80;115;148;700;https://img.pokemondb.net/artwork/large/zacian.jpg
+251;2023;Sora Ebisawa;Japan;Junior;Pokémon 06;Heatran;Heatran;Heatran;Heatran;4;Fire;Steel;Legendary;;;91;90;106;130;106;77;600;https://img.pokemondb.net/artwork/large/heatran.jpg
+252;2023;Tomoya Ogawa;Japan;Senior;Pokémon 06;Gastrodon;Gastrodon;Gastrodon;Gastrodon;4;Water;Ground;Ordinary;;;111;83;68;92;82;39;475;https://img.pokemondb.net/artwork/large/gastrodon.jpg
+253;2023;Shohei Kimura;Japan;Masters;Pokémon 06;Iron Hands;Iron Hands;Iron Hands;Iron Hands;9;Fighting;Electric;Paradox Pokémon;;;154;140;108;50;68;50;570;https://img.pokemondb.net/artwork/large/iron-hands.jpg
+254;2024;Kevin Han;USA;Junior;Pokémon 06;Incineroar;Incineroar;Incineroar;Incineroar;7;Fire;Dark;Ordinary;;;95;115;90;80;90;60;530;https://img.pokemondb.net/artwork/large/incineroar.jpg
+255;2024;Ray Yamanaka;Japan;Senior;Pokémon 06;Urshifu-W;Urshifu;Urshifu Rapid Strike Style;Urshifu-W;8;Fighting;Water;Legendary;;;100;130;100;63;60;97;550;https://img.pokemondb.net/artwork/large/urshifu-rapid-strike-style.jpg
+256;2024;Luca Ceribelli;Italy;Masters;Pokémon 06;Farigiraf;Farigiraf;Farigiraf;Farigiraf;9;Normal;Psychic;Ordinary;;;120;90;70;110;70;60;520;https://img.pokemondb.net/artwork/large/farigiraf.jpg
+257;2025;Luke Whittier;USA;Junior;Pokémon 06;Miraidon;Miraidon;Miraidon;Miraidon;9;Electric;Dragon;Legendary;;;100;85;100;135;115;135;670;https://img.pokemondb.net/artwork/large/miraidon.jpg
+258;2025;Kevin Han;USA;Senior;Pokémon 06;Urshifu-W;Urshifu;Urshifu Rapid Strike Style;Urshifu-W;8;Fighting;Water;Legendary;;;100;130;100;63;60;97;550;https://img.pokemondb.net/artwork/large/urshifu-rapid-strike-style.jpg
+259;2025;Giovanni Cischke;USA;Masters;Pokémon 06;Brute Bonnet;Brute Bonnet;Brute Bonnet;Brute Bonnet;9;Grass;Dark;Paradox Pokémon;;;111;127;99;79;99;55;570;https://img.pokemondb.net/artwork/large/brute-bonnet.jpg

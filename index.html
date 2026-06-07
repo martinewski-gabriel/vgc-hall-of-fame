@@ -16,7 +16,7 @@
   <div class="hero">
     <div class="hero-label">Pokémon VGC</div>
     <h1 class="hero-title">Hall of <span>Fame</span></h1>
-    <p class="hero-sub">World Championship winners — the best pokemon and trainers on earth</p>
+    <p class="hero-sub">World Championship winners, the best pokemon teams and trainers on earth</p>
     <div class="hero-stats">
       <div class="hero-stat">
         <span class="hero-stat-val" id="heroChamps">—</span>
@@ -43,8 +43,10 @@
     <button class="nav-btn" onclick="showSection('poke', this)">Pokémon</button>
     <button class="nav-btn" onclick="showSection('stats', this)">Stats & Charts</button>
     <button class="nav-btn" onclick="showSection('countries', this)">By Country</button>
-    <button class="nav-btn" onclick="showSection('compare', this)">Compare</button>
   </nav>
+
+  <!-- DIVISION FILTER -->
+  <div id="divisionFilter" class="division-filter"></div>
 
   <!-- HOF -->
   <div id="hof" class="section active">
@@ -59,7 +61,7 @@
 
   <!-- POKÉMON TIER BOARD -->
   <div id="poke" class="section">
-    <div class="section-title">Most Victorious Pokémon <span>· All Time</span></div>
+    <div class="section-title">Most Victorious Pokémon <span id="pokeSubtitle">· All Time</span></div>
 
     <div class="chart-card">
       <div class="chart-card-title">Appearances by title count</div>
@@ -108,17 +110,6 @@
     <div id="countryGrid" class="country-grid"></div>
   </div>
 
-  <!-- COMPARE -->
-  <div id="compare" class="section">
-    <div class="filters" style="margin-bottom: 16px;">
-      <span style="font-size:12px; color:var(--text-3); white-space:nowrap;">Champion A</span>
-      <select id="cmpA" onchange="renderCompare()" style="flex:1; max-width:220px;"></select>
-      <span style="font-size:12px; color:var(--text-3); white-space:nowrap;">Champion B</span>
-      <select id="cmpB" onchange="renderCompare()" style="flex:1; max-width:220px;"></select>
-    </div>
-    <div id="compareOut"></div>
-  </div>
-
   <!-- MODAL -->
   <div class="modal-overlay" id="modalOverlay" onclick="closeModalBg(event)">
     <div class="modal" id="modalBox">
@@ -147,11 +138,11 @@ const TYPE_COLORS = {
 };
 
 const FLAGS = {
-  'USA': '🇺🇸', 'Japan': '🇯🇵', 'Italy': '🇮🇹', 'Portugal': '🇵🇹', 'UK': '🇬🇧',
+  'USA': '🇺🇸', 'Japan': '🇯🇵', 'Italy': '🇮🇹', 'Portugal': '🇵🇹', 'United Kingdom': '🇬🇧',
   'South Korea': '🇰🇷', 'Canada': '🇨🇦', 'Australia': '🇦🇺', 'Germany': '🇩🇪',
   'France': '🇫🇷', 'Spain': '🇪🇸', 'Brazil': '🇧🇷', 'Netherlands': '🇳🇱',
   'Sweden': '🇸🇪', 'Norway': '🇳🇴', 'Finland': '🇫🇮', 'Poland': '🇵🇱',
-  'Ecuador': '🇪🇨',
+  'Ecuador': '🇪🇨', 'Taiwan': '🇹🇼',
 };
 
 // ── STATE ─────────────────────────────────────────────────────────────────────
@@ -162,9 +153,15 @@ let titleCounts = {}; // populated in init() after data loads
 // ── DATA LOADING ──────────────────────────────────────────────────────────────
 
 async function loadData() {
-  const res = await fetch('data/champs.json');
-  CHAMPS = await res.json();
-  init();
+  try {
+    const res = await fetch('data/champs.json');
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    CHAMPS = await res.json();
+    init();
+  } catch (err) {
+    document.getElementById('champGrid').innerHTML =
+      `<p class="empty">Failed to load data — ${err.message}</p>`;
+  }
 }
 
 // ── HELPERS ───────────────────────────────────────────────────────────────────
@@ -197,26 +194,55 @@ function showSection(id, btn) {
   document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
   document.getElementById(id).classList.add('active');
   btn.classList.add('active');
+  if (id === 'hof')       renderCards();
   if (id === 'stats')     buildCharts();
-  if (id === 'compare')   buildCompareSelects();
   if (id === 'countries') buildCountries();
   if (id === 'poke')      buildpoke();
+}
+
+// ── DIVISION FILTER ───────────────────────────────────────────────────────────
+
+function buildDivisionFilter() {
+  const divisions = [...new Set(CHAMPS.map(c => c.division))].sort((a, b) => {
+    if (a === 'Masters') return -1;
+    if (b === 'Masters') return 1;
+    return a.localeCompare(b);
+  });
+  document.getElementById('divisionFilter').innerHTML = divisions.map(d => `
+    <label class="division-chip">
+      <input type="checkbox" value="${d}" ${d === 'Masters' ? 'checked' : ''} onchange="onDivisionChange()" />
+      ${d}
+    </label>`).join('');
+}
+
+function getActiveDivisions() {
+  return [...document.querySelectorAll('#divisionFilter input:checked')].map(i => i.value);
+}
+
+function onDivisionChange() {
+  const activeId = document.querySelector('.section.active')?.id;
+  if (activeId === 'hof')           renderCards();
+  else if (activeId === 'poke')     buildpoke();
+  else if (activeId === 'stats')    buildCharts();
+  else if (activeId === 'countries') buildCountries();
 }
 
 // ── HALL OF FAME ──────────────────────────────────────────────────────────────
 
 function getFiltered() {
-  const q  = document.getElementById('searchInput').value.toLowerCase();
-  const yr = document.getElementById('yearFilter').value;
-  const ty = document.getElementById('typeFilter').value;
-  const ct = document.getElementById('countryFilter').value;
+  const q    = document.getElementById('searchInput').value.toLowerCase();
+  const yr   = document.getElementById('yearFilter').value;
+  const ty   = document.getElementById('typeFilter').value;
+  const ct   = document.getElementById('countryFilter').value;
+  const divs = getActiveDivisions();
 
   return CHAMPS.filter(c => {
-    const matchQ = !q  || c.player.toLowerCase().includes(q) || c.team.some(p => p.name.toLowerCase().includes(q));
-    const matchY = !yr || String(c.year) === yr;
-    const matchT = !ty || c.team.some(p => p.t1 === ty || p.t2 === ty);
-    const matchC = !ct || c.country === ct;
-    return matchQ && matchY && matchT && matchC;
+    const matchQ   = !q  || c.player.toLowerCase().includes(q) || c.team.some(p => p.name.toLowerCase().includes(q));
+    const matchY   = !yr || String(c.year) === yr;
+    const matchT   = !ty || c.team.some(p => p.t1 === ty || p.t2 === ty);
+    const matchC   = !ct || c.country === ct;
+    const matchDiv = divs.includes(c.division);
+    return matchQ && matchY && matchT && matchC && matchDiv;
   });
 }
 
@@ -229,11 +255,12 @@ function renderCards() {
     return;
   }
 
-  grid.innerHTML = filtered.map((c, i) => {
-    const titles = titleCounts[c.player] || 1;
+  grid.innerHTML = filtered.map(c => {
+    const titles = titleCounts[`${c.player}|${c.division}`] || 1;
     const types  = [...new Set(c.team.flatMap(p => [p.t1, p.t2].filter(Boolean)))];
+    const key    = `${c.year}-${c.player}`;
     return `
-      <div class="champ-card" onclick="openModal(${i})">
+      <div class="champ-card" onclick="openModal('${key}')">
         <div class="card-top">
           <span class="year-badge">${c.year}</span>
           <div class="card-badges">
@@ -247,7 +274,7 @@ function renderCards() {
           ${c.team.map(p => `
             <div class="sprite-wrap">
               <img src="${spriteUrl(p)}" alt="${p.name}" title="${p.name}"
-                onerror="this.src='https://img.pokemondb.net/sprites/sword-shield/icon/${p.slug}.png'" />
+                onerror="this.src='https://img.pokemondb.net/sprites/home/normal/${p.base_slug}.png'" />
             </div>`).join('')}
         </div>
         <div class="card-footer">
@@ -259,12 +286,14 @@ function renderCards() {
 
 // ── MODAL ─────────────────────────────────────────────────────────────────────
 
-function openModal(index) {
-  const c     = getFiltered()[index];
+function openModal(key) {
+  const [year, ...rest] = key.split('-');
+  const player = rest.join('-');
+  const c = getFiltered().find(x => String(x.year) === year && x.player === player);
   const types = [...new Set(c.team.flatMap(p => [p.t1, p.t2].filter(Boolean)))];
 
   document.getElementById('mTitle').textContent = c.player;
-  document.getElementById('mSub').textContent   = `${c.year} ${c.region} Champion · ${flag(c.country)} ${c.country}`;
+  document.getElementById('mSub').textContent   = `${c.year} ${c.division} Champion · ${flag(c.country)} ${c.country}`;
 
   document.getElementById('mBody').innerHTML = `
     <div class="modal-section-title" style="margin-bottom:12px;">Championship Team</div>
@@ -273,7 +302,7 @@ function openModal(index) {
         const col = TYPE_COLORS[p.t1] || '#888';
         return `
           <div class="poke-tile" style="--tile-color:${col}22">
-            <img src="${spriteUrl(p)}" alt="${p.name}" onerror="this.src=''" />
+            <img src="${spriteUrl(p)}" alt="${p.name}" onerror="this.src='https://img.pokemondb.net/sprites/home/normal/${p.base_slug}.png'" />
             <span class="poke-name">${p.name}</span>
             <div class="type-badges">
               <span class="type-badge" style="background:${TYPE_COLORS[p.t1] || '#888'}">${p.t1}</span>
@@ -305,21 +334,31 @@ function closeModal() {
   document.body.style.overflow = '';
 }
 
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') closeModal();
+});
+
 // ── POKÉMON TIER BOARD ────────────────────────────────────────────────────────
 
-let domChartInst;
-
 function buildpoke() {
-  const tierColors = {
-    3: '#e57373',
-    2: '#f0b36f',
-    1: '#e6d37a',
+  // rank 0 = highest count; interpolates gold→red→purple→blue across however many tiers exist
+  const tierColor = (rank, total) => {
+    const t   = total <= 1 ? 0 : rank / (total - 1);
+    const hue = Math.round(((46 - t * 186) + 360) % 360);
+    const sat = Math.round(78 - t * 15);
+    const lit = Math.round(64 - t * 6);
+    return `hsl(${hue}, ${sat}%, ${lit}%)`;
   };
 
-  const useBase = document.getElementById('megaToggle')?.checked;
+  const useBase  = document.getElementById('megaToggle')?.checked;
+  const divs     = getActiveDivisions();
+  const allDivs  = [...new Set(CHAMPS.map(c => c.division))];
+  const subtitle = divs.length === allDivs.length ? '· All Divisions' : '· ' + divs.join(', ');
+  const subtitleEl = document.getElementById('pokeSubtitle');
+  if (subtitleEl) subtitleEl.textContent = subtitle;
 
   const counts = {};
-  CHAMPS.forEach(c => {
+  CHAMPS.filter(c => divs.includes(c.division)).forEach(c => {
     c.team.forEach(p => {
       const key = useBase ? p.base : p.name;
       if (!counts[key]) {
@@ -347,9 +386,9 @@ function buildpoke() {
 
   const sortedTiers = Object.entries(tiers).sort((a, b) => b[0] - a[0]);
 
-  document.getElementById('domGrid').innerHTML = sortedTiers.map(([count, pokes]) => `
+  document.getElementById('domGrid').innerHTML = sortedTiers.map(([count, pokes], i) => `
     <div class="tier-row-board">
-      <div class="tier-label" style="background:${tierColors[count] || '#ccc'}">
+      <div class="tier-label" style="background:${tierColor(i, sortedTiers.length)}">
         ${count} Title${count > 1 ? 's' : ''}
       </div>
       <div class="tier-content">
@@ -361,13 +400,43 @@ function buildpoke() {
     </div>`).join('');
 }
 
+function getFormLabel(p) {
+  const name = typeof p === 'string' ? p : p.name;
+  const base = typeof p === 'string' ? null : p.base;
+  if (!base || name === base) return 'Base';
+  const label = name
+    .replace(base, '')
+    .replace(/[()]/g, '')
+    .replace(/\s+Form$/i, '')
+    .replace(/\s+/g, ' ')
+    .replace(/^[-\s]+|[-\s]+$/g, '')
+    .trim();
+  return label || 'Base';
+}
+
+const STAT_COLORS = { hp: '#f87171', atk: '#fb923c', def: '#facc15', spa: '#818cf8', spd: '#34d399', spe: '#38bdf8' };
+const STAT_LABELS = { hp: 'HP', atk: 'Atk', def: 'Def', spa: 'SpA', spd: 'SpD', spe: 'Spe' };
+
+function statsHTML(p) {
+  if (!p.stats || !Object.keys(p.stats).length) return '';
+  return Object.entries(p.stats).map(([stat, val]) => `
+    <div class="poke-stat-row">
+      <span class="poke-stat-label">${STAT_LABELS[stat] || stat}</span>
+      <div class="poke-stat-bar-bg">
+        <div class="poke-stat-bar-fill" style="width:${Math.min(100, Math.round(val / 255 * 100))}%; background:${STAT_COLORS[stat] || '#888'}"></div>
+      </div>
+      <span class="poke-stat-val">${val}</span>
+    </div>`).join('');
+}
+
 function openPokeModal(name) {
   const useBase = document.getElementById('megaToggle')?.checked;
+  const divs    = getActiveDivisions();
 
   const appearances = [];
-  CHAMPS.forEach(c => {
+  CHAMPS.filter(c => divs.includes(c.division)).forEach(c => {
     const match = c.team.find(p => (useBase ? p.base : p.name) === name);
-    if (match) appearances.push({ year: c.year, player: c.player, country: c.country, p: match });
+    if (match) appearances.push({ year: c.year, player: c.player, country: c.country, division: c.division, p: match });
   });
 
   if (!appearances.length) return;
@@ -384,13 +453,6 @@ function openPokeModal(name) {
 
   const ref = forms[0];
 
-  const statColors = {
-    hp:  '#f87171', atk: '#fb923c', def: '#facc15',
-    spa: '#818cf8', spd: '#34d399', spe: '#38bdf8',
-  };
-  const statLabels = { hp: 'HP', atk: 'Atk', def: 'Def', spa: 'SpA', spd: 'SpD', spe: 'Spe' };
-  const hasStats = ref.stats && Object.keys(ref.stats).length > 0;
-
   document.getElementById('mTitle').textContent = name;
   document.getElementById('mSub').textContent   = `${appearances.length} World Championship title${appearances.length !== 1 ? 's' : ''}`;
 
@@ -398,7 +460,7 @@ function openPokeModal(name) {
     <div style="display:flex; gap:20px; align-items:flex-start; margin-bottom:20px; flex-wrap:wrap;">
       <div style="text-align:center;">
         <img class="poke-modal-sprite" id="pokeModalSprite" src="${ref.image}" alt="${name}" />
-        <div class="type-badges" style="justify-content:center; margin-top:10px;">
+        <div class="type-badges" id="pokeModalTypes" style="justify-content:center; margin-top:10px;">
           <span class="type-badge" style="background:${TYPE_COLORS[ref.t1] || '#888'}">${ref.t1}</span>
           ${ref.t2 ? `<span class="type-badge" style="background:${TYPE_COLORS[ref.t2] || '#888'}">${ref.t2}</span>` : ''}
         </div>
@@ -406,32 +468,18 @@ function openPokeModal(name) {
           <div style="display:flex; gap:6px; justify-content:center; margin-top:12px;">
             ${forms.map((f, i) => `
               <button onclick="selectPokeForm('${f.name}')"
-                class="form-btn"
-                style="
-                  padding:4px 8px;
-                  border-radius:6px;
-                  cursor:pointer;
-                  border:1px solid ${i === 0 ? 'var(--gold)' : 'var(--border-soft)'};
-                  background:${i === 0 ? 'var(--gold-dim)' : 'var(--bg-4)'};
-                ">
-                ${f.name.includes('Mega') ? 'Mega' : 'Base'}
+                class="form-btn${i === 0 ? ' active' : ''}"
+                data-form="${f.name}">
+                ${getFormLabel(f)}
               </button>
             `).join('')}
           </div>
           ` : ''}
       </div>
-      ${hasStats ? `
-      <div style="flex:1; min-width:180px;">
-        <div class="modal-section-title" style="margin-bottom:10px;">Base Stats</div>
-        ${Object.entries(ref.stats).map(([stat, val]) => `
-          <div class="poke-stat-row">
-            <span class="poke-stat-label">${statLabels[stat] || stat}</span>
-            <div class="poke-stat-bar-bg">
-              <div class="poke-stat-bar-fill" style="width:${Math.min(100, Math.round(val / 255 * 100))}%; background:${statColors[stat] || '#888'}"></div>
-            </div>
-            <span class="poke-stat-val">${val}</span>
-          </div>`).join('')}
-      </div>` : ''}
+      <div id="pokeModalStats" style="flex:1; min-width:180px;">
+        ${ref.stats ? `<div class="modal-section-title" style="margin-bottom:10px;">Base Stats</div>` : ''}
+        ${statsHTML(ref)}
+      </div>
     </div>
 
     <div class="modal-section-title">Used by</div>
@@ -442,7 +490,7 @@ function openPokeModal(name) {
           <span>
             ${flag(a.country)} ${a.player}
             <span style="opacity:0.7; font-size:11px;">
-              (${a.p.name.includes('Mega') ? 'Mega' : 'Base'})
+              (${getFormLabel(a.p)})
             </span>
           </span>
         </div>`).join('')}
@@ -454,24 +502,26 @@ function openPokeModal(name) {
 }
 
 function selectPokeForm(formName) {
-  const sprite = document.getElementById('pokeModalSprite');
-  const buttons = document.querySelectorAll('.form-btn');
+  const sprite   = document.getElementById('pokeModalSprite');
+  const typesEl  = document.getElementById('pokeModalTypes');
 
-  buttons.forEach(btn => {
-    const isActive = btn.textContent.toLowerCase() === formName.toLowerCase() ||
-      (formName.includes('Mega') && btn.textContent === 'Mega') ||
-      (!formName.includes('Mega') && btn.textContent === 'Base');
-
-    btn.style.borderColor = isActive ? 'var(--gold)' : 'var(--border-soft)';
-    btn.style.background  = isActive ? 'var(--gold-dim)' : 'var(--bg-4)';
+  document.querySelectorAll('.form-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.form === formName);
   });
 
-  // find correct form image
-  const match = CHAMPS
-    .flatMap(c => c.team)
-    .find(p => p.name === formName);
+  const match = CHAMPS.flatMap(c => c.team).find(p => p.name === formName);
+  if (!match) return;
 
-  if (match) sprite.src = match.image;
+  sprite.src = match.image;
+  typesEl.innerHTML = `
+    <span class="type-badge" style="background:${TYPE_COLORS[match.t1] || '#888'}">${match.t1}</span>
+    ${match.t2 ? `<span class="type-badge" style="background:${TYPE_COLORS[match.t2] || '#888'}">${match.t2}</span>` : ''}
+  `;
+
+  const statsEl = document.getElementById('pokeModalStats');
+  if (statsEl) statsEl.innerHTML =
+    (match.stats ? `<div class="modal-section-title" style="margin-bottom:10px;">Base Stats</div>` : '') +
+    statsHTML(match);
 }
 
 // ── STATS & CHARTS ────────────────────────────────────────────────────────────
@@ -479,7 +529,8 @@ function selectPokeForm(formName) {
 let typeChartInst, genChartInst, genconChart, catChart;
 
 function buildCharts() {
-  const allPokes = CHAMPS.flatMap(c => c.team);
+  const divs    = getActiveDivisions();
+  const allPokes = CHAMPS.filter(c => divs.includes(c.division)).flatMap(c => c.team);
 
   // Type distribution
   const typeCounts = {};
@@ -609,8 +660,9 @@ function buildCharts() {
 // ── BY COUNTRY ────────────────────────────────────────────────────────────────
 
 function buildCountries() {
+  const divs = getActiveDivisions();
   const data = {};
-  CHAMPS.forEach(c => {
+  CHAMPS.filter(c => divs.includes(c.division)).forEach(c => {
     if (!data[c.country]) data[c.country] = { count: 0, flag: flag(c.country), players: [] };
     data[c.country].count++;
     if (!data[c.country].players.includes(c.player)) data[c.country].players.push(c.player);
@@ -627,65 +679,18 @@ function buildCountries() {
     </div>`).join('');
 }
 
-// ── COMPARE ───────────────────────────────────────────────────────────────────
-
-function buildCompareSelects() {
-  ['cmpA', 'cmpB'].forEach((id, i) => {
-    const sel = document.getElementById(id);
-    if (sel.options.length > 1) return;
-    CHAMPS.forEach((c, idx) => {
-      const o = document.createElement('option');
-      o.value       = c.id;
-      o.textContent = `${c.year} – ${c.player}`;
-      if (idx === i) o.selected = true;
-      sel.appendChild(o);
-    });
-  });
-  renderCompare();
-}
-
-function renderCompare() {
-  const a = CHAMPS.find(x => x.id === +document.getElementById('cmpA').value);
-  const b = CHAMPS.find(x => x.id === +document.getElementById('cmpB').value);
-  if (!a || !b) return;
-
-  const shared = a.team.filter(p => b.team.some(q => q.name === p.name));
-
-  document.getElementById('compareOut').innerHTML = `
-    <div class="compare-grid">
-      ${[a, b].map(c => `
-        <div class="compare-card">
-          <div style="font-family:'Cinzel',serif; font-size:14px; font-weight:600;">${flag(c.country)} ${c.player}</div>
-          <div style="font-size:11px; color:var(--text-3); margin-top:3px; margin-bottom:10px;">${c.year} World Champion · ${c.country}</div>
-          <div class="compare-sprites">
-            ${c.team.map(p => `<img src="${spriteUrl(p)}" title="${p.name}" onerror="this.src=''" />`).join('')}
-          </div>
-          <div style="font-size:11px; color:var(--text-3); margin-bottom:5px;">Types</div>
-          <div style="display:flex; gap:3px; flex-wrap:wrap; margin-bottom:8px;">
-            ${[...new Set(c.team.flatMap(p => [p.t1, p.t2].filter(Boolean)))].map(t => `<span class="type-badge" style="background:${TYPE_COLORS[t] || '#888'}">${t}</span>`).join('')}
-          </div>
-          <div style="font-size:11px; color:var(--text-3); margin-bottom:3px;">Generations</div>
-          <div style="font-size:12px; color:var(--text-2);">${[...new Set(c.team.map(p => p.gen))].sort().map(g => 'Gen ' + g).join(', ')}</div>
-        </div>`).join('')}
-    </div>
-    <div class="shared-row">
-      <div class="shared-row-title">Shared Pokémon (${shared.length})</div>
-      ${shared.length
-        ? `<div class="shared-pokes">${shared.map(p => `<span class="shared-poke"><img src="${spriteUrl(p)}" onerror="this.src=''" />${p.name}</span>`).join('')}</div>`
-        : `<span style="color:var(--text-3); font-size:13px;">No Pokémon in common</span>`}
-    </div>
-  `;
-}
 
 // ── INIT ──────────────────────────────────────────────────────────────────────
 
 function init() {
-  // Build title counts now that CHAMPS is loaded
+  // Build title counts keyed by player|division so cross-division wins don't merge
   CHAMPS.forEach(c => {
-    titleCounts[c.player] = (titleCounts[c.player] || 0) + 1;
+    const key = `${c.player}|${c.division}`;
+    titleCounts[key] = (titleCounts[key] || 0) + 1;
   });
 
   buildHero();
+  buildDivisionFilter();
 
   // Populate year filter
   const years = [...new Set(CHAMPS.map(c => c.year))].sort((a, b) => b - a);

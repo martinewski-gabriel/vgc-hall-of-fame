@@ -16,12 +16,6 @@
   --text-3: #555d72;
   --radius: 14px;
   --radius-sm: 8px;
-
-  --c-normal: #A8A77A; --c-fire: #EE8130;    --c-water: #6390F0;  --c-electric: #F7D02C;
-  --c-grass: #7AC74C;  --c-ice: #96D9D6;     --c-fighting: #C22E28; --c-poison: #A33EA1;
-  --c-ground: #E2BF65; --c-psychic: #F95587; --c-flying: #A98FF3; --c-bug: #A6B91A;
-  --c-rock: #B6A136;   --c-ghost: #735797;   --c-dragon: #6F35FC; --c-dark: #705746;
-  --c-steel: #B7B7CE;  --c-fairy: #D685AD;
 }
 
 /* ── RESET ── */
@@ -119,6 +113,44 @@ nav {
   color: var(--gold-light);
 }
 .nav-btn:hover:not(.active) { color: var(--text); border-color: var(--border-soft); }
+
+/* ── DIVISION FILTER ── */
+.division-filter {
+  display: flex;
+  gap: 6px;
+  padding: 10px 20px;
+  background: var(--bg-2);
+  border-bottom: 0.5px solid var(--border);
+  flex-wrap: wrap;
+  position: sticky;
+  top: 49px;
+  z-index: 40;
+}
+.division-chip {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Outfit', sans-serif;
+  padding: 5px 14px;
+  border-radius: 20px;
+  border: 0.5px solid var(--border-soft);
+  color: var(--text-2);
+  cursor: pointer;
+  transition: all 0.15s;
+  user-select: none;
+  letter-spacing: 0.03em;
+}
+.division-chip input { display: none; }
+.division-chip:has(input:checked) {
+  background: var(--gold-dim);
+  border-color: var(--gold);
+  color: var(--gold-light);
+}
+.division-chip:not(:has(input:checked)):hover {
+  color: var(--text);
+  border-color: var(--border-soft);
+}
 
 /* ── LAYOUT ── */
 .app { padding: 0; }
@@ -451,7 +483,7 @@ nav {
 }
 .tier-row-board {
   display: grid;
-  grid-template-columns: 140px 1fr;
+  grid-template-columns: 160px 1fr;
   align-items: stretch;
 }
 .tier-label {
@@ -459,7 +491,7 @@ nav {
   align-items: center;
   justify-content: center;
   font-family: 'Cinzel', serif;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 600;
   color: #111;
   padding: 10px;
@@ -472,11 +504,14 @@ nav {
   background: var(--bg-2);
 }
 .tier-mon {
-  width: 64px;
-  height: 64px;
+  width: 80px;
+  height: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background 0.15s, transform 0.15s;
 }
 .tier-mon img {
   width: 100%;
@@ -484,24 +519,33 @@ nav {
   object-fit: contain;
   image-rendering: pixelated;
 }
-
-/* ── POKÉMON TIER BOARD (sizing) ── */
-.tier-row-board {
-  grid-template-columns: 160px 1fr;
-}
-.tier-mon {
-  width: 80px;
-  height: 80px;
-  cursor: pointer;
-  border-radius: 8px;
-  transition: background 0.15s, transform 0.15s;
-}
 .tier-mon:hover {
   background: var(--bg-4);
   transform: translateY(-2px);
 }
-.tier-label {
-  font-size: 15px;
+
+/* ── FORM BUTTONS ── */
+.form-btn {
+  font-family: 'Outfit', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  padding: 4px 10px;
+  border-radius: 20px;
+  border: 0.5px solid var(--border-soft);
+  background: var(--bg-4);
+  color: var(--text-2);
+  cursor: pointer;
+  transition: all 0.15s;
+  letter-spacing: 0.03em;
+}
+.form-btn.active {
+  background: var(--gold-dim);
+  border-color: var(--gold);
+  color: var(--gold-light);
+}
+.form-btn:not(.active):hover {
+  color: var(--text);
+  border-color: var(--border-soft);
 }
 
 /* ── POKÉMON DETAIL MODAL ── */
@@ -593,27 +637,6 @@ nav {
 }
 .country-wins span { color: var(--gold); font-weight: 600; }
 
-/* ── COMPARE ── */
-.compare-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 14px; }
-@media (max-width: 480px) { .compare-grid { grid-template-columns: 1fr; } }
-.compare-card {
-  background: var(--bg-2);
-  border: 0.5px solid var(--border);
-  border-radius: var(--radius);
-  padding: 16px;
-}
-.compare-sprites { display: flex; gap: 4px; flex-wrap: wrap; margin: 10px 0; }
-.compare-sprites img { width: 44px; height: 44px; image-rendering: pixelated; filter: drop-shadow(0 1px 3px #0006); }
-.shared-row {
-  background: var(--bg-3);
-  border: 0.5px solid var(--border);
-  border-radius: var(--radius-sm);
-  padding: 12px 16px;
-}
-.shared-row-title { font-size: 12px; font-weight: 500; color: var(--text-2); margin-bottom: 8px; }
-.shared-pokes { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
-.shared-poke { display: flex; align-items: center; gap: 5px; font-size: 12px; color: var(--text-2); }
-.shared-poke img { width: 30px; height: 30px; image-rendering: pixelated; }
 
 /* ── SECTION TITLE ── */
 .section-title {
