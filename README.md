@@ -1,6 +1,6 @@
 # VGC Hall of Fame
 
-A static web dashboard celebrating every Pokémon VGC World Cha: [martinewski-gabriel.github.io/vgc-hall-of-fame](https://martinewski-gabriel.github.io/vgc-hall-of-fame/)mpionship champions. Browse champion teams, explore Pokémon usage statistics, and filter by year, type, country, or age division.
+A static web dashboard celebrating every Pokémon VGC World Championship champions. Browse champion teams, explore Pokémon usage statistics, and filter by year, type, country, or age division.
 Access at: [martinewski-gabriel.github.io/vgc-hall-of-fame](https://martinewski-gabriel.github.io/vgc-hall-of-fame/)
 
 
